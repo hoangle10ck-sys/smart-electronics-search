@@ -1,0 +1,26 @@
+[
+  {
+    "brand": "Sony",
+    "model": "PlayStation 5",
+    "category": "gaming_console",
+    "name": "Sony PlayStation 5 Slim Disc Edition CFI-2118 A01 (1 TB, 1 controller)",
+    "productUrl": "https://store.sony.com.vn/collections/ps-console/products/may-ch%C6%A1i-game-playstation-5-slim-cfi-2118-a01-1-tay-c%E1%BA%A7m",
+    "imageFile": "ps5-slim-cfi-2118.jpg",
+    "imageUrl": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-slim-edition-left-image-block-01-en-24jun24?wid=1200",
+    "imageSource": "PlayStation",
+    "imageSourcePage": "https://www.playstation.com/en-us/ps5/",
+    "exactVariantEvidenceUrl": "https://store.sony.com.my/products/playstation%C2%AE5-disc-console-slim-1"
+  },
+  {
+    "brand": "Acer",
+    "model": "Nitro V 15 ANV15-41-R1JY",
+    "category": "laptop",
+    "name": "Acer Nitro V 15 ANV15-41-R1JY (Ryzen 5 6600H, RTX 3050 6GB)",
+    "productUrl": "https://tuanlocstore.vn/acer-nitro-v-15-anv15-41-r1jy.html",
+    "imageFile": "acer-nitro-v-15-anv15-41-r1jy.webp",
+    "imageUrl": "https://cdn-transformations.hacom.vn/insecure/f:webp/q:85/rt:fit/w:1080/aHR0cHM6Ly9jZG4tZmlsZXMuaGFjb20udm4vaGFjb20vY2RuL3dlYi8xNDA0MjAyNi9BTlYxNS00MS1SMUp5LmpwZw.webp",
+    "imageSource": "HACOM",
+    "imageSourcePage": "https://hacom.vn/laptop-acer-nitro-v-anv15-41-r1jy-ltac1013",
+    "exactVariantEvidenceUrl": "https://hacom.vn/laptop-acer-nitro-v-anv15-41-r1jy-ltac1013"
+  }
+]

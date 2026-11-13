@@ -1,0 +1,1872 @@
+{
+  "updatedAt": "2026-11-10T22:14:47.222Z",
+  "database": "smart_electronics",
+  "batch": "AMD Ryzen 5000, Ryzen 4000, Ryzen PRO 4000 desktop completion",
+  "sourceFiles": [
+    "research-pending-amd-ryzen-5000-desktop.json",
+    "research-pending-amd-ryzen-4000-desktop.json",
+    "research-pending-amd-ryzen-pro-4000-desktop.json"
+  ],
+  "summary": {
+    "modelsResearched": 36,
+    "modelsWithVerifiedSpecifications": 36,
+    "modelsWithExactModelImage": 6,
+    "modelsWithDocumentedImageReuseRights": 6,
+    "modelsWithVerifiedModelUrls": 36,
+    "productsImported": 6,
+    "activePendingModels": 30,
+    "publishedModels": 6,
+    "verifiedPublishedByCategory": [
+      {
+        "category": "cpu",
+        "count": 6
+      }
+    ],
+    "totalOffersInDatabase": 0,
+    "offersCreatedByBatch": 0
+  },
+  "urlVerification": "The 36 exact AMD model pages returned HTTP 200 and identified the model in the page content during the preparation pass; six promoted records were checked again before publication.",
+  "models": [
+    {
+      "model": "Ryzen 9 5950X",
+      "modelNumber": "5950X",
+      "family": "AMD Ryzen Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-9-5950x.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-9-5950x.html",
+      "specifications": {
+        "cores": 16,
+        "threads": 32,
+        "maxBoostClock": "4.9 GHz",
+        "baseClock": "3.4 GHz",
+        "totalCache": "72 MB",
+        "pcieSupport": "Gen 4",
+        "defaultTdp": "105 W",
+        "architecture": "Zen 3"
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/972/amd-launches-amd-ryzen-5000-series-desktop-processors-the-fastest-gaming-cpus-in-the-world",
+          "notes": "AMD's 2020 launch release identifies the Ryzen 9 5950X and its launch year."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-9-5950x.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 9 5950X."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-9-5950x.html",
+          "notes": "The AMD page title and specification section identify Ryzen 9 5950X; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 9 5900XT",
+      "modelNumber": "5900XT",
+      "family": "AMD Ryzen Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-9-5900xt.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-9-5900xt.html",
+      "specifications": {
+        "cores": 16,
+        "threads": 32,
+        "maxBoostClock": "4.8 GHz",
+        "baseClock": "3.3 GHz",
+        "totalCache": "72 MB",
+        "pcieSupport": "Gen 4",
+        "defaultTdp": "105 W",
+        "architecture": "Zen 3"
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/newsroom/press-releases/2024-6-2-amd-unveils-next-gen-zen-5-ryzen-processors-to-p.html",
+          "notes": "AMD's 2024 release announces the Ryzen 9 5900XT by name and states the launch window."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-9-5900xt.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 9 5900XT."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-9-5900xt.html",
+          "notes": "The AMD page title and specification section identify Ryzen 9 5900XT; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 9 5900X",
+      "modelNumber": "5900X",
+      "family": "AMD Ryzen Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-9-5900x.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-9-5900x.html",
+      "specifications": {
+        "cores": 12,
+        "threads": 24,
+        "maxBoostClock": "4.8 GHz",
+        "baseClock": "3.7 GHz",
+        "totalCache": "70 MB",
+        "pcieSupport": "Gen 4",
+        "defaultTdp": "105 W",
+        "architecture": "Zen 3"
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/972/amd-launches-amd-ryzen-5000-series-desktop-processors-the-fastest-gaming-cpus-in-the-world",
+          "notes": "AMD's 2020 launch release identifies the Ryzen 9 5900X and its launch year."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-9-5900x.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 9 5900X."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-9-5900x.html",
+          "notes": "The AMD page title and specification section identify Ryzen 9 5900X; its model-specific URL returned HTTP 200."
+        },
+        {
+          "evidenceType": "image",
+          "sourceName": "Wikimedia Commons exact-model photograph",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_9_5900X_by_BugWarp_01.jpg",
+          "notes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 9 5900X."
+        },
+        {
+          "evidenceType": "image_rights",
+          "sourceName": "Wikimedia Commons file license record",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_9_5900X_by_BugWarp_01.jpg",
+          "notes": "CC0 1.0; BugWarp, CC0 1.0, via Wikimedia Commons. License terms and author were checked on this exact file page."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "published",
+      "productImported": true,
+      "image": {
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/81/AMD_Ryzen_9_5900X_by_BugWarp_01.jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_9_5900X_by_BugWarp_01.jpg",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "author": "BugWarp",
+        "attribution": "BugWarp, CC0 1.0, via Wikimedia Commons.",
+        "visualIdentityChecked": true,
+        "visualReviewNotes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 9 5900X.",
+        "evidence": {
+          "image": {
+            "evidenceType": "image",
+            "sourceName": "Wikimedia Commons exact-model photograph",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_9_5900X_by_BugWarp_01.jpg",
+            "notes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 9 5900X."
+          },
+          "imageRights": {
+            "evidenceType": "image_rights",
+            "sourceName": "Wikimedia Commons file license record",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_9_5900X_by_BugWarp_01.jpg",
+            "notes": "CC0 1.0; BugWarp, CC0 1.0, via Wikimedia Commons. License terms and author were checked on this exact file page."
+          }
+        }
+      }
+    },
+    {
+      "model": "Ryzen 7 5800X3D",
+      "modelNumber": "5800X3D",
+      "family": "AMD Ryzen Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5800x3d.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5800x3d.html",
+      "specifications": {
+        "cores": 8,
+        "threads": 16,
+        "maxBoostClock": "4.5 GHz",
+        "baseClock": "3.4 GHz",
+        "totalCache": "100 MB",
+        "pcieSupport": "Gen 4",
+        "defaultTdp": "105 W",
+        "architecture": "Zen 3"
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1053/amd-launches-the-ultimate-gaming-processor-brings-enthusiast-performance-to-an-expanded-lineup-of-ryzen-desktop-processors",
+          "notes": "AMD's 2022 release identifies the Ryzen 7 5800X3D and global April 20 availability."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5800x3d.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 7 5800X3D."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5800x3d.html",
+          "notes": "The AMD page title and specification section identify Ryzen 7 5800X3D; its model-specific URL returned HTTP 200."
+        },
+        {
+          "evidenceType": "image",
+          "sourceName": "Wikimedia Commons exact-model photograph",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_5800X3D.jpg",
+          "notes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 7 5800X3D."
+        },
+        {
+          "evidenceType": "image_rights",
+          "sourceName": "Wikimedia Commons file license record",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_5800X3D.jpg",
+          "notes": "CC BY-SA 4.0; Phiarc, CC BY-SA 4.0, via Wikimedia Commons; unmodified. License terms and author were checked on this exact file page."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "published",
+      "productImported": true,
+      "image": {
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/AMD_Ryzen_7_5800X3D.jpg/960px-AMD_Ryzen_7_5800X3D.jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_5800X3D.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "author": "Phiarc",
+        "attribution": "Phiarc, CC BY-SA 4.0, via Wikimedia Commons; unmodified.",
+        "visualIdentityChecked": true,
+        "visualReviewNotes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 7 5800X3D.",
+        "evidence": {
+          "image": {
+            "evidenceType": "image",
+            "sourceName": "Wikimedia Commons exact-model photograph",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_5800X3D.jpg",
+            "notes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 7 5800X3D."
+          },
+          "imageRights": {
+            "evidenceType": "image_rights",
+            "sourceName": "Wikimedia Commons file license record",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_5800X3D.jpg",
+            "notes": "CC BY-SA 4.0; Phiarc, CC BY-SA 4.0, via Wikimedia Commons; unmodified. License terms and author were checked on this exact file page."
+          }
+        }
+      }
+    },
+    {
+      "model": "Ryzen 7 5700X3D",
+      "modelNumber": "5700X3D",
+      "family": "AMD Ryzen Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+      "specifications": {
+        "cores": 8,
+        "threads": 16,
+        "maxBoostClock": "4.1 GHz",
+        "baseClock": "3.0 GHz",
+        "totalCache": "100 MB",
+        "pcieSupport": "Gen 4",
+        "defaultTdp": "105 W",
+        "architecture": "Zen 3"
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1177/amd-reveals-next-gen-desktop-processors-for-extreme-pc-gaming-and-creator-performance",
+          "notes": "AMD's January 2024 release names this exact processor and its expected availability date."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 7 5700X3D."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+          "notes": "The AMD page title and specification section identify Ryzen 7 5700X3D; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 7 5800XT",
+      "modelNumber": "5800XT",
+      "family": "AMD Ryzen Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5800xt.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5800xt.html",
+      "specifications": {
+        "cores": 8,
+        "threads": 16,
+        "maxBoostClock": "4.8 GHz",
+        "baseClock": "3.8 GHz",
+        "totalCache": "36 MB",
+        "pcieSupport": "Gen 4",
+        "defaultTdp": "105 W",
+        "architecture": "Zen 3"
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/newsroom/press-releases/2024-6-2-amd-unveils-next-gen-zen-5-ryzen-processors-to-p.html",
+          "notes": "AMD's 2024 release announces the Ryzen 7 5800XT by name and states the launch window."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5800xt.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 7 5800XT."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5800xt.html",
+          "notes": "The AMD page title and specification section identify Ryzen 7 5800XT; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 7 5800X",
+      "modelNumber": "5800X",
+      "family": "AMD Ryzen Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5800x.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5800x.html",
+      "specifications": {
+        "cores": 8,
+        "threads": 16,
+        "maxBoostClock": "4.7 GHz",
+        "baseClock": "3.8 GHz",
+        "totalCache": "36 MB",
+        "pcieSupport": "Gen 4",
+        "defaultTdp": "105 W",
+        "architecture": "Zen 3"
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/972/amd-launches-amd-ryzen-5000-series-desktop-processors-the-fastest-gaming-cpus-in-the-world",
+          "notes": "AMD's 2020 launch release identifies the Ryzen 7 5800X and its launch year."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5800x.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 7 5800X."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5800x.html",
+          "notes": "The AMD page title and specification section identify Ryzen 7 5800X; its model-specific URL returned HTTP 200."
+        },
+        {
+          "evidenceType": "image",
+          "sourceName": "Wikimedia Commons exact-model photograph",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_5800X_19339.jpg",
+          "notes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 7 5800X."
+        },
+        {
+          "evidenceType": "image_rights",
+          "sourceName": "Wikimedia Commons file license record",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_5800X_19339.jpg",
+          "notes": "CC BY-SA 3.0; Michael Wolf (la-wolf.de), Penig, CC BY-SA 3.0, via Wikimedia Commons; unmodified. License terms and author were checked on this exact file page."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "published",
+      "productImported": true,
+      "image": {
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/AMD_Ryzen_7_5800X_19339.jpg/960px-AMD_Ryzen_7_5800X_19339.jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_5800X_19339.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Michael Wolf (la-wolf.de), Penig",
+        "attribution": "Michael Wolf (la-wolf.de), Penig, CC BY-SA 3.0, via Wikimedia Commons; unmodified.",
+        "visualIdentityChecked": true,
+        "visualReviewNotes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 7 5800X.",
+        "evidence": {
+          "image": {
+            "evidenceType": "image",
+            "sourceName": "Wikimedia Commons exact-model photograph",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_5800X_19339.jpg",
+            "notes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 7 5800X."
+          },
+          "imageRights": {
+            "evidenceType": "image_rights",
+            "sourceName": "Wikimedia Commons file license record",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_5800X_19339.jpg",
+            "notes": "CC BY-SA 3.0; Michael Wolf (la-wolf.de), Penig, CC BY-SA 3.0, via Wikimedia Commons; unmodified. License terms and author were checked on this exact file page."
+          }
+        }
+      }
+    },
+    {
+      "model": "Ryzen 7 5700X",
+      "modelNumber": "5700X",
+      "family": "AMD Ryzen Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x.html",
+      "specifications": {
+        "cores": 8,
+        "threads": 16,
+        "maxBoostClock": "4.6 GHz",
+        "baseClock": "3.4 GHz",
+        "totalCache": "36 MB",
+        "pcieSupport": "Gen 4",
+        "defaultTdp": "65 W",
+        "architecture": "Zen 3"
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1053/amd-launches-the-ultimate-gaming-processor-brings-enthusiast-performance-to-an-expanded-lineup-of-ryzen-desktop-processors",
+          "notes": "AMD's March 2022 release identifies the Ryzen 7 5700X and availability beginning April 2022."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 7 5700X."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x.html",
+          "notes": "The AMD page title and specification section identify Ryzen 7 5700X; its model-specific URL returned HTTP 200."
+        },
+        {
+          "evidenceType": "image",
+          "sourceName": "Wikimedia Commons exact-model photograph",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_5700X_1.jpg",
+          "notes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 7 5700X."
+        },
+        {
+          "evidenceType": "image_rights",
+          "sourceName": "Wikimedia Commons file license record",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_5700X_1.jpg",
+          "notes": "CC BY-SA 4.0; Qurren, CC BY-SA 4.0, via Wikimedia Commons; unmodified. License terms and author were checked on this exact file page."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "published",
+      "productImported": true,
+      "image": {
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/AMD_Ryzen_7_5700X_1.jpg/960px-AMD_Ryzen_7_5700X_1.jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_5700X_1.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "author": "Qurren",
+        "attribution": "Qurren, CC BY-SA 4.0, via Wikimedia Commons; unmodified.",
+        "visualIdentityChecked": true,
+        "visualReviewNotes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 7 5700X.",
+        "evidence": {
+          "image": {
+            "evidenceType": "image",
+            "sourceName": "Wikimedia Commons exact-model photograph",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_5700X_1.jpg",
+            "notes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 7 5700X."
+          },
+          "imageRights": {
+            "evidenceType": "image_rights",
+            "sourceName": "Wikimedia Commons file license record",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_5700X_1.jpg",
+            "notes": "CC BY-SA 4.0; Qurren, CC BY-SA 4.0, via Wikimedia Commons; unmodified. License terms and author were checked on this exact file page."
+          }
+        }
+      }
+    },
+    {
+      "model": "Ryzen 7 5700G",
+      "modelNumber": "5700G",
+      "family": "AMD Ryzen Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700g.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700g.html",
+      "specifications": {
+        "cores": 8,
+        "threads": 16,
+        "maxBoostClock": "4.6 GHz",
+        "baseClock": "3.8 GHz",
+        "totalCache": "20 MB",
+        "pcieSupport": "Gen 3",
+        "defaultTdp": "65 W",
+        "architecture": "Zen 3"
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/newsroom/press-releases/2021-5-31-amd-showcases-industry-leading-innovation-across-t.html",
+          "notes": "AMD's May 2021 COMPUTEX announcement names the Ryzen 7 5700G and states it is a 5000G desktop APU."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700g.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 7 5700G."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700g.html",
+          "notes": "The AMD page title and specification section identify Ryzen 7 5700G; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 7 5700",
+      "modelNumber": "5700",
+      "family": "AMD Ryzen Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700.html",
+      "specifications": {
+        "cores": 8,
+        "threads": 16,
+        "maxBoostClock": "4.6 GHz",
+        "baseClock": "3.7 GHz",
+        "totalCache": "20 MB",
+        "pcieSupport": "Gen 3",
+        "defaultTdp": "65 W",
+        "architecture": "Zen 3"
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1177/amd-reveals-next-gen-desktop-processors-for-extreme-pc-gaming-and-creator-performance",
+          "notes": "AMD's January 2024 release names the Ryzen 7 5700 and its expected availability."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 7 5700."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700.html",
+          "notes": "The AMD page title and specification section identify Ryzen 7 5700; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 5 5600X3D",
+      "modelNumber": "5600X3D",
+      "family": "AMD Ryzen Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600x3d.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600x3d.html",
+      "specifications": {
+        "cores": 6,
+        "threads": 12,
+        "maxBoostClock": "4.4 GHz",
+        "baseClock": "3.3 GHz",
+        "totalCache": "99 MB",
+        "pcieSupport": "Gen 4",
+        "defaultTdp": "105 W",
+        "architecture": "Zen 3"
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1163/amd-reports-third-quarter-2023-financial-results",
+          "notes": "AMD's Q3 2023 report confirms the Ryzen 5 5600X3D launch; AMD's July 2024 QRG provides its exact SKU specifications."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600x3d.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 5600X3D."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600x3d.html",
+          "notes": "The AMD page title and specification section identify Ryzen 5 5600X3D; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 5 5600GT",
+      "modelNumber": "5600GT",
+      "family": "AMD Ryzen Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600gt.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600gt.html",
+      "specifications": {
+        "cores": 6,
+        "threads": 12,
+        "maxBoostClock": "4.6 GHz",
+        "baseClock": "3.6 GHz",
+        "totalCache": "19 MB",
+        "pcieSupport": "Gen 3",
+        "defaultTdp": "65 W",
+        "architecture": "Zen 3"
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1177/amd-reveals-next-gen-desktop-processors-for-extreme-pc-gaming-and-creator-performance",
+          "notes": "AMD's January 2024 release names this exact processor and its expected availability date."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600gt.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 5600GT."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600gt.html",
+          "notes": "The AMD page title and specification section identify Ryzen 5 5600GT; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 5 5600G",
+      "modelNumber": "5600G",
+      "family": "AMD Ryzen Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600g.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600g.html",
+      "specifications": {
+        "cores": 6,
+        "threads": 12,
+        "maxBoostClock": "4.4 GHz",
+        "baseClock": "3.9 GHz",
+        "totalCache": "19 MB",
+        "pcieSupport": "Gen 3",
+        "defaultTdp": "65 W",
+        "architecture": "Zen 3"
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/newsroom/press-releases/2021-5-31-amd-showcases-industry-leading-innovation-across-t.html",
+          "notes": "AMD's May 2021 COMPUTEX announcement names the Ryzen 5 5600G and states it is a 5000G desktop APU."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600g.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 5600G."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600g.html",
+          "notes": "The AMD page title and specification section identify Ryzen 5 5600G; its model-specific URL returned HTTP 200."
+        },
+        {
+          "evidenceType": "image",
+          "sourceName": "Wikimedia Commons exact-model photograph",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD%407nm%40Zen3%40Cezanne%40Ryzen_5_5600G%40100-000000252_EF_2127SUS_9JP9827S10002_DSC02209-DSC02243.jpg",
+          "notes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 5 5600G."
+        },
+        {
+          "evidenceType": "image_rights",
+          "sourceName": "Wikimedia Commons file license record",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD%407nm%40Zen3%40Cezanne%40Ryzen_5_5600G%40100-000000252_EF_2127SUS_9JP9827S10002_DSC02209-DSC02243.jpg",
+          "notes": "CC0 1.0; FritzchensFritz, CC0 1.0, via Wikimedia Commons. License terms and author were checked on this exact file page."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "published",
+      "productImported": true,
+      "image": {
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/AMD%407nm%40Zen3%40Cezanne%40Ryzen_5_5600G%40100-000000252_EF_2127SUS_9JP9827S10002_DSC02209-DSC02243.jpg/960px-AMD%407nm%40Zen3%40Cezanne%40Ryzen_5_5600G%40100-000000252_EF_2127SUS_9JP9827S10002_DSC02209-DSC02243.jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:AMD%407nm%40Zen3%40Cezanne%40Ryzen_5_5600G%40100-000000252_EF_2127SUS_9JP9827S10002_DSC02209-DSC02243.jpg",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "author": "FritzchensFritz",
+        "attribution": "FritzchensFritz, CC0 1.0, via Wikimedia Commons.",
+        "visualIdentityChecked": true,
+        "visualReviewNotes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 5 5600G.",
+        "evidence": {
+          "image": {
+            "evidenceType": "image",
+            "sourceName": "Wikimedia Commons exact-model photograph",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD%407nm%40Zen3%40Cezanne%40Ryzen_5_5600G%40100-000000252_EF_2127SUS_9JP9827S10002_DSC02209-DSC02243.jpg",
+            "notes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 5 5600G."
+          },
+          "imageRights": {
+            "evidenceType": "image_rights",
+            "sourceName": "Wikimedia Commons file license record",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD%407nm%40Zen3%40Cezanne%40Ryzen_5_5600G%40100-000000252_EF_2127SUS_9JP9827S10002_DSC02209-DSC02243.jpg",
+            "notes": "CC0 1.0; FritzchensFritz, CC0 1.0, via Wikimedia Commons. License terms and author were checked on this exact file page."
+          }
+        }
+      }
+    },
+    {
+      "model": "Ryzen 5 5600",
+      "modelNumber": "5600",
+      "family": "AMD Ryzen Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+      "specifications": {
+        "cores": 6,
+        "threads": 12,
+        "maxBoostClock": "4.4 GHz",
+        "baseClock": "3.5 GHz",
+        "totalCache": "35 MB",
+        "pcieSupport": "Gen 4",
+        "defaultTdp": "65 W",
+        "architecture": "Zen 3"
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1053/amd-launches-the-ultimate-gaming-processor-brings-enthusiast-performance-to-an-expanded-lineup-of-ryzen-desktop-processors",
+          "notes": "AMD's March 2022 release identifies the Ryzen 5 5600 and availability beginning April 2022."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 5600."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+          "notes": "The AMD page title and specification section identify Ryzen 5 5600; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 5 5500GT",
+      "modelNumber": "5500GT",
+      "family": "AMD Ryzen Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500gt.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500gt.html",
+      "specifications": {
+        "cores": 6,
+        "threads": 12,
+        "maxBoostClock": "4.4 GHz",
+        "baseClock": "3.6 GHz",
+        "totalCache": "19 MB",
+        "pcieSupport": "Gen 3",
+        "defaultTdp": "65 W",
+        "architecture": "Zen 3"
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1177/amd-reveals-next-gen-desktop-processors-for-extreme-pc-gaming-and-creator-performance",
+          "notes": "AMD's January 2024 release names this exact processor and its expected availability date."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500gt.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 5500GT."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500gt.html",
+          "notes": "The AMD page title and specification section identify Ryzen 5 5500GT; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 5 5500",
+      "modelNumber": "5500",
+      "family": "AMD Ryzen Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+      "specifications": {
+        "cores": 6,
+        "threads": 12,
+        "maxBoostClock": "4.2 GHz",
+        "baseClock": "3.6 GHz",
+        "totalCache": "19 MB",
+        "pcieSupport": "Gen 3",
+        "defaultTdp": "65 W",
+        "architecture": "Zen 3"
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1053/amd-launches-the-ultimate-gaming-processor-brings-enthusiast-performance-to-an-expanded-lineup-of-ryzen-desktop-processors",
+          "notes": "AMD's March 2022 release identifies the Ryzen 5 5500 and availability beginning April 2022."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 5500."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+          "notes": "The AMD page title and specification section identify Ryzen 5 5500; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 5 5500X3D",
+      "modelNumber": "5500X3D",
+      "family": "AMD Ryzen Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500x3d.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500x3d.html",
+      "specifications": {
+        "cores": 6,
+        "threads": 12,
+        "maxBoostClock": "4.0 GHz",
+        "baseClock": "3.0 GHz",
+        "l2Cache": "3 MB",
+        "l3Cache": "96 MB",
+        "defaultTdp": "105 W",
+        "architecture": "Zen 3",
+        "socket": "AM4",
+        "regionalAvailability": "LATAM"
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5500x3d.html",
+          "notes": "Exact AMD product page identifies Ryzen 5 5500X3D, Ryzen 5000 Series, Zen 3, and LATAM availability."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500x3d.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 5500X3D."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500x3d.html",
+          "notes": "The AMD page title and specification section identify Ryzen 5 5500X3D; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 5 5600XT",
+      "modelNumber": "5600XT",
+      "family": "AMD Ryzen Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600xt.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600xt.html",
+      "specifications": {
+        "cores": 6,
+        "threads": 12,
+        "maxBoostClock": "4.7 GHz",
+        "baseClock": "3.7 GHz",
+        "l2Cache": "3 MB",
+        "l3Cache": "32 MB",
+        "defaultTdp": "65 W",
+        "architecture": "Zen 3",
+        "socket": "AM4"
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5600xt.html",
+          "notes": "Exact AMD product page identifies Ryzen 5 5600XT, Ryzen 5000 Series, and Zen 3."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600xt.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 5600XT."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600xt.html",
+          "notes": "The AMD page title and specification section identify Ryzen 5 5600XT; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 7 4700G",
+      "modelNumber": "4700G",
+      "family": "AMD Ryzen Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700g.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700g.html",
+      "specifications": {
+        "cores": 8,
+        "threads": 16,
+        "maxBoostClock": "4.4 GHz",
+        "baseClock": "3.6 GHz",
+        "l2Cache": "4 MB",
+        "l3Cache": "8 MB",
+        "defaultTdp": "65 W",
+        "architecture": "Zen 2",
+        "socket": "AM4",
+        "pcieSupport": "Gen 3",
+        "graphicsModel": "Radeon Graphics",
+        "graphicsCores": 8,
+        "integratedGraphics": true,
+        "availability": "OEM only"
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700g.html",
+          "notes": "Exact AMD support/specification page identifies the Ryzen 7 4700G, Ryzen 4000 Series, and OEM-only distribution."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700g.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 7 4700G."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700g.html",
+          "notes": "The AMD page title and specification section identify Ryzen 7 4700G; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 7 4700GE",
+      "modelNumber": "4700GE",
+      "family": "AMD Ryzen Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700ge.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700ge.html",
+      "specifications": {
+        "cores": 8,
+        "threads": 16,
+        "maxBoostClock": "4.3 GHz",
+        "baseClock": "3.1 GHz",
+        "totalCache": "12 MB",
+        "defaultTdp": "35 W",
+        "architecture": "Zen 2",
+        "graphicsModel": "Radeon Graphics",
+        "graphicsCores": 8,
+        "integratedGraphics": true,
+        "availability": "OEM/SI only"
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700ge.html",
+          "notes": "Exact AMD support/specification page identifies the Ryzen 7 4700GE; AMD's 2020 Ryzen 4000G announcement lists this OEM/SI SKU."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700ge.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 7 4700GE."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700ge.html",
+          "notes": "The AMD page title and specification section identify Ryzen 7 4700GE; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 5 4600G",
+      "modelNumber": "4600G",
+      "family": "AMD Ryzen Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600g.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600g.html",
+      "specifications": {
+        "cores": 6,
+        "threads": 12,
+        "maxBoostClock": "4.2 GHz",
+        "baseClock": "3.7 GHz",
+        "l2Cache": "3 MB",
+        "l3Cache": "8 MB",
+        "defaultTdp": "65 W",
+        "architecture": "Zen 2",
+        "socket": "AM4",
+        "pcieSupport": "Gen 3",
+        "graphicsModel": "Radeon Graphics",
+        "graphicsCores": 7,
+        "integratedGraphics": true
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600g.html",
+          "notes": "Exact AMD support/specification page identifies the Ryzen 5 4600G and Ryzen 4000 Series."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600g.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 4600G."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600g.html",
+          "notes": "The AMD page title and specification section identify Ryzen 5 4600G; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 5 4600GE",
+      "modelNumber": "4600GE",
+      "family": "AMD Ryzen Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600ge.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600ge.html",
+      "specifications": {
+        "cores": 6,
+        "threads": 12,
+        "maxBoostClock": "4.2 GHz",
+        "baseClock": "3.3 GHz",
+        "totalCache": "11 MB",
+        "defaultTdp": "35 W",
+        "architecture": "Zen 2",
+        "graphicsModel": "Radeon Graphics",
+        "graphicsCores": 7,
+        "integratedGraphics": true,
+        "availability": "OEM/SI only"
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600ge.html",
+          "notes": "Exact AMD support/specification page identifies the Ryzen 5 4600GE; AMD's 2020 Ryzen 4000G announcement lists this OEM/SI SKU."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600ge.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 4600GE."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600ge.html",
+          "notes": "The AMD page title and specification section identify Ryzen 5 4600GE; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 5 4500",
+      "modelNumber": "4500",
+      "family": "AMD Ryzen Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4500.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4500.html",
+      "specifications": {
+        "cores": 6,
+        "threads": 12,
+        "maxBoostClock": "4.1 GHz",
+        "baseClock": "3.6 GHz",
+        "l2Cache": "3 MB",
+        "l3Cache": "8 MB",
+        "defaultTdp": "65 W",
+        "architecture": "Zen 2",
+        "socket": "AM4",
+        "pcieSupport": "Gen 3",
+        "integratedGraphics": false
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4500.html",
+          "notes": "Exact AMD support/specification page identifies the Ryzen 5 4500, Ryzen 4000 Series, and April 2022 launch date."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4500.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 4500."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4500.html",
+          "notes": "The AMD page title and specification section identify Ryzen 5 4500; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 3 4300G",
+      "modelNumber": "4300G",
+      "family": "AMD Ryzen Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300g.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300g.html",
+      "specifications": {
+        "cores": 4,
+        "threads": 8,
+        "maxBoostClock": "4.0 GHz",
+        "baseClock": "3.8 GHz",
+        "l2Cache": "2 MB",
+        "l3Cache": "4 MB",
+        "defaultTdp": "65 W",
+        "architecture": "Zen 2",
+        "socket": "AM4",
+        "pcieSupport": "Gen 3",
+        "graphicsModel": "Radeon Graphics",
+        "graphicsCores": 6,
+        "integratedGraphics": true,
+        "availability": "OEM only"
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300g.html",
+          "notes": "Exact AMD support/specification page identifies Ryzen 3 4300G, Ryzen 4000 Series, and OEM-only distribution."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300g.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 3 4300G."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300g.html",
+          "notes": "The AMD page title and specification section identify Ryzen 3 4300G; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 3 4300GE",
+      "modelNumber": "4300GE",
+      "family": "AMD Ryzen Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300ge.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300ge.html",
+      "specifications": {
+        "cores": 4,
+        "threads": 8,
+        "maxBoostClock": "4.0 GHz",
+        "baseClock": "3.5 GHz",
+        "totalCache": "6 MB",
+        "defaultTdp": "35 W",
+        "architecture": "Zen 2",
+        "graphicsModel": "Radeon Graphics",
+        "graphicsCores": 6,
+        "integratedGraphics": true,
+        "availability": "OEM/SI only"
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300ge.html",
+          "notes": "Exact AMD support/specification page identifies the Ryzen 3 4300GE; AMD's 2020 Ryzen 4000G announcement lists this OEM/SI SKU."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300ge.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 3 4300GE."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300ge.html",
+          "notes": "The AMD page title and specification section identify Ryzen 3 4300GE; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 3 4100",
+      "modelNumber": "4100",
+      "family": "AMD Ryzen Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4100.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4100.html",
+      "specifications": {
+        "cores": 4,
+        "threads": 8,
+        "maxBoostClock": "4.0 GHz",
+        "baseClock": "3.8 GHz",
+        "totalCache": "6 MB",
+        "defaultTdp": "65 W",
+        "architecture": "Zen 2",
+        "pcieSupport": "Gen 3",
+        "socket": "AM4"
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4100.html",
+          "notes": "Exact AMD support/specification page identifies Ryzen 3 4100 and its Ryzen 4000 Series placement."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4100.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 3 4100."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4100.html",
+          "notes": "The AMD page title and specification section identify Ryzen 3 4100; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 7 PRO 4750G",
+      "modelNumber": "4750G",
+      "family": "AMD Ryzen PRO Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-7-pro-4750g.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-7-pro-4750g.html",
+      "specifications": {
+        "cores": 8,
+        "threads": 16,
+        "maxBoostClock": "4.4 GHz",
+        "baseClock": "3.6 GHz",
+        "l2Cache": "4 MB",
+        "l3Cache": "8 MB",
+        "defaultTdp": "65 W",
+        "architecture": "Zen 2",
+        "socket": "AM4",
+        "pcieSupport": "Gen 3",
+        "graphicsModel": "Radeon Graphics",
+        "graphicsCores": 8,
+        "integratedGraphics": true
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-7-pro-4750g.html",
+          "notes": "Exact AMD support/specification page identifies Ryzen 7 PRO 4750G and Ryzen PRO 4000 Series."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-7-pro-4750g.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 7 PRO 4750G."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-7-pro-4750g.html",
+          "notes": "The AMD page title and specification section identify Ryzen 7 PRO 4750G; its model-specific URL returned HTTP 200."
+        },
+        {
+          "evidenceType": "image",
+          "sourceName": "Wikimedia Commons file page",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_PRO_4750G_6913.jpg",
+          "notes": "Visually inspected the 960×947 image; the processor lid itself reads AMD Ryzen 7 PRO 4750G."
+        },
+        {
+          "evidenceType": "image_rights",
+          "sourceName": "Wikimedia Commons file license record",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_PRO_4750G_6913.jpg",
+          "notes": "The file page states CC BY-SA 3.0 and identifies author Michael Wolf; attribution and license URL are stored with this candidate."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "published",
+      "productImported": true,
+      "image": {
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/AMD_Ryzen_7_PRO_4750G_6913.jpg/960px-AMD_Ryzen_7_PRO_4750G_6913.jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_PRO_4750G_6913.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Michael Wolf (la-wolf.de), Penig",
+        "attribution": "Michael Wolf (la-wolf.de), Penig, CC BY-SA 3.0, via Wikimedia Commons; unmodified.",
+        "visualIdentityChecked": true,
+        "visualReviewNotes": "The CPU lid in the 960×947 Commons image visibly reads AMD Ryzen 7 PRO 4750G; it is an exact-model photograph, not a family illustration.",
+        "evidence": {
+          "image": {
+            "evidenceType": "image",
+            "sourceName": "Wikimedia Commons file page",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_PRO_4750G_6913.jpg",
+            "notes": "Visually inspected the 960×947 image; the processor lid itself reads AMD Ryzen 7 PRO 4750G."
+          },
+          "imageRights": {
+            "evidenceType": "image_rights",
+            "sourceName": "Wikimedia Commons file license record",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_PRO_4750G_6913.jpg",
+            "notes": "The file page states CC BY-SA 3.0 and identifies author Michael Wolf; attribution and license URL are stored with this candidate."
+          }
+        }
+      }
+    },
+    {
+      "model": "Ryzen 7 PRO 4750GE",
+      "modelNumber": "4750GE",
+      "family": "AMD Ryzen PRO Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-7-pro-4750ge.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-7-pro-4750ge.html",
+      "specifications": {
+        "cores": 8,
+        "threads": 16,
+        "maxBoostClock": "4.3 GHz",
+        "baseClock": "3.1 GHz",
+        "l2Cache": "4 MB",
+        "l3Cache": "8 MB",
+        "defaultTdp": "35 W",
+        "architecture": "Zen 2",
+        "socket": "AM4",
+        "pcieSupport": "Gen 3",
+        "graphicsModel": "Radeon Graphics",
+        "graphicsCores": 8,
+        "integratedGraphics": true
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-7-pro-4750ge.html",
+          "notes": "Exact AMD support/specification page identifies Ryzen 7 PRO 4750GE and Ryzen PRO 4000 Series."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-7-pro-4750ge.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 7 PRO 4750GE."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-7-pro-4750ge.html",
+          "notes": "The AMD page title and specification section identify Ryzen 7 PRO 4750GE; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 5 PRO 4650G",
+      "modelNumber": "4650G",
+      "family": "AMD Ryzen PRO Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650g.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650g.html",
+      "specifications": {
+        "cores": 6,
+        "threads": 12,
+        "maxBoostClock": "4.2 GHz",
+        "baseClock": "3.7 GHz",
+        "l2Cache": "3 MB",
+        "l3Cache": "8 MB",
+        "defaultTdp": "65 W",
+        "architecture": "Zen 2",
+        "socket": "AM4",
+        "pcieSupport": "Gen 3",
+        "graphicsModel": "Radeon Graphics",
+        "graphicsCores": 7,
+        "integratedGraphics": true
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650g.html",
+          "notes": "Exact AMD support/specification page identifies Ryzen 5 PRO 4650G and Ryzen PRO 4000 Series."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650g.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 PRO 4650G."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650g.html",
+          "notes": "The AMD page title and specification section identify Ryzen 5 PRO 4650G; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 5 PRO 4650GE",
+      "modelNumber": "4650GE",
+      "family": "AMD Ryzen PRO Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650ge.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650ge.html",
+      "specifications": {
+        "cores": 6,
+        "threads": 12,
+        "maxBoostClock": "4.2 GHz",
+        "baseClock": "3.3 GHz",
+        "l2Cache": "3 MB",
+        "l3Cache": "8 MB",
+        "defaultTdp": "35 W",
+        "architecture": "Zen 2",
+        "socket": "AM4",
+        "pcieSupport": "Gen 3",
+        "graphicsModel": "Radeon Graphics",
+        "graphicsCores": 7,
+        "integratedGraphics": true
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650ge.html",
+          "notes": "Exact AMD support/specification page identifies Ryzen 5 PRO 4650GE and Ryzen PRO 4000 Series."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650ge.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 PRO 4650GE."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650ge.html",
+          "notes": "The AMD page title and specification section identify Ryzen 5 PRO 4650GE; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 3 PRO 4350G",
+      "modelNumber": "4350G",
+      "family": "AMD Ryzen PRO Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350g.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350g.html",
+      "specifications": {
+        "cores": 4,
+        "threads": 8,
+        "maxBoostClock": "4.0 GHz",
+        "baseClock": "3.8 GHz",
+        "l2Cache": "2 MB",
+        "l3Cache": "4 MB",
+        "defaultTdp": "65 W",
+        "architecture": "Zen 2",
+        "socket": "AM4",
+        "pcieSupport": "Gen 3",
+        "graphicsModel": "Radeon Graphics",
+        "graphicsCores": 6,
+        "integratedGraphics": true
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350g.html",
+          "notes": "Exact AMD support/specification page identifies Ryzen 3 PRO 4350G and Ryzen PRO 4000 Series."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350g.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 3 PRO 4350G."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350g.html",
+          "notes": "The AMD page title and specification section identify Ryzen 3 PRO 4350G; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 3 PRO 4350GE",
+      "modelNumber": "4350GE",
+      "family": "AMD Ryzen PRO Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350ge.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350ge.html",
+      "specifications": {
+        "cores": 4,
+        "threads": 8,
+        "maxBoostClock": "4.0 GHz",
+        "baseClock": "3.5 GHz",
+        "l2Cache": "2 MB",
+        "l3Cache": "4 MB",
+        "defaultTdp": "35 W",
+        "architecture": "Zen 2",
+        "socket": "AM4",
+        "pcieSupport": "Gen 3",
+        "graphicsModel": "Radeon Vega 6 Graphics",
+        "graphicsCores": 6,
+        "integratedGraphics": true
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350ge.html",
+          "notes": "Exact AMD support/specification page identifies Ryzen 3 PRO 4350GE and Ryzen PRO 4000 Series."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350ge.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 3 PRO 4350GE."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350ge.html",
+          "notes": "The AMD page title and specification section identify Ryzen 3 PRO 4350GE; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 5 PRO 4655G",
+      "modelNumber": "4655G",
+      "family": "AMD Ryzen PRO Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655g.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655g.html",
+      "specifications": {
+        "cores": 6,
+        "threads": 12,
+        "maxBoostClock": "4.2 GHz",
+        "baseClock": "3.7 GHz",
+        "l2Cache": "3 MB",
+        "l3Cache": "8 MB",
+        "defaultTdp": "65 W",
+        "architecture": "Zen 2",
+        "socket": "AM4",
+        "pcieSupport": "Gen 3",
+        "graphicsModel": "Radeon Graphics",
+        "graphicsCores": 7,
+        "integratedGraphics": true
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655g.html",
+          "notes": "Exact AMD support/specification page identifies Ryzen 5 PRO 4655G and Ryzen PRO 4000 Series."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655g.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 PRO 4655G."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655g.html",
+          "notes": "The AMD page title and specification section identify Ryzen 5 PRO 4655G; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 5 PRO 4655GE",
+      "modelNumber": "4655GE",
+      "family": "AMD Ryzen PRO Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655ge.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655ge.html",
+      "specifications": {
+        "cores": 6,
+        "threads": 12,
+        "maxBoostClock": "4.2 GHz",
+        "baseClock": "3.3 GHz",
+        "l2Cache": "3 MB",
+        "l3Cache": "8 MB",
+        "defaultTdp": "35 W",
+        "architecture": "Zen 2",
+        "socket": "AM4",
+        "pcieSupport": "Gen 3",
+        "graphicsModel": "Radeon Graphics",
+        "graphicsCores": 7,
+        "integratedGraphics": true
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655ge.html",
+          "notes": "Exact AMD support/specification page identifies Ryzen 5 PRO 4655GE and Ryzen PRO 4000 Series."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655ge.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 PRO 4655GE."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655ge.html",
+          "notes": "The AMD page title and specification section identify Ryzen 5 PRO 4655GE; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 3 PRO 4355G",
+      "modelNumber": "4355G",
+      "family": "AMD Ryzen PRO Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355g.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355g.html",
+      "specifications": {
+        "cores": 4,
+        "threads": 8,
+        "maxBoostClock": "4.0 GHz",
+        "baseClock": "3.8 GHz",
+        "l2Cache": "2 MB",
+        "l3Cache": "4 MB",
+        "defaultTdp": "65 W",
+        "architecture": "Zen 2",
+        "socket": "AM4",
+        "pcieSupport": "Gen 3",
+        "graphicsModel": "Radeon Graphics",
+        "graphicsCores": 6,
+        "integratedGraphics": true
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355g.html",
+          "notes": "Exact AMD support/specification page identifies Ryzen 3 PRO 4355G and Ryzen PRO 4000 Series."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355g.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 3 PRO 4355G."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355g.html",
+          "notes": "The AMD page title and specification section identify Ryzen 3 PRO 4355G; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    },
+    {
+      "model": "Ryzen 3 PRO 4355GE",
+      "modelNumber": "4355GE",
+      "family": "AMD Ryzen PRO Desktop Processors",
+      "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355ge.html",
+      "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355ge.html",
+      "specifications": {
+        "cores": 4,
+        "threads": 8,
+        "maxBoostClock": "4.0 GHz",
+        "baseClock": "3.5 GHz",
+        "l2Cache": "2 MB",
+        "l3Cache": "4 MB",
+        "defaultTdp": "35 W",
+        "architecture": "Zen 2",
+        "socket": "AM4",
+        "pcieSupport": "Gen 3",
+        "graphicsModel": "Radeon Vega 6 Graphics",
+        "graphicsCores": 6,
+        "integratedGraphics": true
+      },
+      "sourceEvidence": [
+        {
+          "evidenceType": "identity",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355ge.html",
+          "notes": "Exact AMD support/specification page identifies Ryzen 3 PRO 4355GE and Ryzen PRO 4000 Series."
+        },
+        {
+          "evidenceType": "specifications",
+          "sourceName": "AMD",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355ge.html",
+          "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 3 PRO 4355GE."
+        },
+        {
+          "evidenceType": "product_page",
+          "sourceName": "AMD exact-model support and specifications page",
+          "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355ge.html",
+          "notes": "The AMD page title and specification section identify Ryzen 3 PRO 4355GE; its model-specific URL returned HTTP 200."
+        }
+      ],
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "pending",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "pending",
+      "productImported": false,
+      "image": null
+    }
+  ]
+}

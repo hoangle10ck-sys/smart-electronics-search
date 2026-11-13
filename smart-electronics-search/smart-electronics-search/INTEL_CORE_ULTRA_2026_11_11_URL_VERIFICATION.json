@@ -1,0 +1,677 @@
+{
+  "checkedAt": "2026-11-10T22:26:20.110Z",
+  "database": "smart_electronics",
+  "batch": "Existing Intel Core Ultra Series 2/3 exact ARK URL verification",
+  "summary": {
+    "modelsChecked": 65,
+    "modelsWithVerifiedSpecs": 65,
+    "modelsWithExactModelUrls": 65,
+    "modelsWithExactModelImages": 0,
+    "modelsWithDocumentedImageReuseRights": 0,
+    "productsImported": 0,
+    "pendingProductDocuments": 145,
+    "activePendingReviewRows": 139,
+    "verifiedPublishedByCategory": [
+      {
+        "category": "cpu",
+        "batch": 0,
+        "database": 7
+      }
+    ],
+    "productDocuments": 155,
+    "offers": 0,
+    "offersCreated": 0
+  },
+  "models": [
+    {
+      "sourceKey": "web-research:intel:core-ultra-9-285k",
+      "model": "Core Ultra 9 285K",
+      "modelNumber": "285K",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241060/intel-core-ultra-9-processor-285k-36m-cache-up-to-5-70-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.276Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-9-285",
+      "model": "Core Ultra 9 285",
+      "modelNumber": "285",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241061/intel-core-ultra-9-processor-285-36m-cache-up-to-5-60-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.279Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-9-285t",
+      "model": "Core Ultra 9 285T",
+      "modelNumber": "285T",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241059/intel-core-ultra-9-processor-285t-36m-cache-up-to-5-40-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.212Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-7-265k",
+      "model": "Core Ultra 7 265K",
+      "modelNumber": "265K",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241063/intel-core-ultra-7-processor-265k-30m-cache-up-to-5-50-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.174Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-7-265kf",
+      "model": "Core Ultra 7 265KF",
+      "modelNumber": "265KF",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241062/intel-core-ultra-7-processor-265kf-30m-cache-up-to-5-50-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.200Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-7-265f",
+      "model": "Core Ultra 7 265F",
+      "modelNumber": "265F",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241064/intel-core-ultra-7-processor-265f-30m-cache-up-to-5-30-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.295Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-7-265",
+      "model": "Core Ultra 7 265",
+      "modelNumber": "265",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241068/intel-core-ultra-7-processor-265-30m-cache-up-to-5-30-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.311Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-7-265t",
+      "model": "Core Ultra 7 265T",
+      "modelNumber": "265T",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241065/intel-core-ultra-7-processor-265t-30m-cache-up-to-5-30-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.379Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-245k",
+      "model": "Core Ultra 5 245K",
+      "modelNumber": "245K",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241067/intel-core-ultra-5-processor-245k-24m-cache-up-to-5-20-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.427Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-245kf",
+      "model": "Core Ultra 5 245KF",
+      "modelNumber": "245KF",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241066/intel-core-ultra-5-processor-245kf-24m-cache-up-to-5-20-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.598Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-245",
+      "model": "Core Ultra 5 245",
+      "modelNumber": "245",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241876/intel-core-ultra-5-processor-245-24m-cache-up-to-5-10-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.422Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-245t",
+      "model": "Core Ultra 5 245T",
+      "modelNumber": "245T",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241874/intel-core-ultra-5-processor-245t-24m-cache-up-to-5-10-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.433Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-235",
+      "model": "Core Ultra 5 235",
+      "modelNumber": "235",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241674/intel-core-ultra-5-processor-235-24m-cache-up-to-5-00-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.506Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-235t",
+      "model": "Core Ultra 5 235T",
+      "modelNumber": "235T",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241872/intel-core-ultra-5-processor-235t-24m-cache-up-to-5-00-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.586Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-225",
+      "model": "Core Ultra 5 225",
+      "modelNumber": "225",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241070/intel-core-ultra-5-processor-225-20m-cache-up-to-4-90-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.567Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-225f",
+      "model": "Core Ultra 5 225F",
+      "modelNumber": "225F",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241069/intel-core-ultra-5-processor-225f-20m-cache-up-to-4-90-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.564Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-225t",
+      "model": "Core Ultra 5 225T",
+      "modelNumber": "225T",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241870/intel-core-ultra-5-processor-225t-20m-cache-up-to-4-90-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.629Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-9-285hx",
+      "model": "Core Ultra 9 285HX",
+      "modelNumber": "285HX",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/242297/intel-core-ultra-9-processor-285hx-36m-cache-up-to-5-50-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.719Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-9-275hx",
+      "model": "Core Ultra 9 275HX",
+      "modelNumber": "275HX",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/242293/intel-core-ultra-9-processor-275hx-36m-cache-up-to-5-40-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.709Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-7-265hx",
+      "model": "Core Ultra 7 265HX",
+      "modelNumber": "265HX",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/242294/intel-core-ultra-7-processor-265hx-30m-cache-up-to-5-30-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.714Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-7-255hx",
+      "model": "Core Ultra 7 255HX",
+      "modelNumber": "255HX",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/242292/intel-core-ultra-7-processor-255hx-30m-cache-up-to-5-20-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.733Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-7-265h",
+      "model": "Core Ultra 7 265H",
+      "modelNumber": "265H",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241750/intel-core-ultra-7-processor-265h-24m-cache-up-to-5-30-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.751Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-7-255h",
+      "model": "Core Ultra 7 255H",
+      "modelNumber": "255H",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241751/intel-core-ultra-7-processor-255h-24m-cache-up-to-5-10-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.824Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-235h",
+      "model": "Core Ultra 5 235H",
+      "modelNumber": "235H",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241748/intel-core-ultra-5-processor-235h-18m-cache-up-to-5-00-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.852Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-7-265u",
+      "model": "Core Ultra 7 265U",
+      "modelNumber": "265U",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241859/intel-core-ultra-7-processor-265u-12m-cache-up-to-5-30-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.882Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-7-255u",
+      "model": "Core Ultra 7 255U",
+      "modelNumber": "255U",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241860/intel-core-ultra-7-processor-255u-12m-cache-up-to-5-20-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.892Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-235u",
+      "model": "Core Ultra 5 235U",
+      "modelNumber": "235U",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241862/intel-core-ultra-5-processor-235u-12m-cache-up-to-4-90-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.887Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-225u",
+      "model": "Core Ultra 5 225U",
+      "modelNumber": "225U",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241861/intel-core-ultra-5-processor-225u-12m-cache-up-to-4-80-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.934Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-225h",
+      "model": "Core Ultra 5 225H",
+      "modelNumber": "225H",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241749/intel-core-ultra-5-processor-225h-18m-cache-up-to-4-90-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:14.953Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-9-290hx-plus",
+      "model": "Core Ultra 9 290HX Plus",
+      "modelNumber": "290HX Plus",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/245960/intel-core-ultra-9-processor-290hx-plus-36m-cache-up-to-5-50-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.000Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-7-270hx-plus",
+      "model": "Core Ultra 7 270HX Plus",
+      "modelNumber": "270HX Plus",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/245961/intel-core-ultra-7-processor-270hx-plus-30m-cache-up-to-5-30-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.017Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-250kf-plus",
+      "model": "Core Ultra 5 250KF Plus",
+      "modelNumber": "250KF Plus",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/245689/intel-core-ultra-5-processor-250kf-plus-30m-cache-up-to-5-30-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.020Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-7-270k-plus",
+      "model": "Core Ultra 7 270K Plus",
+      "modelNumber": "270K Plus",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/245692/intel-core-ultra-7-processor-270k-plus-36m-cache-up-to-5-50-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.067Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-250k-plus",
+      "model": "Core Ultra 5 250K Plus",
+      "modelNumber": "250K Plus",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/245694/intel-core-ultra-5-processor-250k-plus-30m-cache-up-to-5-30-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.070Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-x9-378h",
+      "model": "Core Ultra X9 378H",
+      "modelNumber": "378H",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/246128/intel-core-ultra-x9-processor-378h-18m-cache-up-to-5-00-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.165Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-338h",
+      "model": "Core Ultra 5 338H",
+      "modelNumber": "338H",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/245531/intel-core-ultra-5-processor-338h-18m-cache-up-to-4-70-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.159Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-7-356h",
+      "model": "Core Ultra 7 356H",
+      "modelNumber": "356H",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/245532/intel-core-ultra-7-processor-356h-18m-cache-up-to-4-70-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.168Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-336h",
+      "model": "Core Ultra 5 336H",
+      "modelNumber": "336H",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/245533/intel-core-ultra-5-processor-336h-18m-cache-up-to-4-60-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.187Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-7-365",
+      "model": "Core Ultra 7 365",
+      "modelNumber": "365",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/245713/intel-core-ultra-7-processor-365-12m-cache-up-to-4-80-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.172Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-322",
+      "model": "Core Ultra 5 322",
+      "modelNumber": "322",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/245716/intel-core-ultra-5-processor-322-12m-cache-up-to-4-40-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.281Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-332",
+      "model": "Core Ultra 5 332",
+      "modelNumber": "332",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/245718/intel-core-ultra-5-processor-332-12m-cache-up-to-4-40-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.333Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-325",
+      "model": "Core Ultra 5 325",
+      "modelNumber": "325",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/245720/intel-core-ultra-5-processor-325-12m-cache-up-to-4-50-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.276Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-7-355",
+      "model": "Core Ultra 7 355",
+      "modelNumber": "355",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/245722/intel-core-ultra-7-processor-355-12m-cache-up-to-4-70-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.327Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-335",
+      "model": "Core Ultra 5 335",
+      "modelNumber": "335",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/245727/intel-core-ultra-5-processor-335-12m-cache-up-to-4-60-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.337Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-7-366h",
+      "model": "Core Ultra 7 366H",
+      "modelNumber": "366H",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/245530/intel-core-ultra-7-processor-366h-18m-cache-up-to-4-80-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.464Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-9-386h",
+      "model": "Core Ultra 9 386H",
+      "modelNumber": "386H",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/245529/intel-core-ultra-9-processor-386h-18m-cache-up-to-4-90-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.475Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-x7-358h",
+      "model": "Core Ultra X7 358H",
+      "modelNumber": "358H",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/245527/intel-core-ultra-x7-processor-358h-18m-cache-up-to-4-80-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.431Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-x9-388h",
+      "model": "Core Ultra X9 388H",
+      "modelNumber": "388H",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/245526/intel-core-ultra-x9-processor-388h-18m-cache-up-to-5-10-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.459Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-x7-368h",
+      "model": "Core Ultra X7 368H",
+      "modelNumber": "368H",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/245523/intel-core-ultra-x7-processor-368h-18m-cache-up-to-5-00-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.472Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-235ua",
+      "model": "Core Ultra 5 235UA",
+      "modelNumber": "235UA",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/243859/intel-core-ultra-5-processor-235ua-12m-cache-up-to-4-90-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.573Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-235a",
+      "model": "Core Ultra 5 235A",
+      "modelNumber": "235A",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/243758/intel-core-ultra-5-processor-235a-24m-cache-up-to-5-00-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.617Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-235ta",
+      "model": "Core Ultra 5 235TA",
+      "modelNumber": "235TA",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/243757/intel-core-ultra-5-processor-235ta-24m-cache-up-to-5-00-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.619Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-235hx",
+      "model": "Core Ultra 5 235HX",
+      "modelNumber": "235HX",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/242296/intel-core-ultra-5-processor-235hx-24m-cache-up-to-5-10-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.610Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-245hx",
+      "model": "Core Ultra 5 245HX",
+      "modelNumber": "245HX",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/242295/intel-core-ultra-5-processor-245hx-24m-cache-up-to-5-10-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.606Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-230f",
+      "model": "Core Ultra 5 230F",
+      "modelNumber": "230F",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241875/intel-core-ultra-5-processor-230f-24m-cache-up-to-5-00-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.635Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-9-285h",
+      "model": "Core Ultra 9 285H",
+      "modelNumber": "285H",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241747/intel-core-ultra-9-processor-285h-24m-cache-up-to-5-40-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.736Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-238v",
+      "model": "Core Ultra 5 238V",
+      "modelNumber": "238V",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/240951/intel-core-ultra-5-processor-238v-8m-cache-up-to-4-70-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.745Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-7-256v",
+      "model": "Core Ultra 7 256V",
+      "modelNumber": "256V",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/240954/intel-core-ultra-7-processor-256v-12m-cache-up-to-4-80-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.766Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-228v",
+      "model": "Core Ultra 5 228V",
+      "modelNumber": "228V",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/240955/intel-core-ultra-5-processor-228v-8m-cache-up-to-4-50-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.740Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-7-266v",
+      "model": "Core Ultra 7 266V",
+      "modelNumber": "266V",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/240956/intel-core-ultra-7-processor-266v-12m-cache-up-to-5-00-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.778Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-7-258v",
+      "model": "Core Ultra 7 258V",
+      "modelNumber": "258V",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/240957/intel-core-ultra-7-processor-258v-12m-cache-up-to-4-80-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.930Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-7-268v",
+      "model": "Core Ultra 7 268V",
+      "modelNumber": "268V",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/240958/intel-core-ultra-7-processor-268v-12m-cache-up-to-5-00-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.936Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-236v",
+      "model": "Core Ultra 5 236V",
+      "modelNumber": "236V",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/240959/intel-core-ultra-5-processor-236v-8m-cache-up-to-4-70-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.934Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-5-226v",
+      "model": "Core Ultra 5 226V",
+      "modelNumber": "226V",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/240960/intel-core-ultra-5-processor-226v-8m-cache-up-to-4-50-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.898Z"
+    },
+    {
+      "sourceKey": "web-research:intel:core-ultra-9-288v",
+      "model": "Core Ultra 9 288V",
+      "modelNumber": "288V",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/240961/intel-core-ultra-9-processor-288v-12m-cache-up-to-5-10-ghz/specifications.html",
+      "productVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "httpStatus": 200,
+      "checkedAt": "2026-11-10T22:26:15.914Z"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "updatedAt": "2026-11-11",
+  "researchState": "review_candidate_not_imported",
+  "brand": "Intel",
+  "category": "cpu",
+  "family": "Intel Core i9 Processors (14th gen)",
+  "model": "Core i9-14900KF",
+  "modelNumber": "i9-14900KF",
+  "productName": "Intel Core i9 processor 14900KF",
+  "productUrl": "https://www.intel.com/content/www/us/en/products/sku/236787/intel-core-i9-processor-14900kf-36m-cache-up-to-6-00-ghz/specifications.html",
+  "seriesUrl": "https://www.intel.com/content/www/us/en/ark/products/series/236143/intel-core-i9-processors-14th-gen.html",
+  "productPageVerification": {
+    "status": "verified",
+    "source": "Intel ARK exact-model specification page",
+    "modelTextPresent": true
+  },
+  "productVerificationStatus": "verified",
+  "urlVerificationStatus": "verified",
+  "imageVerificationStatus": "pending",
+  "publicationStatus": "pending",
+  "specifications": {
+    "generation": "14th Generation Intel Core (Raptor Lake Refresh)",
+    "launchQuarter": "Q4 2023",
+    "processTechnology": "Intel 7",
+    "totalCores": 24,
+    "performanceCores": 8,
+    "efficientCores": 16,
+    "threads": 32,
+    "maxTurboFrequency": "6.0 GHz",
+    "performanceCoreBaseFrequency": "3.2 GHz",
+    "efficientCoreBaseFrequency": "2.4 GHz",
+    "performanceCoreMaxTurboFrequency": "5.6 GHz",
+    "efficientCoreMaxTurboFrequency": "4.4 GHz",
+    "cache": "36 MB Intel Smart Cache",
+    "totalL2Cache": "32 MB",
+    "processorBasePower": "125 W",
+    "maximumTurboPower": "253 W",
+    "socket": "FCLGA1700",
+    "memory": "DDR5-5600 or DDR4-3200; up to 192 GB",
+    "pcie": "PCI Express 5.0 and 4.0; up to 20 lanes",
+    "integratedGraphics": false
+  },
+  "sourceEvidence": [
+    {
+      "evidenceType": "product_page",
+      "sourceName": "Intel ARK exact-model specifications",
+      "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/236787/intel-core-i9-processor-14900kf-36m-cache-up-to-6-00-ghz/specifications.html",
+      "notes": "Exact product name, processor number, Raptor Lake product collection, and per-SKU specifications are listed on Intel's official page."
+    },
+    {
+      "evidenceType": "identity",
+      "sourceName": "Intel ARK 14th-generation Core i9 product list",
+      "sourceUrl": "https://www.intel.com/content/www/us/en/ark/products/series/236143/intel-core-i9-processors-14th-gen.html",
+      "notes": "Official Intel 14th-generation Core i9 list includes the i9-14900KF model."
+    }
+  ],
+  "imageCandidate": {
+    "filePageUrl": "https://commons.wikimedia.org/wiki/File:Intel_i9-14900KF_CPU.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Intel_i9-14900KF_CPU.jpg",
+    "pageCaption": "A photo of the Intel i9 14900KF CPU from above",
+    "author": "Pstrahl (Phil Strahl)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Phil Strahl (Pstrahl), CC BY-SA 4.0, via Wikimedia Commons; changes not made.",
+    "sourcePageRecordsOwnWork": true,
+    "visualIdentityChecked": false,
+    "imageUrlCheck": "HTTP 429 from Wikimedia on 2026-11-11; image was not viewed.",
+    "decision": "Do not attach or publish until the image can be retrieved and visually checked against the processor marking."
+  },
+  "databaseAction": "Not imported to Product or PendingProduct. Resume image retrieval and visual review before considering a bounded Intel import."
+}

@@ -1,0 +1,37 @@
+{
+  "batchId": "additional-products-prices-2026-11-11",
+  "researchedAt": "2026-11-11T06:51:13.000Z",
+  "source": "web-research",
+  "sellerName": "Mixed Vietnamese retailers",
+  "currency": "VND",
+  "offers": [
+    {
+      "brand": "Acer",
+      "category": "laptop",
+      "model": "Nitro V 15 ANV15-41-R1JY",
+      "sellerName": "Tuấn Lộc Store",
+      "storageGb": 512,
+      "variantLabel": "Ryzen 5 6600H / 16GB / 512GB / RTX 3050 6GB",
+      "sku": "NH.QPFSV.001",
+      "price": 16590000,
+      "originalPrice": 21000000,
+      "productUrl": "https://tuanlocstore.vn/acer-nitro-v-15-anv15-41-r1jy.html",
+      "availability": "Trang ghi còn hàng và hiển thị nút thêm vào giỏ / mua ngay khi kiểm tra; số lượng cụ thể không được nêu.",
+      "evidence": "Tuấn Lộc Store lists Acer Nitro V 15 ANV15-41-R1JY, part NH.QPFSV.001, at 16,590,000 VND (displayed original price 21,000,000 VND), marked in stock; retrieved 2026-11-11 13:51 Asia/Ho_Chi_Minh.",
+      "retrievedAt": "2026-11-11T06:51:13.000Z"
+    },
+    {
+      "brand": "Sony",
+      "category": "gaming_console",
+      "model": "PlayStation 5",
+      "sellerName": "Sony Store Online",
+      "variantLabel": "PS5 Slim Disc CFI-2118 A01 / 1TB / 1 controller",
+      "sku": "CFI-2118 A01",
+      "price": 16900000,
+      "productUrl": "https://store.sony.com.vn/collections/ps-console/products/may-ch%C6%A1i-game-playstation-5-slim-cfi-2118-a01-1-tay-c%E1%BA%A7m",
+      "availability": "Sony Store hiển thị nút Thêm vào giỏ hàng và Mua Ngay khi kiểm tra.",
+      "evidence": "Sony Store Online Vietnam lists PlayStation 5 Slim CFI-2118 A01, 1TB with one controller, at 16,900,000 VND and provides Add to Cart and Buy Now actions; retrieved 2026-11-11 13:51 Asia/Ho_Chi_Minh.",
+      "retrievedAt": "2026-11-11T06:51:13.000Z"
+    }
+  ]
+}

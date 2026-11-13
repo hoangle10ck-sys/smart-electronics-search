@@ -1,0 +1,251 @@
+[
+  {
+    "sourceKey": "web-research:intel:core-ultra-9-285k",
+    "brand": "Intel",
+    "family": "Intel Core Ultra Desktop Processors",
+    "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 9 285K",
+    "modelNumber": "285K",
+    "name": "Intel Core Ultra 9 Processor 285K",
+    "category": "cpu",
+    "releaseYear": 2024,
+    "productStatus": "active",
+    "description": "Unlocked desktop processor in Intel Core Ultra Processors Series 2.",
+    "specifications": { "cores": 24, "performanceCores": 8, "efficientCores": 16, "threads": 24, "maxTurboFrequency": "5.7 GHz", "performanceCoreMaxTurbo": "5.5 GHz", "efficientCoreMaxTurbo": "4.6 GHz", "l3Cache": "36 MB", "l2Cache": "40 MB", "processorBasePower": "125 W", "maximumTurboPower": "250 W", "integratedGraphics": true },
+    "variants": [],
+    "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241060/intel-core-ultra-9-processor-285k-36m-cache-up-to-5-70-ghz/specifications.html",
+    "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241060/intel-core-ultra-9-processor-285k-36m-cache-up-to-5-70-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241060/intel-core-ultra-9-processor-285k-36m-cache-up-to-5-70-ghz/specifications.html", "notes": "Intel identifies the exact Processor Number 285K and Intel Core Ultra Processors (Series 2) product collection." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241060/intel-core-ultra-9-processor-285k-36m-cache-up-to-5-70-ghz/specifications.html", "notes": "Exact-model Intel product record; processor is in the Desktop segment and Marketing Status is Launched." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241060/intel-core-ultra-9-processor-285k-36m-cache-up-to-5-70-ghz/specifications.html", "notes": "Per-model record confirms core/thread counts, turbo clocks, cache, processor power and integrated Intel Graphics." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra desktop product brief", "sourceUrl": "https://www.intel.com/content/www/us/en/products/docs/processors/core-ultra/core-ultra-desktop-processors-series-2-brief.html", "notes": "Intel's Series 2 desktop brief lists this exact 285K processor in the K-SKU table." }
+    ],
+    "imageCandidate": null,
+    "reasons": ["No exact-model image with verified usage permission has been selected; keep this record private pending an image search, visual identity check and license review."]
+  },
+  {
+    "sourceKey": "web-research:intel:core-ultra-9-285",
+    "brand": "Intel", "family": "Intel Core Ultra Desktop Processors", "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 9 285", "modelNumber": "285", "name": "Intel Core Ultra 9 Processor 285", "category": "cpu", "releaseYear": 2025, "productStatus": "active",
+    "description": "Desktop processor in Intel Core Ultra Processors Series 2.",
+    "specifications": { "cores": 24, "performanceCores": 8, "efficientCores": 16, "threads": 24, "maxTurboFrequency": "5.6 GHz", "performanceCoreMaxTurbo": "5.4 GHz", "efficientCoreMaxTurbo": "4.6 GHz", "performanceCoreBase": "2.5 GHz", "efficientCoreBase": "1.9 GHz", "l3Cache": "36 MB", "l2Cache": "40 MB", "processorBasePower": "65 W", "maximumTurboPower": "182 W", "integratedGraphics": true },
+    "variants": [], "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241061/intel-core-ultra-9-processor-285-36m-cache-up-to-5-60-ghz/specifications.html", "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241061/intel-core-ultra-9-processor-285-36m-cache-up-to-5-60-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241061/intel-core-ultra-9-processor-285-36m-cache-up-to-5-60-ghz/specifications.html", "notes": "Exact Processor Number 285; Intel identifies the Series 2 collection and Arrow Lake codename." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241061/intel-core-ultra-9-processor-285-36m-cache-up-to-5-60-ghz/specifications.html", "notes": "Exact-model product record lists Desktop segment and Marketing Status Launched." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241061/intel-core-ultra-9-processor-285-36m-cache-up-to-5-60-ghz/specifications.html", "notes": "Per-SKU specifications confirm 24 cores, 24 threads, frequencies, cache, power and integrated graphics." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra desktop product brief", "sourceUrl": "https://www.intel.com/content/www/us/en/products/docs/processors/core-ultra/core-ultra-desktop-processors-series-2-brief.html", "notes": "Intel includes the 285 in the Series 2 desktop Mainstream SKU table." }
+    ], "imageCandidate": null, "reasons": ["No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."]
+  },
+  {
+    "sourceKey": "web-research:intel:core-ultra-9-285t",
+    "brand": "Intel", "family": "Intel Core Ultra Desktop Processors", "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 9 285T", "modelNumber": "285T", "name": "Intel Core Ultra 9 Processor 285T", "category": "cpu", "releaseYear": 2025, "productStatus": "active",
+    "description": "35 W base-power desktop processor in Intel Core Ultra Processors Series 2.",
+    "specifications": { "cores": 24, "performanceCores": 8, "efficientCores": 16, "threads": 24, "maxTurboFrequency": "5.4 GHz", "performanceCoreMaxTurbo": "5.3 GHz", "efficientCoreMaxTurbo": "4.6 GHz", "performanceCoreBase": "1.4 GHz", "efficientCoreBase": "1.2 GHz", "l3Cache": "36 MB", "l2Cache": "40 MB", "processorBasePower": "35 W", "integratedGraphics": true },
+    "variants": [], "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241059/intel-core-ultra-9-processor-285t-36m-cache-up-to-5-40-ghz/specifications.html", "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241059/intel-core-ultra-9-processor-285t-36m-cache-up-to-5-40-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241059/intel-core-ultra-9-processor-285t-36m-cache-up-to-5-40-ghz/specifications.html", "notes": "Exact Processor Number 285T and Series 2 product collection are stated by Intel." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241059/intel-core-ultra-9-processor-285t-36m-cache-up-to-5-40-ghz/specifications.html", "notes": "Exact-model desktop record; Intel lists Marketing Status Launched." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241059/intel-core-ultra-9-processor-285t-36m-cache-up-to-5-40-ghz/specifications.html", "notes": "Per-model record confirms 24 cores/threads, clocks, cache and 35 W processor base power." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra desktop product brief", "sourceUrl": "https://www.intel.com/content/www/us/en/products/docs/processors/core-ultra/core-ultra-desktop-processors-series-2-brief.html", "notes": "Intel lists 285T in the Series 2 desktop product family." }
+    ], "imageCandidate": null, "reasons": ["No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."]
+  },
+  {
+    "sourceKey": "web-research:intel:core-ultra-7-265k",
+    "brand": "Intel", "family": "Intel Core Ultra Desktop Processors", "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 7 265K", "modelNumber": "265K", "name": "Intel Core Ultra 7 Processor 265K", "category": "cpu", "releaseYear": 2024, "productStatus": "active",
+    "description": "Unlocked desktop processor in Intel Core Ultra Processors Series 2.",
+    "specifications": { "cores": 20, "performanceCores": 8, "efficientCores": 12, "threads": 20, "maxTurboFrequency": "5.5 GHz", "performanceCoreMaxTurbo": "5.4 GHz", "efficientCoreMaxTurbo": "4.6 GHz", "performanceCoreBase": "3.9 GHz", "efficientCoreBase": "3.3 GHz", "l3Cache": "30 MB", "l2Cache": "36 MB", "processorBasePower": "125 W", "maximumTurboPower": "250 W", "integratedGraphics": true },
+    "variants": [], "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241063/intel-core-ultra-7-processor-265k-30m-cache-up-to-5-50-ghz/specifications.html", "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241063/intel-core-ultra-7-processor-265k-30m-cache-up-to-5-50-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241063/intel-core-ultra-7-processor-265k-30m-cache-up-to-5-50-ghz/specifications.html", "notes": "Intel identifies the exact 265K processor number and Series 2 collection." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241063/intel-core-ultra-7-processor-265k-30m-cache-up-to-5-50-ghz/specifications.html", "notes": "Exact-model desktop product record; listed as Launched." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241063/intel-core-ultra-7-processor-265k-30m-cache-up-to-5-50-ghz/specifications.html", "notes": "Per-model record confirms core/thread counts, clocks, caches and processor power." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra desktop product brief", "sourceUrl": "https://www.intel.com/content/www/us/en/products/docs/processors/core-ultra/core-ultra-desktop-processors-series-2-brief.html", "notes": "Intel's Series 2 K-SKU chart lists the 265K processor." }
+    ], "imageCandidate": null, "reasons": ["No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."]
+  },
+  {
+    "sourceKey": "web-research:intel:core-ultra-7-265kf",
+    "brand": "Intel", "family": "Intel Core Ultra Desktop Processors", "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 7 265KF", "modelNumber": "265KF", "name": "Intel Core Ultra 7 Processor 265KF", "category": "cpu", "releaseYear": 2024, "productStatus": "active",
+    "description": "Unlocked desktop processor without integrated graphics in Intel Core Ultra Processors Series 2.",
+    "specifications": { "cores": 20, "performanceCores": 8, "efficientCores": 12, "threads": 20, "maxTurboFrequency": "5.5 GHz", "performanceCoreMaxTurbo": "5.4 GHz", "efficientCoreMaxTurbo": "4.6 GHz", "performanceCoreBase": "3.9 GHz", "efficientCoreBase": "3.3 GHz", "l3Cache": "30 MB", "l2Cache": "36 MB", "processorBasePower": "125 W", "maximumTurboPower": "250 W", "integratedGraphics": false },
+    "variants": [], "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241062/intel-core-ultra-7-processor-265kf-30m-cache-up-to-5-50-ghz/specifications.html", "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241062/intel-core-ultra-7-processor-265kf-30m-cache-up-to-5-50-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241062/intel-core-ultra-7-processor-265kf-30m-cache-up-to-5-50-ghz/specifications.html", "notes": "Intel identifies exact 265KF processor number, Series 2 collection and desktop segment." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241062/intel-core-ultra-7-processor-265kf-30m-cache-up-to-5-50-ghz/specifications.html", "notes": "Exact-model Intel product record with Marketing Status Launched." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241062/intel-core-ultra-7-processor-265kf-30m-cache-up-to-5-50-ghz/specifications.html", "notes": "Per-model record confirms 20 cores/threads, frequencies and caches; Intel's Series 2 brief distinguishes KF graphics as N/A." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra desktop product brief", "sourceUrl": "https://www.intel.com/content/www/us/en/products/docs/processors/core-ultra/core-ultra-desktop-processors-series-2-brief.html", "notes": "Intel lists 265KF in the Series 2 desktop K-SKU table." }
+    ], "imageCandidate": null, "reasons": ["No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."]
+  },
+  {
+    "sourceKey": "web-research:intel:core-ultra-7-265f",
+    "brand": "Intel", "family": "Intel Core Ultra Desktop Processors", "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 7 265F", "modelNumber": "265F", "name": "Intel Core Ultra 7 Processor 265F", "category": "cpu", "releaseYear": 2025, "productStatus": "active",
+    "description": "Desktop processor without integrated graphics in Intel Core Ultra Processors Series 2.",
+    "specifications": { "cores": 20, "performanceCores": 8, "efficientCores": 12, "threads": 20, "maxTurboFrequency": "5.3 GHz", "performanceCoreMaxTurbo": "5.2 GHz", "efficientCoreMaxTurbo": "4.6 GHz", "performanceCoreBase": "2.4 GHz", "efficientCoreBase": "1.8 GHz", "l3Cache": "30 MB", "l2Cache": "36 MB", "processorBasePower": "65 W", "integratedGraphics": false },
+    "variants": [], "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241064/intel-core-ultra-7-processor-265f-30m-cache-up-to-5-30-ghz/specifications.html", "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241064/intel-core-ultra-7-processor-265f-30m-cache-up-to-5-30-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241064/intel-core-ultra-7-processor-265f-30m-cache-up-to-5-30-ghz/specifications.html", "notes": "Intel identifies exact 265F processor number and Series 2 product collection." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241064/intel-core-ultra-7-processor-265f-30m-cache-up-to-5-30-ghz/specifications.html", "notes": "Exact-model desktop record; Intel lists Marketing Status Launched." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241064/intel-core-ultra-7-processor-265f-30m-cache-up-to-5-30-ghz/specifications.html", "notes": "Per-model record confirms 20 cores/threads, max clocks and cache; Intel Series 2 chart lists processor graphics as N/A." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra desktop product brief", "sourceUrl": "https://www.intel.com/content/www/us/en/products/docs/processors/core-ultra/core-ultra-desktop-processors-series-2-brief.html", "notes": "Intel lists 265F in the Series 2 desktop Mainstream SKU table." }
+    ], "imageCandidate": null, "reasons": ["No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."]
+  },
+  {
+    "sourceKey": "web-research:intel:core-ultra-7-265",
+    "brand": "Intel", "family": "Intel Core Ultra Desktop Processors", "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 7 265", "modelNumber": "265", "name": "Intel Core Ultra 7 Processor 265", "category": "cpu", "releaseYear": 2025, "productStatus": "active",
+    "description": "Desktop processor in Intel Core Ultra Processors Series 2.",
+    "specifications": { "cores": 20, "performanceCores": 8, "efficientCores": 12, "threads": 20, "maxTurboFrequency": "5.3 GHz", "performanceCoreMaxTurbo": "5.2 GHz", "efficientCoreMaxTurbo": "4.6 GHz", "performanceCoreBase": "2.4 GHz", "efficientCoreBase": "1.8 GHz", "l3Cache": "30 MB", "l2Cache": "36 MB", "processorBasePower": "65 W", "integratedGraphics": true },
+    "variants": [], "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241068/intel-core-ultra-7-processor-265-30m-cache-up-to-5-30-ghz/specifications.html", "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241068/intel-core-ultra-7-processor-265-30m-cache-up-to-5-30-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241068/intel-core-ultra-7-processor-265-30m-cache-up-to-5-30-ghz/specifications.html", "notes": "Exact 265 processor number and Series 2 collection are listed by Intel." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241068/intel-core-ultra-7-processor-265-30m-cache-up-to-5-30-ghz/specifications.html", "notes": "Exact-model desktop product record with Launched marketing status." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241068/intel-core-ultra-7-processor-265-30m-cache-up-to-5-30-ghz/specifications.html", "notes": "Per-model record confirms 20 cores/threads, frequencies, cache and base power." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra desktop product brief", "sourceUrl": "https://www.intel.com/content/www/us/en/products/docs/processors/core-ultra/core-ultra-desktop-processors-series-2-brief.html", "notes": "Intel lists 265 in the Series 2 desktop Mainstream SKU table." }
+    ], "imageCandidate": null, "reasons": ["No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."]
+  },
+  {
+    "sourceKey": "web-research:intel:core-ultra-7-265t",
+    "brand": "Intel", "family": "Intel Core Ultra Desktop Processors", "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 7 265T", "modelNumber": "265T", "name": "Intel Core Ultra 7 Processor 265T", "category": "cpu", "releaseYear": 2025, "productStatus": "active",
+    "description": "35 W base-power desktop processor in Intel Core Ultra Processors Series 2.",
+    "specifications": { "cores": 20, "performanceCores": 8, "efficientCores": 12, "threads": 20, "maxTurboFrequency": "5.3 GHz", "performanceCoreMaxTurbo": "5.2 GHz", "efficientCoreMaxTurbo": "4.6 GHz", "performanceCoreBase": "1.5 GHz", "efficientCoreBase": "1.2 GHz", "l3Cache": "30 MB", "l2Cache": "36 MB", "processorBasePower": "35 W", "integratedGraphics": true },
+    "variants": [], "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241065/intel-core-ultra-7-processor-265t-30m-cache-up-to-5-30-ghz/specifications.html", "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241065/intel-core-ultra-7-processor-265t-30m-cache-up-to-5-30-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241065/intel-core-ultra-7-processor-265t-30m-cache-up-to-5-30-ghz/specifications.html", "notes": "Intel identifies exact Processor Number 265T and Series 2 collection." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241065/intel-core-ultra-7-processor-265t-30m-cache-up-to-5-30-ghz/specifications.html", "notes": "Exact-model desktop record lists the processor as Launched." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241065/intel-core-ultra-7-processor-265t-30m-cache-up-to-5-30-ghz/specifications.html", "notes": "Per-model record confirms 20 cores/threads, clocks, cache and 35 W base power." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra desktop product brief", "sourceUrl": "https://www.intel.com/content/www/us/en/products/docs/processors/core-ultra/core-ultra-desktop-processors-series-2-brief.html", "notes": "Intel's current Series 2 SKU list contains the 265T processor." }
+    ], "imageCandidate": null, "reasons": ["No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."]
+  },
+  {
+    "sourceKey": "web-research:intel:core-ultra-5-245k",
+    "brand": "Intel", "family": "Intel Core Ultra Desktop Processors", "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 5 245K", "modelNumber": "245K", "name": "Intel Core Ultra 5 Processor 245K", "category": "cpu", "releaseYear": 2024, "productStatus": "active",
+    "description": "Unlocked desktop processor in Intel Core Ultra Processors Series 2.",
+    "specifications": { "cores": 14, "performanceCores": 6, "efficientCores": 8, "threads": 14, "maxTurboFrequency": "5.2 GHz", "performanceCoreMaxTurbo": "5.2 GHz", "efficientCoreMaxTurbo": "4.6 GHz", "performanceCoreBase": "4.2 GHz", "efficientCoreBase": "3.6 GHz", "l3Cache": "24 MB", "l2Cache": "26 MB", "processorBasePower": "125 W", "maximumTurboPower": "159 W", "integratedGraphics": true },
+    "variants": [], "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241067/intel-core-ultra-5-processor-245k-24m-cache-up-to-5-20-ghz/specifications.html", "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241067/intel-core-ultra-5-processor-245k-24m-cache-up-to-5-20-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241067/intel-core-ultra-5-processor-245k-24m-cache-up-to-5-20-ghz/specifications.html", "notes": "Exact Processor Number 245K and Series 2 product collection are listed." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241067/intel-core-ultra-5-processor-245k-24m-cache-up-to-5-20-ghz/specifications.html", "notes": "Exact-model desktop record; Intel lists Marketing Status Launched." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241067/intel-core-ultra-5-processor-245k-24m-cache-up-to-5-20-ghz/specifications.html", "notes": "Per-model specifications confirm 14 cores/threads, frequencies, cache and power." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra desktop product brief", "sourceUrl": "https://www.intel.com/content/www/us/en/products/docs/processors/core-ultra/core-ultra-desktop-processors-series-2-brief.html", "notes": "Intel includes the 245K in the Series 2 desktop K-SKU table." }
+    ], "imageCandidate": null, "reasons": ["No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."]
+  },
+  {
+    "sourceKey": "web-research:intel:core-ultra-5-245kf",
+    "brand": "Intel", "family": "Intel Core Ultra Desktop Processors", "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 5 245KF", "modelNumber": "245KF", "name": "Intel Core Ultra 5 Processor 245KF", "category": "cpu", "releaseYear": 2024, "productStatus": "active",
+    "description": "Unlocked desktop processor without integrated graphics in Intel Core Ultra Processors Series 2.",
+    "specifications": { "cores": 14, "performanceCores": 6, "efficientCores": 8, "threads": 14, "maxTurboFrequency": "5.2 GHz", "performanceCoreMaxTurbo": "5.2 GHz", "efficientCoreMaxTurbo": "4.6 GHz", "performanceCoreBase": "4.2 GHz", "efficientCoreBase": "3.6 GHz", "l3Cache": "24 MB", "l2Cache": "26 MB", "processorBasePower": "125 W", "maximumTurboPower": "159 W", "integratedGraphics": false },
+    "variants": [], "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241066/intel-core-ultra-5-processor-245kf-24m-cache-up-to-5-20-ghz/specifications.html", "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241066/intel-core-ultra-5-processor-245kf-24m-cache-up-to-5-20-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241066/intel-core-ultra-5-processor-245kf-24m-cache-up-to-5-20-ghz/specifications.html", "notes": "Intel identifies exact 245KF processor number and Series 2 collection." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241066/intel-core-ultra-5-processor-245kf-24m-cache-up-to-5-20-ghz/specifications.html", "notes": "Exact-model desktop record; Intel lists Marketing Status Launched." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241066/intel-core-ultra-5-processor-245kf-24m-cache-up-to-5-20-ghz/specifications.html", "notes": "Per-model record confirms core/thread counts, clocks, cache, power; Intel's Series 2 table says graphics is N/A." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra desktop product brief", "sourceUrl": "https://www.intel.com/content/www/us/en/products/docs/processors/core-ultra/core-ultra-desktop-processors-series-2-brief.html", "notes": "Intel lists the 245KF in its Series 2 desktop K-SKU chart." }
+    ], "imageCandidate": null, "reasons": ["No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."]
+  },
+  {
+    "sourceKey": "web-research:intel:core-ultra-5-245",
+    "brand": "Intel", "family": "Intel Core Ultra Desktop Processors", "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 5 245", "modelNumber": "245", "name": "Intel Core Ultra 5 Processor 245", "category": "cpu", "releaseYear": 2025, "productStatus": "active",
+    "description": "Desktop processor in Intel Core Ultra Processors Series 2.",
+    "specifications": { "cores": 14, "performanceCores": 6, "efficientCores": 8, "threads": 14, "maxTurboFrequency": "5.1 GHz", "performanceCoreMaxTurbo": "5.1 GHz", "efficientCoreMaxTurbo": "4.5 GHz", "performanceCoreBase": "3.5 GHz", "efficientCoreBase": "2.9 GHz", "l3Cache": "24 MB", "l2Cache": "26 MB", "processorBasePower": "65 W", "maximumTurboPower": "121 W", "integratedGraphics": true },
+    "variants": [], "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241876/intel-core-ultra-5-processor-245-24m-cache-up-to-5-10-ghz/specifications.html", "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241876/intel-core-ultra-5-processor-245-24m-cache-up-to-5-10-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241876/intel-core-ultra-5-processor-245-24m-cache-up-to-5-10-ghz/specifications.html", "notes": "Exact Processor Number 245 and Series 2 collection are identified by Intel." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241876/intel-core-ultra-5-processor-245-24m-cache-up-to-5-10-ghz/specifications.html", "notes": "Exact-model desktop product record; Intel lists Marketing Status Launched." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241876/intel-core-ultra-5-processor-245-24m-cache-up-to-5-10-ghz/specifications.html", "notes": "Per-model specifications confirm 14 cores/threads, clocks, cache and processor power." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra desktop product brief", "sourceUrl": "https://www.intel.com/content/www/us/en/products/docs/processors/core-ultra/core-ultra-desktop-processors-series-2-brief.html", "notes": "Intel includes the 245 in the Series 2 Mainstream SKU table." }
+    ], "imageCandidate": null, "reasons": ["No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."]
+  },
+  {
+    "sourceKey": "web-research:intel:core-ultra-5-245t",
+    "brand": "Intel", "family": "Intel Core Ultra Desktop Processors", "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 5 245T", "modelNumber": "245T", "name": "Intel Core Ultra 5 Processor 245T", "category": "cpu", "releaseYear": 2025, "productStatus": "active",
+    "description": "35 W base-power desktop processor in Intel Core Ultra Processors Series 2.",
+    "specifications": { "cores": 14, "performanceCores": 6, "efficientCores": 8, "threads": 14, "maxTurboFrequency": "5.1 GHz", "performanceCoreMaxTurbo": "5.1 GHz", "efficientCoreMaxTurbo": "4.5 GHz", "performanceCoreBase": "2.2 GHz", "efficientCoreBase": "1.7 GHz", "l3Cache": "24 MB", "l2Cache": "26 MB", "processorBasePower": "35 W", "maximumTurboPower": "114 W", "integratedGraphics": true },
+    "variants": [], "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241874/intel-core-ultra-5-processor-245t-24m-cache-up-to-5-10-ghz/specifications.html", "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241874/intel-core-ultra-5-processor-245t-24m-cache-up-to-5-10-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241874/intel-core-ultra-5-processor-245t-24m-cache-up-to-5-10-ghz/specifications.html", "notes": "Exact Processor Number 245T and Series 2 collection are stated by Intel." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241874/intel-core-ultra-5-processor-245t-24m-cache-up-to-5-10-ghz/specifications.html", "notes": "Exact-model desktop record with Marketing Status Launched." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241874/intel-core-ultra-5-processor-245t-24m-cache-up-to-5-10-ghz/specifications.html", "notes": "Per-model specs confirm 14 cores/threads, turbo/base clocks, cache and 35 W base power." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra desktop product brief", "sourceUrl": "https://www.intel.com/content/www/us/en/products/docs/processors/core-ultra/core-ultra-desktop-processors-series-2-brief.html", "notes": "Intel's Series 2 desktop product table includes this SKU." }
+    ], "imageCandidate": null, "reasons": ["No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."]
+  },
+  {
+    "sourceKey": "web-research:intel:core-ultra-5-235",
+    "brand": "Intel", "family": "Intel Core Ultra Desktop Processors", "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 5 235", "modelNumber": "235", "name": "Intel Core Ultra 5 Processor 235", "category": "cpu", "releaseYear": 2025, "productStatus": "active",
+    "description": "Desktop processor in Intel Core Ultra Processors Series 2.",
+    "specifications": { "cores": 14, "performanceCores": 6, "efficientCores": 8, "threads": 14, "maxTurboFrequency": "5.0 GHz", "performanceCoreMaxTurbo": "5.0 GHz", "efficientCoreMaxTurbo": "4.4 GHz", "performanceCoreBase": "3.4 GHz", "efficientCoreBase": "2.9 GHz", "l3Cache": "24 MB", "l2Cache": "26 MB", "processorBasePower": "65 W", "maximumTurboPower": "121 W", "integratedGraphics": true },
+    "variants": [], "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241674/intel-core-ultra-5-processor-235-24m-cache-up-to-5-00-ghz/specifications.html", "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241674/intel-core-ultra-5-processor-235-24m-cache-up-to-5-00-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241674/intel-core-ultra-5-processor-235-24m-cache-up-to-5-00-ghz/specifications.html", "notes": "Intel identifies Processor Number 235 and the Series 2 collection." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241674/intel-core-ultra-5-processor-235-24m-cache-up-to-5-00-ghz/specifications.html", "notes": "Exact desktop product record with Marketing Status Launched." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241674/intel-core-ultra-5-processor-235-24m-cache-up-to-5-00-ghz/specifications.html", "notes": "Per-model specifications confirm cores, threads, frequencies, cache and power." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra desktop product brief", "sourceUrl": "https://www.intel.com/content/www/us/en/products/docs/processors/core-ultra/core-ultra-desktop-processors-series-2-brief.html", "notes": "Intel lists the 235 model in its Series 2 desktop lineup." }
+    ], "imageCandidate": null, "reasons": ["No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."]
+  },
+  {
+    "sourceKey": "web-research:intel:core-ultra-5-235t",
+    "brand": "Intel", "family": "Intel Core Ultra Desktop Processors", "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 5 235T", "modelNumber": "235T", "name": "Intel Core Ultra 5 Processor 235T", "category": "cpu", "releaseYear": 2025, "productStatus": "active",
+    "description": "35 W base-power desktop processor in Intel Core Ultra Processors Series 2.",
+    "specifications": { "cores": 14, "performanceCores": 6, "efficientCores": 8, "threads": 14, "maxTurboFrequency": "5.0 GHz", "performanceCoreMaxTurbo": "5.0 GHz", "efficientCoreMaxTurbo": "4.4 GHz", "performanceCoreBase": "2.2 GHz", "efficientCoreBase": "1.6 GHz", "l3Cache": "24 MB", "l2Cache": "26 MB", "processorBasePower": "35 W", "maximumTurboPower": "114 W", "integratedGraphics": true },
+    "variants": [], "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241872/intel-core-ultra-5-processor-235t-24m-cache-up-to-5-00-ghz/specifications.html", "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241872/intel-core-ultra-5-processor-235t-24m-cache-up-to-5-00-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241872/intel-core-ultra-5-processor-235t-24m-cache-up-to-5-00-ghz/specifications.html", "notes": "Intel identifies exact Processor Number 235T and Series 2 collection." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241872/intel-core-ultra-5-processor-235t-24m-cache-up-to-5-00-ghz/specifications.html", "notes": "Exact-model desktop product record; status is listed as Launched." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241872/intel-core-ultra-5-processor-235t-24m-cache-up-to-5-00-ghz/specifications.html", "notes": "Per-model record confirms core/thread counts, clocks, cache and 35 W processor base power." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra desktop product brief", "sourceUrl": "https://www.intel.com/content/www/us/en/products/docs/processors/core-ultra/core-ultra-desktop-processors-series-2-brief.html", "notes": "Intel's current Series 2 desktop lineup names the 235T SKU." }
+    ], "imageCandidate": null, "reasons": ["No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."]
+  },
+  {
+    "sourceKey": "web-research:intel:core-ultra-5-225",
+    "brand": "Intel", "family": "Intel Core Ultra Desktop Processors", "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 5 225", "modelNumber": "225", "name": "Intel Core Ultra 5 Processor 225", "category": "cpu", "releaseYear": 2025, "productStatus": "active",
+    "description": "Desktop processor in Intel Core Ultra Processors Series 2.",
+    "specifications": { "cores": 10, "performanceCores": 6, "efficientCores": 4, "threads": 10, "maxTurboFrequency": "4.9 GHz", "performanceCoreMaxTurbo": "4.9 GHz", "efficientCoreMaxTurbo": "4.4 GHz", "performanceCoreBase": "3.3 GHz", "efficientCoreBase": "2.7 GHz", "l3Cache": "20 MB", "l2Cache": "22 MB", "processorBasePower": "65 W", "maximumTurboPower": "121 W", "integratedGraphics": true },
+    "variants": [], "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241070/intel-core-ultra-5-processor-225-20m-cache-up-to-4-90-ghz/specifications.html", "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241070/intel-core-ultra-5-processor-225-20m-cache-up-to-4-90-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241070/intel-core-ultra-5-processor-225-20m-cache-up-to-4-90-ghz/specifications.html", "notes": "Intel identifies exact 225 processor number and Series 2 collection." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241070/intel-core-ultra-5-processor-225-20m-cache-up-to-4-90-ghz/specifications.html", "notes": "Exact-model product record for the desktop segment; Marketing Status Launched." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241070/intel-core-ultra-5-processor-225-20m-cache-up-to-4-90-ghz/specifications.html", "notes": "Per-model record confirms cores, threads, clocks, cache and processor power." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra desktop product brief", "sourceUrl": "https://www.intel.com/content/www/us/en/products/docs/processors/core-ultra/core-ultra-desktop-processors-series-2-brief.html", "notes": "Intel lists 225 in the Series 2 desktop Mainstream SKU chart." }
+    ], "imageCandidate": null, "reasons": ["No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."]
+  },
+  {
+    "sourceKey": "web-research:intel:core-ultra-5-225f",
+    "brand": "Intel", "family": "Intel Core Ultra Desktop Processors", "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 5 225F", "modelNumber": "225F", "name": "Intel Core Ultra 5 Processor 225F", "category": "cpu", "releaseYear": 2025, "productStatus": "active",
+    "description": "Desktop processor without integrated graphics in Intel Core Ultra Processors Series 2.",
+    "specifications": { "cores": 10, "performanceCores": 6, "efficientCores": 4, "threads": 10, "maxTurboFrequency": "4.9 GHz", "performanceCoreMaxTurbo": "4.9 GHz", "efficientCoreMaxTurbo": "4.4 GHz", "performanceCoreBase": "3.3 GHz", "efficientCoreBase": "2.7 GHz", "l3Cache": "20 MB", "l2Cache": "22 MB", "processorBasePower": "65 W", "maximumTurboPower": "121 W", "integratedGraphics": false },
+    "variants": [], "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241069/intel-core-ultra-5-processor-225f-20m-cache-up-to-4-90-ghz/specifications.html", "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241069/intel-core-ultra-5-processor-225f-20m-cache-up-to-4-90-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241069/intel-core-ultra-5-processor-225f-20m-cache-up-to-4-90-ghz/specifications.html", "notes": "Intel identifies exact 225F Processor Number and Series 2 collection." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241069/intel-core-ultra-5-processor-225f-20m-cache-up-to-4-90-ghz/specifications.html", "notes": "Exact-model desktop record; Intel lists it as Launched." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241069/intel-core-ultra-5-processor-225f-20m-cache-up-to-4-90-ghz/specifications.html", "notes": "Per-model record confirms CPU core/thread counts, clocks, cache and power; Intel's lineup table lists no integrated graphics." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra desktop product brief", "sourceUrl": "https://www.intel.com/content/www/us/en/products/docs/processors/core-ultra/core-ultra-desktop-processors-series-2-brief.html", "notes": "Intel includes 225F in its Series 2 desktop lineup." }
+    ], "imageCandidate": null, "reasons": ["No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."]
+  },
+  {
+    "sourceKey": "web-research:intel:core-ultra-5-225t",
+    "brand": "Intel", "family": "Intel Core Ultra Desktop Processors", "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 5 225T", "modelNumber": "225T", "name": "Intel Core Ultra 5 Processor 225T", "category": "cpu", "releaseYear": 2025, "productStatus": "active",
+    "description": "35 W base-power desktop processor in Intel Core Ultra Processors Series 2.",
+    "specifications": { "cores": 10, "performanceCores": 6, "efficientCores": 4, "threads": 10, "maxTurboFrequency": "4.9 GHz", "performanceCoreMaxTurbo": "4.9 GHz", "efficientCoreMaxTurbo": "4.4 GHz", "performanceCoreBase": "2.5 GHz", "efficientCoreBase": "1.9 GHz", "l3Cache": "20 MB", "l2Cache": "22 MB", "processorBasePower": "35 W", "maximumTurboPower": "114 W", "integratedGraphics": true },
+    "variants": [], "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241870/intel-core-ultra-5-processor-225t-20m-cache-up-to-4-90-ghz/specifications.html", "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241870/intel-core-ultra-5-processor-225t-20m-cache-up-to-4-90-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241870/intel-core-ultra-5-processor-225t-20m-cache-up-to-4-90-ghz/specifications.html", "notes": "Intel identifies exact Processor Number 225T and Series 2 collection." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241870/intel-core-ultra-5-processor-225t-20m-cache-up-to-4-90-ghz/specifications.html", "notes": "Exact-model desktop record lists Marketing Status Launched." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241870/intel-core-ultra-5-processor-225t-20m-cache-up-to-4-90-ghz/specifications.html", "notes": "Per-model record confirms cores, threads, clocks, cache and processor base/turbo power." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra desktop product brief", "sourceUrl": "https://www.intel.com/content/www/us/en/products/docs/processors/core-ultra/core-ultra-desktop-processors-series-2-brief.html", "notes": "The current Intel Series 2 desktop lineup lists 225T." }
+    ], "imageCandidate": null, "reasons": ["No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."]
+  }
+]

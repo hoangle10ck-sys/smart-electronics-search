@@ -1,0 +1,714 @@
+[
+  {
+    "sourceKey": "web-research:sony:ps5-slim-disc-cfi-2015a",
+    "brand": "Sony",
+    "family": "PlayStation 5",
+    "generation": "PS5 Slim (CFI-2000 model group)",
+    "model": "PlayStation 5 Slim Disc Edition",
+    "modelNumber": "CFI-2015A",
+    "name": "Sony PlayStation 5 Slim Disc Edition (1 TB, US model)",
+    "category": "gaming_console",
+    "releaseYear": 2023,
+    "productStatus": "unknown",
+    "description": "Compact PlayStation 5 model group with detachable Ultra HD Blu-ray drive and 1 TB custom SSD. Product remains pending until an exact-model image is visually checked.",
+    "specifications": {
+      "cpu": "AMD Ryzen Zen 2, 8 cores / 16 threads",
+      "gpu": "AMD RDNA-based graphics engine, 10 TFLOPS",
+      "memory": "16 GB GDDR6",
+      "storage": "1 TB custom SSD",
+      "discDrive": "Ultra HD Blu-ray disc drive"
+    },
+    "variants": [],
+    "productUrl": "https://www.playstation.com/en-us/ps5/",
+    "specificationSourceUrl": "https://www.playstation.com/content/dam/global_pdc/en/corporate/support/manuals/ps5-docs/2000ab/EN_FR_ES_AMER_CFI-2015_Safety_Guide_Web.pdf",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "PlayStation Blog",
+        "sourceUrl": "https://blog.playstation.com/2023/10/10/new-look-for-ps5-console-this-holiday-season/",
+        "notes": "Sony announced the smaller PS5 model in October 2023, with a 1 TB SSD and US availability beginning November 2023."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "PlayStation",
+        "sourceUrl": "https://www.playstation.com/en-us/ps5/",
+        "notes": "Official console page distinguishes the disc and digital editions and lists current storage configurations."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "PlayStation Safety Guide CFI-2015A/B",
+        "sourceUrl": "https://www.playstation.com/content/dam/global_pdc/en/corporate/support/manuals/ps5-docs/2000ab/EN_FR_ES_AMER_CFI-2015_Safety_Guide_Web.pdf",
+        "notes": "Official US model-family guide identifies CFI-2015 and gives the CPU, GPU, memory, storage, and I/O specifications."
+      },
+      {
+        "evidenceType": "image_candidate_license",
+        "sourceName": "Wikimedia Commons file page",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playstation_5_mod%C3%A8le_slim_(%C3%A9dition_standard_avec_lecteur_de_disque_amovible).png",
+        "notes": "Candidate page caption identifies a PS5 Slim with detachable disc drive and lists CC0 1.0; uploader is Back to our history. The image file was not visually inspected, so no image URL is attached."
+      }
+    ],
+    "imageCandidate": {
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Playstation_5_mod%C3%A8le_slim_(%C3%A9dition_standard_avec_lecteur_de_disque_amovible).png",
+      "license": "CC0 1.0",
+      "author": "Back to our history",
+      "visualIdentityChecked": false
+    },
+    "reasons": [
+      "Exact-model image has not been visually inspected; keep out of public catalog until checked.",
+      "The Commons preview download returned HTTP 429; rate limiting was respected."
+    ]
+  },
+  {
+    "sourceKey": "web-research:meta:quest-3",
+    "brand": "Meta",
+    "family": "Meta Quest",
+    "generation": "Quest 3",
+    "model": "Meta Quest 3",
+    "modelNumber": null,
+    "name": "Meta Quest 3 Mixed Reality Headset",
+    "category": "vr_ar",
+    "releaseYear": 2023,
+    "productStatus": "unknown",
+    "description": "Standalone mixed-reality headset. Storage capacities are represented as variants; product remains pending until an exact-model image is visually checked.",
+    "specifications": {
+      "display": "LCD, 2064 × 2208 pixels per eye",
+      "refreshRate": "up to 120 Hz",
+      "chipset": "Qualcomm Snapdragon XR2 Gen 2",
+      "onBoardMemory": "8 GB",
+      "tracking": "Head and hand tracking"
+    },
+    "variants": [
+      {
+        "name": "128 GB",
+        "attributes": {
+          "storage": "128 GB",
+          "statusNote": "Original launch capacity"
+        }
+      },
+      {
+        "name": "512 GB",
+        "attributes": {
+          "storage": "512 GB"
+        }
+      }
+    ],
+    "productUrl": "https://about.fb.com/news/2023/09/meet-meta-quest-3-mixed-reality-headset/",
+    "specificationSourceUrl": "https://developers.meta.com/vr/essentials/compare-devices/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "Meta Newsroom",
+        "sourceUrl": "https://about.fb.com/news/2023/09/meet-meta-quest-3-mixed-reality-headset/",
+        "notes": "Meta announced Quest 3 on September 27, 2023 and stated October 10 availability with 128 GB and 512 GB capacities."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "Meta Newsroom",
+        "sourceUrl": "https://about.fb.com/news/2023/09/meet-meta-quest-3-mixed-reality-headset/",
+        "notes": "Official device announcement identifies the Meta Quest 3 product and original storage tiers."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "Meta Horizon OS Developers",
+        "sourceUrl": "https://developers.meta.com/vr/essentials/compare-devices/",
+        "notes": "Official comparison lists LCD, 2064 × 2208 resolution per eye, up to 120 Hz, Snapdragon XR2 Gen 2, 8 GB memory, and head/hand tracking."
+      },
+      {
+        "evidenceType": "image",
+        "sourceName": "Wikimedia Commons original image",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Meta_Quest_3_front_View.jpg",
+        "notes": "Downloaded and visually checked the 5472 ? 3648 original on 2026-11-11. The beige headset front, three vertical sensor/camera cutouts, and white Touch Plus controllers match Meta Quest 3; no model text is visible. The file page identifies this image with the exact product model."
+      },
+      {
+        "evidenceType": "image_rights",
+        "sourceName": "Wikimedia Commons file page",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meta_Quest_3_front_View.jpg",
+        "notes": "Roy.wonder.cohen is named as author; the page states CC BY-SA 4.0. Attribution and license URL are stored on the candidate."
+      }
+    ],
+    "imageCandidate": {
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Meta_Quest_3_front_View.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Roy.wonder.cohen",
+      "visualIdentityChecked": true,
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Meta_Quest_3_front_View.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Photo by Roy.wonder.cohen, ?Meta Quest 3 front View.jpg?, CC BY-SA 4.0, via Wikimedia Commons. No changes made.",
+      "notes": "Downloaded and visually checked the 5472 ? 3648 original on 2026-11-11. The beige headset front, three vertical sensor/camera cutouts, and white Touch Plus controllers match Meta Quest 3; no model text is visible.",
+      "visualReviewNotes": "Downloaded and visually checked the 5472 ? 3648 original on 2026-11-11. The beige headset front, three vertical sensor/camera cutouts, and white Touch Plus controllers match Meta Quest 3; no model text is visible."
+    },
+    "reasons": [
+      "Image and reuse evidence reviewed; ready for verified product upsert after live manufacturer URL checks."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "verified",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending"
+  },
+  {
+    "sourceKey": "web-research:dji:mini-4-pro",
+    "brand": "DJI",
+    "family": "DJI Mini",
+    "generation": "Mini 4",
+    "model": "DJI Mini 4 Pro",
+    "modelNumber": null,
+    "name": "DJI Mini 4 Pro",
+    "category": "drone",
+    "releaseYear": 2023,
+    "productStatus": "unknown",
+    "description": "Sub-249 g camera drone with omnidirectional obstacle sensing. Standard-battery weight and flight time are distinguished from the heavier optional Battery Plus configuration.",
+    "specifications": {
+      "weight": "Less than 249 g with standard Intelligent Flight Battery",
+      "cameraSensor": "1/1.3-inch CMOS",
+      "effectivePixels": "48 MP",
+      "lensEquivalent": "24 mm",
+      "aperture": "f/1.7",
+      "maxFlightTime": "34 minutes with standard Intelligent Flight Battery; 45 minutes with Intelligent Flight Battery Plus"
+    },
+    "variants": [],
+    "productUrl": "https://www.dji.com/mini-4-pro",
+    "specificationSourceUrl": "https://www.dji.com/mini-4-pro/specs",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "DJI News",
+        "sourceUrl": "https://www.dji.com/media-center/announcements/unlock-creativity-with-dji-mini-4-pro-all-in-one-aerial-solution",
+        "notes": "DJI introduced Mini 4 Pro on September 25, 2023 and stated orders were available immediately."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "DJI",
+        "sourceUrl": "https://www.dji.com/mini-4-pro",
+        "notes": "Official model product page."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "DJI",
+        "sourceUrl": "https://www.dji.com/mini-4-pro/specs",
+        "notes": "Official specifications give standard aircraft weight under 249 g, a 1/1.3-inch 48 MP camera, 24 mm equivalent f/1.7 lens, and configuration-specific maximum flight times."
+      },
+      {
+        "evidenceType": "image",
+        "sourceName": "Wikimedia Commons original image",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/2024_Dron_DJI_Mini_4_Pro_%2817%29.jpg",
+        "notes": "Downloaded and visually checked the 4492 ? 2780 original on 2026-11-11. The ?MINI 4 PRO? model marking is visible on the drone arm. The file page identifies this image with the exact product model."
+      },
+      {
+        "evidenceType": "image_rights",
+        "sourceName": "Wikimedia Commons file page",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024_Dron_DJI_Mini_4_Pro_(17).jpg",
+        "notes": "Jacek Halicki is named as author; the page states CC BY-SA 4.0. Attribution and license URL are stored on the candidate."
+      }
+    ],
+    "imageCandidate": {
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:2024_Dron_DJI_Mini_4_Pro_(17).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Jacek Halicki",
+      "visualIdentityChecked": true,
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/2024_Dron_DJI_Mini_4_Pro_%2817%29.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Photo by Jacek Halicki, ?2024 Dron DJI Mini 4 Pro (17).jpg?, CC BY-SA 4.0, via Wikimedia Commons. No changes made.",
+      "notes": "DJI Mini 4 Pro: downloaded and visually checked the 4492 ? 2780 original on 2026-11-11; the MINI 4 PRO model marking is visible on the drone arm.",
+      "visualReviewNotes": "DJI Mini 4 Pro: downloaded and visually checked the 4492 ? 2780 original on 2026-11-11; the MINI 4 PRO model marking is visible on the drone arm."
+    },
+    "reasons": [
+      "Image and reuse evidence reviewed; ready for verified product upsert after live manufacturer URL checks."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "verified",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending"
+  },
+  {
+    "sourceKey": "web-research:amazon:kindle-paperwhite-12th-gen-16gb",
+    "brand": "Amazon",
+    "family": "Kindle Paperwhite",
+    "generation": "12th Generation (2024)",
+    "model": "Kindle Paperwhite 16 GB",
+    "modelNumber": null,
+    "name": "Amazon Kindle Paperwhite (12th Generation, 16 GB)",
+    "category": "ereader",
+    "releaseYear": 2024,
+    "productStatus": "unknown",
+    "description": "12th-generation 16 GB e-reader with a 7-inch 300 ppi display, adjustable warm light, waterproof construction, USB-C, and up to 12 weeks of stated battery life.",
+    "specifications": {
+      "display": "7-inch glare-free E Ink",
+      "resolutionDensity": "300 ppi",
+      "storage": "16 GB (approximately 11.5 GB available to user)",
+      "batteryLife": "Up to 12 weeks (manufacturer statement)",
+      "waterResistance": "IPX8",
+      "chargingPort": "USB-C",
+      "lighting": "Adjustable warm light"
+    },
+    "variants": [],
+    "productUrl": "https://press.aboutamazon.com/2024/10/amazon-launches-entirely-new-kindle-lineup-including-reimagined-kindle-scribe-and-first-ever-color-kindle",
+    "specificationSourceUrl": "https://digprjsurvey.amazon.com/csad/help/node/Tnx3eeuXDtZL0Q91ms",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "Amazon Kindle Support",
+        "sourceUrl": "https://digprjsurvey.amazon.com/csad/help/node/Tnx3eeuXDtZL0Q91ms",
+        "notes": "Amazon identifies Kindle Paperwhite 12th Generation as released in 2024 and lists the 16 GB configuration."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "Amazon Press Center",
+        "sourceUrl": "https://press.aboutamazon.com/2024/10/amazon-launches-entirely-new-kindle-lineup-including-reimagined-kindle-scribe-and-first-ever-color-kindle",
+        "notes": "Official 2024 device announcement describes the new Kindle Paperwhite, 7-inch display, 16 GB, waterproofing, and up to three months of battery life."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "Amazon Kindle Support",
+        "sourceUrl": "https://digprjsurvey.amazon.com/csad/help/node/Tnx3eeuXDtZL0Q91ms",
+        "notes": "Official device identification page lists generation, USB-C, warm light, IPX8, 16 GB storage, and up to 12 weeks battery life; the 7-inch/300 ppi display is also confirmed by Amazon's 2024 press release."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with documented reuse permission has been selected; keep out of public catalog until image and rights are verified."
+    ]
+  },
+  {
+    "sourceKey": "web-research:epson:epiqvision-mini-ef21",
+    "brand": "Epson",
+    "family": "EpiqVision Mini",
+    "generation": "EF21 (2024 model)",
+    "model": "EpiqVision Mini EF21",
+    "modelNumber": "V11HB35020",
+    "name": "Epson EpiqVision Mini EF21 Smart Portable Streaming Laser Projector",
+    "category": "projector",
+    "releaseYear": 2024,
+    "productStatus": "unknown",
+    "description": "Portable smart laser projector with built-in Google TV and Full HD HDR projection.",
+    "specifications": {
+      "resolution": "1920 × 1080 (Full HD)",
+      "brightness": "1000 lumens white and 1000 lumens color",
+      "contrast": "5,000,000:1 with Dynamic Contrast",
+      "imageSize": "30–150 inches",
+      "audio": "2 × 5 W stereo speakers",
+      "operatingSystem": "Google TV"
+    },
+    "variants": [],
+    "productUrl": "https://news.epson.com/news/epiqvision-mini-ef22-ef21-portable-projectors",
+    "specificationSourceUrl": "https://files.support.epson.com/docid/cpd6/cpd64708/source/specifications/reference/ef21_22/spex_general_ef21_22.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "Epson Newsroom",
+        "sourceUrl": "https://news.epson.com/news/epiqvision-mini-ef22-ef21-portable-projectors",
+        "notes": "Epson announced EF21 on October 1, 2024 and described its portable projector family, Full HD HDR picture, and availability."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "Epson Newsroom",
+        "sourceUrl": "https://news.epson.com/news/epiqvision-mini-ef22-ef21-portable-projectors",
+        "notes": "Official product-family announcement names the EF21 and its built-in Google TV and smart projector positioning."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "Epson Support EF21/EF22 User Guide",
+        "sourceUrl": "https://files.support.epson.com/docid/cpd6/cpd64708/source/specifications/reference/ef21_22/spex_general_ef21_22.html",
+        "notes": "Manufacturer specifications list native resolution, brightness, dynamic contrast, image size, and EF21 speaker output."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with documented reuse permission has been selected; keep out of public catalog until image and rights are verified."
+    ]
+  },
+  {
+    "sourceKey": "web-research:brother:hl-l2460dw",
+    "brand": "Brother",
+    "family": "HL-L laser printer series",
+    "generation": null,
+    "model": "HL-L2460DW",
+    "modelNumber": "HLL2460DW",
+    "name": "Brother HL-L2460DW Wireless Compact Monochrome Laser Printer",
+    "category": "printer_scanner",
+    "releaseYear": null,
+    "productStatus": "unknown",
+    "description": "Compact monochrome laser printer with automatic duplex printing and wired/wireless network connectivity.",
+    "specifications": {
+      "printTechnology": "Monochrome laser",
+      "printSpeed": "Up to 36 pages per minute",
+      "printResolution": "1200 × 1200 dpi",
+      "paperCapacity": "250 sheets plus single-sheet manual feed",
+      "memory": "128 MB",
+      "duplex": "Automatic two-sided printing",
+      "connectivity": "Ethernet, dual-band Wi-Fi, Hi-Speed USB 2.0"
+    },
+    "variants": [],
+    "productUrl": "https://www.brother-usa.com/p/laser-printers/HLL2460DW?Condition=New",
+    "specificationSourceUrl": "https://www.brother-usa.com/p/laser-printers/HLL2460DW?Condition=New",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "Brother USA",
+        "sourceUrl": "https://www.brother-usa.com/p/laser-printers/HLL2460DW?Condition=New",
+        "notes": "Official Brother page identifies model HL-L2460DW and the monochrome printer category."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "Brother USA",
+        "sourceUrl": "https://www.brother-usa.com/p/laser-printers/HLL2460DW?Condition=New",
+        "notes": "Manufacturer product page provides the model's product description and connectivity."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "Brother USA",
+        "sourceUrl": "https://www.brother-usa.com/p/laser-printers/HLL2460DW?Condition=New",
+        "notes": "Official product specifications list 36 ppm, 1200 × 1200 dpi, 250-sheet input capacity, 128 MB memory, duplex, and interfaces."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with documented reuse permission has been selected; keep out of public catalog until image and rights are verified.",
+      "Brother's opened product and specification pages do not identify a model generation."
+    ]
+  },
+  {
+    "sourceKey": "web-research:synology:diskstation-ds224-plus",
+    "brand": "Synology",
+    "family": "DiskStation",
+    "generation": null,
+    "model": "DiskStation DS224+",
+    "modelNumber": "DS224+",
+    "name": "Synology DiskStation DS224+ 2-Bay NAS",
+    "category": "nas",
+    "releaseYear": 2023,
+    "productStatus": "unknown",
+    "description": "Two-bay desktop NAS announced for small teams and edge deployments; disk drives are not included.",
+    "specifications": {
+      "cpu": "Intel Celeron J4125, 4 cores / 4 threads, 2.0 GHz base / 2.7 GHz turbo",
+      "memory": "2 GB DDR4 non-ECC, expandable to 6 GB",
+      "driveBays": "2 × 3.5-inch SATA HDD or 2.5-inch SATA SSD",
+      "network": "2 × 1GbE RJ-45",
+      "usb": "2 × USB 3.2 Gen 1",
+      "dimensions": "165 × 108 × 232.2 mm",
+      "weight": "1.30 kg"
+    },
+    "variants": [],
+    "productUrl": "https://www.synology.com/en-us/products/DS224%2B",
+    "specificationSourceUrl": "https://global.download.synology.com/download/Document/Hardware/DataSheet/DiskStation/24-year/DS224%2B/enu/DS224%2B_Data_Sheet_enu.pdf",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "Synology Newsroom",
+        "sourceUrl": "https://www.synology.com/en-us/company/news/article/DS224p_DS124/SynologyR%20",
+        "notes": "Synology announced DiskStation DS224+ on August 9, 2023."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "Synology",
+        "sourceUrl": "https://www.synology.com/en-us/products/DS224%2B",
+        "notes": "Official product page identifies DiskStation DS224+ and its hardware specifications."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "Synology DS224+ Datasheet",
+        "sourceUrl": "https://global.download.synology.com/download/Document/Hardware/DataSheet/DiskStation/24-year/DS224%2B/enu/DS224%2B_Data_Sheet_enu.pdf",
+        "notes": "Official datasheet lists CPU, memory, compatible drive bays, I/O, dimensions, and weight."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with documented reuse permission has been selected; keep out of public catalog until image and rights are verified.",
+      "Synology identifies the 2023 DS224+ model but does not give it a separate generation label."
+    ]
+  },
+  {
+    "sourceKey": "web-research:google:nest-hub-2nd-gen",
+    "brand": "Google",
+    "family": "Nest Hub",
+    "generation": "2nd Generation (2021)",
+    "model": "Nest Hub (2nd Gen)",
+    "modelNumber": null,
+    "name": "Google Nest Hub (2nd Generation)",
+    "category": "smart_home",
+    "releaseYear": 2021,
+    "productStatus": "unknown",
+    "description": "Smart display with a 7-inch touchscreen, full-range speaker, far-field microphones, and Soli-based Sleep Sensing.",
+    "specifications": {
+      "display": "7-inch touchscreen, 1024 × 600",
+      "speaker": "Full-range speaker with 43.5 mm driver",
+      "microphones": "3 far-field microphones",
+      "sensing": "Soli radar sensor for Motion Sense / Sleep Sensing",
+      "dimensions": "120.4 × 177.4 × 69.5 mm",
+      "weight": "558 g"
+    },
+    "variants": [
+      {
+        "name": "Chalk",
+        "attributes": {
+          "color": "Chalk"
+        }
+      },
+      {
+        "name": "Charcoal",
+        "attributes": {
+          "color": "Charcoal"
+        }
+      }
+    ],
+    "productUrl": "https://store.google.com/product/nest_hub_2nd_gen?hl=en-US",
+    "specificationSourceUrl": "https://store.google.com/product/nest_hub_2nd_gen_specs?hl=en-US",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "Google Blog",
+        "sourceUrl": "https://blog.google/intl/en-au/products/devices-services/new-nest-hub/",
+        "notes": "Google introduced the second-generation Nest Hub on March 17, 2021."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "Google Store",
+        "sourceUrl": "https://store.google.com/product/nest_hub_2nd_gen?hl=en-US",
+        "notes": "Official store product page identifies Nest Hub (2nd gen) and smart-home functionality."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "Google Store",
+        "sourceUrl": "https://store.google.com/product/nest_hub_2nd_gen_specs?hl=en-US",
+        "notes": "Google Store technical specifications list display, dimensions, weight, speaker, and microphones."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with documented reuse permission has been selected; keep out of public catalog until image and rights are verified."
+    ]
+  },
+  {
+    "sourceKey": "web-research:apc:back-ups-pro-br1500ms2",
+    "brand": "APC by Schneider Electric",
+    "family": "Back-UPS Pro",
+    "generation": null,
+    "model": "Back-UPS Pro BR1500MS2",
+    "modelNumber": "BR1500MS2",
+    "name": "APC Back-UPS Pro BR1500MS2 1500VA/900W UPS",
+    "category": "ups",
+    "releaseYear": null,
+    "productStatus": "unknown",
+    "description": "Line-interactive tower UPS with sine-wave output, automatic voltage regulation, LCD status display, and user-replaceable battery.",
+    "specifications": {
+      "topology": "Line interactive",
+      "ratedCapacity": "1500 VA / 900 W",
+      "outputWaveform": "Sine wave",
+      "outlets": "10 × NEMA 5-15R (6 battery backup + surge, 4 surge-only)",
+      "voltage": "120 V AC",
+      "usbCharging": "USB Type-A + USB Type-C",
+      "transferTime": "8 ms typical, 10 ms maximum"
+    },
+    "variants": [],
+    "productUrl": "https://www.se.com/us/en/product/BR1500MS2/apc-backups-pro-1500va-900w-tower-120v-10x-nema-515r-outlets-avr-usb-type-a-%2B-c-ports-lcd-user-replaceable-battery/",
+    "specificationSourceUrl": "https://www.se.com/us/en/product/BR1500MS2/apc-backups-pro-1500va-900w-tower-120v-10x-nema-515r-outlets-avr-usb-type-a-%2B-c-ports-lcd-user-replaceable-battery/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "Schneider Electric",
+        "sourceUrl": "https://www.se.com/us/en/product/BR1500MS2/apc-backups-pro-1500va-900w-tower-120v-10x-nema-515r-outlets-avr-usb-type-a-%2B-c-ports-lcd-user-replaceable-battery/",
+        "notes": "Official Schneider Electric page identifies APC Back-UPS Pro BR1500MS2 and marks the product available."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "Schneider Electric",
+        "sourceUrl": "https://www.se.com/us/en/product/BR1500MS2/apc-backups-pro-1500va-900w-tower-120v-10x-nema-515r-outlets-avr-usb-type-a-%2B-c-ports-lcd-user-replaceable-battery/",
+        "notes": "Official product page describes UPS topology, battery, AVR, LCD, and USB charging."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "Schneider Electric",
+        "sourceUrl": "https://www.se.com/us/en/product/BR1500MS2/apc-backups-pro-1500va-900w-tower-120v-10x-nema-515r-outlets-avr-usb-type-a-%2B-c-ports-lcd-user-replaceable-battery/",
+        "notes": "Official specifications list rated capacity, outlet counts, waveform, voltage, USB ports, and transfer time."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with documented reuse permission has been selected; keep out of public catalog until image and rights are verified.",
+      "Schneider Electric identifies the BR1500MS2 model but does not specify a product generation."
+    ]
+  },
+  {
+    "sourceKey": "web-research:shure:sm7b",
+    "brand": "Shure",
+    "family": "SM Series",
+    "generation": null,
+    "model": "SM7B",
+    "modelNumber": "SM7B",
+    "name": "Shure SM7B Cardioid Dynamic Microphone",
+    "category": "microphone",
+    "releaseYear": null,
+    "productStatus": "unknown",
+    "description": "Dynamic cardioid studio microphone for voice, broadcast, and recording use with selectable bass roll-off and presence response.",
+    "specifications": {
+      "transducerType": "Dynamic",
+      "polarPattern": "Cardioid",
+      "frequencyResponse": "50 Hz to 20 kHz",
+      "impedance": "150 ohms",
+      "output": "3-pin XLR",
+      "weight": "0.764 kg"
+    },
+    "variants": [],
+    "productUrl": "https://www.shure.com/en-US/products/microphones/sm7b?prod=sm7b",
+    "specificationSourceUrl": "https://www.shure.com/en-US/docs/guide/SM7B",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "Shure",
+        "sourceUrl": "https://www.shure.com/en-US/products/microphones/sm7b?prod=sm7b",
+        "notes": "Official Shure product page identifies model SM7B as a dynamic vocal microphone for professional audio applications."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "Shure",
+        "sourceUrl": "https://www.shure.com/en-US/products/microphones/sm7b?prod=sm7b",
+        "notes": "Official product page lists the SM7B SKU and product construction/features."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "Shure SM7B User Guide",
+        "sourceUrl": "https://www.shure.com/en-US/docs/guide/SM7B",
+        "notes": "Official model-specific HTML guide confirms dynamic transducer, cardioid pattern, 50 Hz to 20 kHz frequency response, 150 ohm impedance, XLR connector, and 0.764 kg weight."
+      },
+      {
+        "evidenceType": "specifications_reference",
+        "sourceName": "Shure SM7B Spec Sheet",
+        "sourceUrl": "https://content-files.shure.com/publications/specSheet/en/sm7b-spec-sheet.pdf",
+        "notes": "Official PDF reference also lists the model and technical specifications; its weight figure is reported differently from the current user guide, so the catalog value follows the current HTML guide."
+      },
+      {
+        "evidenceType": "image",
+        "sourceName": "Wikimedia Commons original image",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Marius_Bear_SM7B.jpg",
+        "notes": "Downloaded and visually inspected the 1122 x 838 original on 2026-11-11. Shure logo, SM7-series microphone body, yoke, and windscreen are visible; the Commons file page identifies this exact microphone as an SM7B."
+      },
+      {
+        "evidenceType": "image",
+        "sourceName": "Wikimedia Commons file page",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marius_Bear_SM7B.jpg",
+        "notes": "The file page caption explicitly identifies the microphone as a Shure SM7B used in an interview."
+      },
+      {
+        "evidenceType": "image_rights",
+        "sourceName": "Wikimedia Commons file page",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marius_Bear_SM7B.jpg",
+        "notes": "Christoph Soltmannowski is credited as author and the file page lists CC BY 3.0. Attribution and license URL are stored on the image candidate."
+      }
+    ],
+    "imageCandidate": {
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Marius_Bear_SM7B.jpg",
+      "license": "CC BY 3.0",
+      "author": "Christoph Soltmannowski",
+      "visualIdentityChecked": true,
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Marius_Bear_SM7B.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "attribution": "Photo by Christoph Soltmannowski, Marius Bear SM7B.jpg, CC BY 3.0, via Wikimedia Commons. No changes made.",
+      "notes": "Downloaded and visually inspected the 1122 x 838 original on 2026-11-11. Shure logo, SM7-series microphone body, yoke, and windscreen are visible; the Commons file page identifies this exact microphone as an SM7B.",
+      "visualReviewNotes": "SM7B identity review: downloaded and visually inspected the 1122 x 838 original on 2026-11-11. The Shure logo, body, yoke, and windscreen are visible; the Commons file page explicitly identifies the microphone as an SM7B."
+    },
+    "reasons": [
+      "Exact-model image visually inspected; Commons lists CC BY 3.0 with author attribution. Ready for the verified-product promotion check.",
+      "Shure identifies SM7B as the model but does not state a generation."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "verified",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending"
+  },
+  {
+    "sourceKey": "web-research:elgato:game-capture-hd60-x",
+    "brand": "Elgato",
+    "family": "Game Capture",
+    "generation": null,
+    "model": "Game Capture HD60 X",
+    "modelNumber": "10GBE9901",
+    "name": "Elgato Game Capture HD60 X",
+    "category": "streaming_capture",
+    "releaseYear": null,
+    "productStatus": "discontinued",
+    "description": "External HDMI capture device with lag-free high-frame-rate passthrough and USB-C host connection. Elgato states it has stopped selling the model while continuing support.",
+    "specifications": {
+      "hostInterface": "USB-C 3.2 Gen 1, 5 Gbps",
+      "hdmi": "HDMI 2.0 input and lag-free passthrough output",
+      "maximumPassthrough": "2160p60, 1440p120, 1080p240, VRR, HDR",
+      "captureModes": "2160p30, 1440p60, 1080p60 HDR, 1080p30, 1080i, 720p60, 576p, 480p",
+      "dimensions": "112 × 72 × 18 mm",
+      "weight": "91 g"
+    },
+    "variants": [],
+    "productUrl": "https://www.elgato.com/us/en/p/game-capture-hd60-x",
+    "specificationSourceUrl": "https://help.elgato.com/hc/en-us/articles/5293216945805-Elgato-Game-Capture-HD60-X-Technical-Specifications",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "Elgato",
+        "sourceUrl": "https://www.elgato.com/us/en/p/game-capture-hd60-x",
+        "notes": "Official Elgato page identifies HD60 X and states it is discontinued and no longer sold directly by Elgato."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "Elgato",
+        "sourceUrl": "https://www.elgato.com/us/en/p/game-capture-hd60-x",
+        "notes": "Official product page gives SKU 10GBE9901 and describes supported use."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "Elgato Support",
+        "sourceUrl": "https://help.elgato.com/hc/en-us/articles/5293216945805-Elgato-Game-Capture-HD60-X-Technical-Specifications",
+        "notes": "Official support specification sheet lists interface, passthrough and capture resolutions, HDR, input support, and included items."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with documented reuse permission has been selected; keep out of public catalog until image and rights are verified.",
+      "Elgato identifies HD60 X as the model and discontinued status but does not state a generation."
+    ]
+  },
+  {
+    "sourceKey": "web-research:focusrite:scarlett-2i2-4th-gen",
+    "brand": "Focusrite",
+    "family": "Scarlett 2i2",
+    "generation": "4th Generation",
+    "model": "Scarlett 2i2 4th Gen",
+    "modelNumber": null,
+    "name": "Focusrite Scarlett 2i2 4th Generation USB Audio Interface",
+    "category": "professional_audio",
+    "releaseYear": null,
+    "productStatus": "unknown",
+    "description": "USB-C 2-in/2-out audio interface with two microphone preamps, line/instrument inputs, Air modes, Auto Gain, and Clip Safe.",
+    "specifications": {
+      "analogueInputs": "2 × XLR mic inputs and 2 × 6.35 mm line/instrument jacks",
+      "analogueOutputs": "2 × balanced 6.35 mm TRS outputs and stereo headphone output",
+      "sampleRates": "44.1, 48, 88.2, 96, 176.4, and 192 kHz",
+      "bitDepth": "24-bit",
+      "gainRange": "69 dB",
+      "usb": "USB Type-C"
+    },
+    "variants": [],
+    "productUrl": "https://focusrite.com/products/scarlett-2i2",
+    "specificationSourceUrl": "https://userguides.focusrite.com/hc/en-gb/articles/19640392541202-Scarlett-2i2-4th-Gen-Specifications",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "Focusrite",
+        "sourceUrl": "https://focusrite.com/products/scarlett-2i2",
+        "notes": "Official product page identifies the Scarlett 2i2 as a 4th Gen two-input/two-output interface."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "Focusrite",
+        "sourceUrl": "https://focusrite.com/products/scarlett-2i2",
+        "notes": "Official product page lists dual preamps, Air modes, Auto Gain, Clip Safe, and 4th Gen software compatibility."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "Focusrite User Guides",
+        "sourceUrl": "https://userguides.focusrite.com/hc/en-gb/articles/19640392541202-Scarlett-2i2-4th-Gen-Specifications",
+        "notes": "Official technical specifications list sample rates, bit depth, microphone input performance, connectors, USB, and dimensions."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with documented reuse permission has been selected; keep out of public catalog until image and rights are verified."
+    ]
+  }
+]

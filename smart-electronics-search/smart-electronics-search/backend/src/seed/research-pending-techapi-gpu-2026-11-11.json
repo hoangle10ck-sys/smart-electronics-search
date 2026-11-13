@@ -1,0 +1,1122 @@
+[
+  {
+    "sourceKey": "web-research:techapi:gpu:geforce-rtx-5090",
+    "brand": "NVIDIA",
+    "family": "GeForce RTX",
+    "generation": "GeForce RTX 50 Series (Blackwell)",
+    "model": "GeForce RTX 5090",
+    "modelNumber": "RTX 5090",
+    "name": "NVIDIA GeForce RTX 5090 Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "GeForce RTX 5090 desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "Blackwell",
+      "cudaCores": 21760,
+      "tensorCoreGeneration": "5th generation",
+      "rayTracingCoreGeneration": "4th generation",
+      "baseClockMHz": 2010,
+      "boostClockMHz": 2410,
+      "memoryConfigurations": [
+        "32 GB GDDR7"
+      ],
+      "memoryInterfaceBits": 512,
+      "memoryBandwidthGBs": 1792,
+      "totalGraphicsPowerW": 575,
+      "pcieInterface": "PCI Express Gen 5"
+    },
+    "variants": [],
+    "productUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
+    "specificationSourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
+        "notes": "Official manufacturer page identifies GeForce RTX 5090 as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/geforce-rtx-5090/index.json",
+        "notes": "Data from TechAPI; record GeForce RTX 5090 (geforce-rtx-5090), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      }
+    ],
+    "imageCandidate": null,
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Exact product identity, selected specifications, and live manufacturer URLs were checked. No exact-model image with reusable rights has been approved; retain as private PendingProduct until image review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:techapi:gpu:geforce-rtx-5080",
+    "brand": "NVIDIA",
+    "family": "GeForce RTX",
+    "generation": "GeForce RTX 50 Series (Blackwell)",
+    "model": "GeForce RTX 5080",
+    "modelNumber": "RTX 5080",
+    "name": "NVIDIA GeForce RTX 5080 Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "GeForce RTX 5080 desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "Blackwell",
+      "cudaCores": 10752,
+      "tensorCoreGeneration": "5th generation",
+      "rayTracingCoreGeneration": "4th generation",
+      "baseClockMHz": 2300,
+      "boostClockMHz": 2620,
+      "memoryConfigurations": [
+        "16 GB GDDR7"
+      ],
+      "memoryInterfaceBits": 256,
+      "memoryBandwidthGBs": 960,
+      "totalGraphicsPowerW": 360,
+      "pcieInterface": "PCI Express Gen 5"
+    },
+    "variants": [],
+    "productUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/",
+    "specificationSourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/",
+        "notes": "Official manufacturer page identifies GeForce RTX 5080 as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/geforce-rtx-5080/index.json",
+        "notes": "Data from TechAPI; record GeForce RTX 5080 (geforce-rtx-5080), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      }
+    ],
+    "imageCandidate": null,
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Exact product identity, selected specifications, and live manufacturer URLs were checked. No exact-model image with reusable rights has been approved; retain as private PendingProduct until image review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:techapi:gpu:geforce-rtx-5070-ti",
+    "brand": "NVIDIA",
+    "family": "GeForce RTX",
+    "generation": "GeForce RTX 50 Series (Blackwell)",
+    "model": "GeForce RTX 5070 Ti",
+    "modelNumber": "RTX 5070 Ti",
+    "name": "NVIDIA GeForce RTX 5070 Ti Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "GeForce RTX 5070 Ti desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "Blackwell",
+      "cudaCores": 8960,
+      "tensorCoreGeneration": "5th generation",
+      "rayTracingCoreGeneration": "4th generation",
+      "baseClockMHz": 2300,
+      "boostClockMHz": 2450,
+      "memoryConfigurations": [
+        "16 GB GDDR7"
+      ],
+      "memoryInterfaceBits": 256,
+      "memoryBandwidthGBs": 896,
+      "totalGraphicsPowerW": 300,
+      "pcieInterface": "PCI Express Gen 5"
+    },
+    "variants": [],
+    "productUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/",
+    "specificationSourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/",
+        "notes": "Official manufacturer page identifies GeForce RTX 5070 Ti as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/geforce-rtx-5070-ti/index.json",
+        "notes": "Data from TechAPI; record GeForce RTX 5070 Ti (geforce-rtx-5070-ti), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      }
+    ],
+    "imageCandidate": null,
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Exact product identity, selected specifications, and live manufacturer URLs were checked. No exact-model image with reusable rights has been approved; retain as private PendingProduct until image review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:techapi:gpu:geforce-rtx-5070",
+    "brand": "NVIDIA",
+    "family": "GeForce RTX",
+    "generation": "GeForce RTX 50 Series (Blackwell)",
+    "model": "GeForce RTX 5070",
+    "modelNumber": "RTX 5070",
+    "name": "NVIDIA GeForce RTX 5070 Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "GeForce RTX 5070 desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "Blackwell",
+      "cudaCores": 6144,
+      "tensorCoreGeneration": "5th generation",
+      "rayTracingCoreGeneration": "4th generation",
+      "baseClockMHz": 2330,
+      "boostClockMHz": 2510,
+      "memoryConfigurations": [
+        "12 GB GDDR7"
+      ],
+      "memoryInterfaceBits": 192,
+      "memoryBandwidthGBs": 672,
+      "totalGraphicsPowerW": 250,
+      "pcieInterface": "PCI Express Gen 5"
+    },
+    "variants": [],
+    "productUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/",
+    "specificationSourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/",
+        "notes": "Official manufacturer page identifies GeForce RTX 5070 as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/geforce-rtx-5070/index.json",
+        "notes": "Data from TechAPI; record GeForce RTX 5070 (geforce-rtx-5070), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      }
+    ],
+    "imageCandidate": null,
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Exact product identity, selected specifications, and live manufacturer URLs were checked. No exact-model image with reusable rights has been approved; retain as private PendingProduct until image review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:techapi:gpu:geforce-rtx-5060-ti",
+    "brand": "NVIDIA",
+    "family": "GeForce RTX",
+    "generation": "GeForce RTX 50 Series (Blackwell)",
+    "model": "GeForce RTX 5060 Ti",
+    "modelNumber": "RTX 5060 Ti",
+    "name": "NVIDIA GeForce RTX 5060 Ti Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "GeForce RTX 5060 Ti desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "Blackwell",
+      "cudaCores": 4608,
+      "tensorCoreGeneration": "5th generation",
+      "rayTracingCoreGeneration": "4th generation",
+      "baseClockMHz": 2410,
+      "boostClockMHz": 2570,
+      "memoryConfigurations": [
+        "16 GB GDDR7",
+        "8 GB GDDR7"
+      ],
+      "memoryInterfaceBits": 128,
+      "memoryBandwidthGBs": 448,
+      "totalGraphicsPowerW": 180,
+      "pcieInterface": "PCI Express Gen 5"
+    },
+    "variants": [
+      {
+        "name": "16 GB GDDR7",
+        "attributes": {
+          "memoryGB": 16,
+          "memoryType": "GDDR7",
+          "memoryInterfaceBits": 128,
+          "memoryBandwidthGBs": 448
+        }
+      },
+      {
+        "name": "8 GB GDDR7",
+        "attributes": {
+          "memoryGB": 8,
+          "memoryType": "GDDR7",
+          "memoryInterfaceBits": 128,
+          "memoryBandwidthGBs": 448
+        }
+      }
+    ],
+    "productUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/",
+    "specificationSourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/",
+        "notes": "Official manufacturer page identifies GeForce RTX 5060 Ti as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/geforce-rtx-5060-ti-16-gb/index.json",
+        "notes": "Data from TechAPI; record GeForce RTX 5060 Ti 16 GB (geforce-rtx-5060-ti-16-gb), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/geforce-rtx-5060-ti-8gb/index.json",
+        "notes": "Data from TechAPI; record GeForce RTX 5060 Ti 8GB (geforce-rtx-5060-ti-8gb), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      }
+    ],
+    "imageCandidate": null,
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Exact product identity, selected specifications, and live manufacturer URLs were checked. No exact-model image with reusable rights has been approved; retain as private PendingProduct until image review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:techapi:gpu:geforce-rtx-5060",
+    "brand": "NVIDIA",
+    "family": "GeForce RTX",
+    "generation": "GeForce RTX 50 Series (Blackwell)",
+    "model": "GeForce RTX 5060",
+    "modelNumber": "RTX 5060",
+    "name": "NVIDIA GeForce RTX 5060 Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "GeForce RTX 5060 desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "Blackwell",
+      "cudaCores": 3840,
+      "tensorCoreGeneration": "5th generation",
+      "rayTracingCoreGeneration": "4th generation",
+      "baseClockMHz": 2280,
+      "boostClockMHz": 2500,
+      "memoryConfigurations": [
+        "8 GB GDDR7"
+      ],
+      "memoryInterfaceBits": 128,
+      "memoryBandwidthGBs": 448,
+      "totalGraphicsPowerW": 145,
+      "pcieInterface": "PCI Express Gen 5"
+    },
+    "variants": [],
+    "productUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/",
+    "specificationSourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/",
+        "notes": "Official manufacturer page identifies GeForce RTX 5060 as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/geforce-rtx-5060/index.json",
+        "notes": "Data from TechAPI; record GeForce RTX 5060 (geforce-rtx-5060), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      }
+    ],
+    "imageCandidate": null,
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Exact product identity, selected specifications, and live manufacturer URLs were checked. No exact-model image with reusable rights has been approved; retain as private PendingProduct until image review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:techapi:gpu:geforce-rtx-5050",
+    "brand": "NVIDIA",
+    "family": "GeForce RTX",
+    "generation": "GeForce RTX 50 Series (Blackwell)",
+    "model": "GeForce RTX 5050",
+    "modelNumber": "RTX 5050",
+    "name": "NVIDIA GeForce RTX 5050 Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "GeForce RTX 5050 desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "Blackwell",
+      "cudaCores": 2560,
+      "tensorCoreGeneration": "5th generation",
+      "rayTracingCoreGeneration": "4th generation",
+      "baseClockMHz": 2310,
+      "boostClockMHz": 2570,
+      "memoryConfigurations": [
+        "8 GB GDDR6"
+      ],
+      "memoryInterfaceBits": 128,
+      "memoryBandwidthGBs": 320,
+      "totalGraphicsPowerW": 130,
+      "pcieInterface": "PCI Express Gen 5"
+    },
+    "variants": [],
+    "productUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5050/",
+    "specificationSourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5050/",
+        "notes": "Official manufacturer page identifies GeForce RTX 5050 as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5050/",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5050/."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/geforce-rtx-5050/index.json",
+        "notes": "Data from TechAPI; record GeForce RTX 5050 (geforce-rtx-5050), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      }
+    ],
+    "imageCandidate": null,
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Exact product identity, selected specifications, and live manufacturer URLs were checked. No exact-model image with reusable rights has been approved; retain as private PendingProduct until image review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:techapi:gpu:radeon-rx-9070-xt",
+    "brand": "AMD",
+    "family": "Radeon RX",
+    "generation": "Radeon RX 9000 Series (RDNA 4)",
+    "model": "Radeon RX 9070 XT",
+    "modelNumber": "RX 9070 XT",
+    "name": "AMD Radeon RX 9070 XT Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "Radeon RX 9070 XT desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "RDNA 4",
+      "computeUnits": 64,
+      "streamProcessors": 4096,
+      "rayAccelerators": 64,
+      "aiAccelerators": 128,
+      "gameFrequencyMHz": 2400,
+      "boostFrequencyMHz": 2970,
+      "memoryConfigurations": [
+        "16 GB GDDR6"
+      ],
+      "memoryInterfaceBits": 256,
+      "memoryBandwidthGBs": 640,
+      "typicalBoardPowerW": 304,
+      "pcieInterface": "PCIe 5.0 x16"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070xt.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070xt.html",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070xt.html",
+        "notes": "Official manufacturer page identifies Radeon RX 9070 XT as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070xt.html",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070xt.html."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070xt.html",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070xt.html. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/radeon-rx-9070-xt/index.json",
+        "notes": "Data from TechAPI; record Radeon RX 9070 XT (radeon-rx-9070-xt), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      }
+    ],
+    "imageCandidate": null,
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Exact product identity, selected specifications, and live manufacturer URLs were checked. No exact-model image with reusable rights has been approved; retain as private PendingProduct until image review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:techapi:gpu:radeon-rx-9070",
+    "brand": "AMD",
+    "family": "Radeon RX",
+    "generation": "Radeon RX 9000 Series (RDNA 4)",
+    "model": "Radeon RX 9070",
+    "modelNumber": "RX 9070",
+    "name": "AMD Radeon RX 9070 Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "Radeon RX 9070 desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "RDNA 4",
+      "computeUnits": 56,
+      "streamProcessors": 3584,
+      "rayAccelerators": 56,
+      "aiAccelerators": 112,
+      "gameFrequencyMHz": 2070,
+      "boostFrequencyMHz": 2520,
+      "memoryConfigurations": [
+        "16 GB GDDR6"
+      ],
+      "memoryInterfaceBits": 256,
+      "memoryBandwidthGBs": 640,
+      "typicalBoardPowerW": 220,
+      "pcieInterface": "PCIe 5.0 x16"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070.html",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070.html",
+        "notes": "Official manufacturer page identifies Radeon RX 9070 as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070.html",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070.html."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070.html",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070.html. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/radeon-rx-9070/index.json",
+        "notes": "Data from TechAPI; record Radeon RX 9070 (radeon-rx-9070), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      }
+    ],
+    "imageCandidate": null,
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Exact product identity, selected specifications, and live manufacturer URLs were checked. No exact-model image with reusable rights has been approved; retain as private PendingProduct until image review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:techapi:gpu:radeon-rx-9070-gre",
+    "brand": "AMD",
+    "family": "Radeon RX",
+    "generation": "Radeon RX 9000 Series (RDNA 4)",
+    "model": "Radeon RX 9070 GRE",
+    "modelNumber": "RX 9070 GRE",
+    "name": "AMD Radeon RX 9070 GRE Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "Radeon RX 9070 GRE desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "RDNA 4",
+      "computeUnits": 48,
+      "streamProcessors": 3072,
+      "rayAccelerators": 48,
+      "aiAccelerators": 96,
+      "gameFrequencyMHz": 2220,
+      "boostFrequencyMHz": 2790,
+      "memoryConfigurations": [
+        "12 GB GDDR6"
+      ],
+      "memoryInterfaceBits": 192,
+      "memoryBandwidthGBs": 432,
+      "typicalBoardPowerW": 220,
+      "pcieInterface": "PCIe 5.0 x16"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070-gre.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070-gre.html",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070-gre.html",
+        "notes": "Official manufacturer page identifies Radeon RX 9070 GRE as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070-gre.html",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070-gre.html."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070-gre.html",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070-gre.html. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/radeon-rx-9070-gre/index.json",
+        "notes": "Data from TechAPI; record Radeon RX 9070 GRE (radeon-rx-9070-gre), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      }
+    ],
+    "imageCandidate": null,
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Exact product identity, selected specifications, and live manufacturer URLs were checked. No exact-model image with reusable rights has been approved; retain as private PendingProduct until image review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:techapi:gpu:radeon-rx-9060-xt",
+    "brand": "AMD",
+    "family": "Radeon RX",
+    "generation": "Radeon RX 9000 Series (RDNA 4)",
+    "model": "Radeon RX 9060 XT",
+    "modelNumber": "RX 9060 XT",
+    "name": "AMD Radeon RX 9060 XT Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "Radeon RX 9060 XT desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "RDNA 4",
+      "computeUnits": 32,
+      "streamProcessors": 2048,
+      "rayAccelerators": 32,
+      "gameFrequencyMHz": 2530,
+      "boostFrequencyMHz": 3130,
+      "memoryType": "GDDR6",
+      "memoryInterfaceBits": 128,
+      "memoryBandwidthGBs": 320,
+      "memoryConfigurations": [
+        "16 GB GDDR6",
+        "8 GB GDDR6"
+      ],
+      "typicalBoardPowerWByMemoryConfiguration": {
+        "16 GB": 160,
+        "8 GB": 150
+      },
+      "pcieInterface": "PCIe 5.0 x16"
+    },
+    "variants": [
+      {
+        "name": "16 GB GDDR6",
+        "attributes": {
+          "memoryGB": 16,
+          "memoryInterfaceBits": 128,
+          "memoryBandwidthGBs": 320,
+          "typicalBoardPowerW": 160
+        }
+      },
+      {
+        "name": "8 GB GDDR6",
+        "attributes": {
+          "memoryGB": 8,
+          "memoryInterfaceBits": 128,
+          "memoryBandwidthGBs": 320,
+          "typicalBoardPowerW": 150
+        }
+      }
+    ],
+    "productUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060xt.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060xt.html",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060xt.html",
+        "notes": "Official manufacturer page identifies Radeon RX 9060 XT as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060xt.html",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060xt.html."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060xt.html",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060xt.html. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/radeon-rx-9060-xt-16-gb/index.json",
+        "notes": "Data from TechAPI; record Radeon RX 9060 XT 16 GB (radeon-rx-9060-xt-16-gb), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      },
+      {
+        "evidenceType": "variant_specifications",
+        "sourceName": "AMD Graphics Specifications",
+        "sourceUrl": "https://www.amd.com/en/products/specifications/graphics.html",
+        "notes": "AMD lists distinct RX 9060 XT 16 GB and 8 GB configurations, with 160 W and 150 W typical board power respectively; used only for variant configuration. The official page returned HTTP 200 with text/html; its exact RX 9060 XT 8 GB row was checked from live manufacturer results."
+      }
+    ],
+    "imageCandidate": null,
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Exact product identity, selected specifications, and live manufacturer URLs were checked. No exact-model image with reusable rights has been approved; retain as private PendingProduct until image review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:techapi:gpu:radeon-rx-9060",
+    "brand": "AMD",
+    "family": "Radeon RX",
+    "generation": "Radeon RX 9000 Series (RDNA 4)",
+    "model": "Radeon RX 9060",
+    "modelNumber": "RX 9060",
+    "name": "AMD Radeon RX 9060 Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "Radeon RX 9060 desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "RDNA 4",
+      "computeUnits": 28,
+      "streamProcessors": 1792,
+      "rayAccelerators": 28,
+      "aiAccelerators": 56,
+      "gameFrequencyMHz": 2400,
+      "boostFrequencyMHz": 2990,
+      "memoryConfigurations": [
+        "8 GB GDDR6"
+      ],
+      "memoryInterfaceBits": 128,
+      "memoryBandwidthGBs": 288,
+      "typicalBoardPowerW": 132,
+      "pcieInterface": "PCIe 5.0 x16"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060.html",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060.html",
+        "notes": "Official manufacturer page identifies Radeon RX 9060 as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060.html",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060.html."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060.html",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060.html. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/radeon-rx-9060/index.json",
+        "notes": "Data from TechAPI; record Radeon RX 9060 (radeon-rx-9060), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      }
+    ],
+    "imageCandidate": null,
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Exact product identity, selected specifications, and live manufacturer URLs were checked. No exact-model image with reusable rights has been approved; retain as private PendingProduct until image review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:techapi:gpu:arc-b580",
+    "brand": "Intel",
+    "family": "Intel Arc",
+    "generation": "Intel Arc B Series (Battlemage / Xe2)",
+    "model": "Intel Arc B580",
+    "modelNumber": "B580",
+    "name": "Intel Arc B580 Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2024,
+    "productStatus": "active",
+    "description": "Intel Arc B580 desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "Xe2 (Battlemage)",
+      "xeCores": 20,
+      "rayTracingUnits": 20,
+      "graphicsClockMHz": 2670,
+      "memoryConfigurations": [
+        "12 GB GDDR6"
+      ],
+      "memoryInterfaceBits": 192,
+      "memoryBandwidthGBs": 456,
+      "totalBoardPowerW": 190,
+      "pcieInterface": "PCIe 4.0 x8"
+    },
+    "variants": [],
+    "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html",
+    "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "Intel",
+        "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html",
+        "notes": "Official manufacturer page identifies Intel Arc B580 as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "Intel",
+        "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "Intel",
+        "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/arc-b580/index.json",
+        "notes": "Data from TechAPI; record Arc B580 (arc-b580), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      }
+    ],
+    "imageCandidate": null,
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Exact product identity, selected specifications, and live manufacturer URLs were checked. No exact-model image with reusable rights has been approved; retain as private PendingProduct until image review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:techapi:gpu:arc-b570",
+    "brand": "Intel",
+    "family": "Intel Arc",
+    "generation": "Intel Arc B Series (Battlemage / Xe2)",
+    "model": "Intel Arc B570",
+    "modelNumber": "B570",
+    "name": "Intel Arc B570 Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2024,
+    "productStatus": "active",
+    "description": "Intel Arc B570 desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "Xe2 (Battlemage)",
+      "xeCores": 18,
+      "rayTracingUnits": 18,
+      "graphicsClockMHz": 2500,
+      "memoryConfigurations": [
+        "10 GB GDDR6"
+      ],
+      "memoryInterfaceBits": 160,
+      "memoryBandwidthGBs": 380,
+      "totalBoardPowerW": 150,
+      "pcieInterface": "PCIe 4.0 x8"
+    },
+    "variants": [],
+    "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241676/intel-arc-b570-graphics/specifications.html",
+    "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241676/intel-arc-b570-graphics/specifications.html",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "Intel",
+        "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241676/intel-arc-b570-graphics/specifications.html",
+        "notes": "Official manufacturer page identifies Intel Arc B570 as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "Intel",
+        "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241676/intel-arc-b570-graphics/specifications.html",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.intel.com/content/www/us/en/products/sku/241676/intel-arc-b570-graphics/specifications.html."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "Intel",
+        "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241676/intel-arc-b570-graphics/specifications.html",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.intel.com/content/www/us/en/products/sku/241676/intel-arc-b570-graphics/specifications.html. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/arc-b570/index.json",
+        "notes": "Data from TechAPI; record Arc B570 (arc-b570), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      }
+    ],
+    "imageCandidate": null,
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Exact product identity, selected specifications, and live manufacturer URLs were checked. No exact-model image with reusable rights has been approved; retain as private PendingProduct until image review."
+    ]
+  }
+]

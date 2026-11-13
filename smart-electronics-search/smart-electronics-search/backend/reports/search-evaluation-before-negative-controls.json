@@ -1,0 +1,249 @@
+{
+  "generatedAt": "2026-11-11T09:48:12.291Z",
+  "label": "before_legacy_negative_controls",
+  "corpusSize": 40,
+  "noResultAccuracy": 0,
+  "evaluationMethod": "Replayed the pre-upgrade Mongo candidate filters on negative controls. With an explicit category and no detected use-case tag, the legacy service returned all category candidates for an unmatched model; impossible RAM filters returned no candidates.",
+  "cases": [
+    {
+      "id": "161",
+      "query": "laptop model QZ900001NO",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "162",
+      "query": "laptop model QZ900002NO",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "163",
+      "query": "laptop model QZ900003NO",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "164",
+      "query": "laptop model QZ900004NO",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "165",
+      "query": "laptop model QZ900005NO",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "166",
+      "query": "laptop model QZ900006NO",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "167",
+      "query": "laptop model QZ900007NO",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "168",
+      "query": "laptop model QZ900008NO",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "169",
+      "query": "laptop model QZ900009NO",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "170",
+      "query": "laptop model QZ900010NO",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "171",
+      "query": "laptop model QZ900011NO",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "172",
+      "query": "laptop model QZ900012NO",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "173",
+      "query": "laptop model QZ900013NO",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "174",
+      "query": "laptop model QZ900014NO",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "175",
+      "query": "laptop model QZ900015NO",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "176",
+      "query": "laptop model QZ900016NO",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "177",
+      "query": "laptop model QZ900017NO",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "178",
+      "query": "laptop model QZ900018NO",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "179",
+      "query": "laptop model QZ900019NO",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "180",
+      "query": "laptop model QZ900020NO",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "181",
+      "query": "laptop RAM 4096GB",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "182",
+      "query": "laptop RAM 8192GB",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "183",
+      "query": "laptop RAM 16384GB",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "184",
+      "query": "laptop RAM 32768GB",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "185",
+      "query": "laptop RAM 65536GB",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "186",
+      "query": "laptop RAM 8192GB",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "187",
+      "query": "laptop RAM 16384GB",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "188",
+      "query": "laptop RAM 32768GB",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "189",
+      "query": "laptop RAM 65536GB",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "190",
+      "query": "laptop RAM 131072GB",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "191",
+      "query": "laptop RAM 12288GB",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "192",
+      "query": "laptop RAM 24576GB",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "193",
+      "query": "laptop RAM 49152GB",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "194",
+      "query": "laptop RAM 98304GB",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "195",
+      "query": "laptop RAM 196608GB",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "196",
+      "query": "laptop RAM 16384GB",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "197",
+      "query": "laptop RAM 32768GB",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "198",
+      "query": "laptop RAM 65536GB",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "199",
+      "query": "laptop RAM 131072GB",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    },
+    {
+      "id": "200",
+      "query": "laptop RAM 262144GB",
+      "oldCandidateCount": 31,
+      "correctNoResult": false
+    }
+  ]
+}

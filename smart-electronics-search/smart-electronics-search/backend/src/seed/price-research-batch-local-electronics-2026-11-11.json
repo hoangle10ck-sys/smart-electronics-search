@@ -1,0 +1,72 @@
+{
+  "batchId": "vietnam-local-electronics-2026-11-11",
+  "researchedAt": "2026-11-11T07:35:25.000Z",
+  "source": "web-research",
+  "sellerName": "HACOM",
+  "currency": "VND",
+  "offers": [
+    {
+      "brand": "Amazon",
+      "category": "ereader",
+      "model": "Kindle Paperwhite 16 GB",
+      "sellerName": "Kindle Saigon",
+      "variantLabel": "16 GB · thế hệ 12",
+      "price": 5290000,
+      "originalPrice": 6000000,
+      "productUrl": "https://www.kindlesaigon.vn/collections/kindle-paperwhite/products/kindle-paperwhite-6-12th-2024-16gb-hong",
+      "availability": "Có thể thêm vào giỏ hàng",
+      "evidence": "Kindle Paperwhite 16 GB (listing hiển thị 16Gb), giá 5.290.000 VND; giá gốc 6.000.000 VND."
+    },
+    {
+      "brand": "Epson",
+      "category": "projector",
+      "model": "EpiqVision Mini EF21",
+      "sellerName": "LOGICO",
+      "variantLabel": "EF21",
+      "price": 25191000,
+      "originalPrice": 27990000,
+      "productUrl": "https://logico.com.vn/may-chieu-mini-epson-ef-21-dp17692",
+      "availability": "Có thể đặt mua",
+      "evidence": "EpiqVision Mini EF21 được niêm yết 25.191.000 VND gồm VAT; giá gốc 27.990.000 VND."
+    },
+    {
+      "brand": "Google",
+      "category": "smart_home",
+      "model": "Nest Hub (2nd Gen)",
+      "sellerName": "8MATTER",
+      "variantLabel": "Nest Hub thế hệ 2",
+      "sku": "GOOGLE-NEST-HUB-2ND-GEN-2",
+      "price": 2950000,
+      "originalPrice": 3246000,
+      "productUrl": "https://www.8matter.com/products/google-nest-hub-2nd-gen-2",
+      "availability": "Có thể thêm vào giỏ hàng",
+      "evidence": "Nest Hub (2nd Gen) mã GOOGLE-NEST-HUB-2ND-GEN-2 được niêm yết 2.950.000 VND gồm VAT; giá gốc 3.246.000 VND."
+    },
+    {
+      "brand": "Elgato",
+      "category": "streaming_capture",
+      "model": "Game Capture HD60 X",
+      "sellerName": "HACOM",
+      "variantLabel": "10GBE9901 · đặt trước",
+      "sku": "10GBE9901",
+      "price": 3299000,
+      "originalPrice": 3999000,
+      "productUrl": "https://hacom.vn/thiet-bi-chuyen-doi-hinh-anh-elgato-hd60x",
+      "availability": "Đặt trước, giao sau",
+      "evidence": "Game Capture HD60 X (10GBE9901) được niêm yết 3.299.000 VND; trạng thái trang là đặt trước, giao sau."
+    },
+    {
+      "brand": "Shure",
+      "category": "microphone",
+      "model": "SM7B",
+      "sellerName": "HACOM",
+      "variantLabel": "SM7B",
+      "sku": "MICR0270",
+      "price": 11499000,
+      "originalPrice": 14999000,
+      "productUrl": "https://hacom.vn/micro-thu-am-dynamic-vocal-shure-sm7b-micr0270",
+      "availability": "Còn hàng",
+      "evidence": "SM7B mã MICR0270 được niêm yết giá khuyến mại 11.499.000 VND, giá gốc 14.999.000 VND; trang ghi còn hàng."
+    }
+  ]
+}

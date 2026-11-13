@@ -1,0 +1,733 @@
+[
+  {
+    "sourceKey": "web-research:amd:ryzen-9-9950x3d2-dual-edition",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 9000 Series (Zen 5)",
+    "model": "Ryzen 9 9950X3D2 Dual Edition",
+    "modelNumber": "9950X3D2 Dual Edition",
+    "name": "AMD Ryzen 9 9950X3D2 Dual Edition Processor",
+    "category": "cpu",
+    "releaseYear": 2026,
+    "productStatus": "active",
+    "description": "16-core desktop processor with dual 3D V-Cache in AMD Ryzen 9000 Series.",
+    "specifications": {
+      "cores": 16,
+      "threads": 32,
+      "maxBoostClock": "5.6 GHz",
+      "baseClock": "4.3 GHz",
+      "totalCache": "208 MB",
+      "defaultTdp": "200 W",
+      "integratedGraphics": true,
+      "graphicsModel": "AMD Radeon Graphics",
+      "architecture": "Zen 5",
+      "socket": "AM5"
+    },
+    "variants": [],
+    "productUrl": "https://newsroom.amd.com/news/amd-launches-ryzen-9-9950x3d2-dual-edition-processor/",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD Newsroom",
+        "sourceUrl": "https://newsroom.amd.com/news/amd-launches-ryzen-9-9950x3d2-dual-edition-processor/",
+        "notes": "AMD launch announcement identifies the exact Ryzen 9 9950X3D2 Dual Edition model."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD Newsroom",
+        "sourceUrl": "https://newsroom.amd.com/news/amd-launches-ryzen-9-9950x3d2-dual-edition-processor/",
+        "notes": "Official AMD product launch announcement; Ryzen 9000 Dual Edition desktop processor."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD Ryzen desktop processor list",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen.html",
+        "notes": "AMD's current exact-model table lists 16 cores, 32 threads, 5.6 GHz boost, 4.3 GHz base, integrated Radeon graphics, and 200 W TDP; AMD describes 208 MB on-chip cache."
+      },
+      {
+        "evidenceType": "generation",
+        "sourceName": "AMD Ryzen desktop processor list",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen.html",
+        "notes": "AMD places this model in the Ryzen 9000 Series; the official architecture page identifies Ryzen 9000 as Zen 5."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-9-9950x3d",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 9000 Series (Zen 5)",
+    "model": "Ryzen 9 9950X3D",
+    "modelNumber": "9950X3D",
+    "name": "AMD Ryzen 9 9950X3D Processor",
+    "category": "cpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "16-core desktop processor with 2nd-generation 3D V-Cache in AMD Ryzen 9000 Series.",
+    "specifications": {
+      "cores": 16,
+      "threads": 32,
+      "maxBoostClock": "5.7 GHz",
+      "baseClock": "4.3 GHz",
+      "l2Cache": "16 MB",
+      "l3Cache": "128 MB",
+      "defaultTdp": "170 W",
+      "integratedGraphics": true,
+      "graphicsModel": "AMD Radeon Graphics",
+      "architecture": "Zen 5",
+      "socket": "AM5"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d.html",
+        "notes": "Exact-model AMD page identifies Ryzen 9 9950X3D, Ryzen 9000 Series, and Zen 5 architecture."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d.html",
+        "notes": "Dedicated AMD product page; launch date March 12, 2025."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x3d.html",
+        "notes": "Exact SKU page supplies core/thread count, clocks, cache, TDP, integrated graphics, and AM5 socket."
+      },
+      {
+        "evidenceType": "generation",
+        "sourceName": "AMD Ryzen desktop processor list",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen.html",
+        "notes": "AMD's current desktop roster lists this model in Ryzen 9000 Series."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-9-9950x",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 9000 Series (Zen 5)",
+    "model": "Ryzen 9 9950X",
+    "modelNumber": "9950X",
+    "name": "AMD Ryzen 9 9950X Processor",
+    "category": "cpu",
+    "releaseYear": 2024,
+    "productStatus": "active",
+    "description": "16-core desktop processor in AMD Ryzen 9000 Series.",
+    "specifications": {
+      "cores": 16,
+      "threads": 32,
+      "maxBoostClock": "5.7 GHz",
+      "baseClock": "4.3 GHz",
+      "l2Cache": "16 MB",
+      "l3Cache": "64 MB",
+      "defaultTdp": "170 W",
+      "integratedGraphics": true,
+      "graphicsModel": "AMD Radeon Graphics",
+      "architecture": "Zen 5",
+      "socket": "AM5"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x.html",
+        "notes": "Exact-model AMD page identifies Ryzen 9 9950X, Ryzen 9000 Series, and Zen 5 architecture."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x.html",
+        "notes": "Dedicated AMD product page; launch date August 15, 2024."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x.html",
+        "notes": "Exact SKU page supplies core/thread count, clocks, L2/L3 cache, TDP, integrated graphics, and AM5 socket."
+      },
+      {
+        "evidenceType": "generation",
+        "sourceName": "AMD Ryzen desktop processor list",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen.html",
+        "notes": "AMD's current desktop roster lists this model in Ryzen 9000 Series."
+      },
+      {
+        "evidenceType": "image",
+        "sourceName": "Wikimedia Commons exact-model photograph",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_9_9950X.jpg",
+        "notes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 9 9950X."
+      },
+      {
+        "evidenceType": "image_rights",
+        "sourceName": "Wikimedia Commons file license record",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_9_9950X.jpg",
+        "notes": "CC BY 4.0; 4300streetcar, CC BY 4.0, via Wikimedia Commons; unmodified. License terms and author were checked on this exact file page."
+      }
+    ],
+    "imageCandidate": {
+      "sourceKey": "web-research:amd:ryzen-9-9950x",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/AMD_Ryzen_9_9950X.jpg/960px-AMD_Ryzen_9_9950X.jpg",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_9_9950X.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "4300streetcar",
+      "attribution": "4300streetcar, CC BY 4.0, via Wikimedia Commons; unmodified.",
+      "visualIdentityChecked": true,
+      "visualReviewNotes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 9 9950X."
+    },
+    "reasons": [
+      "Exact-model image and CC BY 4.0 license verified; the CPU lid marking was visually checked. Keep private until its Product upsert completes."
+    ],
+    "imageVerificationStatus": "verified",
+    "publicationStatus": "pending"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-9-9900x3d",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 9000 Series (Zen 5)",
+    "model": "Ryzen 9 9900X3D",
+    "modelNumber": "9900X3D",
+    "name": "AMD Ryzen 9 9900X3D Processor",
+    "category": "cpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "12-core desktop processor with 2nd-generation 3D V-Cache in AMD Ryzen 9000 Series.",
+    "specifications": {
+      "cores": 12,
+      "threads": 24,
+      "maxBoostClock": "5.5 GHz",
+      "baseClock": "4.4 GHz",
+      "l2Cache": "12 MB",
+      "l3Cache": "128 MB",
+      "defaultTdp": "120 W",
+      "integratedGraphics": true,
+      "graphicsModel": "AMD Radeon Graphics",
+      "architecture": "Zen 5",
+      "socket": "AM5"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9900x3d.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9900x3d.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9900x3d.html",
+        "notes": "Exact-model AMD page identifies Ryzen 9 9900X3D, Ryzen 9000 Series, and Zen 5 architecture."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9900x3d.html",
+        "notes": "Dedicated AMD product page; launch date March 12, 2025."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9900x3d.html",
+        "notes": "Exact SKU page supplies core/thread count, clocks, cache, TDP, integrated graphics, and AM5 socket."
+      },
+      {
+        "evidenceType": "generation",
+        "sourceName": "AMD Ryzen desktop processor list",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen.html",
+        "notes": "AMD's current desktop roster lists this model in Ryzen 9000 Series."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-9-9900x",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 9000 Series (Zen 5)",
+    "model": "Ryzen 9 9900X",
+    "modelNumber": "9900X",
+    "name": "AMD Ryzen 9 9900X Processor",
+    "category": "cpu",
+    "releaseYear": 2024,
+    "productStatus": "active",
+    "description": "12-core desktop processor in AMD Ryzen 9000 Series.",
+    "specifications": {
+      "cores": 12,
+      "threads": 24,
+      "maxBoostClock": "5.6 GHz",
+      "baseClock": "4.4 GHz",
+      "l2Cache": "12 MB",
+      "l3Cache": "64 MB",
+      "defaultTdp": "120 W",
+      "integratedGraphics": true,
+      "graphicsModel": "AMD Radeon Graphics",
+      "architecture": "Zen 5",
+      "socket": "AM5"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9900x.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9900x.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9900x.html",
+        "notes": "Exact-model AMD page identifies Ryzen 9 9900X, Ryzen 9000 Series, and Zen 5 architecture."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9900x.html",
+        "notes": "Dedicated AMD product page; launch date August 15, 2024."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9900x.html",
+        "notes": "Exact SKU page supplies core/thread count, clocks, L2/L3 cache, TDP, integrated graphics, and AM5 socket."
+      },
+      {
+        "evidenceType": "generation",
+        "sourceName": "AMD Ryzen desktop processor list",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen.html",
+        "notes": "AMD's current desktop roster lists this model in Ryzen 9000 Series."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-7-9850x3d",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 9000 Series (Zen 5)",
+    "model": "Ryzen 7 9850X3D",
+    "modelNumber": "9850X3D",
+    "name": "AMD Ryzen 7 9850X3D Processor",
+    "category": "cpu",
+    "releaseYear": 2026,
+    "productStatus": "active",
+    "description": "8-core desktop processor with 2nd-generation 3D V-Cache in AMD Ryzen 9000 Series.",
+    "specifications": {
+      "cores": 8,
+      "threads": 16,
+      "maxBoostClock": "5.6 GHz",
+      "baseClock": "4.7 GHz",
+      "l2Cache": "8 MB",
+      "l3Cache": "96 MB",
+      "defaultTdp": "120 W",
+      "integratedGraphics": true,
+      "graphicsModel": "AMD Radeon Graphics",
+      "architecture": "Zen 5",
+      "socket": "AM5"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9850x3d.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9850x3d.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9850x3d.html",
+        "notes": "Exact-model AMD page identifies Ryzen 7 9850X3D, Ryzen 9000 Series, and Zen 5 architecture."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9850x3d.html",
+        "notes": "Dedicated AMD product page; launch date January 29, 2026."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9850x3d.html",
+        "notes": "Exact SKU page supplies core/thread count, clocks, cache, TDP, integrated graphics, and AM5 socket."
+      },
+      {
+        "evidenceType": "generation",
+        "sourceName": "AMD Ryzen desktop processor list",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen.html",
+        "notes": "AMD's current desktop roster lists this model in Ryzen 9000 Series."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-7-9800x3d",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 9000 Series (Zen 5)",
+    "model": "Ryzen 7 9800X3D",
+    "modelNumber": "9800X3D",
+    "name": "AMD Ryzen 7 9800X3D Processor",
+    "category": "cpu",
+    "releaseYear": 2024,
+    "productStatus": "active",
+    "description": "8-core desktop processor with 2nd-generation 3D V-Cache in AMD Ryzen 9000 Series.",
+    "specifications": {
+      "cores": 8,
+      "threads": 16,
+      "maxBoostClock": "5.2 GHz",
+      "baseClock": "4.7 GHz",
+      "l2Cache": "8 MB",
+      "l3Cache": "96 MB",
+      "defaultTdp": "120 W",
+      "integratedGraphics": true,
+      "graphicsModel": "AMD Radeon Graphics",
+      "architecture": "Zen 5",
+      "socket": "AM5"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+        "notes": "Exact-model AMD page identifies Ryzen 7 9800X3D, Ryzen 9000 Series, and Zen 5 architecture."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+        "notes": "Dedicated AMD product page; launch date November 7, 2024."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html",
+        "notes": "Exact SKU page supplies core/thread count, clocks, cache, TDP, integrated graphics, and AM5 socket."
+      },
+      {
+        "evidenceType": "generation",
+        "sourceName": "AMD Ryzen desktop processor list",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen.html",
+        "notes": "AMD's current desktop roster lists this model in Ryzen 9000 Series."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-7-9700x",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 9000 Series (Zen 5)",
+    "model": "Ryzen 7 9700X",
+    "modelNumber": "9700X",
+    "name": "AMD Ryzen 7 9700X Processor",
+    "category": "cpu",
+    "releaseYear": 2024,
+    "productStatus": "active",
+    "description": "8-core desktop processor in AMD Ryzen 9000 Series.",
+    "specifications": {
+      "cores": 8,
+      "threads": 16,
+      "maxBoostClock": "5.5 GHz",
+      "baseClock": "3.8 GHz",
+      "l2Cache": "8 MB",
+      "l3Cache": "32 MB",
+      "defaultTdp": "65 W",
+      "integratedGraphics": true,
+      "graphicsModel": "AMD Radeon Graphics",
+      "architecture": "Zen 5",
+      "socket": "AM5"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html",
+        "notes": "Exact-model AMD page identifies Ryzen 7 9700X, Ryzen 9000 Series, and Zen 5 architecture."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html",
+        "notes": "Dedicated AMD product page; launch date August 8, 2024."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html",
+        "notes": "Exact SKU page supplies core/thread count, clocks, cache, TDP, integrated graphics, and AM5 socket."
+      },
+      {
+        "evidenceType": "generation",
+        "sourceName": "AMD Ryzen desktop processor list",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen.html",
+        "notes": "AMD's current desktop roster lists this model in Ryzen 9000 Series."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-7-9700f",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 9000 Series (Zen 5)",
+    "model": "Ryzen 7 9700F",
+    "modelNumber": "9700F",
+    "name": "AMD Ryzen 7 9700F Processor",
+    "category": "cpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "8-core desktop processor without integrated graphics in AMD Ryzen 9000 Series.",
+    "specifications": {
+      "cores": 8,
+      "threads": 16,
+      "maxBoostClock": "5.5 GHz",
+      "baseClock": "3.8 GHz",
+      "l2Cache": "8 MB",
+      "l3Cache": "32 MB",
+      "defaultTdp": "65 W",
+      "integratedGraphics": false,
+      "architecture": "Zen 5",
+      "socket": "AM5"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700f.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700f.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700f.html",
+        "notes": "Exact-model AMD page identifies Ryzen 7 9700F, Ryzen 9000 Series, and Zen 5 architecture."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700f.html",
+        "notes": "Dedicated AMD product page; launch date September 16, 2025."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700f.html",
+        "notes": "Exact SKU page supplies core/thread count, clocks, cache, TDP, and no integrated graphics."
+      },
+      {
+        "evidenceType": "generation",
+        "sourceName": "AMD Ryzen desktop processor list",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen.html",
+        "notes": "AMD's current desktop roster lists this model in Ryzen 9000 Series."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-9600x",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 9000 Series (Zen 5)",
+    "model": "Ryzen 5 9600X",
+    "modelNumber": "9600X",
+    "name": "AMD Ryzen 5 9600X Processor",
+    "category": "cpu",
+    "releaseYear": 2024,
+    "productStatus": "active",
+    "description": "6-core desktop processor in AMD Ryzen 9000 Series.",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "5.4 GHz",
+      "baseClock": "3.9 GHz",
+      "l2Cache": "6 MB",
+      "l3Cache": "32 MB",
+      "defaultTdp": "65 W",
+      "integratedGraphics": true,
+      "graphicsModel": "AMD Radeon Graphics",
+      "architecture": "Zen 5",
+      "socket": "AM5"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html",
+        "notes": "Exact-model AMD page identifies Ryzen 5 9600X, Ryzen 9000 Series, and Zen 5 architecture."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html",
+        "notes": "Dedicated AMD product page; launch date August 8, 2024."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600x.html",
+        "notes": "Exact SKU page supplies core/thread count, clocks, cache, TDP, integrated graphics, and AM5 socket."
+      },
+      {
+        "evidenceType": "generation",
+        "sourceName": "AMD Ryzen desktop processor list",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen.html",
+        "notes": "AMD's current desktop roster lists this model in Ryzen 9000 Series."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-9600",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 9000 Series (Zen 5)",
+    "model": "Ryzen 5 9600",
+    "modelNumber": "9600",
+    "name": "AMD Ryzen 5 9600 Processor",
+    "category": "cpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "6-core desktop processor in AMD Ryzen 9000 Series with AMD Wraith Stealth cooler included in PIB.",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "5.2 GHz",
+      "baseClock": "3.8 GHz",
+      "l2Cache": "6 MB",
+      "l3Cache": "32 MB",
+      "defaultTdp": "65 W",
+      "integratedGraphics": true,
+      "graphicsModel": "AMD Radeon Graphics",
+      "architecture": "Zen 5",
+      "socket": "AM5",
+      "thermalSolution": "AMD Wraith Stealth"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600.html",
+        "notes": "Exact-model AMD page identifies Ryzen 5 9600, Ryzen 9000 Series, and Zen 5 architecture."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600.html",
+        "notes": "Dedicated AMD product page; launch date February 19, 2025."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9600.html",
+        "notes": "Exact SKU page supplies core/thread count, clocks, cache, TDP, cooler, integrated graphics, and AM5 socket."
+      },
+      {
+        "evidenceType": "generation",
+        "sourceName": "AMD Ryzen desktop processor list",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen.html",
+        "notes": "AMD's current desktop roster lists this model in Ryzen 9000 Series."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-9500f",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 9000 Series (Zen 5)",
+    "model": "Ryzen 5 9500F",
+    "modelNumber": "9500F",
+    "name": "AMD Ryzen 5 9500F Processor",
+    "category": "cpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "6-core desktop processor without integrated graphics in AMD Ryzen 9000 Series.",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "5 GHz",
+      "baseClock": "3.8 GHz",
+      "l2Cache": "6 MB",
+      "l3Cache": "32 MB",
+      "defaultTdp": "65 W",
+      "integratedGraphics": false,
+      "architecture": "Zen 5",
+      "socket": "AM5",
+      "thermalSolution": "AMD Wraith Stealth"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9500F.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9500F.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9500F.html",
+        "notes": "Exact-model AMD page identifies Ryzen 5 9500F, Ryzen 9000 Series, and Zen 5 architecture."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9500F.html",
+        "notes": "Dedicated AMD product page; launch date September 8, 2025."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-5-9500F.html",
+        "notes": "Exact SKU page supplies core/thread count, clocks, cache, TDP, no integrated graphics, cooler, and AM5 socket."
+      },
+      {
+        "evidenceType": "generation",
+        "sourceName": "AMD Ryzen desktop processor list",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen.html",
+        "notes": "AMD's current desktop roster lists this model in Ryzen 9000 Series."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ]
+  }
+]

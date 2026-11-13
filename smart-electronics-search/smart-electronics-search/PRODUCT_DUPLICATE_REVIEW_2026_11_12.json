@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-11-11T19:31:37.071Z",
+  "database": "smart_electronics",
+  "mode": "apply",
+  "reviewedPairs": 5,
+  "rows": [
+    {
+      "sourceProductId": "6af158a5bce1e40a8b8fc4ec",
+      "sourceName": "MacBook Air 13 M2 2022",
+      "sourceStatus": "hidden",
+      "candidateProductId": "6af1f4502b3ee012143096bb",
+      "candidateName": "MacBook Air 13-inch (M2, 2022)",
+      "category": "laptop",
+      "brand": "Apple",
+      "status": "suspected_duplicate",
+      "action": "marked",
+      "basis": "Same Apple MacBook Air M2 generation and 13-inch class; hidden legacy row has no model or source evidence."
+    },
+    {
+      "sourceProductId": "6af158a5bce1e40a8b8fc4f5",
+      "sourceName": "iPhone 15 128GB",
+      "sourceStatus": "hidden",
+      "candidateProductId": "6af1f55b2b3ee012143096c1",
+      "candidateName": "iPhone 15",
+      "category": "phone",
+      "brand": "Apple",
+      "status": "suspected_duplicate",
+      "action": "marked",
+      "basis": "Same Apple iPhone 15 model; legacy title includes 128 GB, which may be a variant of the published record."
+    },
+    {
+      "sourceProductId": "6af158a5bce1e40a8b8fc501",
+      "sourceName": "JBL Tune 520BT",
+      "sourceStatus": "hidden",
+      "candidateProductId": "6af47f01c91fee01c7d6fb72",
+      "candidateName": "Tai nghe Bluetooth Chụp Tai JBL Tune 520BT",
+      "category": "headphone",
+      "brand": "JBL",
+      "status": "suspected_duplicate",
+      "action": "marked",
+      "basis": "Same JBL Tune 520BT model; published record comes from the authorized ACCESSTRADE campaign feed."
+    },
+    {
+      "sourceProductId": "6af158a5bce1e40a8b8fc508",
+      "sourceName": "Logitech G502 X Plus",
+      "sourceStatus": "hidden",
+      "candidateProductId": "6af205632b3ee012143096f7",
+      "candidateName": "Logitech G502 X PLUS LIGHTSPEED Wireless Gaming Mouse",
+      "category": "mouse",
+      "brand": "Logitech",
+      "status": "suspected_duplicate",
+      "action": "marked",
+      "basis": "Same Logitech G502 X PLUS model; legacy row has no model or source evidence."
+    },
+    {
+      "sourceProductId": "6af158a5bce1e40a8b8fc509",
+      "sourceName": "Logitech MX Master 3S",
+      "sourceStatus": "hidden",
+      "candidateProductId": "6af1fac22b3ee012143096d9",
+      "candidateName": "Logitech MX Master 3S Wireless Mouse",
+      "category": "mouse",
+      "brand": "Logitech",
+      "status": "suspected_duplicate",
+      "action": "marked",
+      "basis": "Same Logitech MX Master 3S model; legacy row has no model or source evidence."
+    }
+  ]
+}

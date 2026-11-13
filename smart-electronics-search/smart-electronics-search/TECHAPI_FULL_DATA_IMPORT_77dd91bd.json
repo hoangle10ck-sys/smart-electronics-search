@@ -1,0 +1,49 @@
+{
+  "source": "TechAPI",
+  "sourceRepository": "https://github.com/GetTechAPI/TechAPI",
+  "sourceCommit": "77dd91bdcbb0a32f411f9adefce899d935c7dfe6",
+  "attribution": "Data from TechAPI",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "imageHandling": "Image assets are not copied or served. Per-image metadata stays in raw source records for later rights review.",
+  "workflow": "Full source records are stored in TechApiCatalogRecord as discovery_only. They are not published Products, Offers, or search vectors.",
+  "checkedAt": "2026-11-11T11:49:32.020Z",
+  "dataDirectory": "D:\\techfind-catalog-20261111\\snapshot\\TechAPI-main\\data",
+  "categories": [
+    "brand",
+    "smartphone",
+    "cpu",
+    "gpu",
+    "soc"
+  ],
+  "byCategory": {
+    "brand": {
+      "files": 3022,
+      "records": 3022
+    },
+    "smartphone": {
+      "files": 92824,
+      "records": 92824
+    },
+    "cpu": {
+      "files": 4628,
+      "records": 4628
+    },
+    "gpu": {
+      "files": 2075,
+      "records": 2075
+    },
+    "soc": {
+      "files": 2117,
+      "records": 2117
+    }
+  },
+  "files": 104666,
+  "importedFiles": 104666,
+  "skippedFiles": 0,
+  "records": 104666,
+  "created": 3022,
+  "updated": 101644,
+  "collection": "techapicatalogrecords",
+  "checkpointCollection": "techapiimportcheckpoints"
+}

@@ -1,0 +1,3251 @@
+[
+  {
+    "sourceProductId": "apple-macbook-air-m2-2022-13",
+    "name": "MacBook Air 13-inch (M2, 2022)",
+    "brand": "Apple",
+    "model": "MacBook Air (M2, 2022) 13-inch",
+    "category": "laptop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/M2_Macbook_Air_Midnight_model_-_1.jpg/960px-M2_Macbook_Air_Midnight_model_-_1.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:M2_Macbook_Air_Midnight_model_-_1.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "KKPCW (Kyu3), via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111867",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111867",
+    "specifications": {
+      "chip": "Apple M2",
+      "cpu": "8-core CPU",
+      "gpu": "8-core GPU (base configuration)",
+      "memory": "8 GB unified memory (base configuration)",
+      "storage": "256 GB SSD (base configuration)",
+      "display": "13.6-inch Liquid Retina, 2560 x 1664",
+      "battery": "Up to 18 hours video playback"
+    },
+    "specs": {
+      "ram": 8,
+      "storage": 256,
+      "cpu": "Apple M2 8-core",
+      "screen": "13.6-inch Liquid Retina"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-09T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "lenovo-thinkpad-t480",
+    "name": "ThinkPad T480",
+    "brand": "Lenovo",
+    "model": "ThinkPad T480",
+    "category": "laptop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/ThinkPad_T480.jpg/960px-ThinkPad_T480.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:ThinkPad_T480.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY 2.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "imageAttribution": "Elizabeth K. Joseph, via Wikimedia Commons",
+    "productUrl": "https://psref.lenovo.com/Product/ThinkPad_T480",
+    "specificationSourceUrl": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_T480/ThinkPad_T480_Spec.PDF",
+    "specifications": {
+      "processorOptions": "7th-generation Intel Core i5 or 8th-generation Intel Core i3/i5/i7 (configuration dependent)",
+      "memory": "Up to 32 GB DDR4-2400, two SO-DIMM slots",
+      "storageOptions": "2.5-inch SATA HDD/SSD or M.2 2280 SSD (configuration dependent)",
+      "graphicsOptions": "Intel HD/UHD Graphics 620; optional NVIDIA GeForce MX150 2 GB on selected models",
+      "displayOptions": "14-inch HD, FHD or WQHD depending on configuration",
+      "batteryOptions": "24 Wh, 48 Wh, 72 Wh or selected combinations"
+    },
+    "specs": {
+      "cpu": "7th/8th Gen Intel Core options",
+      "screen": "14-inch HD/FHD/WQHD options"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-09T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-15",
+    "name": "iPhone 15",
+    "brand": "Apple",
+    "model": "iPhone 15",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Apple_iPhone_15.jpg/960px-Apple_iPhone_15.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_15.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "IPHONE 15, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111831",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111831",
+    "specifications": {
+      "chipset": "Apple A16 Bionic",
+      "cpu": "6-core CPU",
+      "gpu": "5-core GPU",
+      "storageOptions": "128 GB, 256 GB or 512 GB",
+      "display": "6.1-inch Super Retina XDR OLED, 2556 x 1179",
+      "camera": "48 MP main and 12 MP ultra-wide",
+      "battery": "Video playback up to 20 hours"
+    },
+    "specs": {
+      "storage": 128,
+      "cpu": "Apple A16 Bionic",
+      "screen": "6.1-inch Super Retina XDR"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-09T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-14",
+    "name": "iPhone 14",
+    "brand": "Apple",
+    "model": "iPhone 14",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/IPhone_14_Product_Red.jpg/960px-IPhone_14_Product_Red.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPhone_14_Product_Red.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Hajoon0102, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111850",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111850",
+    "specifications": {
+      "chipset": "Apple A15 Bionic",
+      "display": "6.1-inch Super Retina XDR OLED",
+      "storageOptions": "128 GB, 256 GB or 512 GB",
+      "camera": "12 MP main and 12 MP ultra-wide dual-camera system",
+      "battery": "Video playback up to 20 hours"
+    },
+    "specs": {
+      "storage": 128,
+      "cpu": "Apple A15 Bionic",
+      "screen": "6.1-inch Super Retina XDR"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-09T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "google-pixel-7",
+    "name": "Google Pixel 7",
+    "brand": "Google",
+    "model": "Pixel 7",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Google_Pixel_7_front.svg/960px-Google_Pixel_7_front.svg.png",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Google_Pixel_7_front.svg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Mliu92, via Wikimedia Commons",
+    "productUrl": "https://store.google.com/magazine/compare_pixel?hl=en-US&toggler0=Pixel+7+Pro&toggler1=Pixel+7a&toggler2=Pixel+7",
+    "specificationSourceUrl": "https://store.google.com/magazine/compare_pixel?hl=en-US&toggler0=Pixel+7+Pro&toggler1=Pixel+7a&toggler2=Pixel+7",
+    "specifications": {
+      "chipset": "Google Tensor G2",
+      "display": "6.3-inch OLED, 1080 x 2400, up to 90 Hz",
+      "storage": "128 GB or 256 GB",
+      "camera": "50 MP wide and 12 MP ultra-wide rear cameras",
+      "battery": "4355 mAh"
+    },
+    "specs": {
+      "storage": 128,
+      "cpu": "Google Tensor G2",
+      "screen": "6.3-inch OLED 90 Hz"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-09T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "apple-ipad-pro-12-9-4th-gen-2020",
+    "name": "iPad Pro 12.9-inch (4th generation, 2020)",
+    "brand": "Apple",
+    "model": "iPad Pro 12.9-inch (4th generation)",
+    "category": "tablet",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/12.9-inch_iPad_Pro_%282020%29.jpg/960px-12.9-inch_iPad_Pro_%282020%29.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:12.9-inch_iPad_Pro_(2020).jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "茅野ふたば, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111977",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111977",
+    "specifications": {
+      "chipset": "Apple A12Z Bionic",
+      "display": "12.9-inch Liquid Retina IPS, 2732 x 2048, ProMotion",
+      "storageOptions": "128 GB, 256 GB, 512 GB or 1 TB",
+      "camera": "12 MP wide and 10 MP ultra-wide; LiDAR Scanner",
+      "connectivity": "USB-C",
+      "audio": "Four-speaker audio"
+    },
+    "specs": {
+      "storage": 128,
+      "cpu": "Apple A12Z Bionic",
+      "screen": "12.9-inch Liquid Retina ProMotion"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-09T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "microsoft-surface-pro-9",
+    "name": "Microsoft Surface Pro 9",
+    "brand": "Microsoft",
+    "model": "Surface Pro 9",
+    "category": "tablet",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Surface_Pro_9_in_Sapphire_colour.jpg/960px-Surface_Pro_9_in_Sapphire_colour.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Surface_Pro_9_in_Sapphire_colour.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Kyler Chin, via Wikimedia Commons",
+    "productUrl": "https://www.microsoft.com/en-us/p/surface-pro-9/93vkd8np4fvk",
+    "specificationSourceUrl": "https://support.microsoft.com/en-us/surface/models/surface-pro-9-features-and-specs",
+    "specifications": {
+      "processorOptions": "12th Gen Intel Core i5-1235U/i7-1255U or Microsoft SQ 3 (5G model)",
+      "memoryOptions": "Intel models: 8 GB, 16 GB or 32 GB LPDDR5; 5G models: 8 GB or 16 GB LPDDR4x",
+      "storageOptions": "128 GB, 256 GB, 512 GB or 1 TB removable SSD (configuration dependent)",
+      "display": "13-inch PixelSense Flow, 2880 x 1920, up to 120 Hz",
+      "camera": "1080p front; 10 MP rear",
+      "battery": "Up to 15.5 hours (Intel) or 19 hours (SQ 3), typical usage"
+    },
+    "specs": {
+      "cpu": "12th Gen Intel Core or Microsoft SQ 3 options",
+      "screen": "13-inch PixelSense Flow 120 Hz"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-09T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-13",
+    "name": "iPhone 13",
+    "brand": "Apple",
+    "model": "iPhone 13",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/IPhone_13_vector.svg/960px-IPhone_13_vector.svg.png",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPhone_13_vector.svg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Rafael Fernandez, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111872",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111872",
+    "specifications": {
+      "chipset": "Apple A15 Bionic",
+      "cpu": "6-core CPU",
+      "gpu": "4-core GPU",
+      "storageOptions": "128 GB, 256 GB or 512 GB",
+      "display": "6.1-inch Super Retina XDR OLED, 2532 x 1170",
+      "camera": "12 MP wide and ultra-wide cameras",
+      "battery": "Video playback up to 19 hours"
+    },
+    "specs": {
+      "cpu": "Apple A15 Bionic",
+      "screen": "6.1-inch Super Retina XDR"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-09T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "apple-macbook-pro-16-m2-max-2023",
+    "name": "MacBook Pro 16-inch (2023, M2 Max)",
+    "brand": "Apple",
+    "model": "MacBook Pro 16-inch M2 Max (2023)",
+    "category": "laptop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Apple_MacBook_Pro_16%22_M2_Max.jpg/960px-Apple_MacBook_Pro_16%22_M2_Max.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Apple_MacBook_Pro_16%22_M2_Max.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "SimonWaldherr, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111838",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111838",
+    "specifications": {
+      "chip": "Apple M2 Max",
+      "cpu": "12-core CPU",
+      "gpu": "30-core or 38-core GPU",
+      "memoryOptions": "32 GB, 64 GB or 96 GB unified memory",
+      "storageOptions": "1 TB, 2 TB, 4 TB or 8 TB SSD",
+      "display": "16.2-inch Liquid Retina XDR, 3456 x 2234, ProMotion up to 120 Hz",
+      "battery": "Up to 22 hours video playback"
+    },
+    "specs": {
+      "cpu": "Apple M2 Max 12-core",
+      "screen": "16.2-inch Liquid Retina XDR"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-09T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "apple-ipad-air-5th-gen-2022",
+    "name": "iPad Air (5th generation, 2022)",
+    "brand": "Apple",
+    "model": "iPad Air 10.9-inch (5th generation)",
+    "category": "tablet",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/IPad_Air_5th_Generation_2024.jpg/960px-IPad_Air_5th_Generation_2024.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPad_Air_5th_Generation_2024.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Captainmorlypogi1959, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111887",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111887",
+    "specifications": {
+      "chipset": "Apple M1",
+      "display": "10.9-inch Liquid Retina IPS, 2360 x 1640",
+      "storageOptions": "64 GB or 256 GB",
+      "camera": "12 MP wide rear camera and 12 MP Ultra Wide front camera",
+      "connectivity": "USB-C; Wi-Fi 6; optional 5G cellular"
+    },
+    "specs": {
+      "cpu": "Apple M1",
+      "screen": "10.9-inch Liquid Retina"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-09T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "samsung-980-pro-1tb",
+    "name": "Samsung 980 PRO NVMe SSD 1TB",
+    "brand": "Samsung",
+    "model": "980 PRO 1TB (MZ-V8P1T0)",
+    "category": "storage",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Samsung_980_PRO_PCIe_4.0_NVMe_SSD_1TB-top_PNr%C2%B00915.jpg/960px-Samsung_980_PRO_PCIe_4.0_NVMe_SSD_1TB-top_PNr%C2%B00915.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Samsung_980_PRO_PCIe_4.0_NVMe_SSD_1TB-top_PNr%C2%B00915.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "D-Kuru, via Wikimedia Commons",
+    "productUrl": "https://www.samsung.com/us/memory-storage/nvme-ssd/980-pro-pcie-4-0-nvme-ssd-1tb-sku-mz-v8p1t0b-am/",
+    "specificationSourceUrl": "https://image.semiconductor.samsung.com/resources/data-sheet/Samsung-NVMe-SSD-980-PRO-Data-Sheet_Rev.2.1.pdf",
+    "specifications": {
+      "capacity": "1 TB",
+      "interface": "PCIe 4.0 x4, NVMe 1.3c",
+      "formFactor": "M.2 2280",
+      "sequentialRead": "Up to 7,000 MB/s",
+      "sequentialWrite": "Up to 5,000 MB/s"
+    },
+    "specs": {
+      "storage": 1024,
+      "interface": "PCIe 4.0 NVMe"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-09T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "logitech-mx-master-3s",
+    "name": "Logitech MX Master 3S Wireless Mouse",
+    "brand": "Logitech",
+    "model": "MX Master 3S",
+    "category": "mouse",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Logitech_MX_Master_3S_HS02.jpg/960px-Logitech_MX_Master_3S_HS02.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Logitech_MX_Master_3S_HS02.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "imageAttribution": "Hayden Schiff, via Wikimedia Commons",
+    "productUrl": "https://www.logitech.com/en-us/shop/p/mx-master-3s",
+    "specificationSourceUrl": "https://www.logitech.com/en-us/shop/p/mx-master-3s",
+    "specifications": {
+      "sensor": "8000 DPI Darkfield sensor",
+      "buttons": "7 buttons",
+      "connectivity": "Bluetooth Low Energy or Logi Bolt USB receiver",
+      "charging": "USB-C; up to 70 days on a full charge"
+    },
+    "specs": {
+      "sensor": "8000 DPI Darkfield",
+      "connectivity": "Bluetooth / Logi Bolt"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-09T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "asus-dual-rx6600xt-o8g",
+    "name": "ASUS Dual Radeon RX 6600 XT OC Edition 8GB",
+    "brand": "ASUS",
+    "model": "DUAL-RX6600XT-O8G",
+    "category": "gpu",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Asus_AMD_RX_6600_XT_GPU._With_dual_fan._%2852000339764%29.jpg/960px-Asus_AMD_RX_6600_XT_GPU._With_dual_fan._%2852000339764%29.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Asus_AMD_RX_6600_XT_GPU._With_dual_fan._(52000339764).jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY 2.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "imageAttribution": "Chi Ho Chan from Hong Kong, via Wikimedia Commons",
+    "productUrl": "https://www.asus.com/us/motherboards-components/graphics-cards/dual/dual-rx6600xt-o8g/",
+    "specificationSourceUrl": "https://www.asus.com/us/motherboards-components/graphics-cards/dual/dual-rx6600xt-o8g/techspec/",
+    "specifications": {
+      "gpu": "AMD Radeon RX 6600 XT",
+      "memory": "8 GB GDDR6",
+      "memoryBus": "128-bit",
+      "interface": "PCI Express 4.0",
+      "powerConnector": "1 x 8-pin"
+    },
+    "specs": {
+      "gpu": "AMD Radeon RX 6600 XT",
+      "vram": 8,
+      "interface": "PCIe 4.0"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-09T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "apple-macbook-pro-13-m1-2020",
+    "name": "MacBook Pro 13-inch (M1, 2020)",
+    "brand": "Apple",
+    "model": "MacBook Pro 13-inch M1 (2020)",
+    "category": "laptop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Apple_MacBook_Pro_M1.jpeg/960px-Apple_MacBook_Pro_M1.jpeg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Apple_MacBook_Pro_M1.jpeg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Frankee 67, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111893",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111893",
+    "specifications": {
+      "chip": "Apple M1",
+      "cpu": "8-core CPU",
+      "gpu": "8-core GPU",
+      "memoryOptions": "8 GB or 16 GB unified memory",
+      "storageOptions": "256 GB, 512 GB, 1 TB or 2 TB SSD",
+      "display": "13.3-inch Retina IPS, 2560 x 1600",
+      "battery": "Up to 20 hours video playback"
+    },
+    "specs": {
+      "cpu": "Apple M1 8-core",
+      "screen": "13.3-inch Retina"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-09T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "amd-ryzen-5-5600x",
+    "name": "AMD Ryzen 5 5600X Desktop Processor",
+    "brand": "AMD",
+    "model": "Ryzen 5 5600X",
+    "category": "cpu",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/AMD_Ryzen_5_5600X.jpg/960px-AMD_Ryzen_5_5600X.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_5_5600X.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Phiarc, via Wikimedia Commons",
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5600x.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5600x.html",
+    "specifications": {
+      "cores": "6",
+      "threads": "12",
+      "baseClock": "3.7 GHz",
+      "maxBoostClock": "Up to 4.6 GHz",
+      "cache": "3 MB L2, 32 MB L3",
+      "defaultTDP": "65 W",
+      "socket": "AM4",
+      "memory": "DDR4 up to 3200 MT/s",
+      "graphics": "Discrete graphics card required"
+    },
+    "specs": {
+      "cpu": "6 cores / 12 threads",
+      "socket": "AM4"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-09T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "apple-watch-ultra-2",
+    "name": "Apple Watch Ultra 2",
+    "brand": "Apple",
+    "model": "Watch Ultra 2 (49 mm)",
+    "category": "smartwatch",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Apple_Watch_Ultra_2.jpg/960px-Apple_Watch_Ultra_2.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Apple_Watch_Ultra_2.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Pangalau, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111832",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111832",
+    "specifications": {
+      "chip": "S9 SiP with 64-bit dual-core processor",
+      "storage": "64 GB",
+      "display": "Always-On Retina LTPO2 OLED, 49 mm, up to 3000 nits",
+      "case": "Grade 5 titanium",
+      "sensors": "Heart, temperature, depth and water temperature sensors"
+    },
+    "specs": {
+      "display": "49 mm Always-On Retina OLED",
+      "storage": 64
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "nikon-z-fc",
+    "name": "Nikon Z fc Mirrorless Camera",
+    "brand": "Nikon",
+    "model": "Z fc",
+    "category": "camera",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Nikon_Z_fc_3_aug_2021a.jpg/960px-Nikon_Z_fc_3_aug_2021a.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Nikon_Z_fc_3_aug_2021a.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "昼落ち, via Wikimedia Commons",
+    "productUrl": "https://imaging.nikon.com/imaging/lineup/mirrorless/z_fc/",
+    "specificationSourceUrl": "https://imaging.nikon.com/imaging/lineup/mirrorless/z_fc/",
+    "specifications": {
+      "sensor": "23.5 x 15.7 mm DX-format CMOS",
+      "effectivePixels": "20.9 million",
+      "lensMount": "Nikon Z mount",
+      "display": "3-inch vari-angle touch LCD",
+      "video": "4K UHD up to 30p",
+      "storage": "SD, SDHC and SDXC (UHS-I)"
+    },
+    "specs": {
+      "sensor": "20.9 MP DX CMOS",
+      "lensMount": "Nikon Z"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "logitech-c920-hd-pro-webcam",
+    "name": "Logitech C920 HD Pro Webcam",
+    "brand": "Logitech",
+    "model": "C920 HD Pro Webcam",
+    "category": "webcam",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Webcam_01.jpg/960px-Webcam_01.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Webcam_01.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC0",
+    "imageLicenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "imageAttribution": "Pmwiki1, via Wikimedia Commons (CC0)",
+    "productUrl": "https://www.logitech.com/en-gb/shop/p/c920-pro-hd-webcam?sku=960-001055",
+    "specificationSourceUrl": "https://www.logitech.com/en-gb/shop/p/c920-pro-hd-webcam?sku=960-001055",
+    "specifications": {
+      "video": "Full HD 1080p at 30 fps; 720p at 30 fps",
+      "fieldOfView": "78-degree diagonal field of view",
+      "focus": "Autofocus",
+      "audio": "Dual stereo microphones",
+      "lens": "Five-element glass lens"
+    },
+    "specs": {
+      "video": "1080p/30 fps",
+      "fieldOfView": "78 degrees"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-12-pro",
+    "name": "iPhone 12 Pro",
+    "brand": "Apple",
+    "model": "iPhone 12 Pro",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/IPhone_12_Pro_-_3.jpg/960px-IPhone_12_Pro_-_3.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPhone_12_Pro_-_3.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "KKPCW, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-ie/111875",
+    "specificationSourceUrl": "https://support.apple.com/en-ie/111875",
+    "specifications": {
+      "chipset": "Apple A14 Bionic",
+      "display": "6.1-inch Super Retina XDR OLED, 2532 x 1170",
+      "storageOptions": "128 GB, 256 GB or 512 GB",
+      "camera": "12 MP Ultra Wide, Wide and Telephoto cameras; LiDAR Scanner",
+      "connectivity": "5G; MagSafe and Qi wireless charging"
+    },
+    "specs": {
+      "cpu": "Apple A14 Bionic",
+      "screen": "6.1-inch Super Retina XDR"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "apple-airpods-max-1-2020",
+    "name": "Apple AirPods Max (1st generation, 2020)",
+    "brand": "Apple",
+    "model": "AirPods Max 1",
+    "category": "headphone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Apple_AirPods_Max_3.jpg/960px-Apple_AirPods_Max_3.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Apple_AirPods_Max_3.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "SimonWaldherr, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111858",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111858",
+    "specifications": {
+      "audio": "Apple-designed dynamic driver; Active Noise Cancellation and Transparency mode",
+      "chip": "Apple H1 chip in each ear cup",
+      "microphones": "Nine total microphones",
+      "sensors": "Optical, position and case-detect sensors; accelerometer and gyroscope",
+      "controls": "Digital Crown"
+    },
+    "specs": {
+      "chip": "Apple H1",
+      "audio": "ANC / Transparency"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "nikon-d750",
+    "name": "Nikon D750 FX-format DSLR Camera",
+    "brand": "Nikon",
+    "model": "D750",
+    "category": "camera",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Nikon_D750_01.jpg/960px-Nikon_D750_01.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Nikon_D750_01.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY 2.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "imageAttribution": "Henry Söderlund from Helsinki, Finland, via Wikimedia Commons",
+    "productUrl": "https://www.nikonusa.com/p/d750/1543/overview",
+    "specificationSourceUrl": "https://www.nikonusa.com/p/d750/1543/overview",
+    "specifications": {
+      "sensor": "35.9 x 24 mm FX-format CMOS",
+      "effectivePixels": "24.3 million",
+      "lensMount": "Nikon F bayonet mount",
+      "display": "3.2-inch diagonal TFT-LCD",
+      "video": "Full HD 1920 x 1080 up to 60 fps",
+      "storage": "SD, SDHC and SDXC"
+    },
+    "specs": {
+      "sensor": "24.3 MP FX CMOS",
+      "video": "1080p up to 60 fps"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "apple-macbook-air-m1-2020",
+    "name": "MacBook Air 13-inch (M1, 2020)",
+    "brand": "Apple",
+    "model": "MacBook Air 13-inch M1 (2020)",
+    "category": "laptop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/MacBook_Air_M1.png/960px-MacBook_Air_M1.png",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:MacBook_Air_M1.png",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Padgriffin, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111883",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111883",
+    "specifications": {
+      "chip": "Apple M1",
+      "cpu": "8-core CPU",
+      "gpu": "7-core or 8-core GPU",
+      "memory": "8 GB unified memory, configurable to 16 GB",
+      "storageOptions": "256 GB, 512 GB, 1 TB or 2 TB SSD",
+      "display": "13.3-inch Retina IPS, 2560 x 1600",
+      "battery": "Up to 18 hours video playback"
+    },
+    "specs": {
+      "cpu": "Apple M1 8-core",
+      "screen": "13.3-inch Retina"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "samsung-galaxy-tab-s8-wifi",
+    "name": "Samsung Galaxy Tab S8",
+    "brand": "Samsung",
+    "model": "Galaxy Tab S8 (Wi-Fi)",
+    "category": "tablet",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Samsung_Galaxy_Tab_S8.jpg/960px-Samsung_Galaxy_Tab_S8.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Tab_S8.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Hajoon0102, via Wikimedia Commons",
+    "productUrl": "https://api.samsungmobilepress.com/press-releases/breaking-the-rules-with-galaxy-tab-s8-series-the-biggest-boldest-most-versatile-galaxy-tablet-ever",
+    "specificationSourceUrl": "https://api.samsungmobilepress.com/press-releases/breaking-the-rules-with-galaxy-tab-s8-series-the-biggest-boldest-most-versatile-galaxy-tablet-ever",
+    "specifications": {
+      "processor": "Qualcomm Snapdragon 8 Gen 1",
+      "display": "11-inch LCD, 2560 x 1600, 120 Hz",
+      "memoryOptions": "8 GB or 12 GB RAM",
+      "storageOptions": "128 GB or 256 GB, expandable by microSD",
+      "camera": "13 MP + 6 MP rear; 12 MP ultra-wide front",
+      "battery": "8,000 mAh"
+    },
+    "specs": {
+      "cpu": "Qualcomm Snapdragon 8 Gen 1",
+      "screen": "11-inch 120 Hz LCD"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "canon-eos-r6-mark-iii",
+    "name": "Canon EOS R6 Mark III Mirrorless Camera",
+    "brand": "Canon",
+    "model": "EOS R6 Mark III",
+    "category": "camera",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Canon_EOS_R6_Mark_III_26_nov_2025d.jpg/960px-Canon_EOS_R6_Mark_III_26_nov_2025d.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Canon_EOS_R6_Mark_III_26_nov_2025d.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC0",
+    "imageLicenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "imageAttribution": "昼落ち, via Wikimedia Commons (CC0)",
+    "productUrl": "https://www.canon.co.uk/store/canon-eos-r6-mark-iii-mirrorless-camera-body/7084C033/",
+    "specificationSourceUrl": "https://cam.start.canon/hy/C022/manual/html/UG-11_Reference_0090.html",
+    "specifications": {
+      "sensor": "Full-frame CMOS, approx. 32.5 effective megapixels",
+      "lensMount": "Canon RF mount",
+      "autofocus": "Dual Pixel CMOS AF",
+      "burst": "Up to 40 fps electronic shutter",
+      "video": "7K RAW video recording",
+      "storage": "CFexpress Type B and SD UHS-II card slots"
+    },
+    "specs": {
+      "sensor": "32.5 MP full-frame CMOS",
+      "lensMount": "Canon RF"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "logitech-g502-x-plus",
+    "name": "Logitech G502 X PLUS LIGHTSPEED Wireless Gaming Mouse",
+    "brand": "Logitech",
+    "model": "G502 X PLUS",
+    "category": "mouse",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/2026_G502_X_PLUS_%28side_view%29.jpg/960px-2026_G502_X_PLUS_%28side_view%29.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:2026_G502_X_PLUS_(side_view).jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Stan Lee, via Wikimedia Commons",
+    "productUrl": "https://www.logitechg.com/en-us/shop/p/g502-x-plus-wireless-lightforce.910-006160",
+    "specificationSourceUrl": "https://support.logi.com/hc/en-us/articles/7639125500183-Specification-G502-X-PLUS-Wireless-RGB-Gaming-Mouse",
+    "specifications": {
+      "sensor": "HERO 25K optical sensor, up to 25,600 DPI",
+      "connectivity": "LIGHTSPEED wireless or USB wired",
+      "switches": "LIGHTFORCE hybrid optical-mechanical switches",
+      "lighting": "LIGHTSYNC RGB",
+      "battery": "Up to 130 hours with RGB off; up to 37 hours with RGB on"
+    },
+    "specs": {
+      "sensor": "HERO 25K / 25,600 DPI",
+      "connectivity": "LIGHTSPEED wireless"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-12-pro-max",
+    "name": "iPhone 12 Pro Max",
+    "brand": "Apple",
+    "model": "iPhone 12 Pro Max",
+    "category": "phone",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/IPhone_12_Pro_Max.png",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPhone_12_Pro_Max.png",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Chabulsqu1, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111874",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111874",
+    "specifications": {
+      "chipset": "Apple A14 Bionic",
+      "display": "6.7-inch Super Retina XDR OLED, 2778 x 1284",
+      "storageOptions": "128 GB, 256 GB or 512 GB",
+      "camera": "12 MP Ultra Wide, Wide and Telephoto cameras; LiDAR Scanner",
+      "battery": "Video playback up to 20 hours",
+      "connectivity": "5G; MagSafe and Qi wireless charging"
+    },
+    "specs": {
+      "cpu": "Apple A14 Bionic",
+      "screen": "6.7-inch Super Retina XDR"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-13-pro",
+    "name": "iPhone 13 Pro",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/IPhone_13_Pro_vector.svg/960px-IPhone_13_Pro_vector.svg.png",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPhone_13_Pro_vector.svg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Rafael Fernandez, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111871",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111871",
+    "specifications": {
+      "chipset": "Apple A15 Bionic",
+      "display": "6.1-inch Super Retina XDR OLED with ProMotion",
+      "storageOptions": "128 GB, 256 GB, 512 GB or 1 TB",
+      "camera": "12 MP Ultra Wide, Wide and Telephoto cameras; LiDAR Scanner",
+      "battery": "Video playback up to 22 hours"
+    },
+    "specs": {
+      "cpu": "Apple A15 Bionic",
+      "screen": "6.1-inch Super Retina XDR ProMotion"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-se-3rd-gen-2022",
+    "name": "iPhone SE (3rd generation, 2022)",
+    "brand": "Apple",
+    "model": "iPhone SE (3rd generation)",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/IPhone_SE_3rd_Gen.jpg/960px-IPhone_SE_3rd_Gen.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPhone_SE_3rd_Gen.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Toad40, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-gb/111866",
+    "specificationSourceUrl": "https://support.apple.com/en-gb/111866",
+    "specifications": {
+      "chipset": "Apple A15 Bionic",
+      "display": "4.7-inch Retina HD LCD",
+      "storageOptions": "64 GB, 128 GB or 256 GB",
+      "rearCamera": "12 MP Wide camera",
+      "frontCamera": "7 MP FaceTime HD camera",
+      "connectivity": "5G"
+    },
+    "specs": {
+      "cpu": "Apple A15 Bionic",
+      "screen": "4.7-inch Retina HD"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-11",
+    "name": "iPhone 11",
+    "brand": "Apple",
+    "model": "iPhone 11",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/IPhone_11_Product_Red_128g.jpg/960px-IPhone_11_Product_Red_128g.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPhone_11_Product_Red_128g.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "茅野ふたば, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111865",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111865",
+    "specifications": {
+      "chipset": "Apple A13 Bionic",
+      "display": "6.1-inch Liquid Retina HD LCD, 1792 x 828",
+      "storageOptions": "64 GB, 128 GB or 256 GB",
+      "camera": "12 MP Wide and Ultra Wide cameras",
+      "battery": "Video playback up to 17 hours",
+      "connectivity": "Gigabit-class LTE; Wi-Fi 6"
+    },
+    "specs": {
+      "cpu": "Apple A13 Bionic",
+      "screen": "6.1-inch Liquid Retina HD"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-11-pro",
+    "name": "iPhone 11 Pro",
+    "brand": "Apple",
+    "model": "iPhone 11 Pro",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/IPhone_11_Pro_Midnight_Green.svg/960px-IPhone_11_Pro_Midnight_Green.svg.png",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPhone_11_Pro_Midnight_Green.svg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Rafael Fernandez, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111879",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111879",
+    "specifications": {
+      "chipset": "Apple A13 Bionic",
+      "display": "5.8-inch Super Retina XDR OLED, 2436 x 1125",
+      "storageOptions": "64 GB, 256 GB or 512 GB",
+      "camera": "12 MP Ultra Wide, Wide and Telephoto cameras",
+      "battery": "Video playback up to 18 hours",
+      "connectivity": "Gigabit-class LTE; Wi-Fi 6"
+    },
+    "specs": {
+      "cpu": "Apple A13 Bionic",
+      "screen": "5.8-inch Super Retina XDR"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "dell-u2713hm",
+    "name": "Dell UltraSharp U2713HM 27-inch Monitor",
+    "brand": "Dell",
+    "model": "U2713HM",
+    "category": "monitor",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Monitor_-_Flickr_-_davispuh.jpg/1280px-Monitor_-_Flickr_-_davispuh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Monitor_-_Flickr_-_davispuh.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY 2.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "imageAttribution": "Dāvis Mosāns, via Wikimedia Commons (originally Flickr)",
+    "productUrl": "https://www.dell.com/support/product-details/en-us/product/dell-u2713hm/manuals",
+    "specificationSourceUrl": "https://dl.dell.com/manuals/all-products/esuprt_display_projector/esuprt_display/dell-u2713hm_user%27s%20guide_en-us.pdf",
+    "specifications": {
+      "display": "27-inch TFT LCD",
+      "panel": "IPS",
+      "resolution": "2560 × 1440 at 60 Hz maximum preset",
+      "responseTime": "8 ms gray-to-gray typical",
+      "brightness": "350 cd/m² typical",
+      "contrastRatio": "1000:1 typical"
+    },
+    "specs": {
+      "screen": "27-inch",
+      "resolution": "2560 × 1440",
+      "refreshRate": "60 Hz",
+      "panel": "IPS",
+      "responseTime": "8 ms"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-14-plus",
+    "name": "iPhone 14 Plus",
+    "brand": "Apple",
+    "model": "iPhone 14 Plus",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/A_blue_iPhone_14_Plus.jpg/960px-A_blue_iPhone_14_Plus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:A_blue_iPhone_14_Plus.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Kskhh, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111854",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111854",
+    "specifications": {
+      "chipset": "Apple A15 Bionic",
+      "display": "6.7-inch Super Retina XDR OLED, 2778 x 1284",
+      "storageOptions": "128 GB, 256 GB or 512 GB",
+      "camera": "12 MP Main and 12 MP Ultra Wide dual-camera system"
+    },
+    "specs": {
+      "cpu": "Apple A15 Bionic",
+      "screen": "6.7-inch Super Retina XDR OLED",
+      "storage": 128
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:23:50.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-14-pro",
+    "name": "iPhone 14 Pro",
+    "brand": "Apple",
+    "model": "iPhone 14 Pro",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Back_of_the_iPhone_14_Pro.jpg/960px-Back_of_the_iPhone_14_Pro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Back_of_the_iPhone_14_Pro.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Hajoon0102, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111849",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111849",
+    "specifications": {
+      "chipset": "Apple A16 Bionic",
+      "display": "6.1-inch Super Retina XDR OLED, 2556 x 1179",
+      "storageOptions": "128 GB, 256 GB, 512 GB or 1 TB",
+      "camera": "48 MP Main, 12 MP Ultra Wide and 12 MP Telephoto Pro camera system"
+    },
+    "specs": {
+      "cpu": "Apple A16 Bionic",
+      "screen": "6.1-inch Super Retina XDR OLED",
+      "storage": 128
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:23:50.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-14-pro-max",
+    "name": "iPhone 14 Pro Max",
+    "brand": "Apple",
+    "model": "iPhone 14 Pro Max",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Deep_Purple_iPhone_14_Pro_Max_back_photo.jpg/960px-Deep_Purple_iPhone_14_Pro_Max_back_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Deep_Purple_iPhone_14_Pro_Max_back_photo.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Nishino Asuka, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111846",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111846",
+    "specifications": {
+      "chipset": "Apple A16 Bionic",
+      "display": "6.7-inch Super Retina XDR OLED, 2796 x 1290",
+      "storageOptions": "128 GB, 256 GB, 512 GB or 1 TB",
+      "camera": "48 MP Main, 12 MP Ultra Wide and 12 MP Telephoto Pro camera system"
+    },
+    "specs": {
+      "cpu": "Apple A16 Bionic",
+      "screen": "6.7-inch Super Retina XDR OLED",
+      "storage": 128
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:23:50.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-15-plus",
+    "name": "iPhone 15 Plus",
+    "brand": "Apple",
+    "model": "iPhone 15 Plus",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/OpenStreetMap-on-Iphone15Plus.jpg/960px-OpenStreetMap-on-Iphone15Plus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:OpenStreetMap-on-Iphone15Plus.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Infinite Bed, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111830",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111830",
+    "specifications": {
+      "chipset": "Apple A16 Bionic",
+      "display": "6.7-inch Super Retina XDR OLED, 2796 x 1290",
+      "storageOptions": "128 GB, 256 GB or 512 GB",
+      "camera": "48 MP Main and 12 MP Ultra Wide dual-camera system"
+    },
+    "specs": {
+      "cpu": "Apple A16 Bionic",
+      "screen": "6.7-inch Super Retina XDR OLED",
+      "storage": 128
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:23:50.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-15-pro",
+    "name": "iPhone 15 Pro",
+    "brand": "Apple",
+    "model": "iPhone 15 Pro",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Apple_iPhone_15_Pro.jpg/960px-Apple_iPhone_15_Pro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_15_Pro.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "IPHONE 15, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111829",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111829",
+    "specifications": {
+      "chipset": "Apple A17 Pro",
+      "display": "6.1-inch Super Retina XDR OLED, 2556 x 1179",
+      "storageOptions": "128 GB, 256 GB, 512 GB or 1 TB",
+      "camera": "48 MP Main, 12 MP Ultra Wide and 12 MP 3x Telephoto camera system"
+    },
+    "specs": {
+      "cpu": "Apple A17 Pro",
+      "screen": "6.1-inch Super Retina XDR OLED",
+      "storage": 128
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:23:50.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-15-pro-max",
+    "name": "iPhone 15 Pro Max",
+    "brand": "Apple",
+    "model": "iPhone 15 Pro Max",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/IPhone_15_Pro_Max.jpeg/960px-IPhone_15_Pro_Max.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPhone_15_Pro_Max.jpeg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Ka Kit Pang, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111828",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111828",
+    "specifications": {
+      "chipset": "Apple A17 Pro",
+      "display": "6.7-inch Super Retina XDR OLED, 2796 x 1290",
+      "storageOptions": "256 GB, 512 GB or 1 TB",
+      "camera": "48 MP Main, 12 MP Ultra Wide and 12 MP 5x Telephoto camera system"
+    },
+    "specs": {
+      "cpu": "Apple A17 Pro",
+      "screen": "6.7-inch Super Retina XDR OLED",
+      "storage": 256
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:23:50.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-16-pro",
+    "name": "iPhone 16 Pro",
+    "brand": "Apple",
+    "model": "iPhone 16 Pro",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Back_of_iPhone_16_Pro_-_1.jpg/960px-Back_of_iPhone_16_Pro_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Back_of_iPhone_16_Pro_-_1.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Kyu3a, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/121031",
+    "specificationSourceUrl": "https://support.apple.com/en-us/121031",
+    "specifications": {
+      "chipset": "Apple A18 Pro",
+      "display": "6.3-inch Super Retina XDR OLED, 2622 x 1206",
+      "storageOptions": "128 GB, 256 GB, 512 GB or 1 TB",
+      "camera": "48 MP Fusion Main, 48 MP Ultra Wide and 12 MP 5x Telephoto camera system"
+    },
+    "specs": {
+      "cpu": "Apple A18 Pro",
+      "screen": "6.3-inch Super Retina XDR OLED",
+      "storage": 128
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:23:50.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-16-pro-max",
+    "name": "iPhone 16 Pro Max",
+    "brand": "Apple",
+    "model": "iPhone 16 Pro Max",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/IPhone_16_Pro_Max_Desert_Titanium_Rear.png/960px-IPhone_16_Pro_Max_Desert_Titanium_Rear.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPhone_16_Pro_Max_Desert_Titanium_Rear.png",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "imageAttribution": "Padgriffin, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/121032",
+    "specificationSourceUrl": "https://support.apple.com/en-us/121032",
+    "specifications": {
+      "chipset": "Apple A18 Pro",
+      "display": "6.9-inch Super Retina XDR OLED, 2868 x 1320",
+      "storageOptions": "256 GB, 512 GB or 1 TB",
+      "camera": "48 MP Fusion Main, 48 MP Ultra Wide and 12 MP 5x Telephoto camera system"
+    },
+    "specs": {
+      "cpu": "Apple A18 Pro",
+      "screen": "6.9-inch Super Retina XDR OLED",
+      "storage": 256
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:23:50.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-16e",
+    "name": "iPhone 16e",
+    "brand": "Apple",
+    "model": "iPhone 16e",
+    "category": "phone",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/IPhone_16e.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPhone_16e.png",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Hinothi1, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/122208",
+    "specificationSourceUrl": "https://support.apple.com/en-us/122208",
+    "specifications": {
+      "chipset": "Apple A18",
+      "display": "6.1-inch Super Retina XDR OLED, 2532 x 1170",
+      "storageOptions": "128 GB, 256 GB or 512 GB",
+      "camera": "48 MP Fusion Main camera system"
+    },
+    "specs": {
+      "cpu": "Apple A18",
+      "screen": "6.1-inch Super Retina XDR OLED",
+      "storage": 128
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:23:50.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-17",
+    "name": "iPhone 17",
+    "brand": "Apple",
+    "model": "iPhone 17",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Black_iPhone_17.jpg/960px-Black_iPhone_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Black_iPhone_17.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC0",
+    "imageLicenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "imageAttribution": "Ahmad Ali Karim, via Wikimedia Commons (CC0)",
+    "productUrl": "https://support.apple.com/en-us/125089",
+    "specificationSourceUrl": "https://support.apple.com/en-us/125089",
+    "specifications": {
+      "chipset": "Apple A19",
+      "display": "6.3-inch Super Retina XDR OLED, 2622 x 1206",
+      "storageOptions": "256 GB or 512 GB",
+      "camera": "48 MP Fusion Main and 48 MP Fusion Ultra Wide camera system"
+    },
+    "specs": {
+      "cpu": "Apple A19",
+      "screen": "6.3-inch Super Retina XDR OLED",
+      "storage": 256
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:23:50.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-17-pro",
+    "name": "iPhone 17 Pro",
+    "brand": "Apple",
+    "model": "iPhone 17 Pro",
+    "category": "phone",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/IPhone_17_Pro.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPhone_17_Pro.png",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "imageAttribution": "Eugen Prostakov, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/125090",
+    "specificationSourceUrl": "https://support.apple.com/en-us/125090",
+    "specifications": {
+      "chipset": "Apple A19 Pro",
+      "display": "6.3-inch Super Retina XDR OLED, 2622 x 1206",
+      "storageOptions": "256 GB, 512 GB or 1 TB",
+      "camera": "48 MP Fusion Main, 48 MP Fusion Ultra Wide and 48 MP Fusion Telephoto camera system"
+    },
+    "specs": {
+      "cpu": "Apple A19 Pro",
+      "screen": "6.3-inch Super Retina XDR OLED",
+      "storage": 256
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:23:50.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-17-pro-max",
+    "name": "iPhone 17 Pro Max",
+    "brand": "Apple",
+    "model": "iPhone 17 Pro Max",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/IPhone_17_Pro_Max_backside_%28Silver%29_%28Oct_1%2C_2025%29.jpg/960px-IPhone_17_Pro_Max_backside_%28Silver%29_%28Oct_1%2C_2025%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPhone_17_Pro_Max_backside_(Silver)_(Oct_1,_2025).jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "茅野ふたば, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/125091",
+    "specificationSourceUrl": "https://support.apple.com/en-us/125091",
+    "specifications": {
+      "chipset": "Apple A19 Pro",
+      "display": "6.9-inch Super Retina XDR OLED, 2868 x 1320",
+      "storageOptions": "256 GB, 512 GB, 1 TB or 2 TB",
+      "camera": "48 MP Fusion Main, 48 MP Fusion Ultra Wide and 48 MP Fusion Telephoto camera system"
+    },
+    "specs": {
+      "cpu": "Apple A19 Pro",
+      "screen": "6.9-inch Super Retina XDR OLED",
+      "storage": 256
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:23:50.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-17e",
+    "name": "iPhone 17e",
+    "brand": "Apple",
+    "model": "iPhone 17e",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/IPhone_17e_Soft_Pink_Model_-_2.jpg/960px-IPhone_17e_Soft_Pink_Model_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPhone_17e_Soft_Pink_Model_-_2.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Kyu3a, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/126470",
+    "specificationSourceUrl": "https://support.apple.com/en-us/126470",
+    "specifications": {
+      "chipset": "Apple A19",
+      "display": "6.1-inch Super Retina XDR OLED",
+      "storageOptions": "256 GB or 512 GB",
+      "camera": "48 MP Fusion Main camera"
+    },
+    "specs": {
+      "cpu": "Apple A19",
+      "screen": "6.1-inch Super Retina XDR OLED",
+      "storage": 256
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:23:50.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-12-mini",
+    "name": "iPhone 12 mini",
+    "brand": "Apple",
+    "model": "iPhone 12 mini",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/IPhone_12_mini.jpg/960px-IPhone_12_mini.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPhone_12_mini.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Ssu, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111877",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111877",
+    "specifications": {
+      "chipset": "Apple A14 Bionic",
+      "display": "5.4-inch Super Retina XDR OLED, 2340 x 1080",
+      "storageOptions": "64 GB, 128 GB or 256 GB",
+      "camera": "12 MP Wide and Ultra Wide dual-camera system"
+    },
+    "specs": {
+      "cpu": "Apple A14 Bionic",
+      "screen": "5.4-inch Super Retina XDR OLED",
+      "storage": 64
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:23:50.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-13-mini",
+    "name": "iPhone 13 mini",
+    "brand": "Apple",
+    "model": "iPhone 13 mini",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/IPhone_13_Mini_Gr%C3%BCn_Freigestellt.png/960px-IPhone_13_Mini_Gr%C3%BCn_Freigestellt.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPhone_13_Mini_Gr%C3%BCn_Freigestellt.png",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "DYVER, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111873",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111873",
+    "specifications": {
+      "chipset": "Apple A15 Bionic",
+      "display": "5.4-inch Super Retina XDR OLED, 2340 x 1080",
+      "storageOptions": "128 GB, 256 GB or 512 GB",
+      "camera": "12 MP Wide and Ultra Wide dual-camera system"
+    },
+    "specs": {
+      "cpu": "Apple A15 Bionic",
+      "screen": "5.4-inch Super Retina XDR OLED",
+      "storage": 128
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:23:50.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-xs-max",
+    "name": "iPhone XS Max",
+    "brand": "Apple",
+    "model": "iPhone XS Max",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/IPhone_XS_Max.jpg/960px-IPhone_XS_Max.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPhone_XS_Max.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC0",
+    "imageLicenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "imageAttribution": "Markus Kniebes, via Wikimedia Commons (CC0)",
+    "productUrl": "https://support.apple.com/en-us/111880",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111880",
+    "specifications": {
+      "chipset": "Apple A12 Bionic",
+      "display": "6.5-inch Super Retina HD OLED, 2688 x 1242",
+      "storageOptions": "64 GB, 256 GB or 512 GB",
+      "camera": "12 MP Wide and Telephoto dual-camera system"
+    },
+    "specs": {
+      "cpu": "Apple A12 Bionic",
+      "screen": "6.5-inch Super Retina HD OLED",
+      "storage": 64
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:23:50.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-xr",
+    "name": "iPhone XR",
+    "brand": "Apple",
+    "model": "iPhone XR",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/IPhone_XR.jpg/960px-IPhone_XR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPhone_XR.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Asdaiang14453, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111868",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111868",
+    "specifications": {
+      "chipset": "Apple A12 Bionic",
+      "display": "6.1-inch Liquid Retina HD LCD, 1792 x 828",
+      "storageOptions": "64 GB, 128 GB or 256 GB",
+      "camera": "12 MP Wide camera"
+    },
+    "specs": {
+      "cpu": "Apple A12 Bionic",
+      "screen": "6.1-inch Liquid Retina HD LCD",
+      "storage": 64
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:23:50.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-13-pro-max",
+    "name": "iPhone 13 Pro Max",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro Max",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Back_view_of_iPhone_13_Pro_Max_Gold.jpg/960px-Back_view_of_iPhone_13_Pro_Max_Gold.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Back_view_of_iPhone_13_Pro_Max_Gold.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "メイド理世, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111870",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111870",
+    "specifications": {
+      "chipset": "Apple A15 Bionic",
+      "display": "6.7-inch Super Retina XDR OLED with ProMotion, 2778 x 1284",
+      "storageOptions": "128 GB, 256 GB, 512 GB or 1 TB",
+      "camera": "12 MP Wide, Ultra Wide and Telephoto Pro camera system"
+    },
+    "specs": {
+      "cpu": "Apple A15 Bionic",
+      "screen": "6.7-inch Super Retina XDR OLED",
+      "storage": 128
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:23:50.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-11-pro-max",
+    "name": "iPhone 11 Pro Max",
+    "brand": "Apple",
+    "model": "iPhone 11 Pro Max",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Iphone_11_promax.jpg/960px-Iphone_11_promax.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Iphone_11_promax.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Yash vardhan singh bhati, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111878",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111878",
+    "specifications": {
+      "chipset": "Apple A13 Bionic",
+      "display": "6.5-inch Super Retina XDR OLED, 2688 x 1242",
+      "storageOptions": "64 GB, 256 GB or 512 GB",
+      "camera": "12 MP Ultra Wide, Wide and Telephoto triple-camera system"
+    },
+    "specs": {
+      "cpu": "Apple A13 Bionic",
+      "screen": "6.5-inch Super Retina XDR OLED",
+      "storage": 64
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:23:50.000Z"
+  },
+  {
+    "sourceProductId": "apple-iphone-se-2020",
+    "name": "iPhone SE (2nd generation)",
+    "brand": "Apple",
+    "model": "iPhone SE (2nd generation, 2020)",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/IPhone_SE_%282020%29_Product_Red.jpg/960px-IPhone_SE_%282020%29_Product_Red.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPhone_SE_(2020)_Product_Red.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Seth Whales, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111882",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111882",
+    "specifications": {
+      "chipset": "Apple A13 Bionic",
+      "display": "4.7-inch Retina HD LCD, 1334 x 750",
+      "storageOptions": "64 GB, 128 GB or 256 GB",
+      "camera": "12 MP Wide camera"
+    },
+    "specs": {
+      "cpu": "Apple A13 Bionic",
+      "screen": "4.7-inch Retina HD LCD",
+      "storage": 64
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:23:50.000Z"
+  },
+  {
+    "sourceProductId": "lenovo-thinkpad-x220-4290-4xg",
+    "name": "ThinkPad X220 (4290-4XG)",
+    "brand": "Lenovo",
+    "model": "ThinkPad X220 4290-4XG",
+    "category": "laptop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/ThinkPad_X220.jpg/960px-ThinkPad_X220.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:ThinkPad_X220.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY 2.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "imageAttribution": "Robert Kloosterhuis, via Wikimedia Commons",
+    "productUrl": "https://psref.lenovo.com/syspool/Sys/PDF/withdrawnbook/ltwbook_WE_2012.pdf",
+    "specificationSourceUrl": "https://psref.lenovo.com/syspool/Sys/PDF/withdrawnbook/ltwbook_WE_2012.pdf",
+    "specifications": {
+      "processor": "Intel Core i7-2640M",
+      "memory": "4 GB DDR3",
+      "storage": "320 GB 7200 rpm HDD",
+      "display": "12.5-inch HD Premium display",
+      "graphics": "Intel HD Graphics 3000"
+    },
+    "specs": {
+      "cpu": "Intel Core i7-2640M",
+      "ram": 4,
+      "storage": 320,
+      "screen": "12.5-inch HD Premium"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:49:00.000Z"
+  },
+  {
+    "sourceProductId": "lenovo-thinkpad-t420-4177-25g",
+    "name": "ThinkPad T420 (4177-25G)",
+    "brand": "Lenovo",
+    "model": "ThinkPad T420 4177-25G",
+    "category": "laptop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Thinkpad_T420_at_Office_%285909728539%29.jpg/960px-Thinkpad_T420_at_Office_%285909728539%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Thinkpad_T420_at_Office_(5909728539).jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY 2.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "imageAttribution": "Sven from Germany, via Wikimedia Commons",
+    "productUrl": "https://psref.lenovo.com/syspool/Sys/PDF/withdrawnbook/ltwbook_WE_2012.pdf",
+    "specificationSourceUrl": "https://psref.lenovo.com/syspool/Sys/PDF/withdrawnbook/ltwbook_WE_2012.pdf",
+    "specifications": {
+      "processor": "Intel Core i5-2410M",
+      "memory": "2 GB DDR3",
+      "storage": "320 GB 5400 rpm HDD",
+      "display": "14-inch HD display",
+      "graphics": "Intel HD Graphics 3000"
+    },
+    "specs": {
+      "cpu": "Intel Core i5-2410M",
+      "ram": 2,
+      "storage": 320,
+      "screen": "14-inch HD"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:49:00.000Z"
+  },
+  {
+    "sourceProductId": "lenovo-thinkpad-t430-2342-38u",
+    "name": "ThinkPad T430 (2342-38U)",
+    "brand": "Lenovo",
+    "model": "ThinkPad T430 2342-38U",
+    "category": "laptop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Lenovo_ThinkPad_T430.jpg/960px-Lenovo_ThinkPad_T430.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Lenovo_ThinkPad_T430.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Dingo1234555, via Wikimedia Commons",
+    "productUrl": "https://psref.lenovo.com/syspool/sys/pdf/withdrawnbook/thinkpad_t430.pdf",
+    "specificationSourceUrl": "https://psref.lenovo.com/syspool/sys/pdf/withdrawnbook/thinkpad_t430.pdf",
+    "specifications": {
+      "processor": "Intel Core i5-3320M",
+      "memory": "4 GB DDR3",
+      "storage": "500 GB 7200 rpm HDD",
+      "display": "14-inch HD display",
+      "graphics": "Intel HD Graphics 4000"
+    },
+    "specs": {
+      "cpu": "Intel Core i5-3320M",
+      "ram": 4,
+      "storage": 500,
+      "screen": "14-inch HD"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:49:00.000Z"
+  },
+  {
+    "sourceProductId": "lenovo-thinkpad-t460-20fn002jus",
+    "name": "ThinkPad T460 (20FN002JUS)",
+    "brand": "Lenovo",
+    "model": "ThinkPad T460 20FN002JUS",
+    "category": "laptop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/T460_angled.jpg/960px-T460_angled.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:T460_angled.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "imageAttribution": "Albert György, via Wikimedia Commons",
+    "productUrl": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_T460/ThinkPad_T460_Spec.PDF?v=cdfdeeb2-f947-49da-812e-86c3c82fe364",
+    "specificationSourceUrl": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_T460/ThinkPad_T460_Spec.PDF?v=cdfdeeb2-f947-49da-812e-86c3c82fe364",
+    "specifications": {
+      "processor": "Intel Core i5-6300U",
+      "memory": "8 GB DDR3L",
+      "storage": "256 GB SSD",
+      "display": "14-inch FHD IPS, 1920 x 1080",
+      "graphics": "Intel HD Graphics 520"
+    },
+    "specs": {
+      "cpu": "Intel Core i5-6300U",
+      "ram": 8,
+      "storage": 256,
+      "screen": "14-inch FHD IPS"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:49:00.000Z"
+  },
+  {
+    "sourceProductId": "lenovo-thinkpad-t470-20hd0070us",
+    "name": "ThinkPad T470 (20HD0070US)",
+    "brand": "Lenovo",
+    "model": "ThinkPad T470 20HD0070US",
+    "category": "laptop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Lenovo_ThinkPad_T470.jpg/960px-Lenovo_ThinkPad_T470.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Lenovo_ThinkPad_T470.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC0",
+    "imageLicenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "imageAttribution": "NickW1129, via Wikimedia Commons (CC0)",
+    "productUrl": "https://psref.lenovo.com/Detail/ThinkPad/ThinkPad_T470?M=20HD0070US",
+    "specificationSourceUrl": "https://psref.lenovo.com/Detail/ThinkPad/ThinkPad_T470?M=20HD0070US",
+    "specifications": {
+      "processor": "Intel Core i5-7300U",
+      "memory": "8 GB DDR4-2133",
+      "storage": "256 GB SATA SSD",
+      "display": "14-inch FHD IPS, 1920 x 1080",
+      "graphics": "Intel HD Graphics 620",
+      "battery": "24 Wh internal plus 24 Wh swappable battery"
+    },
+    "specs": {
+      "cpu": "Intel Core i5-7300U",
+      "ram": 8,
+      "storage": 256,
+      "screen": "14-inch FHD IPS"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:49:00.000Z"
+  },
+  {
+    "sourceProductId": "lenovo-thinkpad-t500",
+    "name": "ThinkPad T500",
+    "brand": "Lenovo",
+    "model": "ThinkPad T500",
+    "category": "laptop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Lenovo_ThinkPad_T500.jpg/960px-Lenovo_ThinkPad_T500.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Lenovo_ThinkPad_T500.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "imageAttribution": "Sloesch, via Wikimedia Commons",
+    "productUrl": "https://download.lenovo.com/pccbbs/mobiles_pdf/43y6630.pdf",
+    "specificationSourceUrl": "https://download.lenovo.com/pccbbs/mobiles_pdf/43y6630.pdf",
+    "specifications": {
+      "processorOptions": "Intel Core 2 Duo P8400, P8600, P9500, T9400 or T9600 options",
+      "memory": "DDR3-1066 SDRAM SO-DIMM; configuration varies by model",
+      "displayOptions": "15.4-inch WXGA 1280 x 800, WSXGA+ 1680 x 1050 or WUXGA 1920 x 1200",
+      "graphicsOptions": "Intel integrated graphics or AMD discrete graphics depending on configuration"
+    },
+    "specs": {
+      "cpu": "Intel Core 2 Duo options",
+      "screen": "15.4-inch WXGA/WSXGA+/WUXGA options"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:49:00.000Z"
+  },
+  {
+    "sourceProductId": "lenovo-thinkpad-t530-2359-2hu",
+    "name": "ThinkPad T530 (2359-2HU)",
+    "brand": "Lenovo",
+    "model": "ThinkPad T530 2359-2HU",
+    "category": "laptop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/ThinkPad_T530_001_%288665551942%29.jpg/960px-ThinkPad_T530_001_%288665551942%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:ThinkPad_T530_001_(8665551942).jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "imageAttribution": "TAKA@P.P.R.S, via Wikimedia Commons",
+    "productUrl": "https://psref.lenovo.com/syspool/Sys/PDF/withdrawnbook/ThinkPad_T530.pdf",
+    "specificationSourceUrl": "https://psref.lenovo.com/syspool/Sys/PDF/withdrawnbook/ThinkPad_T530.pdf",
+    "specifications": {
+      "processor": "Intel Core i5-3320M",
+      "memory": "4 GB DDR3",
+      "storage": "500 GB 7200 rpm HDD",
+      "display": "15.6-inch HD display",
+      "graphics": "Intel HD Graphics 4000"
+    },
+    "specs": {
+      "cpu": "Intel Core i5-3320M",
+      "ram": 4,
+      "storage": 500,
+      "screen": "15.6-inch HD"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:49:00.000Z"
+  },
+  {
+    "sourceProductId": "lenovo-thinkpad-x1-carbon-gen5-20hq0020",
+    "name": "ThinkPad X1 Carbon (5th Gen, 20HQ0020++)",
+    "brand": "Lenovo",
+    "model": "ThinkPad X1 Carbon 5th Gen 20HQ0020++",
+    "category": "laptop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/ThinkPad_X1_Carbon_gen5_%2834313500904%29.jpg/960px-ThinkPad_X1_Carbon_gen5_%2834313500904%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:ThinkPad_X1_Carbon_gen5_(34313500904).jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC0",
+    "imageLicenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "imageAttribution": "Tinh tế Photo, via Wikimedia Commons (CC0)",
+    "productUrl": "https://psref.lenovo.com/Detail/ThinkPad/ThinkPad_X1_Carbon_5th_Gen?M=20HQ0020%2B%2B",
+    "specificationSourceUrl": "https://psref.lenovo.com/Detail/ThinkPad/ThinkPad_X1_Carbon_5th_Gen?M=20HQ0020%2B%2B",
+    "specifications": {
+      "processor": "Intel Core i7-7600U",
+      "memory": "8 GB LPDDR3 soldered",
+      "storage": "256 GB PCIe NVMe SSD",
+      "display": "14-inch FHD, 1920 x 1080",
+      "graphics": "Intel HD Graphics 620",
+      "battery": "57 Wh"
+    },
+    "specs": {
+      "cpu": "Intel Core i7-7600U",
+      "ram": 8,
+      "storage": 256,
+      "screen": "14-inch FHD"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:49:00.000Z"
+  },
+  {
+    "sourceProductId": "lenovo-thinkpad-x1-carbon-gen1-3444-54u",
+    "name": "ThinkPad X1 Carbon (1st Gen, 3444-54U)",
+    "brand": "Lenovo",
+    "model": "ThinkPad X1 Carbon 1st Gen 3444-54U",
+    "category": "laptop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Thinkpad_X1_Carbon.jpg/960px-Thinkpad_X1_Carbon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Thinkpad_X1_Carbon.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "imageAttribution": "Mariofan13, via Wikimedia Commons",
+    "productUrl": "https://psref.lenovo.com/syspool/Sys/PDF/withdrawnbook/ThinkPad_X1_Carbon_1st_Gen.pdf",
+    "specificationSourceUrl": "https://psref.lenovo.com/syspool/Sys/PDF/withdrawnbook/ThinkPad_X1_Carbon_1st_Gen.pdf",
+    "specifications": {
+      "processor": "Intel Core i5-3427U",
+      "memory": "4 GB DDR3L soldered",
+      "storage": "256 GB SSD",
+      "display": "14-inch HD+, 1600 x 900",
+      "graphics": "Intel HD Graphics 4000",
+      "battery": "45.8 Wh, up to 8.2 hours under Lenovo test conditions"
+    },
+    "specs": {
+      "cpu": "Intel Core i5-3427U",
+      "ram": 4,
+      "storage": 256,
+      "screen": "14-inch HD+"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:49:00.000Z"
+  },
+  {
+    "sourceProductId": "dell-xps-13-9300",
+    "name": "Dell XPS 13 9300",
+    "brand": "Dell",
+    "model": "XPS 13 9300",
+    "category": "laptop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Dell_XPS_13_9300.jpg/960px-Dell_XPS_13_9300.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Dell_XPS_13_9300.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Green-Curtain, via Wikimedia Commons",
+    "productUrl": "https://dl.dell.com/topicspdf/xps-13-9300-laptop_reference-guide_en-us.pdf",
+    "specificationSourceUrl": "https://dl.dell.com/topicspdf/xps-13-9300-laptop_reference-guide_en-us.pdf",
+    "specifications": {
+      "processorOptions": "10th Gen Intel Core i3-1005G1, i5-1035G1 or i7-1065G7",
+      "memoryOptions": "4, 8, 16 or 32 GB LPDDR4/LPDDR4X soldered",
+      "storage": "M.2 PCIe NVMe SSD options",
+      "displayOptions": "13.4-inch FHD+ or UHD+ InfinityEdge display options",
+      "graphicsOptions": "Intel UHD Graphics or Iris Plus Graphics, processor dependent"
+    },
+    "specs": {
+      "cpu": "10th Gen Intel Core i3/i5/i7 options",
+      "screen": "13.4-inch FHD+/UHD+ options"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:49:00.000Z"
+  },
+  {
+    "sourceProductId": "dell-xps-13-9350-2015",
+    "name": "Dell XPS 13 9350 (2015)",
+    "brand": "Dell",
+    "model": "XPS 13 9350 (2015)",
+    "category": "laptop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Dell_XPS_13_9350.jpg/960px-Dell_XPS_13_9350.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Dell_XPS_13_9350.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Green-Curtain, via Wikimedia Commons",
+    "productUrl": "https://dl.dell.com/manuals/all-products/esuprt_laptop/esuprt_xps_laptop/xps-13-9350-laptop_reference%20guide_en-us.pdf",
+    "specificationSourceUrl": "https://dl.dell.com/manuals/all-products/esuprt_laptop/esuprt_xps_laptop/xps-13-9350-laptop_reference%20guide_en-us.pdf",
+    "specifications": {
+      "processorOptions": "6th Gen Intel Core i3, i5 or i7",
+      "memoryOptions": "4, 8 or 16 GB LPDDR3 soldered",
+      "storageOptions": "M.2 SSD, SATA or PCIe interface depending on configuration",
+      "displayOptions": "13.3-inch FHD 1920 x 1080 or QHD+ 3200 x 1800 touch display options",
+      "graphicsOptions": "Intel HD Graphics 520 or 540, processor dependent"
+    },
+    "specs": {
+      "cpu": "6th Gen Intel Core i3/i5/i7 options",
+      "screen": "13.3-inch FHD/QHD+ options"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:49:00.000Z"
+  },
+  {
+    "sourceProductId": "hp-spectre-x360-13t-aw0000",
+    "name": "HP Spectre x360 13t-aw0000",
+    "brand": "HP",
+    "model": "Spectre x360 13t-aw0000",
+    "category": "laptop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Hp_Spectre_x360.jpg/960px-Hp_Spectre_x360.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Hp_Spectre_x360.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Lokeish, via Wikimedia Commons",
+    "productUrl": "https://support.hp.com/us-en/product/setup-user-guides/hp-spectre-13-aw0000-x360-convertible-pc-series/model/29100378",
+    "specificationSourceUrl": "https://support.hp.com/us-en/document/c06617276",
+    "specifications": {
+      "processor": "Intel Core i7-1065G7",
+      "memory": "16 GB LPDDR4-3200",
+      "storage": "PCIe NVMe SSD options up to 2 TB",
+      "display": "13.3-inch 4K UHD touch display configuration",
+      "graphics": "Intel Iris Plus Graphics",
+      "battery": "60 Wh; HP estimates up to 10 hours mixed use for specified configuration"
+    },
+    "specs": {
+      "cpu": "Intel Core i7-1065G7",
+      "ram": 16,
+      "screen": "13.3-inch 4K UHD touch"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:49:00.000Z"
+  },
+  {
+    "sourceProductId": "asus-zenbook-13-ux334",
+    "name": "ASUS ZenBook 13 UX334",
+    "brand": "ASUS",
+    "model": "ZenBook 13 UX334",
+    "category": "laptop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/ASUS_ZenBook_UX334_20190601.jpg/960px-ASUS_ZenBook_UX334_20190601.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:ASUS_ZenBook_UX334_20190601.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Solomon203, via Wikimedia Commons",
+    "productUrl": "https://www.asus.com/laptops/for-home/zenbook/zenbook-13-ux334/",
+    "specificationSourceUrl": "https://www.asus.com/laptops/for-home/zenbook/zenbook-13-ux334/",
+    "specifications": {
+      "processorOptions": "8th or 10th Gen Intel Core i7 options, depending on UX334 submodel",
+      "memoryOptions": "Up to 16 GB LPDDR3",
+      "storageOptions": "PCIe SSD up to 1 TB",
+      "graphicsOptions": "Integrated Intel graphics or NVIDIA GeForce MX250, configuration dependent",
+      "display": "13.3-inch FHD NanoEdge display; ScreenPad 2.0 on configured model",
+      "battery": "50 Wh lithium-polymer"
+    },
+    "specs": {
+      "cpu": "8th/10th Gen Intel Core i7 options",
+      "screen": "13.3-inch FHD"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:49:00.000Z"
+  },
+  {
+    "sourceProductId": "apple-macbook-air-retina-2018",
+    "name": "MacBook Air (Retina, 13-inch, 2018)",
+    "brand": "Apple",
+    "model": "MacBook Air Retina 13-inch (2018)",
+    "category": "laptop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/MacBookAir2018Retina.jpg/960px-MacBookAir2018Retina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:MacBookAir2018Retina.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Dominik, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111933",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111933",
+    "specifications": {
+      "processor": "1.6 GHz dual-core Intel Core i5",
+      "memory": "8 GB LPDDR3, configurable to 16 GB",
+      "storage": "128 GB PCIe SSD base, configurable to 256 GB, 512 GB or 1.5 TB",
+      "display": "13.3-inch Retina IPS, 2560 x 1600",
+      "graphics": "Intel UHD Graphics 617",
+      "battery": "50.3 Wh; up to 12 hours wireless web under Apple test conditions"
+    },
+    "specs": {
+      "cpu": "Dual-core Intel Core i5",
+      "ram": 8,
+      "storage": 128,
+      "screen": "13.3-inch Retina IPS"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:49:00.000Z"
+  },
+  {
+    "sourceProductId": "apple-macbook-pro-13-2019-two-thunderbolt",
+    "name": "MacBook Pro (13-inch, 2019, two Thunderbolt 3 ports)",
+    "brand": "Apple",
+    "model": "MacBook Pro 13-inch (2019, two Thunderbolt 3 ports)",
+    "category": "laptop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/MacBook_Pro_2019_13_inch.jpg/960px-MacBook_Pro_2019_13_inch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:MacBook_Pro_2019_13_inch.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Laptopsarena, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111945",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111945",
+    "specifications": {
+      "processor": "1.4 GHz quad-core Intel Core i5, configurable to 1.7 GHz quad-core Core i7",
+      "memory": "8 GB LPDDR3, configurable to 16 GB",
+      "storage": "128 GB SSD base, configurable to 256 GB, 512 GB, 1 TB or 2 TB",
+      "display": "13.3-inch Retina IPS, 2560 x 1600",
+      "graphics": "Intel Iris Plus Graphics 645",
+      "battery": "58.2 Wh; up to 10 hours wireless web under Apple test conditions"
+    },
+    "specs": {
+      "cpu": "Quad-core Intel Core i5",
+      "ram": 8,
+      "storage": 128,
+      "screen": "13.3-inch Retina IPS"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:49:00.000Z"
+  },
+  {
+    "sourceProductId": "apple-macbook-pro-16-m1-pro-2021",
+    "name": "MacBook Pro 16-inch (M1 Pro, 2021)",
+    "brand": "Apple",
+    "model": "MacBook Pro 16-inch M1 Pro (2021)",
+    "category": "laptop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/MacBook_Pro_16_%28M1_Pro%2C_2021%29_-_Wikipedia.jpg/960px-MacBook_Pro_16_%28M1_Pro%2C_2021%29_-_Wikipedia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:MacBook_Pro_16_(M1_Pro,_2021)_-_Wikipedia.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Premeditated, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111901",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111901",
+    "specifications": {
+      "chip": "Apple M1 Pro, 10-core CPU and 16-core GPU",
+      "memory": "16 GB unified memory base; configurable to 32 GB",
+      "storage": "512 GB SSD base for M1 Pro; configurable storage options",
+      "display": "16.2-inch Liquid Retina XDR, 3456 x 2234, ProMotion up to 120 Hz",
+      "battery": "100 Wh; up to 14 hours wireless web under Apple test conditions"
+    },
+    "specs": {
+      "cpu": "Apple M1 Pro 10-core CPU / 16-core GPU",
+      "ram": 16,
+      "storage": 512,
+      "screen": "16.2-inch Liquid Retina XDR"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:49:00.000Z"
+  },
+  {
+    "sourceProductId": "apple-macbook-pro-16-m4-pro-2024",
+    "name": "MacBook Pro 16-inch (M4 Pro, 2024)",
+    "brand": "Apple",
+    "model": "MacBook Pro 16-inch M4 Pro (2024)",
+    "category": "laptop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/MacBook_Pro_%2816-inch%2C_M4_Pro%2C_Silver%29.jpg/960px-MacBook_Pro_%2816-inch%2C_M4_Pro%2C_Silver%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:MacBook_Pro_(16-inch,_M4_Pro,_Silver).jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC0",
+    "imageLicenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "imageAttribution": "AzureSaturn, via Wikimedia Commons (CC0)",
+    "productUrl": "https://support.apple.com/en-us/121554",
+    "specificationSourceUrl": "https://support.apple.com/en-us/121554",
+    "specifications": {
+      "chip": "Apple M4 Pro, 14-core CPU and 20-core GPU",
+      "memory": "24 GB unified memory base for M4 Pro",
+      "storage": "512 GB SSD base for M4 Pro; configurable options",
+      "display": "16.2-inch Liquid Retina XDR, 3456 x 2234, ProMotion up to 120 Hz",
+      "battery": "100 Wh; up to 24 hours video streaming under Apple test conditions"
+    },
+    "specs": {
+      "cpu": "Apple M4 Pro 14-core CPU / 20-core GPU",
+      "ram": 24,
+      "storage": 512,
+      "screen": "16.2-inch Liquid Retina XDR"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:49:00.000Z"
+  },
+  {
+    "sourceProductId": "lenovo-thinkpad-t440p-20an006aus",
+    "name": "ThinkPad T440p (20AN006AUS)",
+    "brand": "Lenovo",
+    "model": "ThinkPad T440p 20AN006AUS",
+    "category": "laptop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Lenovo_T440P.jpg/960px-Lenovo_T440P.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Lenovo_T440P.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC0",
+    "imageLicenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "imageAttribution": "Yann Btx, via Wikimedia Commons (CC0)",
+    "productUrl": "https://psref.lenovo.com/Detail/ThinkPad_T440p?M=20AN006AUS",
+    "specificationSourceUrl": "https://psref.lenovo.com/Detail/ThinkPad_T440p?M=20AN006AUS",
+    "specifications": {
+      "processor": "Intel Core i5-4300M",
+      "memory": "4 GB DDR3",
+      "storage": "500 GB 7200 rpm HDD",
+      "display": "14-inch HD display",
+      "graphics": "Intel HD Graphics 4600"
+    },
+    "specs": {
+      "cpu": "Intel Core i5-4300M",
+      "ram": 4,
+      "storage": 500,
+      "screen": "14-inch HD"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:49:00.000Z"
+  },
+  {
+    "sourceProductId": "lenovo-thinkpad-t440s",
+    "name": "ThinkPad T440s",
+    "brand": "Lenovo",
+    "model": "ThinkPad T440s",
+    "category": "laptop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Lenovo_ThinkPad_T440s_018_%2815775003566%29.jpg/960px-Lenovo_ThinkPad_T440s_018_%2815775003566%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Lenovo_ThinkPad_T440s_018_(15775003566).jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "imageAttribution": "TAKA@P.P.R.S, via Wikimedia Commons",
+    "productUrl": "https://psref.lenovo.com/WDProduct/ThinkPad/ThinkPad_T440s?tab=model",
+    "specificationSourceUrl": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_T440s/ThinkPad_T440s_Spec.PDF?v=4c58c010-3257-4eb4-811d-97256ea0be4e",
+    "specifications": {
+      "processorOptions": "4th Gen Intel Core i5-4200U, i5-4210U, i5-4300U or i7-4600U",
+      "memory": "4 GB soldered plus one SO-DIMM slot; 12 GB maximum",
+      "storageOptions": "2.5-inch SATA HDD/SSD or M.2 SSD, configuration dependent",
+      "displayOptions": "14-inch HD+ 1600 x 900 or FHD IPS 1920 x 1080",
+      "graphicsOptions": "Intel HD Graphics 4400; selected configurations add NVIDIA GeForce GT 730M",
+      "batteryOptions": "Internal 23.5 Wh battery with optional external 23.5, 47.5 or 72 Wh battery"
+    },
+    "specs": {
+      "cpu": "4th Gen Intel Core i5/i7 options",
+      "ram": "4 GB soldered, up to 12 GB",
+      "screen": "14-inch HD+/FHD options"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:49:00.000Z"
+  },
+  {
+    "sourceProductId": "lenovo-thinkpad-x230-2324-3yu",
+    "name": "ThinkPad X230 (2324-3YU)",
+    "brand": "Lenovo",
+    "model": "ThinkPad X230 2324-3YU",
+    "category": "laptop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/ThinkPad_X230_%288729881959%29.jpg/960px-ThinkPad_X230_%288729881959%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:ThinkPad_X230_(8729881959).jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 2.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "imageAttribution": "TAKA@P.P.R.S, via Wikimedia Commons",
+    "productUrl": "https://psref.lenovo.com/syspool/Sys/PDF/withdrawnbook/ThinkPad_X230.pdf",
+    "specificationSourceUrl": "https://psref.lenovo.com/syspool/Sys/PDF/withdrawnbook/ThinkPad_X230.pdf",
+    "specifications": {
+      "processor": "Intel Core i7-3520M",
+      "memory": "4 GB DDR3",
+      "storage": "180 GB SSD",
+      "display": "12.5-inch HD, 1366 x 768",
+      "graphics": "Intel HD Graphics 4000"
+    },
+    "specs": {
+      "cpu": "Intel Core i7-3520M",
+      "ram": 4,
+      "storage": 180,
+      "screen": "12.5-inch HD"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T04:49:00.000Z"
+  },
+  {
+    "sourceProductId": "apple-ipad-9th-generation-2021",
+    "name": "iPad (9th generation, 2021)",
+    "brand": "Apple",
+    "model": "iPad (9th generation)",
+    "category": "tablet",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/IPad_9th_Generation_2024.jpg/960px-IPad_9th_Generation_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPad_9th_Generation_2024.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "imageAttribution": "Captainmorlypogi1959, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111898",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111898",
+    "specifications": {
+      "cameras": "8 MP rear; 12 MP ultra-wide front",
+      "storage": "64 GB or 256 GB",
+      "connectivity": "Lightning; Wi-Fi 5; optional cellular",
+      "chipset": "Apple A13 Bionic",
+      "display": "10.2-inch Retina IPS, 2160 x 1620"
+    },
+    "specs": {
+      "cpu": "Apple A13 Bionic",
+      "screen": "10.2-inch Retina",
+      "storage": "64 GB or 256 GB"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:12:18.000Z"
+  },
+  {
+    "sourceProductId": "apple-ipad-10th-generation-2022",
+    "name": "iPad (10th generation, 2022)",
+    "brand": "Apple",
+    "model": "iPad (10th generation)",
+    "category": "tablet",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/IPad_10th_Generation_2024.jpg/960px-IPad_10th_Generation_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPad_10th_Generation_2024.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "imageAttribution": "Captainmorlypogi1959, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111840",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111840",
+    "specifications": {
+      "cameras": "12 MP rear; 12 MP ultra-wide front",
+      "storage": "64 GB or 256 GB",
+      "connectivity": "USB-C; Wi-Fi 6; optional 5G cellular",
+      "chipset": "Apple A14 Bionic",
+      "display": "10.86-inch Liquid Retina IPS, 2360 x 1640"
+    },
+    "specs": {
+      "cpu": "Apple A14 Bionic",
+      "screen": "10.86-inch Liquid Retina",
+      "storage": "64 GB or 256 GB"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:12:18.000Z"
+  },
+  {
+    "sourceProductId": "apple-ipad-mini-5th-generation-2019",
+    "name": "iPad mini (5th generation, 2019)",
+    "brand": "Apple",
+    "model": "iPad mini (5th generation)",
+    "category": "tablet",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/IPad_mini_%285th_generation%29.JPG/960px-IPad_mini_%285th_generation%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPad_mini_(5th_generation).JPG",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "imageAttribution": "まる。, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111904",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111904",
+    "specifications": {
+      "cameras": "8 MP rear; 7 MP FaceTime HD front",
+      "storage": "64 GB or 256 GB",
+      "connectivity": "Lightning; Wi-Fi 5; optional cellular",
+      "chipset": "Apple A12 Bionic",
+      "display": "7.9-inch Retina IPS, 2048 x 1536"
+    },
+    "specs": {
+      "cpu": "Apple A12 Bionic",
+      "screen": "7.9-inch Retina",
+      "storage": "64 GB or 256 GB"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:12:18.000Z"
+  },
+  {
+    "sourceProductId": "apple-ipad-mini-6th-generation-2021",
+    "name": "iPad mini (6th generation, 2021)",
+    "brand": "Apple",
+    "model": "iPad mini (6th generation)",
+    "category": "tablet",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/IPad_Mini_6_-_1.jpg/960px-IPad_Mini_6_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPad_Mini_6_-_1.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "imageAttribution": "Kyu3a, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111886",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111886",
+    "specifications": {
+      "cameras": "12 MP rear; 12 MP ultra-wide front with Center Stage",
+      "storage": "64 GB or 256 GB",
+      "connectivity": "USB-C; Wi-Fi 6; optional 5G cellular",
+      "chipset": "Apple A15 Bionic",
+      "display": "8.3-inch Liquid Retina IPS, 2266 x 1488"
+    },
+    "specs": {
+      "cpu": "Apple A15 Bionic",
+      "screen": "8.3-inch Liquid Retina",
+      "storage": "64 GB or 256 GB"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:12:18.000Z"
+  },
+  {
+    "sourceProductId": "apple-ipad-mini-a17-pro-2024",
+    "name": "iPad mini (A17 Pro, 2024)",
+    "brand": "Apple",
+    "model": "iPad mini (A17 Pro)",
+    "category": "tablet",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/IPad_mini_%28A17_Pro%29_frontside.jpg/960px-IPad_mini_%28A17_Pro%29_frontside.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPad_mini_(A17_Pro)_frontside.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "imageAttribution": "茅野ふたば, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/121456",
+    "specificationSourceUrl": "https://support.apple.com/en-us/121456",
+    "specifications": {
+      "cameras": "12 MP wide rear; 12 MP ultra-wide front with Center Stage",
+      "storage": "128 GB, 256 GB or 512 GB",
+      "connectivity": "USB-C; Wi-Fi 6E; optional 5G cellular",
+      "chipset": "Apple A17 Pro",
+      "display": "8.3-inch Liquid Retina IPS, 2266 x 1488"
+    },
+    "specs": {
+      "cpu": "Apple A17 Pro",
+      "screen": "8.3-inch Liquid Retina",
+      "storage": "128 GB, 256 GB or 512 GB"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:12:18.000Z"
+  },
+  {
+    "sourceProductId": "apple-ipad-air-4th-generation-2020",
+    "name": "iPad Air (4th generation, 2020)",
+    "brand": "Apple",
+    "model": "iPad Air (4th generation)",
+    "category": "tablet",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/IPad_Air_4th_generation_-_3.jpg/960px-IPad_Air_4th_generation_-_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPad_Air_4th_generation_-_3.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "imageAttribution": "KKPCW, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111905",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111905",
+    "specifications": {
+      "storage": "64 GB or 256 GB",
+      "connectivity": "USB-C; Wi-Fi 6; optional cellular",
+      "chipset": "Apple A14 Bionic",
+      "camera": "12 MP wide rear; 7 MP FaceTime HD front",
+      "display": "10.9-inch Liquid Retina IPS, 2360 x 1640"
+    },
+    "specs": {
+      "cpu": "Apple A14 Bionic",
+      "screen": "10.9-inch Liquid Retina",
+      "storage": "64 GB or 256 GB"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:12:18.000Z"
+  },
+  {
+    "sourceProductId": "apple-ipad-pro-9-7-inch-2016",
+    "name": "iPad Pro 9.7-inch (2016)",
+    "brand": "Apple",
+    "model": "iPad Pro 9.7-inch",
+    "category": "tablet",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/IPad_Pro_9.7_4951.jpg/960px-IPad_Pro_9.7_4951.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPad_Pro_9.7_4951.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "imageAttribution": "Ashley Pomeroy, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111965",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111965",
+    "specifications": {
+      "cameras": "12 MP rear with True Tone flash; 5 MP FaceTime HD front",
+      "storage": "32 GB, 128 GB or 256 GB",
+      "connectivity": "Lightning; Wi-Fi 5; optional cellular",
+      "chipset": "Apple A9X",
+      "display": "9.7-inch Retina IPS, 2048 x 1536"
+    },
+    "specs": {
+      "cpu": "Apple A9X",
+      "screen": "9.7-inch Retina",
+      "storage": "32 GB, 128 GB or 256 GB"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:12:18.000Z"
+  },
+  {
+    "sourceProductId": "apple-ipad-pro-10-5-inch-2017",
+    "name": "iPad Pro 10.5-inch (2017)",
+    "brand": "Apple",
+    "model": "iPad Pro 10.5-inch",
+    "category": "tablet",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/IPad_Pro_10.5_unboxing_%2838618066655%29.jpg/960px-IPad_Pro_10.5_unboxing_%2838618066655%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPad_Pro_10.5_unboxing_(38618066655).jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY 2.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "imageAttribution": "Tatsuo Yamashita from Tokyo, Japan, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111927",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111927",
+    "specifications": {
+      "cameras": "12 MP rear with optical image stabilization; 7 MP FaceTime HD front",
+      "storage": "64 GB, 256 GB or 512 GB",
+      "connectivity": "Lightning; Wi-Fi 5; optional cellular",
+      "chipset": "Apple A10X Fusion",
+      "display": "10.5-inch Retina IPS, 2224 x 1668, ProMotion"
+    },
+    "specs": {
+      "cpu": "Apple A10X Fusion",
+      "screen": "10.5-inch Retina ProMotion",
+      "storage": "64 GB, 256 GB or 512 GB"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:12:18.000Z"
+  },
+  {
+    "sourceProductId": "apple-ipad-pro-11-2nd-generation-2020",
+    "name": "iPad Pro 11-inch (2nd generation, 2020)",
+    "brand": "Apple",
+    "model": "iPad Pro 11-inch (2nd generation)",
+    "category": "tablet",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/IPad_Pro_11-inch_%282nd_generation%29_front_side_%2820250525_154758%29.jpg/960px-IPad_Pro_11-inch_%282nd_generation%29_front_side_%2820250525_154758%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPad_Pro_11-inch_(2nd_generation)_front_side_(20250525_154758).jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "imageAttribution": "茅野ふたば, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/118452",
+    "specificationSourceUrl": "https://support.apple.com/en-us/118452",
+    "specifications": {
+      "cameras": "12 MP wide and 10 MP ultra-wide rear; 7 MP TrueDepth front",
+      "storage": "128 GB, 256 GB, 512 GB or 1 TB",
+      "connectivity": "USB-C; Wi-Fi 6; optional cellular",
+      "chipset": "Apple A12Z Bionic",
+      "display": "11-inch Liquid Retina IPS, 2388 x 1668, ProMotion"
+    },
+    "specs": {
+      "cpu": "Apple A12Z Bionic",
+      "screen": "11-inch Liquid Retina ProMotion",
+      "storage": "128 GB to 1 TB"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:12:18.000Z"
+  },
+  {
+    "sourceProductId": "apple-ipad-pro-12-9-6th-generation-m2-2022",
+    "name": "iPad Pro 12.9-inch (6th generation, M2, 2022)",
+    "brand": "Apple",
+    "model": "iPad Pro 12.9-inch (6th generation)",
+    "category": "tablet",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/IPad_Pro_M2_%2812.9_inch%29_6th_Generation_2024.jpg/960px-IPad_Pro_M2_%2812.9_inch%29_6th_Generation_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPad_Pro_M2_(12.9_inch)_6th_Generation_2024.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "imageAttribution": "Captainmorlypogi1959, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111841",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111841",
+    "specifications": {
+      "cameras": "12 MP wide and 10 MP ultra-wide rear with LiDAR; 12 MP ultra-wide front",
+      "storage": "128 GB, 256 GB, 512 GB, 1 TB or 2 TB",
+      "connectivity": "Thunderbolt / USB 4; Wi-Fi 6E; optional 5G cellular",
+      "chipset": "Apple M2",
+      "display": "12.9-inch Liquid Retina XDR mini-LED, 2732 x 2048, ProMotion"
+    },
+    "specs": {
+      "cpu": "Apple M2",
+      "screen": "12.9-inch Liquid Retina XDR",
+      "storage": "128 GB to 2 TB"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:12:18.000Z"
+  },
+  {
+    "sourceProductId": "microsoft-surface-go-3",
+    "name": "Microsoft Surface Go 3",
+    "brand": "Microsoft",
+    "model": "Surface Go 3",
+    "category": "tablet",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/MS_Surface_Go_3.png/960px-MS_Surface_Go_3.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:MS_Surface_Go_3.png",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "imageAttribution": "Redaltise, via Wikimedia Commons",
+    "productUrl": "https://www.microsoft.com/en-gb/p/surface-go-3/904h27d0cbwn",
+    "specificationSourceUrl": "https://www.microsoft.com/en-gb/p/surface-go-3/904h27d0cbwn",
+    "specifications": {
+      "storage": "64 GB eMMC or 128 GB SSD",
+      "connectivity": "USB-C; Wi-Fi 6; optional LTE Advanced",
+      "processorOptions": "Intel Pentium Gold 6500Y or 10th Gen Intel Core i3-10100Y",
+      "display": "10.5-inch PixelSense, 1920 x 1280, 3:2",
+      "cameras": "5 MP front; 8 MP autofocus rear",
+      "memory": "4 GB or 8 GB LPDDR3"
+    },
+    "specs": {
+      "cpu": "Intel Pentium Gold 6500Y or Core i3-10100Y",
+      "ram": "4 GB or 8 GB",
+      "screen": "10.5-inch PixelSense"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:12:18.000Z"
+  },
+  {
+    "sourceProductId": "microsoft-surface-pro-x",
+    "name": "Microsoft Surface Pro X",
+    "brand": "Microsoft",
+    "model": "Surface Pro X",
+    "category": "tablet",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/SurfaceProX.jpg/960px-SurfaceProX.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:SurfaceProX.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "imageAttribution": "Munzimus_Octavius, via Wikimedia Commons",
+    "productUrl": "https://support.microsoft.com/en-us/surface/models/surface-pro-x-features-and-specs",
+    "specificationSourceUrl": "https://support.microsoft.com/en-us/surface/models/surface-pro-x-features-and-specs",
+    "specifications": {
+      "storage": "128 GB, 256 GB or 512 GB removable SSD",
+      "connectivity": "2 x USB-C; Wi-Fi 5; optional LTE Advanced",
+      "processorOptions": "Microsoft SQ1 or Microsoft SQ2 ARM",
+      "display": "13-inch PixelSense, 2880 x 1920",
+      "cameras": "5 MP front with Windows Hello; 10 MP autofocus rear",
+      "memory": "8 GB or 16 GB LPDDR4x"
+    },
+    "specs": {
+      "cpu": "Microsoft SQ1 or SQ2",
+      "ram": "8 GB or 16 GB",
+      "screen": "13-inch PixelSense"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:12:18.000Z"
+  },
+  {
+    "sourceProductId": "apple-ipad-air-13-inch-m2-2024",
+    "name": "iPad Air 13-inch (M2, 2024)",
+    "brand": "Apple",
+    "model": "iPad Air 13-inch (M2)",
+    "category": "tablet",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/M2_iPad_Air_13inti.jpg/960px-M2_iPad_Air_13inti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:M2_iPad_Air_13inti.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "imageAttribution": "Kyu3a, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/119893",
+    "specificationSourceUrl": "https://support.apple.com/en-us/119893",
+    "specifications": {
+      "cameras": "12 MP wide rear; 12 MP ultra-wide front",
+      "chipset": "Apple M2",
+      "storage": "128 GB, 256 GB, 512 GB or 1 TB",
+      "display": "13-inch Liquid Retina IPS, 2732 x 2048",
+      "connectivity": "USB-C; Wi-Fi 6E; optional 5G cellular",
+      "memory": "8 GB"
+    },
+    "specs": {
+      "cpu": "Apple M2",
+      "ram": "8 GB",
+      "screen": "13-inch Liquid Retina"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:22:32.000Z"
+  },
+  {
+    "sourceProductId": "apple-ipad-a16-2025",
+    "name": "iPad (A16, 2025)",
+    "brand": "Apple",
+    "model": "iPad A16",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/IPad_%28A16%29_backside.jpg/960px-IPad_%28A16%29_backside.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPad_(A16)_backside.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "?????, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/122240",
+    "specifications": {
+      "chipset": "Apple A16",
+      "display": "11-inch Liquid Retina IPS, 2360 x 1640",
+      "storageOptions": "128 GB, 256 GB or 512 GB",
+      "rearCamera": "12 MP wide",
+      "frontCamera": "12 MP ultra-wide landscape"
+    },
+    "specs": {
+      "cpu": "Apple A16",
+      "screen": "11-inch Liquid Retina",
+      "storage": "128 GB, 256 GB or 512 GB"
+    },
+    "imageUsagePermission": "granted",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "specificationSourceUrl": "https://support.apple.com/en-us/122240",
+    "category": "tablet",
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:35:46.927Z"
+  },
+  {
+    "sourceProductId": "apple-ipad-7th-generation-2019",
+    "name": "iPad (7th generation, 2019)",
+    "brand": "Apple",
+    "model": "iPad 7th generation",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/IPad_7th_generation_lock_screen.jpg/960px-IPad_7th_generation_lock_screen.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPad_7th_generation_lock_screen.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "512 megabytes, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111911",
+    "specifications": {
+      "chipset": "Apple A10 Fusion",
+      "display": "10.2-inch Retina IPS, 2160 x 1620",
+      "storageOptions": "32 GB or 128 GB",
+      "rearCamera": "8 MP",
+      "frontCamera": "1.2 MP FaceTime HD"
+    },
+    "specs": {
+      "cpu": "Apple A10 Fusion",
+      "screen": "10.2-inch Retina",
+      "storage": "32 GB or 128 GB"
+    },
+    "imageUsagePermission": "granted",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111911",
+    "category": "tablet",
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:35:46.927Z"
+  },
+  {
+    "sourceProductId": "apple-ipad-air-3rd-generation-2019",
+    "name": "iPad Air (3rd generation, 2019)",
+    "brand": "Apple",
+    "model": "iPad Air 3rd generation",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/IPad_Air_3_Mockup.png/960px-IPad_Air_3_Mockup.png",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPad_Air_3_Mockup.png",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Piscopro, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111939",
+    "specifications": {
+      "chipset": "Apple A12 Bionic",
+      "display": "10.5-inch Retina IPS, 2224 x 1668",
+      "storageOptions": "64 GB or 256 GB",
+      "rearCamera": "8 MP",
+      "frontCamera": "7 MP FaceTime HD"
+    },
+    "specs": {
+      "cpu": "Apple A12 Bionic",
+      "screen": "10.5-inch Retina",
+      "storage": "64 GB or 256 GB"
+    },
+    "imageUsagePermission": "granted",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111939",
+    "category": "tablet",
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:35:46.927Z"
+  },
+  {
+    "sourceProductId": "apple-ipad-pro-11-inch-1st-generation-2018",
+    "name": "iPad Pro 11-inch (1st generation, 2018)",
+    "brand": "Apple",
+    "model": "iPad Pro 11-inch 1st generation",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Apple_iPad_Pro_11.jpg/960px-Apple_iPad_Pro_11.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Apple_iPad_Pro_11.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "???, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111974",
+    "specifications": {
+      "chipset": "Apple A12X Bionic",
+      "display": "11-inch Liquid Retina IPS, 2388 x 1668, ProMotion",
+      "storageOptions": "64 GB, 256 GB, 512 GB or 1 TB",
+      "rearCamera": "12 MP wide",
+      "frontCamera": "7 MP TrueDepth"
+    },
+    "specs": {
+      "cpu": "Apple A12X Bionic",
+      "screen": "11-inch Liquid Retina ProMotion",
+      "storage": "64 GB to 1 TB"
+    },
+    "imageUsagePermission": "granted",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111974",
+    "category": "tablet",
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:35:46.927Z"
+  },
+  {
+    "sourceProductId": "apple-ipad-pro-12-9-inch-5th-generation-m1-2021",
+    "name": "iPad Pro 12.9-inch (5th generation, M1, 2021)",
+    "brand": "Apple",
+    "model": "iPad Pro 12.9-inch 5th generation M1",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/IPad_Pro_5th_generation.png",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPad_Pro_5th_generation.png",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "Wingwatchers, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111896",
+    "specifications": {
+      "chipset": "Apple M1",
+      "display": "12.9-inch Liquid Retina XDR mini-LED, 2732 x 2048, ProMotion",
+      "storageOptions": "128 GB, 256 GB, 512 GB, 1 TB or 2 TB",
+      "rearCameras": "12 MP wide and 10 MP ultra-wide; LiDAR Scanner",
+      "frontCamera": "12 MP ultra-wide TrueDepth"
+    },
+    "specs": {
+      "cpu": "Apple M1",
+      "screen": "12.9-inch Liquid Retina XDR",
+      "storage": "128 GB to 2 TB"
+    },
+    "imageUsagePermission": "granted",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111896",
+    "category": "tablet",
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:35:46.927Z"
+  },
+  {
+    "sourceProductId": "apple-ipad-pro-11-inch-m4-2024",
+    "name": "iPad Pro 11-inch (M4, 2024)",
+    "brand": "Apple",
+    "model": "iPad Pro 11-inch M4",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/IPad_Pro_11-inch_backside.jpg/960px-IPad_Pro_11-inch_backside.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPad_Pro_11-inch_backside.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "?????, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/119892",
+    "specifications": {
+      "chipset": "Apple M4",
+      "display": "11-inch Ultra Retina XDR OLED, 2420 x 1668, ProMotion",
+      "storageOptions": "256 GB, 512 GB, 1 TB or 2 TB",
+      "rearCamera": "12 MP wide with adaptive True Tone flash",
+      "frontCamera": "12 MP TrueDepth landscape"
+    },
+    "specs": {
+      "cpu": "Apple M4",
+      "screen": "11-inch Ultra Retina XDR OLED",
+      "storage": "256 GB to 2 TB"
+    },
+    "imageUsagePermission": "granted",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "specificationSourceUrl": "https://support.apple.com/en-us/119892",
+    "category": "tablet",
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:35:46.927Z"
+  },
+  {
+    "sourceProductId": "apple-ipad-pro-13-inch-m4-2024",
+    "name": "iPad Pro 13-inch (M4, 2024)",
+    "brand": "Apple",
+    "model": "iPad Pro 13-inch M4",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/IPad_Pro_13-inch_backside.jpg/960px-IPad_Pro_13-inch_backside.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPad_Pro_13-inch_backside.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageAttribution": "?????, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/119891",
+    "specifications": {
+      "chipset": "Apple M4",
+      "display": "13-inch Ultra Retina XDR OLED, 2752 x 2064, ProMotion",
+      "storageOptions": "256 GB, 512 GB, 1 TB or 2 TB",
+      "rearCamera": "12 MP wide with adaptive True Tone flash",
+      "frontCamera": "12 MP TrueDepth landscape"
+    },
+    "specs": {
+      "cpu": "Apple M4",
+      "screen": "13-inch Ultra Retina XDR OLED",
+      "storage": "256 GB to 2 TB"
+    },
+    "imageUsagePermission": "granted",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "specificationSourceUrl": "https://support.apple.com/en-us/119891",
+    "category": "tablet",
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:35:46.927Z"
+  },
+  {
+    "sourceProductId": "apple-ipad-air-11-inch-m3-2025",
+    "name": "iPad Air 11-inch (M3, 2025)",
+    "brand": "Apple",
+    "model": "iPad Air 11-inch M3",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/IPad_Air_11-inch_%28M3%29.jpg/960px-IPad_Air_11-inch_%28M3%29.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPad_Air_11-inch_(M3).jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "imageAttribution": "?????, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/122241",
+    "specifications": {
+      "chipset": "Apple M3",
+      "display": "11-inch Liquid Retina IPS, 2360 x 1640, 500 nits",
+      "memory": "8 GB",
+      "storageOptions": "128 GB, 256 GB, 512 GB or 1 TB",
+      "rearCamera": "12 MP wide",
+      "frontCamera": "12 MP Center Stage landscape",
+      "connectivity": "Wi-Fi 6E; Bluetooth 5.3"
+    },
+    "specs": {
+      "cpu": "Apple M3",
+      "ram": "8 GB",
+      "screen": "11-inch Liquid Retina",
+      "storage": "128 GB to 1 TB"
+    },
+    "imageUsagePermission": "granted",
+    "specificationSourceUrl": "https://support.apple.com/en-us/122241",
+    "category": "tablet",
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:45:10.527Z"
+  },
+  {
+    "sourceProductId": "apple-ipad-pro-11-inch-m5-2025",
+    "name": "iPad Pro 11-inch (M5, 2025)",
+    "brand": "Apple",
+    "model": "iPad Pro 11-inch M5",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/IPad_Pro_%2811-inch%2C_M5%2C_Silver%29_-_Backside.jpg/960px-IPad_Pro_%2811-inch%2C_M5%2C_Silver%29_-_Backside.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPad_Pro_(11-inch,_M5,_Silver)_-_Backside.jpg",
+    "imageLicense": "CC0",
+    "imageLicenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "imageAttribution": "AzureSaturn, via Wikimedia Commons (CC0)",
+    "productUrl": "https://support.apple.com/en-us/125406",
+    "specifications": {
+      "chipset": "Apple M5",
+      "display": "11-inch Ultra Retina XDR OLED, 2420 x 1668, ProMotion",
+      "storageOptions": "256 GB, 512 GB, 1 TB or 2 TB",
+      "memoryOptions": "12 GB (256/512 GB); 16 GB (1/2 TB)",
+      "rearCamera": "12 MP wide",
+      "connectivity": "Thunderbolt / USB 4"
+    },
+    "specs": {
+      "cpu": "Apple M5",
+      "screen": "11-inch Ultra Retina XDR OLED",
+      "storage": "256 GB to 2 TB"
+    },
+    "imageUsagePermission": "granted",
+    "specificationSourceUrl": "https://support.apple.com/en-us/125406",
+    "category": "tablet",
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:45:10.527Z"
+  },
+  {
+    "sourceProductId": "apple-ipad-pro-13-inch-m5-2025",
+    "name": "iPad Pro 13-inch (M5, 2025)",
+    "brand": "Apple",
+    "model": "iPad Pro 13-inch M5",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/IPad_Pro_%2813-inch%2C_M5%2C_Space_Black%29_-_Backside.jpg/960px-IPad_Pro_%2813-inch%2C_M5%2C_Space_Black%29_-_Backside.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPad_Pro_(13-inch,_M5,_Space_Black)_-_Backside.jpg",
+    "imageLicense": "CC0",
+    "imageLicenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "imageAttribution": "AzureSaturn, via Wikimedia Commons (CC0)",
+    "productUrl": "https://support.apple.com/en-us/125407",
+    "specifications": {
+      "chipset": "Apple M5",
+      "display": "13-inch Ultra Retina XDR OLED, 2752 x 2064, ProMotion",
+      "storageOptions": "256 GB, 512 GB, 1 TB or 2 TB",
+      "memoryOptions": "12 GB (256/512 GB); 16 GB (1/2 TB)",
+      "rearCamera": "12 MP wide",
+      "connectivity": "Thunderbolt / USB 4"
+    },
+    "specs": {
+      "cpu": "Apple M5",
+      "screen": "13-inch Ultra Retina XDR OLED",
+      "storage": "256 GB to 2 TB"
+    },
+    "imageUsagePermission": "granted",
+    "specificationSourceUrl": "https://support.apple.com/en-us/125407",
+    "category": "tablet",
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:45:10.528Z"
+  },
+  {
+    "sourceProductId": "apple-ipad-mini-4-2015",
+    "name": "iPad mini 4 (2015)",
+    "brand": "Apple",
+    "model": "iPad mini 4",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/IPad_Mini_4_Space_Gray.png/960px-IPad_Mini_4_Space_Gray.png",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IPad_Mini_4_Space_Gray.png",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "imageAttribution": "Piscopro, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/112002",
+    "specifications": {
+      "chipset": "Apple A8",
+      "display": "7.9-inch Retina IPS, 2048 x 1536",
+      "storageOptions": "16 GB, 32 GB, 64 GB or 128 GB",
+      "rearCamera": "8 MP",
+      "frontCamera": "1.2 MP FaceTime HD",
+      "connectivity": "Wi-Fi 802.11a/b/g/n/ac; Bluetooth 4.2"
+    },
+    "specs": {
+      "cpu": "Apple A8",
+      "screen": "7.9-inch Retina",
+      "storage": "16 GB to 128 GB"
+    },
+    "imageUsagePermission": "granted",
+    "specificationSourceUrl": "https://support.apple.com/en-us/112002",
+    "category": "tablet",
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:45:10.528Z"
+  },
+  {
+    "sourceProductId": "microsoft-surface-pro-3-2014",
+    "name": "Microsoft Surface Pro 3 (2014)",
+    "brand": "Microsoft",
+    "model": "Surface Pro 3",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Microsoft_Surface_Pro_3_-_1.jpg/960px-Microsoft_Surface_Pro_3_-_1.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Microsoft_Surface_Pro_3_-_1.jpg",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "imageAttribution": "TranslucentCloud, via Wikimedia Commons",
+    "productUrl": "https://support.microsoft.com/en-us/surface/models/surface-pro-3-specs-and-features",
+    "specifications": {
+      "processorOptions": "4th-generation Intel Core i3, i5 or i7",
+      "display": "12-inch PixelSense, 2160 x 1440",
+      "memoryOptions": "4 GB or 8 GB",
+      "storageOptions": "64 GB, 128 GB, 256 GB or 512 GB (configuration dependent)",
+      "cameras": "5 MP front and rear",
+      "connectivity": "Wi-Fi 802.11a/b/g/n/ac; Bluetooth"
+    },
+    "specs": {
+      "cpu": "4th-generation Intel Core options",
+      "screen": "12-inch PixelSense 2160 x 1440",
+      "ram": "4 GB or 8 GB"
+    },
+    "imageUsagePermission": "granted",
+    "specificationSourceUrl": "https://support.microsoft.com/en-us/surface/models/surface-pro-3-specs-and-features",
+    "category": "tablet",
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:45:10.528Z"
+  },
+  {
+    "sourceProductId": "microsoft-surface-pro-6-2018",
+    "name": "Microsoft Surface Pro 6 (2018)",
+    "brand": "Microsoft",
+    "model": "Surface Pro 6",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/MS_Surface_Pro_6.jpg/960px-MS_Surface_Pro_6.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:MS_Surface_Pro_6.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "imageAttribution": "Joseywales1961, via Wikimedia Commons",
+    "productUrl": "https://support.microsoft.com/en-us/surface/models/surface-pro-6-specs-and-features",
+    "specifications": {
+      "processorOptions": "8th-generation Intel Core i5-8250U or i7-8650U",
+      "display": "12.3-inch PixelSense, 2736 x 1824",
+      "memoryOptions": "8 GB or 16 GB",
+      "storageOptions": "128 GB, 256 GB, 512 GB or 1 TB SSD",
+      "graphics": "Intel UHD Graphics 620",
+      "cameras": "8 MP rear; 5 MP front"
+    },
+    "specs": {
+      "cpu": "8th-generation Intel Core i5/i7",
+      "screen": "12.3-inch PixelSense",
+      "ram": "8 GB or 16 GB",
+      "storage": "128 GB to 1 TB"
+    },
+    "imageUsagePermission": "granted",
+    "specificationSourceUrl": "https://support.microsoft.com/en-us/surface/models/surface-pro-6-specs-and-features",
+    "category": "tablet",
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:45:10.528Z"
+  },
+  {
+    "sourceProductId": "apple-macbook-air-13-m4-2025",
+    "name": "MacBook Air 13-inch (M4, 2025)",
+    "brand": "Apple",
+    "model": "MacBook Air 13-inch M4",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/MacBook_Air_%2813-inch%2C_M4%2C_Silver%29.jpg/960px-MacBook_Air_%2813-inch%2C_M4%2C_Silver%29.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:MacBook_Air_(13-inch,_M4,_Silver).jpg",
+    "imageLicense": "CC0",
+    "imageLicenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "imageAttribution": "AzureSaturn, via Wikimedia Commons (CC0)",
+    "productUrl": "https://support.apple.com/en-us/122209",
+    "specificationSourceUrl": "https://support.apple.com/en-us/122209",
+    "specifications": {
+      "chip": "Apple M4 (10-core CPU; 8- or 10-core GPU by configuration)",
+      "memory": "16 GB unified memory; configurable to 24 GB or 32 GB",
+      "storage": "256 GB SSD; configurable to 512 GB, 1 TB or 2 TB",
+      "display": "13.6-inch Liquid Retina IPS, 2560 x 1664",
+      "wireless": "Wi-Fi 6E; Bluetooth 5.3",
+      "battery": "Up to 18 hours video streaming"
+    },
+    "specs": {
+      "cpu": "Apple M4 10-core",
+      "ram": "16 GB base",
+      "storage": "256 GB base; options up to 2 TB",
+      "screen": "13.6-inch Liquid Retina"
+    },
+    "category": "laptop",
+    "imageUsagePermission": "granted",
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:50:47.605Z"
+  },
+  {
+    "sourceProductId": "apple-macbook-air-15-m4-2025",
+    "name": "MacBook Air 15-inch (M4, 2025)",
+    "brand": "Apple",
+    "model": "MacBook Air 15-inch M4",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/MacBook_Air_%2815-inch%2C_M4%2C_Silver%29.jpg/960px-MacBook_Air_%2815-inch%2C_M4%2C_Silver%29.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:MacBook_Air_(15-inch,_M4,_Silver).jpg",
+    "imageLicense": "CC0",
+    "imageLicenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "imageAttribution": "AzureSaturn, via Wikimedia Commons (CC0)",
+    "productUrl": "https://support.apple.com/en-us/122210",
+    "specificationSourceUrl": "https://support.apple.com/en-us/122210",
+    "specifications": {
+      "chip": "Apple M4 (10-core CPU and GPU)",
+      "memory": "16 GB unified memory; configurable to 24 GB or 32 GB",
+      "storage": "256 GB SSD; configurable to 512 GB, 1 TB or 2 TB",
+      "display": "15.3-inch Liquid Retina IPS, 2880 x 1864",
+      "wireless": "Wi-Fi 6E; Bluetooth 5.3",
+      "battery": "Up to 18 hours video streaming"
+    },
+    "specs": {
+      "cpu": "Apple M4 10-core",
+      "ram": "16 GB base",
+      "storage": "256 GB base; options up to 2 TB",
+      "screen": "15.3-inch Liquid Retina"
+    },
+    "category": "laptop",
+    "imageUsagePermission": "granted",
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:50:47.605Z"
+  },
+  {
+    "sourceProductId": "apple-macbook-pro-14-m3-2023",
+    "name": "MacBook Pro 14-inch (M3, November 2023)",
+    "brand": "Apple",
+    "model": "MacBook Pro 14-inch M3 (2023)",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/M3_Macbook_Pro_14_inch_Space_Grey_model.jpg/960px-M3_Macbook_Pro_14_inch_Space_Grey_model.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:M3_Macbook_Pro_14_inch_Space_Grey_model.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "imageAttribution": "Kyu3a, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/117735",
+    "specificationSourceUrl": "https://support.apple.com/en-us/117735",
+    "specifications": {
+      "chip": "Apple M3 (8-core CPU, 10-core GPU)",
+      "memory": "8 GB unified memory; configurable to 16 GB or 24 GB",
+      "storage": "512 GB or 1 TB SSD; configurable to 2 TB",
+      "display": "14.2-inch Liquid Retina XDR, 3024 x 1964, ProMotion",
+      "wireless": "Wi-Fi 6E; Bluetooth 5.3",
+      "ports": "Two Thunderbolt / USB 4; HDMI; SDXC; MagSafe 3"
+    },
+    "specs": {
+      "cpu": "Apple M3 8-core",
+      "ram": "8 GB base",
+      "storage": "512 GB base",
+      "screen": "14.2-inch Liquid Retina XDR"
+    },
+    "category": "laptop",
+    "imageUsagePermission": "granted",
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:50:47.605Z"
+  },
+  {
+    "sourceProductId": "lenovo-thinkpad-t14-gen2-intel-2021",
+    "name": "ThinkPad T14 Gen 2 (Intel, 2021)",
+    "brand": "Lenovo",
+    "model": "ThinkPad T14 Gen 2 Intel",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/ThinkPad_T14.jpg/960px-ThinkPad_T14.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:ThinkPad_T14.jpg",
+    "imageLicense": "CC0",
+    "imageLicenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "imageAttribution": "Edvard10, via Wikimedia Commons (CC0)",
+    "productUrl": "https://psref.lenovo.com/Product/ThinkPad/ThinkPad_T14_Gen_2_Intel?tab=spec",
+    "specificationSourceUrl": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_T14_Gen_2_Intel/ThinkPad_T14_Gen_2_Intel_Spec.PDF",
+    "specifications": {
+      "processorOptions": "11th-generation Intel Core i5 or i7 (SKU dependent)",
+      "graphicsOptions": "Intel Iris Xe or optional NVIDIA GeForce MX450 2 GB",
+      "displayOptions": "14-inch FHD IPS; selected UHD configurations",
+      "memoryOptions": "Soldered memory with SO-DIMM; configuration dependent",
+      "storage": "M.2 PCIe NVMe SSD; configuration dependent"
+    },
+    "specs": {
+      "cpu": "11th-generation Intel Core options",
+      "screen": "14-inch options",
+      "gpu": "Intel Iris Xe or optional MX450"
+    },
+    "category": "laptop",
+    "imageUsagePermission": "granted",
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:50:47.605Z"
+  },
+  {
+    "sourceProductId": "lenovo-thinkpad-t14-gen2-amd-2021",
+    "name": "ThinkPad T14 Gen 2 (AMD, 2021)",
+    "brand": "Lenovo",
+    "model": "ThinkPad T14 Gen 2 AMD",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Lenovo_ThinkPad_T14_Gen_2_AMD.jpg/960px-Lenovo_ThinkPad_T14_Gen_2_AMD.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Lenovo_ThinkPad_T14_Gen_2_AMD.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "imageAttribution": "ThinhproVN, via Wikimedia Commons",
+    "productUrl": "https://psref.lenovo.com/Product/ThinkPad_T14_Gen_2_AMD?tab=spec",
+    "specificationSourceUrl": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_T14_Gen_2_AMD/ThinkPad_T14_Gen_2_AMD_Spec.PDF",
+    "specifications": {
+      "processorOptions": "AMD Ryzen 5 PRO 5650U or Ryzen 7 PRO 5850U (SKU dependent)",
+      "graphics": "Integrated AMD Radeon Graphics",
+      "displayOptions": "14-inch FHD IPS configurations",
+      "memoryOptions": "Up to 48 GB DDR4-3200 (soldered plus SO-DIMM, configuration dependent)",
+      "storageOptions": "M.2 PCIe NVMe SSD up to 2 TB"
+    },
+    "specs": {
+      "cpu": "AMD Ryzen 5 PRO 5650U or Ryzen 7 PRO 5850U",
+      "ram": "Up to 48 GB",
+      "screen": "14-inch FHD options"
+    },
+    "category": "laptop",
+    "imageUsagePermission": "granted",
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T05:50:47.605Z"
+  },
+  {
+    "sourceProductId": "apple-mac-mini-m4-2024",
+    "name": "Apple Mac mini (M4, 2024)",
+    "brand": "Apple",
+    "model": "Mac mini (M4, 2024)",
+    "category": "desktop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/M4_Mac_mini.jpg/960px-M4_Mac_mini.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:M4_Mac_mini.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Kyu3a, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-gb/121555",
+    "specificationSourceUrl": "https://support.apple.com/en-gb/121555",
+    "specifications": {
+      "chip": "Apple M4 or M4 Pro chip configurations",
+      "memory": "Unified memory, configuration varies by chip",
+      "storage": "SSD storage, capacity varies by configuration",
+      "ports": "USB-C, Thunderbolt 4 or Thunderbolt 5, HDMI, Gigabit Ethernet"
+    },
+    "specs": {
+      "chip": "Apple M4 / M4 Pro",
+      "formFactor": "Compact desktop"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "apple-mac-mini-m1-2020",
+    "name": "Apple Mac mini (M1, 2020)",
+    "brand": "Apple",
+    "model": "Mac mini (M1, 2020)",
+    "category": "desktop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Mac_mini_2020_%28A1%29_rear_view.jpg/960px-Mac_mini_2020_%28A1%29_rear_view.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Mac_mini_2020_(A1)_rear_view.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "imageAttribution": "Gerd Fahrenhorst, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-ie/111894",
+    "specificationSourceUrl": "https://support.apple.com/en-ie/111894",
+    "specifications": {
+      "chip": "Apple M1, 8-core CPU and 8-core GPU",
+      "memory": "8 GB unified memory; configurable to 16 GB",
+      "storage": "256 GB SSD base option; configurable higher",
+      "video": "Supports up to one 6K display and one 4K display"
+    },
+    "specs": {
+      "chip": "Apple M1 8-core CPU/GPU",
+      "memory": "8 GB unified memory (base option)"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "apple-mac-mini-2018",
+    "name": "Apple Mac mini (2018)",
+    "brand": "Apple",
+    "model": "Mac mini (2018)",
+    "category": "desktop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Mac_Mini_%282018%29.jpg/960px-Mac_Mini_%282018%29.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Mac_Mini_(2018).jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Derorgmas, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-us/111912",
+    "specificationSourceUrl": "https://support.apple.com/en-us/111912",
+    "specifications": {
+      "processor": "Intel Core i3, i5 or i7 options",
+      "memory": "2666 MHz DDR4 SO-DIMM, configurable up to 64 GB",
+      "storage": "PCIe-based SSD options",
+      "graphics": "Intel UHD Graphics 630"
+    },
+    "specs": {
+      "processor": "Intel Core i3/i5/i7 (configuration dependent)",
+      "memory": "Up to 64 GB DDR4"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "apple-mac-mini-late-2012",
+    "name": "Apple Mac mini (Late 2012)",
+    "brand": "Apple",
+    "model": "Mac mini (Late 2012)",
+    "category": "desktop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Mac_mini_2012_from_eurekamelon.JPG/960px-Mac_mini_2012_from_eurekamelon.JPG",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Mac_mini_2012_from_eurekamelon.JPG",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 3.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "imageAttribution": "Eurekamelon, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-ae/111926",
+    "specificationSourceUrl": "https://support.apple.com/en-ae/111926",
+    "specifications": {
+      "processor": "2.5 GHz dual-core Intel Core i5 or 2.3 GHz quad-core Intel Core i7 options",
+      "memory": "1600 MHz DDR3, configurable to 16 GB",
+      "storage": "500 GB or 1 TB hard drive, SSD/Fusion Drive options",
+      "graphics": "Intel HD Graphics 4000"
+    },
+    "specs": {
+      "processor": "Intel Core i5/i7 (configuration dependent)",
+      "memory": "Up to 16 GB DDR3"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "apple-imac-24-m1-2021",
+    "name": "Apple iMac 24-inch (M1, 2021)",
+    "brand": "Apple",
+    "model": "iMac 24-inch (M1, 2021)",
+    "category": "desktop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/M1_iMac_Green_model.jpg/960px-M1_iMac_Green_model.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:M1_iMac_Green_model.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "KKPCW, via Wikimedia Commons",
+    "productUrl": "https://support.apple.com/en-gb/111895",
+    "specificationSourceUrl": "https://support.apple.com/en-gb/111895",
+    "specifications": {
+      "chip": "Apple M1, 8-core CPU and 7-core or 8-core GPU options",
+      "memory": "8 GB unified memory, configurable to 16 GB",
+      "display": "24-inch 4.5K Retina, 4480 x 2520",
+      "camera": "1080p FaceTime HD camera"
+    },
+    "specs": {
+      "chip": "Apple M1",
+      "display": "24-inch 4.5K Retina"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "apple-imac-24-m4-2024-4port",
+    "name": "Apple iMac 24-inch (M4, 2024, four ports)",
+    "brand": "Apple",
+    "model": "iMac 24-inch M4 (2024, four ports)",
+    "category": "desktop",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/IMac_%28M4%2C_2024%2C_Silver%29.jpg/960px-IMac_%28M4%2C_2024%2C_Silver%29.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:IMac_(M4,_2024,_Silver).jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC0",
+    "imageLicenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "imageAttribution": "AzureSaturn, via Wikimedia Commons (CC0)",
+    "productUrl": "https://support.apple.com/en-ie/121557",
+    "specificationSourceUrl": "https://support.apple.com/en-ie/121557",
+    "specifications": {
+      "chip": "Apple M4, 10-core CPU and 10-core GPU",
+      "memory": "16 GB unified memory, configurable to 24 GB or 32 GB",
+      "display": "24-inch 4.5K Retina, 4480 x 2520",
+      "ports": "Four Thunderbolt 4 ports"
+    },
+    "specs": {
+      "chip": "Apple M4 10-core CPU/GPU",
+      "display": "24-inch 4.5K Retina"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-10T00:00:00.000Z"
+  }
+]

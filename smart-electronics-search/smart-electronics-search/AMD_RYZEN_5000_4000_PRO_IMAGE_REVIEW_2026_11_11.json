@@ -1,0 +1,68 @@
+{
+  "updatedAt": "2026-11-10T23:04:46.733Z",
+  "database": "smart_electronics",
+  "batch": "AMD Ryzen 5000/4000/PRO 4000 existing-model image review continuation",
+  "summary": {
+    "modelsResearched": 36,
+    "modelsWithVerifiedSpecifications": 36,
+    "modelsWithVerifiedModelUrls": 36,
+    "modelsWithExactModelImages": 7,
+    "modelsWithDocumentedImageReuseRights": 7,
+    "productsImported": 7,
+    "activePendingModelsInBatch": 29,
+    "productDocuments": 160,
+    "pendingProductDocuments": 145,
+    "activePendingReviewRows": 134,
+    "offers": 0,
+    "offersCreated": 0,
+    "verifiedPublishedByCategory": {
+      "category": "cpu",
+      "batch": 7,
+      "database": 12
+    },
+    "cpuCategory": {
+      "records": 134,
+      "modelVerified": 134,
+      "imageVerified": 12,
+      "urlVerified": 134,
+      "published": 12,
+      "publicationPending": 122
+    },
+    "globalIndependentStatuses": {
+      "records": 294,
+      "productVerified": 241,
+      "productPending": 53,
+      "imageVerified": 119,
+      "imagePending": 175,
+      "urlVerified": 241,
+      "urlPending": 53,
+      "published": 119,
+      "publicationPending": 134,
+      "hidden": 41
+    }
+  },
+  "prePromotionBackup": "C:\\Users\\DELL\\AppData\\Local\\Temp\\smart-electronics-search-mongo-backup-2026-11-10T23-03-46-295Z",
+  "previouslyReviewedImages": "The other six exact-model images, attribution strings, and license/file-page URLs remain documented in AMD_RYZEN_2026_11_11_VERIFICATION.json.",
+  "newlyReviewedModel": {
+    "sourceKey": "web-research:amd:ryzen-9-5950x",
+    "model": "Ryzen 9 5950X",
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-9-5950x.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-9-5950x.html",
+    "image": {
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Ausf%C3%BChrlicher_Test_der_Ryzen_7000-Serie_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_27.png/960px-Ausf%C3%BChrlicher_Test_der_Ryzen_7000-Serie_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_27.png",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Ausführlicher_Test_der_Ryzen_7000-Serie_(极客湾Geekerwan)_27.png",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "author": "极客湾Geekerwan",
+      "attribution": "极客湾Geekerwan, CC BY 3.0, via Wikimedia Commons; unmodified.",
+      "visualReview": "The reviewed still shows the processor marked AMD Ryzen 9 5950X. Another processor appears beside it and is not identified as the 5950X.",
+      "imageUrlVerifiedAs": "image/png",
+      "visualIdentityChecked": true
+    },
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "verified",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "published"
+  },
+  "scopeNote": "This review completed one exact-model image on an existing PendingProduct record. The remaining 29 models in this 36-model family batch stay pending image/license review. No new model or Offer was created."
+}

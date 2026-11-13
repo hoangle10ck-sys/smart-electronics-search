@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-11-11T08:45:03.534Z",
+  "mode": "dry-run",
+  "counts": {
+    "scanned": 169,
+    "updated": 0,
+    "withModel": 128,
+    "withAliases": 128,
+    "withNormalizedSpecs": 133
+  },
+  "potentialDuplicateModelGroups": 0,
+  "duplicateReview": [],
+  "note": "No product or offer records were merged or deleted. Original source fields are preserved."
+}

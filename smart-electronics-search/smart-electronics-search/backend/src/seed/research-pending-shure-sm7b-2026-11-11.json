@@ -1,0 +1,89 @@
+[
+  {
+    "sourceKey": "web-research:shure:sm7b",
+    "brand": "Shure",
+    "family": "SM Series",
+    "generation": null,
+    "model": "SM7B",
+    "modelNumber": "SM7B",
+    "name": "Shure SM7B Cardioid Dynamic Microphone",
+    "category": "microphone",
+    "releaseYear": null,
+    "productStatus": "unknown",
+    "description": "Dynamic cardioid studio microphone for voice, broadcast, and recording use with selectable bass roll-off and presence response.",
+    "specifications": {
+      "transducerType": "Dynamic",
+      "polarPattern": "Cardioid",
+      "frequencyResponse": "50 Hz to 20 kHz",
+      "impedance": "150 ohms",
+      "output": "3-pin XLR",
+      "weight": "0.764 kg"
+    },
+    "variants": [],
+    "productUrl": "https://www.shure.com/en-US/products/microphones/sm7b?prod=sm7b",
+    "specificationSourceUrl": "https://www.shure.com/en-US/docs/guide/SM7B",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "Shure",
+        "sourceUrl": "https://www.shure.com/en-US/products/microphones/sm7b?prod=sm7b",
+        "notes": "Official Shure product page identifies model SM7B as a dynamic vocal microphone for professional audio applications."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "Shure",
+        "sourceUrl": "https://www.shure.com/en-US/products/microphones/sm7b?prod=sm7b",
+        "notes": "Official product page lists the SM7B SKU and product construction/features."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "Shure SM7B User Guide",
+        "sourceUrl": "https://www.shure.com/en-US/docs/guide/SM7B",
+        "notes": "Official model-specific HTML guide confirms dynamic transducer, cardioid pattern, 50 Hz to 20 kHz frequency response, 150 ohm impedance, XLR connector, and 0.764 kg weight."
+      },
+      {
+        "evidenceType": "specifications_reference",
+        "sourceName": "Shure SM7B Spec Sheet",
+        "sourceUrl": "https://content-files.shure.com/publications/specSheet/en/sm7b-spec-sheet.pdf",
+        "notes": "Official PDF reference also lists the model and technical specifications; its weight figure is reported differently from the current user guide, so the catalog value follows the current HTML guide."
+      },
+      {
+        "evidenceType": "image",
+        "sourceName": "Wikimedia Commons original image",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Marius_Bear_SM7B.jpg",
+        "notes": "Downloaded and visually inspected the 1122 x 838 original on 2026-11-11. Shure logo, SM7-series microphone body, yoke, and windscreen are visible; the Commons file page identifies this exact microphone as an SM7B."
+      },
+      {
+        "evidenceType": "image",
+        "sourceName": "Wikimedia Commons file page",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marius_Bear_SM7B.jpg",
+        "notes": "The file page caption explicitly identifies the microphone as a Shure SM7B used in an interview."
+      },
+      {
+        "evidenceType": "image_rights",
+        "sourceName": "Wikimedia Commons file page",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marius_Bear_SM7B.jpg",
+        "notes": "Christoph Soltmannowski is credited as author and the file page lists CC BY 3.0. Attribution and license URL are stored on the image candidate."
+      }
+    ],
+    "imageCandidate": {
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Marius_Bear_SM7B.jpg",
+      "license": "CC BY 3.0",
+      "author": "Christoph Soltmannowski",
+      "visualIdentityChecked": true,
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Marius_Bear_SM7B.jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "attribution": "Photo by Christoph Soltmannowski, Marius Bear SM7B.jpg, CC BY 3.0, via Wikimedia Commons. No changes made.",
+      "notes": "Downloaded and visually inspected the 1122 x 838 original on 2026-11-11. Shure logo, SM7-series microphone body, yoke, and windscreen are visible; the Commons file page identifies this exact microphone as an SM7B.",
+      "visualReviewNotes": "SM7B identity review: downloaded and visually inspected the 1122 x 838 original on 2026-11-11. The Shure logo, body, yoke, and windscreen are visible; the Commons file page explicitly identifies the microphone as an SM7B."
+    },
+    "reasons": [
+      "Exact-model image visually inspected; Commons lists CC BY 3.0 with author attribution. Ready for the verified-product promotion check.",
+      "Shure identifies SM7B as the model but does not state a generation."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "verified",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending"
+  }
+]

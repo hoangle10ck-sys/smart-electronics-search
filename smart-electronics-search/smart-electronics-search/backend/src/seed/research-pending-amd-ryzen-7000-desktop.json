@@ -1,0 +1,735 @@
+[
+  {
+    "sourceKey": "web-research:amd:ryzen-9-7950x",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 7000 Series (Zen 4)",
+    "model": "Ryzen 9 7950X",
+    "modelNumber": "7950X",
+    "name": "AMD Ryzen 9 7950X Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2022,
+    "productStatus": "active",
+    "description": "16-core desktop processor in the Ryzen 7000 Series.",
+    "specifications": {
+      "cores": 16,
+      "threads": 32,
+      "maxBoostClock": "5.7 GHz",
+      "baseClock": "4.5 GHz",
+      "l2Cache": "16 MB",
+      "l3Cache": "64 MB",
+      "defaultTdp": "170 W",
+      "integratedGraphics": true,
+      "graphicsModel": "AMD Radeon Graphics",
+      "architecture": "Zen 4",
+      "socket": "AM5"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html",
+        "notes": "Exact AMD product page identifies the Ryzen 9 7950X and Ryzen 7000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x.html",
+        "notes": "Exact SKU page provides cores, threads, clocks, cache, TDP, graphics, Zen 4 architecture, and AM5 socket."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-9-7950x3d",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 7000 Series (Zen 4)",
+    "model": "Ryzen 9 7950X3D",
+    "modelNumber": "7950X3D",
+    "name": "AMD Ryzen 9 7950X3D Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2023,
+    "productStatus": "active",
+    "description": "16-core desktop gaming and creator processor with AMD 3D V-Cache.",
+    "specifications": {
+      "cores": 16,
+      "threads": 32,
+      "maxBoostClock": "5.7 GHz",
+      "baseClock": "4.2 GHz",
+      "l2Cache": "16 MB",
+      "l3Cache": "128 MB",
+      "defaultTdp": "120 W",
+      "integratedGraphics": true,
+      "graphicsModel": "AMD Radeon Graphics",
+      "architecture": "Zen 4",
+      "socket": "AM5"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x3d.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x3d.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x3d.html",
+        "notes": "Exact AMD page identifies Ryzen 9 7950X3D, Ryzen 7000 Series, and Zen 4."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x3d.html",
+        "notes": "Exact SKU page provides 16 cores, 32 threads, 5.7/4.2 GHz boost/base clocks, 16 MB L2, 128 MB L3, 120 W TDP, Radeon Graphics, and AM5."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-9-7900x3d",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 7000 Series (Zen 4)",
+    "model": "Ryzen 9 7900X3D",
+    "modelNumber": "7900X3D",
+    "name": "AMD Ryzen 9 7900X3D Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2023,
+    "productStatus": "active",
+    "description": "12-core desktop processor with AMD 3D V-Cache for gaming and content creation.",
+    "specifications": {
+      "cores": 12,
+      "threads": 24,
+      "maxBoostClock": "5.6 GHz",
+      "baseClock": "4.4 GHz",
+      "l2Cache": "12 MB",
+      "l3Cache": "128 MB",
+      "defaultTdp": "120 W",
+      "integratedGraphics": true,
+      "graphicsModel": "AMD Radeon Graphics",
+      "architecture": "Zen 4",
+      "socket": "AM5"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x3d.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x3d.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x3d.html",
+        "notes": "Exact AMD product page identifies the Ryzen 9 7900X3D and Ryzen 7000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x3d.html",
+        "notes": "Exact SKU page provides cores, threads, clocks, cache, TDP, graphics, Zen 4 architecture, and AM5 socket."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-9-7900x",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 7000 Series (Zen 4)",
+    "model": "Ryzen 9 7900X",
+    "modelNumber": "7900X",
+    "name": "AMD Ryzen 9 7900X Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2022,
+    "productStatus": "active",
+    "description": "12-core desktop processor in the Ryzen 7000 Series.",
+    "specifications": {
+      "cores": 12,
+      "threads": 24,
+      "maxBoostClock": "5.6 GHz",
+      "baseClock": "4.7 GHz",
+      "l2Cache": "12 MB",
+      "l3Cache": "64 MB",
+      "defaultTdp": "170 W",
+      "integratedGraphics": true,
+      "graphicsModel": "AMD Radeon Graphics",
+      "architecture": "Zen 4",
+      "socket": "AM5"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+        "notes": "Exact AMD product page identifies the Ryzen 9 7900X and Ryzen 7000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+        "notes": "Exact SKU page provides cores, threads, clocks, cache, TDP, graphics, Zen 4 architecture, and AM5 socket."
+      },
+      {
+        "evidenceType": "image",
+        "sourceName": "Wikimedia Commons exact-model photograph",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_9_7900X.jpg",
+        "notes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 9 7900X."
+      },
+      {
+        "evidenceType": "image_rights",
+        "sourceName": "Wikimedia Commons file license record",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_9_7900X.jpg",
+        "notes": "CC BY-SA 4.0; CristoCalis, CC BY-SA 4.0, via Wikimedia Commons; unmodified. License terms and author were checked on this exact file page."
+      }
+    ],
+    "imageCandidate": {
+      "sourceKey": "web-research:amd:ryzen-9-7900x",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/AMD_Ryzen_9_7900X.jpg/960px-AMD_Ryzen_9_7900X.jpg",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_9_7900X.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "CristoCalis",
+      "attribution": "CristoCalis, CC BY-SA 4.0, via Wikimedia Commons; unmodified.",
+      "visualIdentityChecked": true,
+      "visualReviewNotes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 9 7900X."
+    },
+    "reasons": [
+      "Exact-model image and CC BY-SA 4.0 license verified; the CPU lid marking was visually checked. Keep private until its Product upsert completes."
+    ],
+    "imageVerificationStatus": "verified",
+    "publicationStatus": "pending"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-9-7900",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 7000 Series (Zen 4)",
+    "model": "Ryzen 9 7900",
+    "modelNumber": "7900",
+    "name": "AMD Ryzen 9 7900 Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2023,
+    "productStatus": "active",
+    "description": "12-core 65 W desktop processor supplied with AMD Wraith Prism thermal solution.",
+    "specifications": {
+      "cores": 12,
+      "threads": 24,
+      "maxBoostClock": "5.4 GHz",
+      "baseClock": "3.7 GHz",
+      "l2Cache": "12 MB",
+      "l3Cache": "64 MB",
+      "defaultTdp": "65 W",
+      "integratedGraphics": true,
+      "graphicsModel": "AMD Radeon Graphics",
+      "architecture": "Zen 4",
+      "socket": "AM5",
+      "thermalSolution": "AMD Wraith Prism"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html",
+        "notes": "Exact AMD product page identifies the Ryzen 9 7900 and Ryzen 7000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900.html",
+        "notes": "Exact SKU page and AMD Ryzen 7000 product brief provide cores, threads, clocks, cache, 65 W TDP, graphics, cooler, Zen 4 architecture, and AM5 socket."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-7-7800x3d",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 7000 Series (Zen 4)",
+    "model": "Ryzen 7 7800X3D",
+    "modelNumber": "7800X3D",
+    "name": "AMD Ryzen 7 7800X3D Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2023,
+    "productStatus": "active",
+    "description": "8-core desktop gaming processor with AMD 3D V-Cache.",
+    "specifications": {
+      "cores": 8,
+      "threads": 16,
+      "maxBoostClock": "5.0 GHz",
+      "baseClock": "4.2 GHz",
+      "l2Cache": "8 MB",
+      "l3Cache": "96 MB",
+      "defaultTdp": "120 W",
+      "integratedGraphics": true,
+      "graphicsModel": "AMD Radeon Graphics",
+      "architecture": "Zen 4",
+      "socket": "AM5"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+        "notes": "Exact AMD product page identifies the Ryzen 7 7800X3D and Ryzen 7000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+        "notes": "Exact SKU page provides cores, threads, clocks, cache, TDP, Radeon Graphics, Zen 4 architecture, and AM5 socket."
+      },
+      {
+        "evidenceType": "image",
+        "sourceName": "Wikimedia Commons exact-model photograph",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ryzen_7_7800_X3D,_unlocked.jpg",
+        "notes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 7 7800X3D."
+      },
+      {
+        "evidenceType": "image_rights",
+        "sourceName": "Wikimedia Commons file license record",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ryzen_7_7800_X3D,_unlocked.jpg",
+        "notes": "CC BY 2.0; Thomas Vogt, CC BY 2.0, via Wikimedia Commons; unmodified. License terms and author were checked on this exact file page."
+      }
+    ],
+    "imageCandidate": {
+      "sourceKey": "web-research:amd:ryzen-7-7800x3d",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Ryzen_7_7800_X3D%2C_unlocked.jpg/960px-Ryzen_7_7800_X3D%2C_unlocked.jpg",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Ryzen_7_7800_X3D,_unlocked.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "Thomas Vogt",
+      "attribution": "Thomas Vogt, CC BY 2.0, via Wikimedia Commons; unmodified.",
+      "visualIdentityChecked": true,
+      "visualReviewNotes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 7 7800X3D."
+    },
+    "reasons": [
+      "Exact-model image and CC BY 2.0 license verified; the CPU lid marking was visually checked. Keep private until its Product upsert completes."
+    ],
+    "imageVerificationStatus": "verified",
+    "publicationStatus": "pending"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-7-7700x3d",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 7000 Series (Zen 4)",
+    "model": "Ryzen 7 7700X3D",
+    "modelNumber": "7700X3D",
+    "name": "AMD Ryzen 7 7700X3D Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2026,
+    "productStatus": "active",
+    "description": "8-core desktop gaming processor with AMD 3D V-Cache.",
+    "specifications": {
+      "cores": 8,
+      "threads": 16,
+      "maxBoostClock": "4.5 GHz",
+      "baseClock": "4.0 GHz",
+      "l2Cache": "8 MB",
+      "l3Cache": "96 MB",
+      "defaultTdp": "120 W",
+      "integratedGraphics": true,
+      "graphicsModel": "AMD Radeon Graphics",
+      "architecture": "Zen 4",
+      "socket": "AM5"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x3d.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x3d.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x3d.html",
+        "notes": "Exact AMD product page identifies the Ryzen 7 7700X3D and Ryzen 7000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x3d.html",
+        "notes": "Exact SKU page provides 8 cores, 16 threads, 4.5/4.0 GHz boost/base clocks, 8 MB L2, 96 MB L3, 120 W TDP, Radeon Graphics, and AM5."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-7-7700x",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 7000 Series (Zen 4)",
+    "model": "Ryzen 7 7700X",
+    "modelNumber": "7700X",
+    "name": "AMD Ryzen 7 7700X Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2022,
+    "productStatus": "active",
+    "description": "8-core desktop processor in the Ryzen 7000 Series.",
+    "specifications": {
+      "cores": 8,
+      "threads": 16,
+      "maxBoostClock": "5.4 GHz",
+      "baseClock": "4.5 GHz",
+      "l2Cache": "8 MB",
+      "l3Cache": "32 MB",
+      "defaultTdp": "105 W",
+      "integratedGraphics": true,
+      "graphicsModel": "AMD Radeon Graphics",
+      "architecture": "Zen 4",
+      "socket": "AM5"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x.html",
+        "notes": "Exact AMD product page identifies the Ryzen 7 7700X and Ryzen 7000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700x.html",
+        "notes": "Exact SKU page provides cores, threads, clocks, cache, TDP, graphics, Zen 4 architecture, and AM5 socket."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-7-7700",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 7000 Series (Zen 4)",
+    "model": "Ryzen 7 7700",
+    "modelNumber": "7700",
+    "name": "AMD Ryzen 7 7700 Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2023,
+    "productStatus": "active",
+    "description": "8-core 65 W desktop processor supplied with AMD Wraith Prism thermal solution.",
+    "specifications": {
+      "cores": 8,
+      "threads": 16,
+      "maxBoostClock": "5.3 GHz",
+      "baseClock": "3.8 GHz",
+      "l2Cache": "8 MB",
+      "l3Cache": "32 MB",
+      "defaultTdp": "65 W",
+      "integratedGraphics": true,
+      "graphicsModel": "AMD Radeon Graphics",
+      "architecture": "Zen 4",
+      "socket": "AM5",
+      "thermalSolution": "AMD Wraith Prism"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700.html",
+        "notes": "Exact AMD product page identifies the Ryzen 7 7700 and Ryzen 7000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700.html",
+        "notes": "Exact SKU page and AMD Ryzen 7000 product brief provide cores, threads, clocks, cache, 65 W TDP, graphics, cooler, Zen 4 architecture, and AM5 socket."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-7600x3d",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 7000 Series (Zen 4)",
+    "model": "Ryzen 5 7600X3D",
+    "modelNumber": "7600X3D",
+    "name": "AMD Ryzen 5 7600X3D Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2024,
+    "productStatus": "active",
+    "description": "6-core desktop gaming processor with AMD 3D V-Cache.",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "4.7 GHz",
+      "baseClock": "4.1 GHz",
+      "l2Cache": "6 MB",
+      "l3Cache": "96 MB",
+      "defaultTdp": "65 W",
+      "integratedGraphics": true,
+      "graphicsModel": "AMD Radeon Graphics",
+      "architecture": "Zen 4",
+      "socket": "AM5"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x3d.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x3d.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x3d.html",
+        "notes": "Exact AMD page identifies Ryzen 5 7600X3D and Ryzen 7000 Series; regional availability is listed."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x3d.html",
+        "notes": "Exact SKU page provides 6 cores, 12 threads, 4.7/4.1 GHz clocks, 6 MB L2, 96 MB L3, 65 W TDP, Radeon Graphics, and AM5."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-7600x",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 7000 Series (Zen 4)",
+    "model": "Ryzen 5 7600X",
+    "modelNumber": "7600X",
+    "name": "AMD Ryzen 5 7600X Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2022,
+    "productStatus": "active",
+    "description": "6-core desktop processor in the Ryzen 7000 Series.",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "5.3 GHz",
+      "baseClock": "4.7 GHz",
+      "l2Cache": "6 MB",
+      "l3Cache": "32 MB",
+      "defaultTdp": "105 W",
+      "integratedGraphics": true,
+      "graphicsModel": "AMD Radeon Graphics",
+      "architecture": "Zen 4",
+      "socket": "AM5"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html",
+        "notes": "Exact AMD product page identifies the Ryzen 5 7600X and Ryzen 7000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600x.html",
+        "notes": "Exact SKU page provides cores, threads, clocks, cache, TDP, graphics, Zen 4 architecture, and AM5 socket."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-7600",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 7000 Series (Zen 4)",
+    "model": "Ryzen 5 7600",
+    "modelNumber": "7600",
+    "name": "AMD Ryzen 5 7600 Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2023,
+    "productStatus": "active",
+    "description": "6-core 65 W desktop processor supplied with AMD Wraith Stealth thermal solution.",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "5.1 GHz",
+      "baseClock": "3.8 GHz",
+      "l2Cache": "6 MB",
+      "l3Cache": "32 MB",
+      "defaultTdp": "65 W",
+      "integratedGraphics": true,
+      "graphicsModel": "AMD Radeon Graphics",
+      "architecture": "Zen 4",
+      "socket": "AM5",
+      "thermalSolution": "AMD Wraith Stealth"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+        "notes": "Exact AMD product page identifies the Ryzen 5 7600 and Ryzen 7000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+        "notes": "Exact SKU page and AMD Ryzen 7000 product brief provide cores, threads, clocks, cache, 65 W TDP, graphics, cooler, Zen 4 architecture, and AM5 socket."
+      },
+      {
+        "evidenceType": "image",
+        "sourceName": "Wikimedia Commons exact-model photograph",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_5_7600_top_IMGP6773_smial_wp.jpg",
+        "notes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 5 7600."
+      },
+      {
+        "evidenceType": "image_rights",
+        "sourceName": "Wikimedia Commons file license record",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_5_7600_top_IMGP6773_smial_wp.jpg",
+        "notes": "Free Art License; Rainer Knäpper (Smial), Free Art License, via Wikimedia Commons; unmodified. License terms and author were checked on this exact file page."
+      }
+    ],
+    "imageCandidate": {
+      "sourceKey": "web-research:amd:ryzen-5-7600",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/AMD_Ryzen_5_7600_top_IMGP6773_smial_wp.jpg/960px-AMD_Ryzen_5_7600_top_IMGP6773_smial_wp.jpg",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_5_7600_top_IMGP6773_smial_wp.jpg",
+      "license": "Free Art License",
+      "licenseUrl": "https://artlibre.org/licence/lal/en/",
+      "author": "Rainer Knäpper (Smial)",
+      "attribution": "Rainer Knäpper (Smial), Free Art License, via Wikimedia Commons; unmodified.",
+      "visualIdentityChecked": true,
+      "visualReviewNotes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 5 7600."
+    },
+    "reasons": [
+      "Exact-model image and Free Art License license verified; the CPU lid marking was visually checked. Keep private until its Product upsert completes."
+    ],
+    "imageVerificationStatus": "verified",
+    "publicationStatus": "pending"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-7500f",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 7000 Series (Zen 4)",
+    "model": "Ryzen 5 7500F",
+    "modelNumber": "7500F",
+    "name": "AMD Ryzen 5 7500F Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2023,
+    "productStatus": "active",
+    "description": "6-core 65 W desktop processor without integrated graphics; a discrete graphics card is required.",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "5.0 GHz",
+      "baseClock": "3.7 GHz",
+      "l2Cache": "6 MB",
+      "l3Cache": "32 MB",
+      "defaultTdp": "65 W",
+      "integratedGraphics": false,
+      "architecture": "Zen 4",
+      "socket": "AM5",
+      "thermalSolution": "AMD Wraith Stealth"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html",
+        "notes": "Exact AMD product page identifies the Ryzen 5 7500F and Ryzen 7000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500f.html",
+        "notes": "Exact SKU page provides cores, threads, clocks, cache, TDP, Zen 4 architecture, AM5, and discrete-graphics requirement; AMD's official 7000-series guide lists the included cooler."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-7500x3d",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 7000 Series (Zen 4)",
+    "model": "Ryzen 5 7500X3D",
+    "modelNumber": "7500X3D",
+    "name": "AMD Ryzen 5 7500X3D Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "6-core desktop gaming processor with AMD 3D V-Cache.",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "4.5 GHz",
+      "baseClock": "4.0 GHz",
+      "l2Cache": "6 MB",
+      "l3Cache": "96 MB",
+      "defaultTdp": "65 W",
+      "integratedGraphics": true,
+      "graphicsModel": "AMD Radeon Graphics",
+      "architecture": "Zen 4",
+      "socket": "AM5"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500x3d.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500x3d.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500x3d.html",
+        "notes": "Exact AMD product page identifies the Ryzen 5 7500X3D and Ryzen 7000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7500x3d.html",
+        "notes": "Exact SKU page provides 6 cores, 12 threads, 4.5/4.0 GHz clocks, 6 MB L2, 96 MB L3, 65 W TDP, Radeon Graphics, Zen 4, and AM5."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ]
+  }
+]

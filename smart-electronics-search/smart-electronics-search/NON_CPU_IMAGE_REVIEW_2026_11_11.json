@@ -1,0 +1,121 @@
+{
+  "batchId": "non-cpu-licensed-image-review-2026-11-11",
+  "reviewedAt": "2026-11-11",
+  "webSearchLive": true,
+  "backupBeforeImport": "C:\\Users\\DELL\\AppData\\Local\\Temp\\smart-electronics-search-mongo-backup-2026-11-10T23-26-39-956Z",
+  "before": {
+    "products": 160,
+    "pendingProductDocuments": 145,
+    "activePendingReview": 134,
+    "offers": 0
+  },
+  "models": [
+    {
+      "sourceKey": "web-research:meta:quest-3",
+      "brand": "Meta",
+      "model": "Meta Quest 3",
+      "category": "vr_ar",
+      "productUrl": "https://about.fb.com/news/2023/09/meet-meta-quest-3-mixed-reality-headset/",
+      "specificationSourceUrl": "https://developers.meta.com/vr/essentials/compare-devices/",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Meta_Quest_3_front_View.jpg",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Meta_Quest_3_front_View.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Roy.wonder.cohen",
+      "attribution": "Photo by Roy.wonder.cohen, Meta Quest 3 front View.jpg, CC BY-SA 4.0, via Wikimedia Commons. No changes made.",
+      "imageDimensions": "5472x3648",
+      "imageHttpStatus": 200,
+      "imageContentType": "image/jpeg",
+      "visualReview": "Downloaded original visually inspected. Beige headset front, three vertical sensor/camera cutouts, and white Touch Plus controllers match the exact Quest 3 image page; no model engraving visible.",
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "published",
+      "officialSpecsVerified": true,
+      "productImported": true
+    },
+    {
+      "sourceKey": "web-research:dji:mini-4-pro",
+      "brand": "DJI",
+      "model": "DJI Mini 4 Pro",
+      "category": "drone",
+      "productUrl": "https://www.dji.com/mini-4-pro",
+      "specificationSourceUrl": "https://www.dji.com/mini-4-pro/specs",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/2024_Dron_DJI_Mini_4_Pro_%2817%29.jpg",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:2024_Dron_DJI_Mini_4_Pro_(17).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Jacek Halicki",
+      "attribution": "Photo by Jacek Halicki, 2024 Dron DJI Mini 4 Pro (17).jpg, CC BY-SA 4.0, via Wikimedia Commons. No changes made.",
+      "imageDimensions": "4492x2780",
+      "imageHttpStatus": 200,
+      "imageContentType": "image/jpeg",
+      "visualReview": "Downloaded original visually inspected. The MINI 4 PRO model marking is visible on the drone arm.",
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "published",
+      "officialSpecsVerified": true,
+      "productImported": true
+    }
+  ],
+  "after": {
+    "products": 163,
+    "uniqueBrandModelPairs": 122,
+    "pendingProductDocuments": 145,
+    "activePendingReview": 131,
+    "cpuPublished": 12,
+    "vrArPublished": 1,
+    "dronePublished": 1,
+    "microphonePublished": 1,
+    "offers": 0
+  },
+  "notes": [
+    "Both product and specification URLs were live manufacturer pages and matched the exact model.",
+    "Commons file page names the author and license; direct image URL returned HTTP 200 with image/jpeg.",
+    "No price or Offer was created. Existing source rows were upserted; no new pending identity was added.",
+    "Follow-up batch reused the existing SM7B pending identity, corrected the spec page to the official HTML user guide, recorded a CC BY 3.0 exact-model image with attribution, and created no Offer."
+  ],
+  "followUpPromotion": {
+    "batchId": "licensed-existing-pending-sm7b-2026-11-11",
+    "backupBeforeImport": "C:\\Users\\DELL\\AppData\\Local\\Temp\\smart-electronics-search-mongo-backup-2026-11-10T23-48-57-295Z",
+    "before": {
+      "products": 162,
+      "pendingProductDocuments": 145,
+      "activePendingReview": 132,
+      "offers": 0
+    },
+    "model": {
+      "sourceKey": "web-research:shure:sm7b",
+      "brand": "Shure",
+      "model": "SM7B",
+      "category": "microphone",
+      "productUrl": "https://www.shure.com/en-US/products/microphones/sm7b?prod=sm7b",
+      "specificationSourceUrl": "https://www.shure.com/en-US/docs/guide/SM7B",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Marius_Bear_SM7B.jpg",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Marius_Bear_SM7B.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "author": "Christoph Soltmannowski",
+      "attribution": "Photo by Christoph Soltmannowski, Marius Bear SM7B.jpg, CC BY 3.0, via Wikimedia Commons. No changes made.",
+      "imageDimensions": "1122x838",
+      "imageHttpStatus": 200,
+      "imageContentType": "image/jpeg",
+      "visualReview": "Downloaded original. Shure logo, SM7-series body, yoke and windscreen are visible; Commons file page identifies the microphone as SM7B.",
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "published",
+      "officialSpecsVerified": true,
+      "productImported": true
+    },
+    "after": {
+      "products": 163,
+      "uniqueBrandModelPairs": 122,
+      "pendingProductDocuments": 145,
+      "activePendingReview": 131,
+      "microphonePublished": 1,
+      "offers": 0
+    }
+  }
+}

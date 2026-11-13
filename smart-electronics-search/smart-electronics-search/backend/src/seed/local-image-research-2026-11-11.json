@@ -1,0 +1,55 @@
+[
+  {
+    "sourceFile": "research-pending.json",
+    "sourceKey": "web-research:amazon:kindle-paperwhite-12th-gen-16gb",
+    "catalogProductUrl": "https://www.kindlesaigon.vn/collections/kindle-paperwhite/products/kindle-paperwhite-6-12th-2024-16gb-hong",
+    "identityText": "Kindle Paperwhite",
+    "variantText": "16 GB",
+    "productIdentityText": "Kindle Paperwhite",
+    "specificationIdentityText": "Kindle Paperwhite",
+    "specificationVariantText": "16GB",
+    "imageFile": "kindle-paperwhite-12th.jpg",
+    "imageUrl": "https://file.hstatic.net/200000090875/file/kindle_paperwhite_16_gb_chinh_hang_grande.jpg",
+    "imageSource": "Kindle Saigon",
+    "imageSourcePage": "https://www.kindlesaigon.vn/collections/kindle-paperwhite/products/kindle-paperwhite-6-12th-2024-16gb-hong"
+  },
+  {
+    "sourceFile": "research-pending.json",
+    "sourceKey": "web-research:epson:epiqvision-mini-ef21",
+    "imageFile": "epson-ef21.jpg",
+    "imageUrl": "https://logico.com.vn/upload_images/images/2024/10/29/may-chieu-mini-epson-ef-21-1.jpg",
+    "imageSource": "LOGICO",
+    "imageSourcePage": "https://logico.com.vn/may-chieu-mini-epson-ef-21-dp17692",
+    "specificationIdentityText": "EF21"
+  },
+  {
+    "sourceFile": "research-pending.json",
+    "sourceKey": "web-research:google:nest-hub-2nd-gen",
+    "catalogProductUrl": "https://www.8matter.com/products/google-nest-hub-2nd-gen-2",
+    "catalogSpecificationUrl": "https://www.8matter.com/products/google-nest-hub-2nd-gen-2",
+    "identityPageUrl": "https://blog.google/intl/en-au/products/devices-services/new-nest-hub/",
+    "identityText": "Nest Hub",
+    "imageFile": "nest-hub-2nd-gen.webp",
+    "imageUrl": "https://www.8matter.com/assets/img/p/google-nest-hub-2nd-gen-2-1.webp",
+    "imageSource": "8MATTER",
+    "imageSourcePage": "https://www.8matter.com/products/google-nest-hub-2nd-gen-2"
+  },
+  {
+    "sourceFile": "research-pending.json",
+    "sourceKey": "web-research:elgato:game-capture-hd60-x",
+    "catalogSpecificationUrl": "https://hacom.vn/thiet-bi-chuyen-doi-hinh-anh-elgato-hd60x",
+    "imageFile": "elgato-hd60-x.jpg",
+    "imageUrl": "https://hanoicomputercdn.com/media/product/65015_thiet_bi_chuyen_doi_hinh_anh_elgato_hd60x__1_.jpg",
+    "imageSource": "HACOM",
+    "imageSourcePage": "https://hacom.vn/thiet-bi-chuyen-doi-hinh-anh-elgato-hd60x",
+    "specificationIdentityText": "HD60X"
+  },
+  {
+    "sourceFile": "research-pending-shure-sm7b-2026-11-11.json",
+    "sourceKey": "web-research:shure:sm7b",
+    "imageFile": "shure-sm7b.jpg",
+    "imageUrl": "https://cdn-files.hacom.vn/hacom/cdn/web/22052026/micro-thu-am-dynamic-vocal-shure-sm7b-1.jpg",
+    "imageSource": "HACOM",
+    "imageSourcePage": "https://hacom.vn/micro-thu-am-dynamic-vocal-shure-sm7b-micr0270"
+  }
+]

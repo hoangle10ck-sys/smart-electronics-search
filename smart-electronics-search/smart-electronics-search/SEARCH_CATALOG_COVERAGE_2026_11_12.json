@@ -1,0 +1,1064 @@
+{
+  "generatedAt": "2026-11-11T19:46:58.426Z",
+  "database": "smart_electronics",
+  "searchMode": "hybrid",
+  "totalQueries": 27,
+  "matchedQueries": 19,
+  "noVerifiedProductQueries": 8,
+  "advisor": [
+    {
+      "case": "Lenovo laptop, 16 GB RAM, under 20 million VND",
+      "status": "no_verified_products",
+      "needsClarification": false,
+      "recommendationCount": 0,
+      "products": [],
+      "reply": "Hiện catalog chưa có sản phẩm đã xác minh phù hợp với yêu cầu Lenovo, Laptop, học lập trình, RAM 16 GB với ngân sách tối đa 20.000.000 VND. Bạn có thể tăng ngân sách hoặc nới lỏng một tiêu chí để mình tìm lại."
+    },
+    {
+      "case": "Exact existing model iPhone 15",
+      "status": "recommended_products",
+      "needsClarification": false,
+      "recommendationCount": 1,
+      "products": [
+        {
+          "name": "iPhone 15",
+          "brand": "Apple",
+          "model": "iPhone 15",
+          "price": 21490000,
+          "category": "phone"
+        }
+      ],
+      "reply": "Theo dữ liệu catalog, mình tìm thấy 1 lựa chọn để bạn xem: iPhone 15: 21.490.000 VND. Bạn có thể kiểm tra thông số và nguồn xác minh trên từng thẻ sản phẩm."
+    }
+  ],
+  "queries": [
+    {
+      "group": "phones",
+      "query": "iPhone",
+      "status": "matched_verified_catalog_products",
+      "verifiedProductCount": 59,
+      "returnedCount": 5,
+      "discoveryLeadCount": 0,
+      "notes": [],
+      "results": [
+        {
+          "id": "6af1fac12b3ee012143096d5",
+          "name": "iPhone 13",
+          "brand": "Apple",
+          "model": "iPhone 13",
+          "category": "phone",
+          "imageVerificationStatus": "verified",
+          "price": 11990000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af206422b3ee012143096fc",
+          "name": "iPhone 11",
+          "brand": "Apple",
+          "model": "iPhone 11",
+          "category": "phone",
+          "imageVerificationStatus": "verified",
+          "price": 3700000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af1f55b2b3ee012143096c1",
+          "name": "iPhone 15",
+          "brand": "Apple",
+          "model": "iPhone 15",
+          "category": "phone",
+          "imageVerificationStatus": "verified",
+          "price": 21490000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af29dca2b3ee01214309b5f",
+          "name": "iPhone XR",
+          "brand": "Apple",
+          "model": "iPhone XR",
+          "category": "phone",
+          "imageVerificationStatus": "verified",
+          "price": 3500000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af1f55b2b3ee012143096c2",
+          "name": "iPhone 14",
+          "brand": "Apple",
+          "model": "iPhone 14",
+          "category": "phone",
+          "imageVerificationStatus": "verified",
+          "price": 13990000,
+          "currency": "VND"
+        }
+      ]
+    },
+    {
+      "group": "phones",
+      "query": "Samsung Galaxy smartphone",
+      "status": "no_verified_catalog_products",
+      "verifiedProductCount": 0,
+      "returnedCount": 0,
+      "discoveryLeadCount": 8,
+      "notes": [
+        "Tìm thấy 8 mục tham khảo trong chỉ mục TechAPI. Đây chưa phải sản phẩm đã xác minh trong catalog; giá và quyền dùng ảnh chưa được kiểm tra.",
+        "Không tìm thấy sản phẩm khớp danh mục và các thông số bắt buộc trong catalog đã xác minh."
+      ],
+      "results": []
+    },
+    {
+      "group": "phones",
+      "query": "Xiaomi phone",
+      "status": "no_verified_catalog_products",
+      "verifiedProductCount": 0,
+      "returnedCount": 0,
+      "discoveryLeadCount": 0,
+      "notes": [
+        "Không tìm thấy sản phẩm khớp danh mục và các thông số bắt buộc trong catalog đã xác minh."
+      ],
+      "results": []
+    },
+    {
+      "group": "phones",
+      "query": "OPPO phone",
+      "status": "no_verified_catalog_products",
+      "verifiedProductCount": 0,
+      "returnedCount": 0,
+      "discoveryLeadCount": 0,
+      "notes": [
+        "Không tìm thấy sản phẩm khớp danh mục và các thông số bắt buộc trong catalog đã xác minh."
+      ],
+      "results": []
+    },
+    {
+      "group": "phones",
+      "query": "vivo phone",
+      "status": "no_verified_catalog_products",
+      "verifiedProductCount": 0,
+      "returnedCount": 0,
+      "discoveryLeadCount": 0,
+      "notes": [
+        "Không tìm thấy sản phẩm khớp danh mục và các thông số bắt buộc trong catalog đã xác minh."
+      ],
+      "results": []
+    },
+    {
+      "group": "phones",
+      "query": "realme phone",
+      "status": "no_verified_catalog_products",
+      "verifiedProductCount": 0,
+      "returnedCount": 0,
+      "discoveryLeadCount": 0,
+      "notes": [
+        "Không tìm thấy sản phẩm khớp danh mục và các thông số bắt buộc trong catalog đã xác minh."
+      ],
+      "results": []
+    },
+    {
+      "group": "phones",
+      "query": "Google Pixel phone",
+      "status": "matched_verified_catalog_products",
+      "verifiedProductCount": 1,
+      "returnedCount": 1,
+      "discoveryLeadCount": 0,
+      "notes": [],
+      "results": [
+        {
+          "id": "6af1f55b2b3ee012143096c3",
+          "name": "Google Pixel 7",
+          "brand": "Google",
+          "model": "Pixel 7",
+          "category": "phone",
+          "imageVerificationStatus": "verified",
+          "price": 4699000,
+          "currency": "VND"
+        }
+      ]
+    },
+    {
+      "group": "laptops",
+      "query": "ASUS laptop",
+      "status": "matched_verified_catalog_products",
+      "verifiedProductCount": 1,
+      "returnedCount": 1,
+      "discoveryLeadCount": 0,
+      "notes": [],
+      "results": [
+        {
+          "id": "6af2a4aa2b3ee01214309be2",
+          "name": "ASUS ZenBook 13 UX334",
+          "brand": "ASUS",
+          "model": "ZenBook 13 UX334",
+          "category": "laptop",
+          "imageVerificationStatus": "verified",
+          "price": null,
+          "currency": null
+        }
+      ]
+    },
+    {
+      "group": "laptops",
+      "query": "Acer laptop",
+      "status": "matched_verified_catalog_products",
+      "verifiedProductCount": 1,
+      "returnedCount": 1,
+      "discoveryLeadCount": 0,
+      "notes": [],
+      "results": [
+        {
+          "id": "6af412322b3ee0121432a0ed",
+          "name": "Acer Nitro V 15 ANV15-41-R1JY (Ryzen 5 6600H, RTX 3050 6GB)",
+          "brand": "Acer",
+          "model": "Nitro V 15 ANV15-41-R1JY",
+          "category": "laptop",
+          "imageVerificationStatus": "pending",
+          "price": 16590000,
+          "currency": "VND"
+        }
+      ]
+    },
+    {
+      "group": "laptops",
+      "query": "Lenovo laptop",
+      "status": "matched_verified_catalog_products",
+      "verifiedProductCount": 15,
+      "returnedCount": 5,
+      "discoveryLeadCount": 0,
+      "notes": [],
+      "results": [
+        {
+          "id": "6af2a4a92b3ee01214309bd9",
+          "name": "ThinkPad T460 (20FN002JUS)",
+          "brand": "Lenovo",
+          "model": "ThinkPad T460 20FN002JUS",
+          "category": "laptop",
+          "imageVerificationStatus": "verified",
+          "price": 3200000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af1f4502b3ee012143096bc",
+          "name": "ThinkPad T480",
+          "brand": "Lenovo",
+          "model": "ThinkPad T480",
+          "category": "laptop",
+          "imageVerificationStatus": "verified",
+          "price": 5900000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af2a4aa2b3ee01214309be8",
+          "name": "ThinkPad T440s",
+          "brand": "Lenovo",
+          "model": "ThinkPad T440s",
+          "category": "laptop",
+          "imageVerificationStatus": "verified",
+          "price": 3000000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af2a4a92b3ee01214309bdd",
+          "name": "ThinkPad X1 Carbon (5th Gen, 20HQ0020++)",
+          "brand": "Lenovo",
+          "model": "ThinkPad X1 Carbon 5th Gen 20HQ0020++",
+          "category": "laptop",
+          "imageVerificationStatus": "verified",
+          "price": 3490000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af2a4a92b3ee01214309bd7",
+          "name": "ThinkPad T420 (4177-25G)",
+          "brand": "Lenovo",
+          "model": "ThinkPad T420 4177-25G",
+          "category": "laptop",
+          "imageVerificationStatus": "verified",
+          "price": 570000,
+          "currency": "VND"
+        }
+      ]
+    },
+    {
+      "group": "laptops",
+      "query": "HP laptop",
+      "status": "matched_verified_catalog_products",
+      "verifiedProductCount": 1,
+      "returnedCount": 1,
+      "discoveryLeadCount": 0,
+      "notes": [],
+      "results": [
+        {
+          "id": "6af2a4aa2b3ee01214309be1",
+          "name": "HP Spectre x360 13t-aw0000",
+          "brand": "HP",
+          "model": "Spectre x360 13t-aw0000",
+          "category": "laptop",
+          "imageVerificationStatus": "verified",
+          "price": null,
+          "currency": null
+        }
+      ]
+    },
+    {
+      "group": "laptops",
+      "query": "Dell laptop",
+      "status": "matched_verified_catalog_products",
+      "verifiedProductCount": 2,
+      "returnedCount": 2,
+      "discoveryLeadCount": 0,
+      "notes": [],
+      "results": [
+        {
+          "id": "6af2a4aa2b3ee01214309bdf",
+          "name": "Dell XPS 13 9300",
+          "brand": "Dell",
+          "model": "XPS 13 9300",
+          "category": "laptop",
+          "imageVerificationStatus": "verified",
+          "price": 12000000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af2a4aa2b3ee01214309be0",
+          "name": "Dell XPS 13 9350 (2015)",
+          "brand": "Dell",
+          "model": "XPS 13 9350 (2015)",
+          "category": "laptop",
+          "imageVerificationStatus": "verified",
+          "price": 6900000,
+          "currency": "VND"
+        }
+      ]
+    },
+    {
+      "group": "laptops",
+      "query": "MSI laptop",
+      "status": "no_verified_catalog_products",
+      "verifiedProductCount": 0,
+      "returnedCount": 0,
+      "discoveryLeadCount": 0,
+      "notes": [
+        "Không tìm thấy sản phẩm khớp danh mục và các thông số bắt buộc trong catalog đã xác minh."
+      ],
+      "results": []
+    },
+    {
+      "group": "processors_graphics",
+      "query": "Intel Core CPU",
+      "status": "matched_verified_catalog_products",
+      "verifiedProductCount": 14,
+      "returnedCount": 5,
+      "discoveryLeadCount": 0,
+      "notes": [],
+      "results": [
+        {
+          "id": "6af4c4b400cd88dbdeea8b2a",
+          "name": "CPU Intel Core i7 14700",
+          "brand": "Intel",
+          "model": "CPU Intel Core i7 14700",
+          "category": "cpu",
+          "imageVerificationStatus": "verified",
+          "price": 11990000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af4c4b400cd88dbdeea8b22",
+          "name": "CPU Intel Core i3 14100",
+          "brand": "Intel",
+          "model": "CPU Intel Core i3 14100",
+          "category": "cpu",
+          "imageVerificationStatus": "verified",
+          "price": 4690000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af4c4b300cd88dbdeea8b0e",
+          "name": "CPU Intel Core i5 14500",
+          "brand": "Intel",
+          "model": "CPU Intel Core i5 14500",
+          "category": "cpu",
+          "imageVerificationStatus": "verified",
+          "price": 8990000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af4c4b200cd88dbdeea8b06",
+          "name": "CPU Intel Core i7 14700K",
+          "brand": "Intel",
+          "model": "CPU Intel Core i7 14700K",
+          "category": "cpu",
+          "imageVerificationStatus": "verified",
+          "price": 12290000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af4c4b300cd88dbdeea8b16",
+          "name": "CPU Intel Core i7 14700F",
+          "brand": "Intel",
+          "model": "CPU Intel Core i7 14700F",
+          "category": "cpu",
+          "imageVerificationStatus": "verified",
+          "price": 10490000,
+          "currency": "VND"
+        }
+      ]
+    },
+    {
+      "group": "processors_graphics",
+      "query": "AMD Ryzen CPU",
+      "status": "matched_verified_catalog_products",
+      "verifiedProductCount": 46,
+      "returnedCount": 5,
+      "discoveryLeadCount": 0,
+      "notes": [],
+      "results": [
+        {
+          "id": "6af4c4b200cd88dbdeea8afe",
+          "name": "CPU AMD Ryzen 5 5500",
+          "brand": "AMD",
+          "model": "CPU AMD Ryzen 5 5500",
+          "category": "cpu",
+          "imageVerificationStatus": "verified",
+          "price": 2490000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af4c4b500cd88dbdeea8b3e",
+          "name": "CPU AMD Ryzen 9 9950X",
+          "brand": "AMD",
+          "model": "CPU AMD Ryzen 9 9950X",
+          "category": "cpu",
+          "imageVerificationStatus": "verified",
+          "price": 16690000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af396332b3ee0121430a892",
+          "name": "AMD Ryzen 7 5800X3D Desktop Processor",
+          "brand": "AMD",
+          "model": "Ryzen 7 5800X3D",
+          "category": "cpu",
+          "imageVerificationStatus": "verified",
+          "price": 9559000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af396342b3ee0121430a894",
+          "name": "AMD Ryzen 7 5700X Desktop Processor",
+          "brand": "AMD",
+          "model": "Ryzen 7 5700X",
+          "category": "cpu",
+          "imageVerificationStatus": "verified",
+          "price": 4690000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af471dd2b3ee01214344777",
+          "name": "AMD Ryzen 7 5700X3D Desktop Processor",
+          "brand": "AMD",
+          "model": "Ryzen 7 5700X3D",
+          "category": "cpu",
+          "imageVerificationStatus": "pending",
+          "price": null,
+          "currency": null
+        }
+      ]
+    },
+    {
+      "group": "processors_graphics",
+      "query": "NVIDIA GeForce RTX graphics card",
+      "status": "matched_verified_catalog_products",
+      "verifiedProductCount": 7,
+      "returnedCount": 5,
+      "discoveryLeadCount": 0,
+      "notes": [],
+      "results": [
+        {
+          "id": "6af471df2b3ee0121434478e",
+          "name": "NVIDIA GeForce RTX 5070 Graphics Card",
+          "brand": "NVIDIA",
+          "model": "GeForce RTX 5070",
+          "category": "gpu",
+          "imageVerificationStatus": "pending",
+          "price": null,
+          "currency": null
+        },
+        {
+          "id": "6af471df2b3ee0121434478c",
+          "name": "NVIDIA GeForce RTX 5080 Graphics Card",
+          "brand": "NVIDIA",
+          "model": "GeForce RTX 5080",
+          "category": "gpu",
+          "imageVerificationStatus": "pending",
+          "price": null,
+          "currency": null
+        },
+        {
+          "id": "6af471de2b3ee0121434478b",
+          "name": "NVIDIA GeForce RTX 5090 Graphics Card",
+          "brand": "NVIDIA",
+          "model": "GeForce RTX 5090",
+          "category": "gpu",
+          "imageVerificationStatus": "pending",
+          "price": null,
+          "currency": null
+        },
+        {
+          "id": "6af471df2b3ee01214344791",
+          "name": "NVIDIA GeForce RTX 5050 Graphics Card",
+          "brand": "NVIDIA",
+          "model": "GeForce RTX 5050",
+          "category": "gpu",
+          "imageVerificationStatus": "pending",
+          "price": null,
+          "currency": null
+        },
+        {
+          "id": "6af471df2b3ee01214344790",
+          "name": "NVIDIA GeForce RTX 5060 Graphics Card",
+          "brand": "NVIDIA",
+          "model": "GeForce RTX 5060",
+          "category": "gpu",
+          "imageVerificationStatus": "pending",
+          "price": null,
+          "currency": null
+        }
+      ]
+    },
+    {
+      "group": "processors_graphics",
+      "query": "AMD Radeon graphics card",
+      "status": "matched_verified_catalog_products",
+      "verifiedProductCount": 5,
+      "returnedCount": 5,
+      "discoveryLeadCount": 0,
+      "notes": [],
+      "results": [
+        {
+          "id": "6af471df2b3ee01214344793",
+          "name": "AMD Radeon RX 9070 Graphics Card",
+          "brand": "AMD",
+          "model": "Radeon RX 9070",
+          "category": "gpu",
+          "imageVerificationStatus": "pending",
+          "price": null,
+          "currency": null
+        },
+        {
+          "id": "6af471df2b3ee01214344794",
+          "name": "AMD Radeon RX 9070 GRE Graphics Card",
+          "brand": "AMD",
+          "model": "Radeon RX 9070 GRE",
+          "category": "gpu",
+          "imageVerificationStatus": "pending",
+          "price": null,
+          "currency": null
+        },
+        {
+          "id": "6af471df2b3ee01214344796",
+          "name": "AMD Radeon RX 9060 Graphics Card",
+          "brand": "AMD",
+          "model": "Radeon RX 9060",
+          "category": "gpu",
+          "imageVerificationStatus": "pending",
+          "price": null,
+          "currency": null
+        },
+        {
+          "id": "6af471df2b3ee01214344792",
+          "name": "AMD Radeon RX 9070 XT Graphics Card",
+          "brand": "AMD",
+          "model": "Radeon RX 9070 XT",
+          "category": "gpu",
+          "imageVerificationStatus": "pending",
+          "price": null,
+          "currency": null
+        },
+        {
+          "id": "6af471df2b3ee01214344795",
+          "name": "AMD Radeon RX 9060 XT Graphics Card",
+          "brand": "AMD",
+          "model": "Radeon RX 9060 XT",
+          "category": "gpu",
+          "imageVerificationStatus": "pending",
+          "price": null,
+          "currency": null
+        }
+      ]
+    },
+    {
+      "group": "processors_graphics",
+      "query": "Intel Arc graphics card",
+      "status": "matched_verified_catalog_products",
+      "verifiedProductCount": 2,
+      "returnedCount": 2,
+      "discoveryLeadCount": 8,
+      "notes": [
+        "Tìm thấy 8 mục tham khảo trong chỉ mục TechAPI. Đây chưa phải sản phẩm đã xác minh trong catalog; giá và quyền dùng ảnh chưa được kiểm tra."
+      ],
+      "results": [
+        {
+          "id": "6af471e02b3ee01214344798",
+          "name": "Intel Arc B570 Graphics Card",
+          "brand": "Intel",
+          "model": "Intel Arc B570",
+          "category": "gpu",
+          "imageVerificationStatus": "pending",
+          "price": null,
+          "currency": null
+        },
+        {
+          "id": "6af471e02b3ee01214344797",
+          "name": "Intel Arc B580 Graphics Card",
+          "brand": "Intel",
+          "model": "Intel Arc B580",
+          "category": "gpu",
+          "imageVerificationStatus": "pending",
+          "price": null,
+          "currency": null
+        }
+      ]
+    },
+    {
+      "group": "components",
+      "query": "RAM memory kit",
+      "status": "matched_verified_catalog_products",
+      "verifiedProductCount": 32,
+      "returnedCount": 5,
+      "discoveryLeadCount": 0,
+      "notes": [],
+      "results": [
+        {
+          "id": "6af47f3dc91fee01c7d70136",
+          "name": "Pc MSI Pro Kit Intel Core I5 (I5-14400/NO RAM+SSD/500W)",
+          "brand": "MSI",
+          "model": "Pc MSI Pro Kit Intel Core I5 (I5-14400/NO RAM+SSD/500W)",
+          "category": "ram",
+          "imageVerificationStatus": "verified",
+          "price": 10290000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af47f3dc91fee01c7d70132",
+          "name": "Pc MSI Pro Kit Intel Core I3 (I3-14100/NO RAM+SSD/500W)",
+          "brand": "MSI",
+          "model": "Pc MSI Pro Kit Intel Core I3 (I3-14100/NO RAM+SSD/500W)",
+          "category": "ram",
+          "imageVerificationStatus": "verified",
+          "price": 8390000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af48863ddab676805380ba2",
+          "name": "G.SKILL Trident Z5 Neo RGB DDR5 32GB (2x16GB) 6000MT/s CL36",
+          "brand": "G.SKILL",
+          "model": "Trident Z5 Neo RGB DDR5 32GB (2x16GB) 6000MT/s CL36",
+          "category": "ram",
+          "imageVerificationStatus": "pending",
+          "price": null,
+          "currency": null
+        },
+        {
+          "id": "6af48862ddab676805380b98",
+          "name": "G.SKILL Trident Z5 Neo RGB DDR5 32GB (2x16GB) 6000MT/s CL32",
+          "brand": "G.SKILL",
+          "model": "Trident Z5 Neo RGB DDR5 32GB (2x16GB) 6000MT/s CL32",
+          "category": "ram",
+          "imageVerificationStatus": "pending",
+          "price": null,
+          "currency": null
+        },
+        {
+          "id": "6af48863ddab676805380b9d",
+          "name": "G.SKILL Trident Z5 Neo DDR5 32GB (2x16GB) 6000MT/s CL30",
+          "brand": "G.SKILL",
+          "model": "Trident Z5 Neo DDR5 32GB (2x16GB) 6000MT/s CL30",
+          "category": "ram",
+          "imageVerificationStatus": "pending",
+          "price": null,
+          "currency": null
+        }
+      ]
+    },
+    {
+      "group": "components",
+      "query": "SSD storage",
+      "status": "matched_verified_catalog_products",
+      "verifiedProductCount": 4,
+      "returnedCount": 4,
+      "discoveryLeadCount": 0,
+      "notes": [],
+      "results": [
+        {
+          "id": "6af2b5c62b3ee01214309d7e",
+          "name": "Apple Mac mini (M4, 2024)",
+          "brand": "Apple",
+          "model": "Mac mini (M4, 2024)",
+          "category": "desktop",
+          "imageVerificationStatus": "verified",
+          "price": 20990000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af2b5c72b3ee01214309d80",
+          "name": "Apple Mac mini (2018)",
+          "brand": "Apple",
+          "model": "Mac mini (2018)",
+          "category": "desktop",
+          "imageVerificationStatus": "verified",
+          "price": 6500000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af2ae232b3ee01214309c9b",
+          "name": "Microsoft Surface Pro X",
+          "brand": "Microsoft",
+          "model": "Surface Pro X",
+          "category": "tablet",
+          "imageVerificationStatus": "verified",
+          "price": 8200000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af2b5c72b3ee01214309d81",
+          "name": "Apple Mac mini (Late 2012)",
+          "brand": "Apple",
+          "model": "Mac mini (Late 2012)",
+          "category": "desktop",
+          "imageVerificationStatus": "verified",
+          "price": 1200000,
+          "currency": "VND"
+        }
+      ]
+    },
+    {
+      "group": "components",
+      "query": "HDD hard drive",
+      "status": "no_verified_catalog_products",
+      "verifiedProductCount": 0,
+      "returnedCount": 0,
+      "discoveryLeadCount": 0,
+      "notes": [
+        "Không tìm thấy sản phẩm khớp danh mục và các thông số bắt buộc trong catalog đã xác minh."
+      ],
+      "results": []
+    },
+    {
+      "group": "displays_audio",
+      "query": "gaming monitor 144Hz",
+      "status": "matched_verified_catalog_products",
+      "verifiedProductCount": 33,
+      "returnedCount": 5,
+      "discoveryLeadCount": 0,
+      "notes": [],
+      "results": [
+        {
+          "id": "6af4c49f00cd88dbdeea896a",
+          "name": "Màn hình Gaming MSI PRO MP243L-E14 (23.8 inch Full HD, IPS, 144Hz, 4ms)",
+          "brand": "MSI",
+          "model": "Màn hình Gaming MSI PRO MP243L-E14 (23.8 inch Full HD, IPS, 144Hz, 4ms)",
+          "category": "monitor",
+          "imageVerificationStatus": "verified",
+          "price": 2490000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af4c4a000cd88dbdeea897e",
+          "name": "Màn hình Gaming Philips Evnia 27M2N2500NF (27 inch QHD, Fast IPS, 144Hz, 0.5ms)",
+          "brand": "Philips",
+          "model": "Màn hình Gaming Philips Evnia 27M2N2500NF (27 inch QHD, Fast IPS, 144Hz, 0.5ms)",
+          "category": "monitor",
+          "imageVerificationStatus": "verified",
+          "price": 3890000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af4c4a000cd88dbdeea898e",
+          "name": "Màn hình Gaming MSI MAG 255F X24 (24.5 inch, Full HD, Rapid IPS, 240Hz, 0.5ms)",
+          "brand": "MSI",
+          "model": "Màn hình Gaming MSI MAG 255F X24 (24.5 inch, Full HD, Rapid IPS, 240Hz, 0.5ms)",
+          "category": "monitor",
+          "imageVerificationStatus": "verified",
+          "price": 3340000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af4c49c00cd88dbdeea893a",
+          "name": "Màn hình Gaming MSI MPG 321URXW QD-OLED (31.5 inch UHD, QD-OLED, 240Hz, 0.03ms)",
+          "brand": "MSI",
+          "model": "Màn hình Gaming MSI MPG 321URXW QD-OLED (31.5 inch UHD, QD-OLED, 240Hz, 0.03ms)",
+          "category": "monitor",
+          "imageVerificationStatus": "verified",
+          "price": 33990000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af47f07c91fee01c7d6fbfa",
+          "name": "Màn hình Gaming Asus TUF VG249Q1A 23.8 inch FHD/IPS/165Hz/1ms/FreeSync/HDMI/DisplayPort",
+          "brand": "Asus",
+          "model": "Màn hình Gaming Asus TUF VG249Q1A 23.8 inch FHD/IPS/165Hz/1ms/FreeSync/HDMI/DisplayPort",
+          "category": "monitor",
+          "imageVerificationStatus": "verified",
+          "price": 4113818,
+          "currency": "VND"
+        }
+      ]
+    },
+    {
+      "group": "displays_audio",
+      "query": "tai nghe học online có microphone",
+      "status": "no_verified_catalog_products",
+      "verifiedProductCount": 0,
+      "returnedCount": 0,
+      "discoveryLeadCount": 0,
+      "notes": [
+        "Catalog hiện chưa có sản phẩm đã xác minh khớp nhu cầu văn phòng / học tập trong danh mục/điều kiện này; không hiển thị sản phẩm lệch nhu cầu."
+      ],
+      "results": []
+    },
+    {
+      "group": "networking_smart_home",
+      "query": "Wi-Fi router",
+      "status": "matched_verified_catalog_products",
+      "verifiedProductCount": 59,
+      "returnedCount": 5,
+      "discoveryLeadCount": 0,
+      "notes": [],
+      "results": [
+        {
+          "id": "6af4c4ab00cd88dbdeea8a6a",
+          "name": "Router Wifi Chuẩn Wi-Fi 5 Totolink A3002R V4",
+          "brand": "Totolink",
+          "model": "Router Wifi Chuẩn Wi-Fi 5 Totolink A3002R V4",
+          "category": "networking",
+          "imageVerificationStatus": "verified",
+          "price": 630000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af4c4ab00cd88dbdeea8a72",
+          "name": "Router Wifi Chuẩn Wi-Fi 7 Totolink BE3",
+          "brand": "Totolink",
+          "model": "Router Wifi Chuẩn Wi-Fi 7 Totolink BE3",
+          "category": "networking",
+          "imageVerificationStatus": "verified",
+          "price": 1890000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af4c4ab00cd88dbdeea8a6e",
+          "name": "Router Wifi Chuẩn Wi-Fi 5 Totolink A702R V4",
+          "brand": "Totolink",
+          "model": "Router Wifi Chuẩn Wi-Fi 5 Totolink A702R V4",
+          "category": "networking",
+          "imageVerificationStatus": "verified",
+          "price": 500000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af47f28c91fee01c7d6ff12",
+          "name": "Router Wifi Chuẩn Wifi 6 AX3000 TP-Link Archer AX53",
+          "brand": "TP-Link",
+          "model": "Router Wifi Chuẩn Wifi 6 AX3000 TP-Link Archer AX53",
+          "category": "networking",
+          "imageVerificationStatus": "verified",
+          "price": 1700000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af4c4ae00cd88dbdeea8ab6",
+          "name": "Router Wifi 7 TP-Link Archer BE600",
+          "brand": "TP-Link",
+          "model": "Router Wifi 7 TP-Link Archer BE600",
+          "category": "networking",
+          "imageVerificationStatus": "verified",
+          "price": 7995000,
+          "currency": "VND"
+        }
+      ]
+    },
+    {
+      "group": "networking_smart_home",
+      "query": "NAS network storage",
+      "status": "matched_verified_catalog_products",
+      "verifiedProductCount": 30,
+      "returnedCount": 5,
+      "discoveryLeadCount": 0,
+      "notes": [],
+      "results": [
+        {
+          "id": "6af485c0cbaeab68b5fdb565",
+          "name": "Synology DiskStation DS923+",
+          "brand": "Synology",
+          "model": "DiskStation DS923+",
+          "category": "nas",
+          "imageVerificationStatus": "pending",
+          "price": null,
+          "currency": null
+        },
+        {
+          "id": "6af485bfcbaeab68b5fdb55f",
+          "name": "Synology DiskStation DS1522+",
+          "brand": "Synology",
+          "model": "DiskStation DS1522+",
+          "category": "nas",
+          "imageVerificationStatus": "pending",
+          "price": null,
+          "currency": null
+        },
+        {
+          "id": "6af485c0cbaeab68b5fdb568",
+          "name": "Synology RackStation RS1221+",
+          "brand": "Synology",
+          "model": "RackStation RS1221+",
+          "category": "nas",
+          "imageVerificationStatus": "pending",
+          "price": null,
+          "currency": null
+        },
+        {
+          "id": "6af485bfcbaeab68b5fdb556",
+          "name": "QNAP TS-464 4-Bay NAS",
+          "brand": "QNAP",
+          "model": "TS-464",
+          "category": "nas",
+          "imageVerificationStatus": "pending",
+          "price": null,
+          "currency": null
+        },
+        {
+          "id": "6af485bfcbaeab68b5fdb559",
+          "name": "QNAP TS-873A 8-Bay High-Performance Tower NAS",
+          "brand": "QNAP",
+          "model": "TS-873A",
+          "category": "nas",
+          "imageVerificationStatus": "pending",
+          "price": null,
+          "currency": null
+        }
+      ]
+    },
+    {
+      "group": "networking_smart_home",
+      "query": "Samsung smart TV",
+      "status": "matched_verified_catalog_products",
+      "verifiedProductCount": 14,
+      "returnedCount": 5,
+      "discoveryLeadCount": 0,
+      "notes": [],
+      "results": [
+        {
+          "id": "6af47f42c91fee01c7d701be",
+          "name": "Smart Tivi Samsung QLED 4K 65 inch 2024 (65Q60D)",
+          "brand": "Samsung",
+          "model": "Smart Tivi Samsung QLED 4K 65 inch 2024 (65Q60D)",
+          "category": "tv",
+          "imageVerificationStatus": "verified",
+          "price": 13490000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af4c4c300cd88dbdeea8c72",
+          "name": "Smart Tivi Samsung OLED 4K 55 inch 2025 (55S90F)",
+          "brand": "Samsung",
+          "model": "Smart Tivi Samsung OLED 4K 55 inch 2025 (55S90F)",
+          "category": "tv",
+          "imageVerificationStatus": "verified",
+          "price": 24990000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af47f43c91fee01c7d701c6",
+          "name": "Smart Tivi Samsung UHD 4K 85 inch 2024 (85DU8000)",
+          "brand": "Samsung",
+          "model": "Smart Tivi Samsung UHD 4K 85 inch 2024 (85DU8000)",
+          "category": "tv",
+          "imageVerificationStatus": "verified",
+          "price": 30990000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af47f43c91fee01c7d701d6",
+          "name": "Smart Tivi Samsung QLED 4K 85 inch 2024 (85Q60D)",
+          "brand": "Samsung",
+          "model": "Smart Tivi Samsung QLED 4K 85 inch 2024 (85Q60D)",
+          "category": "tv",
+          "imageVerificationStatus": "verified",
+          "price": 30190000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af47f42c91fee01c7d701a6",
+          "name": "Smart Tivi Samsung QLED 4K 75 inch 2024 (75QE1D)",
+          "brand": "Samsung",
+          "model": "Smart Tivi Samsung QLED 4K 75 inch 2024 (75QE1D)",
+          "category": "tv",
+          "imageVerificationStatus": "verified",
+          "price": 19990000,
+          "currency": "VND"
+        }
+      ]
+    },
+    {
+      "group": "peripherals",
+      "query": "keyboard mouse webcam",
+      "status": "matched_verified_catalog_products",
+      "verifiedProductCount": 40,
+      "returnedCount": 5,
+      "discoveryLeadCount": 0,
+      "notes": [],
+      "results": [
+        {
+          "id": "6af47f02c91fee01c7d6fb8e",
+          "name": "Bàn Phím Không Dây Microsoft All-in-one Media N9Z-00028",
+          "brand": "Microsoft",
+          "model": "Bàn Phím Không Dây Microsoft All-in-one Media N9Z-00028",
+          "category": "keyboard",
+          "imageVerificationStatus": "verified",
+          "price": 1040000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af4c48e00cd88dbdeea8812",
+          "name": "Bàn Phím Bluetooth Logitech MX Keys Mini",
+          "brand": "Logitech",
+          "model": "Bàn Phím Bluetooth Logitech MX Keys Mini",
+          "category": "keyboard",
+          "imageVerificationStatus": "verified",
+          "price": 2935000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af4c49000cd88dbdeea8836",
+          "name": "Bàn Phím Cơ Bluetooth Asus ROG Azoth Wireless Mechanical Gaming Snow",
+          "brand": "Asus",
+          "model": "Bàn Phím Cơ Bluetooth Asus ROG Azoth Wireless Mechanical Gaming Snow",
+          "category": "keyboard",
+          "imageVerificationStatus": "verified",
+          "price": 7420000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af4c49000cd88dbdeea8832",
+          "name": "Bàn Phím Bluetooth Logitech MX Keys S",
+          "brand": "Logitech",
+          "model": "Bàn Phím Bluetooth Logitech MX Keys S",
+          "category": "keyboard",
+          "imageVerificationStatus": "verified",
+          "price": 3325000,
+          "currency": "VND"
+        },
+        {
+          "id": "6af47f15c91fee01c7d6fd3e",
+          "name": "Bàn Phím Bluetooth Asus Marshmallow KW100",
+          "brand": "Asus",
+          "model": "Bàn Phím Bluetooth Asus Marshmallow KW100",
+          "category": "keyboard",
+          "imageVerificationStatus": "verified",
+          "price": 970000,
+          "currency": "VND"
+        }
+      ]
+    }
+  ]
+}

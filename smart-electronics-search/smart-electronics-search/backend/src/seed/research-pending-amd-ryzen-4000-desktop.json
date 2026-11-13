@@ -1,0 +1,472 @@
+[
+  {
+    "sourceKey": "web-research:amd:ryzen-7-4700g",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 4000 Series (Zen 2)",
+    "model": "Ryzen 7 4700G",
+    "modelNumber": "4700G",
+    "name": "AMD Ryzen 7 4700G with Radeon Graphics Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2020,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 8,
+      "threads": 16,
+      "maxBoostClock": "4.4 GHz",
+      "baseClock": "3.6 GHz",
+      "l2Cache": "4 MB",
+      "l3Cache": "8 MB",
+      "defaultTdp": "65 W",
+      "architecture": "Zen 2",
+      "socket": "AM4",
+      "pcieSupport": "Gen 3",
+      "graphicsModel": "Radeon Graphics",
+      "graphicsCores": 8,
+      "integratedGraphics": true,
+      "availability": "OEM only"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700g.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700g.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700g.html",
+        "notes": "Exact AMD support/specification page identifies the Ryzen 7 4700G, Ryzen 4000 Series, and OEM-only distribution."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700g.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 7 4700G."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700g.html",
+        "notes": "The AMD page title and specification section identify Ryzen 7 4700G; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Manufacturer identifies this SKU as OEM only; current lifecycle status and image reuse permission are unverified."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-7-4700ge",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 4000 Series (Zen 2)",
+    "model": "Ryzen 7 4700GE",
+    "modelNumber": "4700GE",
+    "name": "AMD Ryzen 7 4700GE with Radeon Graphics Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2020,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 8,
+      "threads": 16,
+      "maxBoostClock": "4.3 GHz",
+      "baseClock": "3.1 GHz",
+      "totalCache": "12 MB",
+      "defaultTdp": "35 W",
+      "architecture": "Zen 2",
+      "graphicsModel": "Radeon Graphics",
+      "graphicsCores": 8,
+      "integratedGraphics": true,
+      "availability": "OEM/SI only"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700ge.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700ge.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700ge.html",
+        "notes": "Exact AMD support/specification page identifies the Ryzen 7 4700GE; AMD's 2020 Ryzen 4000G announcement lists this OEM/SI SKU."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700ge.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 7 4700GE."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700ge.html",
+        "notes": "The AMD page title and specification section identify Ryzen 7 4700GE; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Manufacturer identifies this SKU as OEM/SI-only; current lifecycle status and image reuse permission are unverified."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-4600g",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 4000 Series (Zen 2)",
+    "model": "Ryzen 5 4600G",
+    "modelNumber": "4600G",
+    "name": "AMD Ryzen 5 4600G with Radeon Graphics Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2020,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "4.2 GHz",
+      "baseClock": "3.7 GHz",
+      "l2Cache": "3 MB",
+      "l3Cache": "8 MB",
+      "defaultTdp": "65 W",
+      "architecture": "Zen 2",
+      "socket": "AM4",
+      "pcieSupport": "Gen 3",
+      "graphicsModel": "Radeon Graphics",
+      "graphicsCores": 7,
+      "integratedGraphics": true
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600g.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600g.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600g.html",
+        "notes": "Exact AMD support/specification page identifies the Ryzen 5 4600G and Ryzen 4000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600g.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 4600G."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600g.html",
+        "notes": "The AMD page title and specification section identify Ryzen 5 4600G; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Current lifecycle status and image reuse permission are unverified."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-4600ge",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 4000 Series (Zen 2)",
+    "model": "Ryzen 5 4600GE",
+    "modelNumber": "4600GE",
+    "name": "AMD Ryzen 5 4600GE with Radeon Graphics Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2020,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "4.2 GHz",
+      "baseClock": "3.3 GHz",
+      "totalCache": "11 MB",
+      "defaultTdp": "35 W",
+      "architecture": "Zen 2",
+      "graphicsModel": "Radeon Graphics",
+      "graphicsCores": 7,
+      "integratedGraphics": true,
+      "availability": "OEM/SI only"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600ge.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600ge.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600ge.html",
+        "notes": "Exact AMD support/specification page identifies the Ryzen 5 4600GE; AMD's 2020 Ryzen 4000G announcement lists this OEM/SI SKU."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600ge.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 4600GE."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600ge.html",
+        "notes": "The AMD page title and specification section identify Ryzen 5 4600GE; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Manufacturer identifies this SKU as OEM/SI-only; current lifecycle status and image reuse permission are unverified."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-4500",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 4000 Series (Zen 2)",
+    "model": "Ryzen 5 4500",
+    "modelNumber": "4500",
+    "name": "AMD Ryzen 5 4500 Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2022,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "4.1 GHz",
+      "baseClock": "3.6 GHz",
+      "l2Cache": "3 MB",
+      "l3Cache": "8 MB",
+      "defaultTdp": "65 W",
+      "architecture": "Zen 2",
+      "socket": "AM4",
+      "pcieSupport": "Gen 3",
+      "integratedGraphics": false
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4500.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4500.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4500.html",
+        "notes": "Exact AMD support/specification page identifies the Ryzen 5 4500, Ryzen 4000 Series, and April 2022 launch date."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4500.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 4500."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4500.html",
+        "notes": "The AMD page title and specification section identify Ryzen 5 4500; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Current lifecycle status and image reuse permission are unverified."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-3-4300g",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 4000 Series (Zen 2)",
+    "model": "Ryzen 3 4300G",
+    "modelNumber": "4300G",
+    "name": "AMD Ryzen 3 4300G with Radeon Graphics Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2020,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 4,
+      "threads": 8,
+      "maxBoostClock": "4.0 GHz",
+      "baseClock": "3.8 GHz",
+      "l2Cache": "2 MB",
+      "l3Cache": "4 MB",
+      "defaultTdp": "65 W",
+      "architecture": "Zen 2",
+      "socket": "AM4",
+      "pcieSupport": "Gen 3",
+      "graphicsModel": "Radeon Graphics",
+      "graphicsCores": 6,
+      "integratedGraphics": true,
+      "availability": "OEM only"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300g.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300g.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300g.html",
+        "notes": "Exact AMD support/specification page identifies Ryzen 3 4300G, Ryzen 4000 Series, and OEM-only distribution."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300g.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 3 4300G."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300g.html",
+        "notes": "The AMD page title and specification section identify Ryzen 3 4300G; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Manufacturer identifies this SKU as OEM only; current lifecycle status and image reuse permission are unverified."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-3-4300ge",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 4000 Series (Zen 2)",
+    "model": "Ryzen 3 4300GE",
+    "modelNumber": "4300GE",
+    "name": "AMD Ryzen 3 4300GE with Radeon Graphics Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2020,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 4,
+      "threads": 8,
+      "maxBoostClock": "4.0 GHz",
+      "baseClock": "3.5 GHz",
+      "totalCache": "6 MB",
+      "defaultTdp": "35 W",
+      "architecture": "Zen 2",
+      "graphicsModel": "Radeon Graphics",
+      "graphicsCores": 6,
+      "integratedGraphics": true,
+      "availability": "OEM/SI only"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300ge.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300ge.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300ge.html",
+        "notes": "Exact AMD support/specification page identifies the Ryzen 3 4300GE; AMD's 2020 Ryzen 4000G announcement lists this OEM/SI SKU."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300ge.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 3 4300GE."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300ge.html",
+        "notes": "The AMD page title and specification section identify Ryzen 3 4300GE; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Manufacturer identifies this SKU as OEM/SI-only; current lifecycle status and image reuse permission are unverified."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-3-4100",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 4000 Series (Zen 2)",
+    "model": "Ryzen 3 4100",
+    "modelNumber": "4100",
+    "name": "AMD Ryzen 3 4100 Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2022,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 4,
+      "threads": 8,
+      "maxBoostClock": "4.0 GHz",
+      "baseClock": "3.8 GHz",
+      "totalCache": "6 MB",
+      "defaultTdp": "65 W",
+      "architecture": "Zen 2",
+      "pcieSupport": "Gen 3",
+      "socket": "AM4"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4100.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4100.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4100.html",
+        "notes": "Exact AMD support/specification page identifies Ryzen 3 4100 and its Ryzen 4000 Series placement."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4100.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 3 4100."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4100.html",
+        "notes": "The AMD page title and specification section identify Ryzen 3 4100; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Current lifecycle status and image reuse permission are unverified."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  }
+]

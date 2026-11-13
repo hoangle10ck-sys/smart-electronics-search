@@ -1,0 +1,132 @@
+[
+  {
+    "sourceKey": "web-research:acer:nitro-v-15-anv15-41-r1jy",
+    "brand": "Acer",
+    "model": "Nitro V 15 ANV15-41-R1JY",
+    "modelNumber": "NH.QPFSV.001",
+    "name": "Acer Nitro V 15 ANV15-41-R1JY (Ryzen 5 6600H, RTX 3050 6GB)",
+    "category": "laptop",
+    "family": "Acer Nitro V 15",
+    "generation": "ANV15-41",
+    "releaseYear": null,
+    "productStatus": "active",
+    "productUrl": "https://tuanlocstore.vn/acer-nitro-v-15-anv15-41-r1jy.html",
+    "specificationSourceUrl": "https://tuanlocstore.vn/acer-nitro-v-15-anv15-41-r1jy.html",
+    "description": "Laptop gaming Acer 15,6 inch FHD IPS 165Hz, Ryzen 5 6600H, RAM 16GB DDR5, SSD 512GB và RTX 3050 6GB.",
+    "specifications": {
+      "modelNumber": "NH.QPFSV.001",
+      "cpu": "AMD Ryzen 5 6600H, 6 cores / 12 threads, up to 4.5 GHz",
+      "ram": "16 GB DDR5-4800",
+      "storage": "512 GB PCIe NVMe SSD",
+      "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU, 6 GB GDDR6",
+      "display": "15.6-inch FHD (1920 x 1080), IPS, 165 Hz",
+      "operatingSystem": "Windows 11",
+      "wireless": "Wi-Fi 6",
+      "weight": "Approximately 2.10 kg"
+    },
+    "specs": {
+      "ram": 16,
+      "storage": 512,
+      "cpu": "AMD Ryzen 5 6600H",
+      "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU 6 GB GDDR6",
+      "screen": "15.6-inch FHD IPS, 165 Hz",
+      "os": "Windows 11"
+    },
+    "tags": ["gaming"],
+    "variants": [],
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "Tuấn Lộc Store",
+        "sourceUrl": "https://tuanlocstore.vn/acer-nitro-v-15-anv15-41-r1jy.html",
+        "notes": "Exact listing title identifies Acer Nitro V 15 ANV15-41-R1JY and Acer part NH.QPFSV.001."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "Tuấn Lộc Store",
+        "sourceUrl": "https://tuanlocstore.vn/acer-nitro-v-15-anv15-41-r1jy.html",
+        "notes": "Exact model listing; page states in stock and displays add-to-cart and buy-now actions at retrieval."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "Tuấn Lộc Store",
+        "sourceUrl": "https://tuanlocstore.vn/acer-nitro-v-15-anv15-41-r1jy.html",
+        "notes": "Exact listed configuration: Ryzen 5 6600H, 16GB DDR5-4800, 512GB NVMe, RTX 3050 6GB, 15.6-inch FHD IPS 165Hz, Windows 11, about 2.10kg."
+      }
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Product identity and configuration are verified from the exact listing; a licensed, visually reviewed product image is not available yet."
+    ]
+  },
+  {
+    "sourceKey": "web-research:sony:ps5-slim-cfi-2118-a01",
+    "brand": "Sony",
+    "model": "PlayStation 5",
+    "modelNumber": "CFI-2118 A01",
+    "name": "Sony PlayStation 5 Slim Disc Edition CFI-2118 A01 (1 TB, 1 controller)",
+    "category": "gaming_console",
+    "family": "PlayStation 5",
+    "generation": "PS5 Slim",
+    "releaseYear": null,
+    "productStatus": "active",
+    "productUrl": "https://store.sony.com.vn/collections/ps-console/products/may-ch%C6%A1i-game-playstation-5-slim-cfi-2118-a01-1-tay-c%E1%BA%A7m",
+    "specificationSourceUrl": "https://blog.playstation.com/2023/10/10/new-look-for-ps5-console-this-holiday-season/",
+    "description": "Bản PS5 Slim có ổ đĩa Ultra HD Blu-ray tháo rời, SSD 1TB và kèm một tay cầm DualSense; Sony Store Việt Nam niêm yết model CFI-2118 A01.",
+    "specifications": {
+      "modelNumber": "CFI-2118 A01",
+      "cpu": "AMD Ryzen Zen 2, 8 cores / 16 threads, up to 3.5 GHz",
+      "gpu": "AMD Radeon RDNA 2-based graphics engine, up to 10.3 TFLOPS",
+      "memory": "16 GB GDDR6",
+      "storage": "1 TB custom SSD",
+      "discDrive": "Ultra HD Blu-ray Disc drive",
+      "videoOutput": "Up to 4K at 120 Hz",
+      "includedController": "1 DualSense wireless controller"
+    },
+    "specs": {
+      "storage": "1 TB",
+      "cpu": "AMD Ryzen Zen 2, 8-core / 16-thread",
+      "gpu": "AMD Radeon RDNA 2, 10.3 TFLOPS",
+      "display": "Up to 4K 120 Hz",
+      "usage": "gaming"
+    },
+    "tags": ["gaming"],
+    "variants": [],
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "Sony Store Online Việt Nam",
+        "sourceUrl": "https://store.sony.com.vn/collections/ps-console/products/may-ch%C6%A1i-game-playstation-5-slim-cfi-2118-a01-1-tay-c%E1%BA%A7m",
+        "notes": "Sony Store Vietnam product page names PS5 Slim Disc Edition CFI-2118 A01 and one included controller."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "Sony Store Online Việt Nam",
+        "sourceUrl": "https://store.sony.com.vn/collections/ps-console/products/may-ch%C6%A1i-game-playstation-5-slim-cfi-2118-a01-1-tay-c%E1%BA%A7m",
+        "notes": "Official product page displays the exact CFI-2118 A01 model and a 16,900,000 VND list price."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "PlayStation Blog",
+        "sourceUrl": "https://blog.playstation.com/2023/10/10/new-look-for-ps5-console-this-holiday-season/",
+        "notes": "Official announcement gives the smaller PS5 model's 1TB SSD, detachable Ultra HD Blu-ray drive, CPU, GPU, memory, and display specifications."
+      },
+      {
+        "evidenceType": "price",
+        "sourceName": "Sony Store Online Việt Nam",
+        "sourceUrl": "https://store.sony.com.vn/collections/ps-console/products/may-ch%C6%A1i-game-playstation-5-slim-cfi-2118-a01-1-tay-c%E1%BA%A7m",
+        "notes": "Single-source list price captured 2026-11-11 13:51 Asia/Ho_Chi_Minh: 16,900,000 VND."
+      }
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Official Sony identity and specification pages verified; a licensed, visually reviewed image is not available yet."
+    ]
+  }
+]

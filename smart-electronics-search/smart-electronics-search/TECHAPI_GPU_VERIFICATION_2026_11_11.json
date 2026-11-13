@@ -1,0 +1,852 @@
+{
+  "checkedAt": "2026-11-11T00:44:11.698Z",
+  "source": "TechAPI",
+  "dataAttribution": "Data from TechAPI",
+  "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+  "dataLicense": "CC BY-SA 4.0",
+  "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "licenseTermsUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+  "scope": {
+    "curatedModelRows": 14,
+    "TechAPIRecords": 15,
+    "productAndSpecificationPageChecks": 21,
+    "supplementalManufacturerPagesChecked": 1
+  },
+  "records": [
+    {
+      "model": "GeForce RTX 5090",
+      "brand": "NVIDIA",
+      "sourceKey": "web-research:techapi:gpu:geforce-rtx-5090",
+      "productUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
+      "specificationSourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+      "productUrlCheck": {
+        "finalUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
+        "status": 200,
+        "checkedAt": "2026-11-11T00:44:07.418Z"
+      },
+      "specificationUrlCheck": {
+        "finalUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "status": 200,
+        "checkedAt": "2026-11-11T00:44:07.543Z"
+      },
+      "apiRecords": [
+        {
+          "slug": "geforce-rtx-5090",
+          "name": "GeForce RTX 5090",
+          "verified": true,
+          "release_date": "2025-01-30",
+          "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/geforce-rtx-5090/index.json",
+          "source_urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
+            "https://www.techpowerup.com/gpu-specs/geforce-rtx-5090.c4216",
+            "https://opendata.blender.org/snapshots/opendata-latest.zip",
+            "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+            "https://www.videocardbenchmark.net/gpu_list.php",
+            "https://www.topcpu.net/en/gpu-r/"
+          ]
+        }
+      ],
+      "importedSpecifications": {
+        "architecture": "Blackwell",
+        "cudaCores": 21760,
+        "tensorCoreGeneration": "5th generation",
+        "rayTracingCoreGeneration": "4th generation",
+        "baseClockMHz": 2010,
+        "boostClockMHz": 2410,
+        "memoryConfigurations": [
+          "32 GB GDDR7"
+        ],
+        "memoryInterfaceBits": 512,
+        "memoryBandwidthGBs": 1792,
+        "totalGraphicsPowerW": 575,
+        "pcieInterface": "PCI Express Gen 5"
+      },
+      "corrections": [],
+      "statuses": {
+        "product": "verified",
+        "image": "pending",
+        "url": "verified",
+        "publication": "pending"
+      }
+    },
+    {
+      "model": "GeForce RTX 5080",
+      "brand": "NVIDIA",
+      "sourceKey": "web-research:techapi:gpu:geforce-rtx-5080",
+      "productUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/",
+      "specificationSourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+      "productUrlCheck": {
+        "finalUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/",
+        "status": 200,
+        "checkedAt": "2026-11-11T00:44:07.750Z"
+      },
+      "specificationUrlCheck": {
+        "finalUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "status": 200,
+        "checkedAt": "2026-11-11T00:44:07.914Z"
+      },
+      "apiRecords": [
+        {
+          "slug": "geforce-rtx-5080",
+          "name": "GeForce RTX 5080",
+          "verified": true,
+          "release_date": "2025-01-30",
+          "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/geforce-rtx-5080/index.json",
+          "source_urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/",
+            "https://www.techpowerup.com/gpu-specs/geforce-rtx-5080.c4217",
+            "https://opendata.blender.org/snapshots/opendata-latest.zip",
+            "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+            "https://www.videocardbenchmark.net/gpu_list.php",
+            "https://www.topcpu.net/en/gpu-r/"
+          ]
+        }
+      ],
+      "importedSpecifications": {
+        "architecture": "Blackwell",
+        "cudaCores": 10752,
+        "tensorCoreGeneration": "5th generation",
+        "rayTracingCoreGeneration": "4th generation",
+        "baseClockMHz": 2300,
+        "boostClockMHz": 2620,
+        "memoryConfigurations": [
+          "16 GB GDDR7"
+        ],
+        "memoryInterfaceBits": 256,
+        "memoryBandwidthGBs": 960,
+        "totalGraphicsPowerW": 360,
+        "pcieInterface": "PCI Express Gen 5"
+      },
+      "corrections": [
+        "TechAPI memory_bandwidth_gbps is 896; NVIDIA lists 960 GB/s. Imported the manufacturer value."
+      ],
+      "statuses": {
+        "product": "verified",
+        "image": "pending",
+        "url": "verified",
+        "publication": "pending"
+      }
+    },
+    {
+      "model": "GeForce RTX 5070 Ti",
+      "brand": "NVIDIA",
+      "sourceKey": "web-research:techapi:gpu:geforce-rtx-5070-ti",
+      "productUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/",
+      "specificationSourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+      "productUrlCheck": {
+        "finalUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/",
+        "status": 200,
+        "checkedAt": "2026-11-11T00:44:08.090Z"
+      },
+      "specificationUrlCheck": {
+        "finalUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "status": 200,
+        "checkedAt": "2026-11-11T00:44:08.228Z"
+      },
+      "apiRecords": [
+        {
+          "slug": "geforce-rtx-5070-ti",
+          "name": "GeForce RTX 5070 Ti",
+          "verified": true,
+          "release_date": "2025-02-20",
+          "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/geforce-rtx-5070-ti/index.json",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/GeForce_RTX_50_series",
+            "https://www.techpowerup.com/gpu-specs/geforce-rtx-5070-ti.c4218",
+            "https://opendata.blender.org/snapshots/opendata-latest.zip",
+            "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+            "https://www.videocardbenchmark.net/gpu_list.php",
+            "https://www.topcpu.net/en/gpu-r/"
+          ]
+        }
+      ],
+      "importedSpecifications": {
+        "architecture": "Blackwell",
+        "cudaCores": 8960,
+        "tensorCoreGeneration": "5th generation",
+        "rayTracingCoreGeneration": "4th generation",
+        "baseClockMHz": 2300,
+        "boostClockMHz": 2450,
+        "memoryConfigurations": [
+          "16 GB GDDR7"
+        ],
+        "memoryInterfaceBits": 256,
+        "memoryBandwidthGBs": 896,
+        "totalGraphicsPowerW": 300,
+        "pcieInterface": "PCI Express Gen 5"
+      },
+      "corrections": [],
+      "statuses": {
+        "product": "verified",
+        "image": "pending",
+        "url": "verified",
+        "publication": "pending"
+      }
+    },
+    {
+      "model": "GeForce RTX 5070",
+      "brand": "NVIDIA",
+      "sourceKey": "web-research:techapi:gpu:geforce-rtx-5070",
+      "productUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/",
+      "specificationSourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+      "productUrlCheck": {
+        "finalUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/",
+        "status": 200,
+        "checkedAt": "2026-11-11T00:44:08.409Z"
+      },
+      "specificationUrlCheck": {
+        "finalUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "status": 200,
+        "checkedAt": "2026-11-11T00:44:08.504Z"
+      },
+      "apiRecords": [
+        {
+          "slug": "geforce-rtx-5070",
+          "name": "GeForce RTX 5070",
+          "verified": true,
+          "release_date": "2025-03-05",
+          "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/geforce-rtx-5070/index.json",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/GeForce_RTX_50_series",
+            "https://www.techpowerup.com/gpu-specs/geforce-rtx-5070.c4219",
+            "https://opendata.blender.org/snapshots/opendata-latest.zip",
+            "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+            "https://www.videocardbenchmark.net/gpu_list.php",
+            "https://www.topcpu.net/en/gpu-r/"
+          ]
+        }
+      ],
+      "importedSpecifications": {
+        "architecture": "Blackwell",
+        "cudaCores": 6144,
+        "tensorCoreGeneration": "5th generation",
+        "rayTracingCoreGeneration": "4th generation",
+        "baseClockMHz": 2330,
+        "boostClockMHz": 2510,
+        "memoryConfigurations": [
+          "12 GB GDDR7"
+        ],
+        "memoryInterfaceBits": 192,
+        "memoryBandwidthGBs": 672,
+        "totalGraphicsPowerW": 250,
+        "pcieInterface": "PCI Express Gen 5"
+      },
+      "corrections": [],
+      "statuses": {
+        "product": "verified",
+        "image": "pending",
+        "url": "verified",
+        "publication": "pending"
+      }
+    },
+    {
+      "model": "GeForce RTX 5060 Ti",
+      "brand": "NVIDIA",
+      "sourceKey": "web-research:techapi:gpu:geforce-rtx-5060-ti",
+      "productUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/",
+      "specificationSourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+      "productUrlCheck": {
+        "finalUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/",
+        "status": 200,
+        "checkedAt": "2026-11-11T00:44:08.712Z"
+      },
+      "specificationUrlCheck": {
+        "finalUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "status": 200,
+        "checkedAt": "2026-11-11T00:44:08.795Z"
+      },
+      "apiRecords": [
+        {
+          "slug": "geforce-rtx-5060-ti-16-gb",
+          "name": "GeForce RTX 5060 Ti 16 GB",
+          "verified": true,
+          "release_date": "2025-04-16",
+          "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/geforce-rtx-5060-ti-16-gb/index.json",
+          "source_urls": [
+            "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
+            "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units",
+            "https://opendata.blender.org/snapshots/opendata-latest.zip",
+            "https://www.videocardbenchmark.net/gpu_list.php",
+            "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+            "https://www.topcpu.net/en/gpu-r/",
+            "https://en.wikipedia.org/wiki/GeForce_RTX_50_series",
+            "https://www.techpowerup.com/gpu-specs/geforce-rtx-5060-ti.c4220"
+          ]
+        },
+        {
+          "slug": "geforce-rtx-5060-ti-8gb",
+          "name": "GeForce RTX 5060 Ti 8GB",
+          "verified": true,
+          "release_date": "2025-04-16",
+          "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/geforce-rtx-5060-ti-8gb/index.json",
+          "source_urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/",
+            "https://www.techpowerup.com/gpu-specs/geforce-rtx-5060-ti-8-gb.c4222",
+            "https://opendata.blender.org/snapshots/opendata-latest.zip",
+            "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+            "https://www.videocardbenchmark.net/gpu_list.php",
+            "https://www.topcpu.net/en/gpu-r/",
+            "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
+            "https://en.wikipedia.org/wiki/List_of_Nvidia_graphics_processing_units#GeForce_RTX_50_series"
+          ]
+        }
+      ],
+      "importedSpecifications": {
+        "architecture": "Blackwell",
+        "cudaCores": 4608,
+        "tensorCoreGeneration": "5th generation",
+        "rayTracingCoreGeneration": "4th generation",
+        "baseClockMHz": 2410,
+        "boostClockMHz": 2570,
+        "memoryConfigurations": [
+          "16 GB GDDR7",
+          "8 GB GDDR7"
+        ],
+        "memoryInterfaceBits": 128,
+        "memoryBandwidthGBs": 448,
+        "totalGraphicsPowerW": 180,
+        "pcieInterface": "PCI Express Gen 5"
+      },
+      "corrections": [
+        "TechAPI supplies separate 16 GB and 8 GB records. Combined them as variants of the same manufacturer model to prevent a duplicate base model. Normalized the 16 GB architecture label to NVIDIA Blackwell."
+      ],
+      "statuses": {
+        "product": "verified",
+        "image": "pending",
+        "url": "verified",
+        "publication": "pending"
+      }
+    },
+    {
+      "model": "GeForce RTX 5060",
+      "brand": "NVIDIA",
+      "sourceKey": "web-research:techapi:gpu:geforce-rtx-5060",
+      "productUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/",
+      "specificationSourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+      "productUrlCheck": {
+        "finalUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/",
+        "status": 200,
+        "checkedAt": "2026-11-11T00:44:09.165Z"
+      },
+      "specificationUrlCheck": {
+        "finalUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "status": 200,
+        "checkedAt": "2026-11-11T00:44:09.268Z"
+      },
+      "apiRecords": [
+        {
+          "slug": "geforce-rtx-5060",
+          "name": "GeForce RTX 5060",
+          "verified": true,
+          "release_date": "2025-05-19",
+          "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/geforce-rtx-5060/index.json",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/GeForce_RTX_50_series",
+            "https://www.techpowerup.com/gpu-specs/geforce-rtx-5060.c4221",
+            "https://opendata.blender.org/snapshots/opendata-latest.zip",
+            "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+            "https://www.videocardbenchmark.net/gpu_list.php",
+            "https://www.topcpu.net/en/gpu-r/"
+          ]
+        }
+      ],
+      "importedSpecifications": {
+        "architecture": "Blackwell",
+        "cudaCores": 3840,
+        "tensorCoreGeneration": "5th generation",
+        "rayTracingCoreGeneration": "4th generation",
+        "baseClockMHz": 2280,
+        "boostClockMHz": 2500,
+        "memoryConfigurations": [
+          "8 GB GDDR7"
+        ],
+        "memoryInterfaceBits": 128,
+        "memoryBandwidthGBs": 448,
+        "totalGraphicsPowerW": 145,
+        "pcieInterface": "PCI Express Gen 5"
+      },
+      "corrections": [
+        "TechAPI tdp_w is 150; NVIDIA lists 145 W Total Graphics Power. Imported the manufacturer value."
+      ],
+      "statuses": {
+        "product": "verified",
+        "image": "pending",
+        "url": "verified",
+        "publication": "pending"
+      }
+    },
+    {
+      "model": "GeForce RTX 5050",
+      "brand": "NVIDIA",
+      "sourceKey": "web-research:techapi:gpu:geforce-rtx-5050",
+      "productUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5050/",
+      "specificationSourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+      "productUrlCheck": {
+        "finalUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5050/",
+        "status": 200,
+        "checkedAt": "2026-11-11T00:44:09.408Z"
+      },
+      "specificationUrlCheck": {
+        "finalUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "status": 200,
+        "checkedAt": "2026-11-11T00:44:09.495Z"
+      },
+      "apiRecords": [
+        {
+          "slug": "geforce-rtx-5050",
+          "name": "GeForce RTX 5050",
+          "verified": true,
+          "release_date": "2025-07-15",
+          "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/geforce-rtx-5050/index.json",
+          "source_urls": [
+            "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5050/",
+            "https://www.techpowerup.com/gpu-specs/geforce-rtx-5050.c4313",
+            "https://opendata.blender.org/snapshots/opendata-latest.zip",
+            "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+            "https://www.videocardbenchmark.net/gpu_list.php",
+            "https://www.topcpu.net/en/gpu-r/"
+          ]
+        }
+      ],
+      "importedSpecifications": {
+        "architecture": "Blackwell",
+        "cudaCores": 2560,
+        "tensorCoreGeneration": "5th generation",
+        "rayTracingCoreGeneration": "4th generation",
+        "baseClockMHz": 2310,
+        "boostClockMHz": 2570,
+        "memoryConfigurations": [
+          "8 GB GDDR6"
+        ],
+        "memoryInterfaceBits": 128,
+        "memoryBandwidthGBs": 320,
+        "totalGraphicsPowerW": 130,
+        "pcieInterface": "PCI Express Gen 5"
+      },
+      "corrections": [],
+      "statuses": {
+        "product": "verified",
+        "image": "pending",
+        "url": "verified",
+        "publication": "pending"
+      }
+    },
+    {
+      "model": "Radeon RX 9070 XT",
+      "brand": "AMD",
+      "sourceKey": "web-research:techapi:gpu:radeon-rx-9070-xt",
+      "productUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070xt.html",
+      "specificationSourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070xt.html",
+      "productUrlCheck": {
+        "finalUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070xt.html",
+        "status": 200,
+        "checkedAt": "2026-11-11T00:44:09.812Z"
+      },
+      "specificationUrlCheck": {
+        "finalUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070xt.html",
+        "status": 200,
+        "checkedAt": "2026-11-11T00:44:09.812Z"
+      },
+      "apiRecords": [
+        {
+          "slug": "radeon-rx-9070-xt",
+          "name": "Radeon RX 9070 XT",
+          "verified": true,
+          "release_date": "2025-03-05",
+          "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/radeon-rx-9070-xt/index.json",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/Radeon_RX_9000_series",
+            "https://www.techpowerup.com/gpu-specs/radeon-rx-9070-xt.c4234",
+            "https://opendata.blender.org/snapshots/opendata-latest.zip",
+            "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+            "https://www.videocardbenchmark.net/gpu_list.php",
+            "https://www.topcpu.net/en/gpu-r/"
+          ]
+        }
+      ],
+      "importedSpecifications": {
+        "architecture": "RDNA 4",
+        "computeUnits": 64,
+        "streamProcessors": 4096,
+        "rayAccelerators": 64,
+        "aiAccelerators": 128,
+        "gameFrequencyMHz": 2400,
+        "boostFrequencyMHz": 2970,
+        "memoryConfigurations": [
+          "16 GB GDDR6"
+        ],
+        "memoryInterfaceBits": 256,
+        "memoryBandwidthGBs": 640,
+        "typicalBoardPowerW": 304,
+        "pcieInterface": "PCIe 5.0 x16"
+      },
+      "corrections": [
+        "TechAPI memory_bandwidth_gbps is 644; AMD lists up to 640 GB/s. Imported the manufacturer value."
+      ],
+      "statuses": {
+        "product": "verified",
+        "image": "pending",
+        "url": "verified",
+        "publication": "pending"
+      }
+    },
+    {
+      "model": "Radeon RX 9070",
+      "brand": "AMD",
+      "sourceKey": "web-research:techapi:gpu:radeon-rx-9070",
+      "productUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070.html",
+      "specificationSourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070.html",
+      "productUrlCheck": {
+        "finalUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070.html",
+        "status": 200,
+        "checkedAt": "2026-11-11T00:44:10.184Z"
+      },
+      "specificationUrlCheck": {
+        "finalUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070.html",
+        "status": 200,
+        "checkedAt": "2026-11-11T00:44:10.184Z"
+      },
+      "apiRecords": [
+        {
+          "slug": "radeon-rx-9070",
+          "name": "Radeon RX 9070",
+          "verified": true,
+          "release_date": "2025-03-05",
+          "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/radeon-rx-9070/index.json",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/Radeon_RX_9000_series",
+            "https://www.techpowerup.com/gpu-specs/radeon-rx-9070.c4235",
+            "https://opendata.blender.org/snapshots/opendata-latest.zip",
+            "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+            "https://www.videocardbenchmark.net/gpu_list.php",
+            "https://www.topcpu.net/en/gpu-r/"
+          ]
+        }
+      ],
+      "importedSpecifications": {
+        "architecture": "RDNA 4",
+        "computeUnits": 56,
+        "streamProcessors": 3584,
+        "rayAccelerators": 56,
+        "aiAccelerators": 112,
+        "gameFrequencyMHz": 2070,
+        "boostFrequencyMHz": 2520,
+        "memoryConfigurations": [
+          "16 GB GDDR6"
+        ],
+        "memoryInterfaceBits": 256,
+        "memoryBandwidthGBs": 640,
+        "typicalBoardPowerW": 220,
+        "pcieInterface": "PCIe 5.0 x16"
+      },
+      "corrections": [
+        "TechAPI memory_bandwidth_gbps is 644; AMD lists up to 640 GB/s. Imported the manufacturer value."
+      ],
+      "statuses": {
+        "product": "verified",
+        "image": "pending",
+        "url": "verified",
+        "publication": "pending"
+      }
+    },
+    {
+      "model": "Radeon RX 9070 GRE",
+      "brand": "AMD",
+      "sourceKey": "web-research:techapi:gpu:radeon-rx-9070-gre",
+      "productUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070-gre.html",
+      "specificationSourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070-gre.html",
+      "productUrlCheck": {
+        "finalUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070-gre.html",
+        "status": 200,
+        "checkedAt": "2026-11-11T00:44:10.293Z"
+      },
+      "specificationUrlCheck": {
+        "finalUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070-gre.html",
+        "status": 200,
+        "checkedAt": "2026-11-11T00:44:10.293Z"
+      },
+      "apiRecords": [
+        {
+          "slug": "radeon-rx-9070-gre",
+          "name": "Radeon RX 9070 GRE",
+          "verified": true,
+          "release_date": "2025-05-08",
+          "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/radeon-rx-9070-gre/index.json",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/Radeon_RX_9000_series",
+            "https://www.techpowerup.com/gpu-specs/radeon-rx-9070-gre.c4308",
+            "https://opendata.blender.org/snapshots/opendata-latest.zip",
+            "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+            "https://www.videocardbenchmark.net/gpu_list.php",
+            "https://www.topcpu.net/en/gpu-r/"
+          ]
+        }
+      ],
+      "importedSpecifications": {
+        "architecture": "RDNA 4",
+        "computeUnits": 48,
+        "streamProcessors": 3072,
+        "rayAccelerators": 48,
+        "aiAccelerators": 96,
+        "gameFrequencyMHz": 2220,
+        "boostFrequencyMHz": 2790,
+        "memoryConfigurations": [
+          "12 GB GDDR6"
+        ],
+        "memoryInterfaceBits": 192,
+        "memoryBandwidthGBs": 432,
+        "typicalBoardPowerW": 220,
+        "pcieInterface": "PCIe 5.0 x16"
+      },
+      "corrections": [],
+      "statuses": {
+        "product": "verified",
+        "image": "pending",
+        "url": "verified",
+        "publication": "pending"
+      }
+    },
+    {
+      "model": "Radeon RX 9060 XT",
+      "brand": "AMD",
+      "sourceKey": "web-research:techapi:gpu:radeon-rx-9060-xt",
+      "productUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060xt.html",
+      "specificationSourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060xt.html",
+      "productUrlCheck": {
+        "finalUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060xt.html",
+        "status": 200,
+        "checkedAt": "2026-11-11T00:44:10.414Z"
+      },
+      "specificationUrlCheck": {
+        "finalUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060xt.html",
+        "status": 200,
+        "checkedAt": "2026-11-11T00:44:10.414Z"
+      },
+      "variantSourceUrlCheck": {
+        "finalUrl": "https://www.amd.com/en/products/specifications/graphics.html",
+        "status": 200,
+        "contentType": "text/html"
+      },
+      "apiRecords": [
+        {
+          "slug": "radeon-rx-9060-xt-16-gb",
+          "name": "Radeon RX 9060 XT 16 GB",
+          "verified": true,
+          "release_date": "2025-06-04",
+          "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/radeon-rx-9060-xt-16-gb/index.json",
+          "source_urls": [
+            "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
+            "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#Radeon_RX_9000_series",
+            "https://opendata.blender.org/snapshots/opendata-latest.zip",
+            "https://www.videocardbenchmark.net/gpu_list.php",
+            "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+            "https://www.topcpu.net/en/gpu-r/",
+            "https://en.wikipedia.org/wiki/Radeon_RX_9000_series",
+            "https://www.techpowerup.com/gpu-specs/radeon-rx-9060-xt.c4341"
+          ]
+        }
+      ],
+      "importedSpecifications": {
+        "architecture": "RDNA 4",
+        "computeUnits": 32,
+        "streamProcessors": 2048,
+        "rayAccelerators": 32,
+        "gameFrequencyMHz": 2530,
+        "boostFrequencyMHz": 3130,
+        "memoryType": "GDDR6",
+        "memoryInterfaceBits": 128,
+        "memoryBandwidthGBs": 320,
+        "memoryConfigurations": [
+          "16 GB GDDR6",
+          "8 GB GDDR6"
+        ],
+        "typicalBoardPowerWByMemoryConfiguration": {
+          "16 GB": 160,
+          "8 GB": 150
+        },
+        "pcieInterface": "PCIe 5.0 x16"
+      },
+      "corrections": [
+        "TechAPI memory_bandwidth_gbps is 322.3; AMD lists up to 320 GB/s. Imported the manufacturer value. The 8 GB configuration comes from AMD’s official graphics specification listing, not from a TechAPI 8 GB record."
+      ],
+      "statuses": {
+        "product": "verified",
+        "image": "pending",
+        "url": "verified",
+        "publication": "pending"
+      }
+    },
+    {
+      "model": "Radeon RX 9060",
+      "brand": "AMD",
+      "sourceKey": "web-research:techapi:gpu:radeon-rx-9060",
+      "productUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060.html",
+      "specificationSourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060.html",
+      "productUrlCheck": {
+        "finalUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060.html",
+        "status": 200,
+        "checkedAt": "2026-11-11T00:44:10.962Z"
+      },
+      "specificationUrlCheck": {
+        "finalUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060.html",
+        "status": 200,
+        "checkedAt": "2026-11-11T00:44:10.962Z"
+      },
+      "apiRecords": [
+        {
+          "slug": "radeon-rx-9060",
+          "name": "Radeon RX 9060",
+          "verified": true,
+          "release_date": "2025-08-05",
+          "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/radeon-rx-9060/index.json",
+          "source_urls": [
+            "https://www.kaggle.com/datasets/ellimaaac/gpus-specs-from-1986-to-2026",
+            "https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units#Radeon_RX_9000_series",
+            "https://opendata.blender.org/snapshots/opendata-latest.zip",
+            "https://www.videocardbenchmark.net/gpu_list.php",
+            "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+            "https://www.topcpu.net/en/gpu-r/"
+          ]
+        }
+      ],
+      "importedSpecifications": {
+        "architecture": "RDNA 4",
+        "computeUnits": 28,
+        "streamProcessors": 1792,
+        "rayAccelerators": 28,
+        "aiAccelerators": 56,
+        "gameFrequencyMHz": 2400,
+        "boostFrequencyMHz": 2990,
+        "memoryConfigurations": [
+          "8 GB GDDR6"
+        ],
+        "memoryInterfaceBits": 128,
+        "memoryBandwidthGBs": 288,
+        "typicalBoardPowerW": 132,
+        "pcieInterface": "PCIe 5.0 x16"
+      },
+      "corrections": [
+        "TechAPI memory_bandwidth_gbps is 322.3; AMD lists up to 288 GB/s. Imported the manufacturer value."
+      ],
+      "statuses": {
+        "product": "verified",
+        "image": "pending",
+        "url": "verified",
+        "publication": "pending"
+      }
+    },
+    {
+      "model": "Intel Arc B580",
+      "brand": "Intel",
+      "sourceKey": "web-research:techapi:gpu:arc-b580",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html",
+      "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html",
+      "productUrlCheck": {
+        "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html",
+        "status": 200,
+        "checkedAt": "2026-11-11T00:44:11.604Z"
+      },
+      "specificationUrlCheck": {
+        "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html",
+        "status": 200,
+        "checkedAt": "2026-11-11T00:44:11.604Z"
+      },
+      "apiRecords": [
+        {
+          "slug": "arc-b580",
+          "name": "Arc B580",
+          "verified": true,
+          "release_date": "2024-12-05",
+          "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/arc-b580/index.json",
+          "source_urls": [
+            "https://www.intel.com/content/www/us/en/products/sku/243045/intel-arc-b580-graphics/specifications.html",
+            "https://www.techpowerup.com/gpu-specs/intel-arc-b580.c4201",
+            "https://opendata.blender.org/snapshots/opendata-latest.zip",
+            "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+            "https://www.videocardbenchmark.net/gpu_list.php",
+            "https://www.topcpu.net/en/gpu-r/"
+          ]
+        }
+      ],
+      "importedSpecifications": {
+        "architecture": "Xe2 (Battlemage)",
+        "xeCores": 20,
+        "rayTracingUnits": 20,
+        "graphicsClockMHz": 2670,
+        "memoryConfigurations": [
+          "12 GB GDDR6"
+        ],
+        "memoryInterfaceBits": 192,
+        "memoryBandwidthGBs": 456,
+        "totalBoardPowerW": 190,
+        "pcieInterface": "PCIe 4.0 x8"
+      },
+      "corrections": [
+        "TechAPI source_urls contains Intel SKU 243045, which is not the live B580 product page. Replaced it with Intel SKU 241598 and checked the SKU page directly."
+      ],
+      "statuses": {
+        "product": "verified",
+        "image": "pending",
+        "url": "verified",
+        "publication": "pending"
+      }
+    },
+    {
+      "model": "Intel Arc B570",
+      "brand": "Intel",
+      "sourceKey": "web-research:techapi:gpu:arc-b570",
+      "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241676/intel-arc-b570-graphics/specifications.html",
+      "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241676/intel-arc-b570-graphics/specifications.html",
+      "productUrlCheck": {
+        "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/241676/intel-arc-b570-graphics/specifications.html",
+        "status": 200,
+        "checkedAt": "2026-11-11T00:44:11.696Z"
+      },
+      "specificationUrlCheck": {
+        "finalUrl": "https://www.intel.com/content/www/us/en/products/sku/241676/intel-arc-b570-graphics/specifications.html",
+        "status": 200,
+        "checkedAt": "2026-11-11T00:44:11.696Z"
+      },
+      "apiRecords": [
+        {
+          "slug": "arc-b570",
+          "name": "Arc B570",
+          "verified": true,
+          "release_date": "2025-01-16",
+          "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/arc-b570/index.json",
+          "source_urls": [
+            "https://www.intel.com/content/www/us/en/products/sku/243047/intel-arc-b570-graphics/specifications.html",
+            "https://www.techpowerup.com/gpu-specs/intel-arc-b570.c4202",
+            "https://opendata.blender.org/snapshots/opendata-latest.zip",
+            "https://www.topcpu.net/en/gpu-r/3dmark-time-spy",
+            "https://www.videocardbenchmark.net/gpu_list.php",
+            "https://www.topcpu.net/en/gpu-r/"
+          ]
+        }
+      ],
+      "importedSpecifications": {
+        "architecture": "Xe2 (Battlemage)",
+        "xeCores": 18,
+        "rayTracingUnits": 18,
+        "graphicsClockMHz": 2500,
+        "memoryConfigurations": [
+          "10 GB GDDR6"
+        ],
+        "memoryInterfaceBits": 160,
+        "memoryBandwidthGBs": 380,
+        "totalBoardPowerW": 150,
+        "pcieInterface": "PCIe 4.0 x8"
+      },
+      "corrections": [
+        "TechAPI source_urls contains Intel SKU 243047, which is not the live B570 product page. Replaced it with Intel SKU 241676. TechAPI gives 2025-01-16 as release_date while Intel ARK lists Q4 2024; omitted the exact day and retained the manufacturer quarter/year."
+      ],
+      "statuses": {
+        "product": "verified",
+        "image": "pending",
+        "url": "verified",
+        "publication": "pending"
+      }
+    }
+  ],
+  "limitation": "TechAPI describes itself as a curated, growing dataset and not an exhaustive catalog. Its verified flag is not a substitute for manufacturer cross-checks. No offers, MSRP values, synthetic scores, or image URLs were imported."
+}

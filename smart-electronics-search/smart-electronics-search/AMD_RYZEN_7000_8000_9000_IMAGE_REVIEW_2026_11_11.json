@@ -1,0 +1,138 @@
+{
+  "updatedAt": "2026-11-10T22:55:25.955Z",
+  "database": "smart_electronics",
+  "batch": "AMD Ryzen 7000/8000/9000 exact-model licensed-image review",
+  "summary": {
+    "modelsResearched": 32,
+    "modelsWithVerifiedSpecifications": 32,
+    "modelsWithVerifiedProductAndSpecificationsUrls": 32,
+    "modelsWithExactModelImages": 4,
+    "modelsWithDocumentedImageReuseRights": 4,
+    "productsImported": 4,
+    "activePendingModelsInBatch": 28,
+    "productDocuments": 159,
+    "pendingProductDocuments": 145,
+    "activePendingReviewRows": 135,
+    "offers": 0,
+    "offersCreated": 0,
+    "verifiedPublishedByCategory": {
+      "category": "cpu",
+      "batch": 4,
+      "database": 11
+    },
+    "cpuCategory": {
+      "records": 134,
+      "modelVerified": 134,
+      "imageVerified": 11,
+      "urlVerified": 134,
+      "published": 11,
+      "publicationPending": 123
+    },
+    "globalIndependentStatuses": {
+      "records": 294,
+      "productVerified": 241,
+      "productPending": 53,
+      "imageVerified": 118,
+      "imagePending": 176,
+      "urlVerified": 241,
+      "urlPending": 53,
+      "published": 118,
+      "publicationPending": 135,
+      "hidden": 41
+    }
+  },
+  "prePromotionBackups": [
+    "C:\\Users\\DELL\\AppData\\Local\\Temp\\smart-electronics-search-mongo-backup-2026-11-10T22-47-55-933Z",
+    "C:\\Users\\DELL\\AppData\\Local\\Temp\\smart-electronics-search-mongo-backup-2026-11-10T22-50-22-707Z",
+    "C:\\Users\\DELL\\AppData\\Local\\Temp\\smart-electronics-search-mongo-backup-2026-11-10T22-52-47-145Z",
+    "C:\\Users\\DELL\\AppData\\Local\\Temp\\smart-electronics-search-mongo-backup-2026-11-10T22-54-50-610Z"
+  ],
+  "modelsWithAcceptedImages": [
+    {
+      "sourceKey": "web-research:amd:ryzen-7-7800x3d",
+      "model": "Ryzen 7 7800X3D",
+      "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+      "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+      "image": {
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Ryzen_7_7800_X3D%2C_unlocked.jpg/960px-Ryzen_7_7800_X3D%2C_unlocked.jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Ryzen_7_7800_X3D,_unlocked.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "author": "Thomas Vogt",
+        "attribution": "Thomas Vogt, CC BY 2.0, via Wikimedia Commons; unmodified.",
+        "visualReview": "The processor is shown in an AM5 socket and its lid marking reads AMD Ryzen 7 7800X3D.",
+        "imageUrlVerifiedAs": "image/jpeg",
+        "visualIdentityChecked": true
+      },
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "published"
+    },
+    {
+      "sourceKey": "web-research:amd:ryzen-9-9950x",
+      "model": "Ryzen 9 9950X",
+      "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x.html",
+      "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x.html",
+      "image": {
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/AMD_Ryzen_9_9950X.jpg/960px-AMD_Ryzen_9_9950X.jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_9_9950X.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "author": "4300streetcar",
+        "attribution": "4300streetcar, CC BY 4.0, via Wikimedia Commons; unmodified.",
+        "visualReview": "The processor lid is clearly marked AMD Ryzen 9 9950X.",
+        "imageUrlVerifiedAs": "image/jpeg",
+        "visualIdentityChecked": true
+      },
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "published"
+    },
+    {
+      "sourceKey": "web-research:amd:ryzen-5-7600",
+      "model": "Ryzen 5 7600",
+      "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+      "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+      "image": {
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/AMD_Ryzen_5_7600_top_IMGP6773_smial_wp.jpg/960px-AMD_Ryzen_5_7600_top_IMGP6773_smial_wp.jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_5_7600_top_IMGP6773_smial_wp.jpg",
+        "license": "Free Art License",
+        "licenseVersion": "1.3",
+        "licenseUrl": "https://artlibre.org/licence/lal/en/",
+        "author": "Rainer Knäpper (Smial)",
+        "attribution": "Rainer Knäpper (Smial), Free Art License, via Wikimedia Commons; unmodified.",
+        "visualReview": "The top view clearly shows the AMD Ryzen 5 7600 lid marking.",
+        "imageUrlVerifiedAs": "image/jpeg",
+        "visualIdentityChecked": true
+      },
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "published"
+    },
+    {
+      "sourceKey": "web-research:amd:ryzen-9-7900x",
+      "model": "Ryzen 9 7900X",
+      "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+      "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+      "image": {
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/AMD_Ryzen_9_7900X.jpg/960px-AMD_Ryzen_9_7900X.jpg",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_9_7900X.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "author": "CristoCalis",
+        "attribution": "CristoCalis, CC BY-SA 4.0, via Wikimedia Commons; unmodified.",
+        "visualReview": "The processor lid marking reads AMD Ryzen 9 7900X.",
+        "imageUrlVerifiedAs": "image/jpeg",
+        "visualIdentityChecked": true
+      },
+      "productVerificationStatus": "verified",
+      "imageVerificationStatus": "verified",
+      "urlVerificationStatus": "verified",
+      "publicationStatus": "published"
+    }
+  ],
+  "scopeNote": "The remaining 28 Ryzen 7000/8000/9000 models stay in PendingProduct because no exact-model image with documented reuse rights has completed visual review. No new model or Offer was created in this image batch."
+}

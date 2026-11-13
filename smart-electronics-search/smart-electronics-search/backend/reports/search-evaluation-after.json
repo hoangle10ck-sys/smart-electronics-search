@@ -1,0 +1,3064 @@
+{
+  "generatedAt": "2026-11-11T19:46:35.083Z",
+  "label": "after",
+  "corpusSize": 160,
+  "metrics": {
+    "precisionAt5": 0.1949999999999995,
+    "recallAt10": 0.975,
+    "mrr": 0.975,
+    "ndcgAt10": 0.975,
+    "exactModelTop1Accuracy": 1,
+    "noResultAccuracy": 1,
+    "noResultQueryCount": 40,
+    "constraintViolationRate": 0,
+    "latencyMs": {
+      "p50": 182.22620000000097,
+      "p95": 721.1385999999984,
+      "mean": 308.05672649999985
+    }
+  },
+  "evaluationMethod": "Positive cases are derived from eligible, verified MongoDB products and verified VND offers. One product ID per query is the labeled target because each query contains that product model. Negative cases use absent model identifiers or RAM constraints verified absent from the eligible catalog. Query parsing uses deterministic rules to keep retrieval/ranking comparisons repeatable; Ollama intent latency is excluded.",
+  "cases": [
+    {
+      "id": "001",
+      "type": "exact_model",
+      "query": "MacBook Air (M2, 2022) 13-inch",
+      "expectedProductIds": [
+        "6af1f4502b3ee012143096bb"
+      ],
+      "returnedProductIds": [
+        "6af1f4502b3ee012143096bb"
+      ],
+      "latencyMs": 369.29,
+      "hit": true
+    },
+    {
+      "id": "002",
+      "type": "brand_model",
+      "query": "Apple laptop MacBook Air (M2, 2022) 13-inch",
+      "expectedProductIds": [
+        "6af1f4502b3ee012143096bb"
+      ],
+      "returnedProductIds": [
+        "6af1f4502b3ee012143096bb"
+      ],
+      "latencyMs": 537.42,
+      "hit": true
+    },
+    {
+      "id": "003",
+      "type": "budget",
+      "query": "Apple laptop MacBook Air (M2, 2022) 13-inch dưới 17 triệu",
+      "expectedProductIds": [
+        "6af1f4502b3ee012143096bb"
+      ],
+      "returnedProductIds": [
+        "6af1f4502b3ee012143096bb"
+      ],
+      "latencyMs": 185.42,
+      "hit": true
+    },
+    {
+      "id": "004",
+      "type": "natural_language",
+      "query": "Tôi cần Apple laptop MacBook Air (M2, 2022) 13-inch RAM 8GB  256GB 13.6 inch dưới 17 triệu",
+      "expectedProductIds": [
+        "6af1f4502b3ee012143096bb"
+      ],
+      "returnedProductIds": [
+        "6af1f4502b3ee012143096bb"
+      ],
+      "latencyMs": 132.62,
+      "hit": true
+    },
+    {
+      "id": "005",
+      "type": "exact_model",
+      "query": "ThinkPad T480",
+      "expectedProductIds": [
+        "6af1f4502b3ee012143096bc"
+      ],
+      "returnedProductIds": [
+        "6af1f4502b3ee012143096bc"
+      ],
+      "latencyMs": 192.94,
+      "hit": true
+    },
+    {
+      "id": "006",
+      "type": "brand_model",
+      "query": "Lenovo laptop ThinkPad T480",
+      "expectedProductIds": [
+        "6af1f4502b3ee012143096bc"
+      ],
+      "returnedProductIds": [
+        "6af1f4502b3ee012143096bc"
+      ],
+      "latencyMs": 208.05,
+      "hit": true
+    },
+    {
+      "id": "007",
+      "type": "budget",
+      "query": "Lenovo laptop ThinkPad T480 dưới 8 triệu",
+      "expectedProductIds": [
+        "6af1f4502b3ee012143096bc"
+      ],
+      "returnedProductIds": [
+        "6af1f4502b3ee012143096bc"
+      ],
+      "latencyMs": 136.57,
+      "hit": true
+    },
+    {
+      "id": "008",
+      "type": "natural_language",
+      "query": "Tôi cần Lenovo laptop ThinkPad T480 14 inch dưới 8 triệu",
+      "expectedProductIds": [
+        "6af1f4502b3ee012143096bc"
+      ],
+      "returnedProductIds": [
+        "6af1f4502b3ee012143096bc"
+      ],
+      "latencyMs": 133.07,
+      "hit": true
+    },
+    {
+      "id": "009",
+      "type": "exact_model",
+      "query": "iPhone 15",
+      "expectedProductIds": [
+        "6af1f55b2b3ee012143096c1"
+      ],
+      "returnedProductIds": [
+        "6af1f55b2b3ee012143096c1",
+        "6af29dca2b3ee01214309b52",
+        "6af4c48800cd88dbdeea8792",
+        "6af4c49300cd88dbdeea8872",
+        "6af29dca2b3ee01214309b53",
+        "6af29dca2b3ee01214309b54",
+        "6af1f55b2b3ee012143096c2",
+        "6af1fac12b3ee012143096d5",
+        "6af29dc92b3ee01214309b4f",
+        "6af205632b3ee012143096f9"
+      ],
+      "latencyMs": 608.12,
+      "hit": true
+    },
+    {
+      "id": "010",
+      "type": "brand_model",
+      "query": "Apple dien thoai iPhone 15",
+      "expectedProductIds": [
+        "6af1f55b2b3ee012143096c1"
+      ],
+      "returnedProductIds": [
+        "6af1f55b2b3ee012143096c1",
+        "6af29dca2b3ee01214309b53",
+        "6af29dca2b3ee01214309b52",
+        "6af4c48800cd88dbdeea8792",
+        "6af29dca2b3ee01214309b54",
+        "6af4c49300cd88dbdeea8872",
+        "6af1f55b2b3ee012143096c2",
+        "6af1fac12b3ee012143096d5",
+        "6af205632b3ee012143096f9",
+        "6af29dc92b3ee01214309b4f"
+      ],
+      "latencyMs": 655.86,
+      "hit": true
+    },
+    {
+      "id": "011",
+      "type": "budget",
+      "query": "Apple dien thoai iPhone 15 dưới 26 triệu",
+      "expectedProductIds": [
+        "6af1f55b2b3ee012143096c1"
+      ],
+      "returnedProductIds": [
+        "6af1f55b2b3ee012143096c1",
+        "6af29dca2b3ee01214309b53",
+        "6af4c48800cd88dbdeea8792",
+        "6af29dca2b3ee01214309b52",
+        "6af29dca2b3ee01214309b54",
+        "6af4c49300cd88dbdeea8872",
+        "6af1f55b2b3ee012143096c2",
+        "6af1fac12b3ee012143096d5",
+        "6af29dca2b3ee01214309b57",
+        "6af29dca2b3ee01214309b5d"
+      ],
+      "latencyMs": 627.06,
+      "hit": true
+    },
+    {
+      "id": "012",
+      "type": "natural_language",
+      "query": "Tôi cần Apple dien thoai iPhone 15  128GB 6.1 inch dưới 26 triệu",
+      "expectedProductIds": [
+        "6af1f55b2b3ee012143096c1"
+      ],
+      "returnedProductIds": [
+        "6af1f55b2b3ee012143096c1",
+        "6af29dca2b3ee01214309b53",
+        "6af1f55b2b3ee012143096c2",
+        "6af29dca2b3ee01214309b57",
+        "6af29dca2b3ee01214309b5b",
+        "6af29dca2b3ee01214309b55",
+        "6af29dc92b3ee01214309b50"
+      ],
+      "latencyMs": 444.6,
+      "hit": true
+    },
+    {
+      "id": "013",
+      "type": "exact_model",
+      "query": "iPhone 14",
+      "expectedProductIds": [
+        "6af1f55b2b3ee012143096c2"
+      ],
+      "returnedProductIds": [
+        "6af1f55b2b3ee012143096c2",
+        "6af29dc92b3ee01214309b4f",
+        "6af29dc92b3ee01214309b50",
+        "6af4c49200cd88dbdeea885a",
+        "6af4c49200cd88dbdeea885e",
+        "6af4c49200cd88dbdeea8862",
+        "6af29dca2b3ee01214309b51",
+        "6af4c49200cd88dbdeea886a",
+        "6af4c49100cd88dbdeea8852",
+        "6af4c49100cd88dbdeea8856"
+      ],
+      "latencyMs": 594.48,
+      "hit": true
+    },
+    {
+      "id": "014",
+      "type": "brand_model",
+      "query": "Apple dien thoai iPhone 14",
+      "expectedProductIds": [
+        "6af1f55b2b3ee012143096c2"
+      ],
+      "returnedProductIds": [
+        "6af1f55b2b3ee012143096c2",
+        "6af29dc92b3ee01214309b50",
+        "6af29dc92b3ee01214309b4f",
+        "6af4c49200cd88dbdeea885e",
+        "6af4c49200cd88dbdeea885a",
+        "6af29dca2b3ee01214309b51",
+        "6af4c49200cd88dbdeea8862",
+        "6af4c49200cd88dbdeea886a",
+        "6af4c49100cd88dbdeea8852",
+        "6af4c49100cd88dbdeea8856"
+      ],
+      "latencyMs": 713.24,
+      "hit": true
+    },
+    {
+      "id": "015",
+      "type": "budget",
+      "query": "Apple dien thoai iPhone 14 dưới 17 triệu",
+      "expectedProductIds": [
+        "6af1f55b2b3ee012143096c2"
+      ],
+      "returnedProductIds": [
+        "6af1f55b2b3ee012143096c2",
+        "6af29dc92b3ee01214309b50",
+        "6af29dc92b3ee01214309b4f",
+        "6af29dca2b3ee01214309b51",
+        "6af1fac12b3ee012143096d5",
+        "6af29dca2b3ee01214309b53",
+        "6af29dca2b3ee01214309b5d",
+        "6af29dca2b3ee01214309b52",
+        "6af205632b3ee012143096f9",
+        "6af29dca2b3ee01214309b5c"
+      ],
+      "latencyMs": 666.41,
+      "hit": true
+    },
+    {
+      "id": "016",
+      "type": "natural_language",
+      "query": "Tôi cần Apple dien thoai iPhone 14  128GB 6.1 inch dưới 17 triệu",
+      "expectedProductIds": [
+        "6af1f55b2b3ee012143096c2"
+      ],
+      "returnedProductIds": [
+        "6af1f55b2b3ee012143096c2",
+        "6af29dc92b3ee01214309b50",
+        "6af29dca2b3ee01214309b53"
+      ],
+      "latencyMs": 435.26,
+      "hit": true
+    },
+    {
+      "id": "017",
+      "type": "exact_model",
+      "query": "Pixel 7",
+      "expectedProductIds": [
+        "6af1f55b2b3ee012143096c3"
+      ],
+      "returnedProductIds": [
+        "6af1f55b2b3ee012143096c3",
+        "6af41dc82b3ee0121432a119",
+        "6af480efc3902f469e873102"
+      ],
+      "latencyMs": 769.68,
+      "hit": true
+    },
+    {
+      "id": "018",
+      "type": "brand_model",
+      "query": "Google dien thoai Pixel 7",
+      "expectedProductIds": [
+        "6af1f55b2b3ee012143096c3"
+      ],
+      "returnedProductIds": [
+        "6af1f55b2b3ee012143096c3"
+      ],
+      "latencyMs": 394.43,
+      "hit": true
+    },
+    {
+      "id": "019",
+      "type": "budget",
+      "query": "Google dien thoai Pixel 7 dưới 6 triệu",
+      "expectedProductIds": [
+        "6af1f55b2b3ee012143096c3"
+      ],
+      "returnedProductIds": [
+        "6af1f55b2b3ee012143096c3"
+      ],
+      "latencyMs": 407.92,
+      "hit": true
+    },
+    {
+      "id": "020",
+      "type": "natural_language",
+      "query": "Tôi cần Google dien thoai Pixel 7  128GB 6.3 inch dưới 6 triệu",
+      "expectedProductIds": [
+        "6af1f55b2b3ee012143096c3"
+      ],
+      "returnedProductIds": [
+        "6af1f55b2b3ee012143096c3"
+      ],
+      "latencyMs": 450.35,
+      "hit": true
+    },
+    {
+      "id": "021",
+      "type": "exact_model",
+      "query": "iPad Pro 12.9-inch (4th generation)",
+      "expectedProductIds": [
+        "6af1f6ce2b3ee012143096c8"
+      ],
+      "returnedProductIds": [
+        "6af1f6ce2b3ee012143096c8"
+      ],
+      "latencyMs": 178.65,
+      "hit": true
+    },
+    {
+      "id": "022",
+      "type": "brand_model",
+      "query": "Apple may tinh bang iPad Pro 12.9-inch (4th generation)",
+      "expectedProductIds": [
+        "6af1f6ce2b3ee012143096c8"
+      ],
+      "returnedProductIds": [
+        "6af1f6ce2b3ee012143096c8"
+      ],
+      "latencyMs": 134.56,
+      "hit": true
+    },
+    {
+      "id": "023",
+      "type": "budget",
+      "query": "Apple may tinh bang iPad Pro 12.9-inch (4th generation) dưới 13 triệu",
+      "expectedProductIds": [
+        "6af1f6ce2b3ee012143096c8"
+      ],
+      "returnedProductIds": [
+        "6af1f6ce2b3ee012143096c8"
+      ],
+      "latencyMs": 132.07,
+      "hit": true
+    },
+    {
+      "id": "024",
+      "type": "natural_language",
+      "query": "Tôi cần Apple may tinh bang iPad Pro 12.9-inch (4th generation)  128GB 12.9 inch dưới 13 triệu",
+      "expectedProductIds": [
+        "6af1f6ce2b3ee012143096c8"
+      ],
+      "returnedProductIds": [
+        "6af1f6ce2b3ee012143096c8"
+      ],
+      "latencyMs": 127.94,
+      "hit": true
+    },
+    {
+      "id": "025",
+      "type": "exact_model",
+      "query": "Surface Pro 9",
+      "expectedProductIds": [
+        "6af1f6ce2b3ee012143096c9"
+      ],
+      "returnedProductIds": [
+        "6af1f6ce2b3ee012143096c9",
+        "6af2ae232b3ee01214309c9b",
+        "6af2afc62b3ee01214309cc5",
+        "6af2afc62b3ee01214309cc4",
+        "6af2ae232b3ee01214309c9a",
+        "6af47f02c91fee01c7d6fb8e"
+      ],
+      "latencyMs": 475.35,
+      "hit": true
+    },
+    {
+      "id": "026",
+      "type": "brand_model",
+      "query": "Microsoft may tinh bang Surface Pro 9",
+      "expectedProductIds": [
+        "6af1f6ce2b3ee012143096c9"
+      ],
+      "returnedProductIds": [
+        "6af1f6ce2b3ee012143096c9",
+        "6af2ae232b3ee01214309c9b",
+        "6af2afc62b3ee01214309cc5",
+        "6af2afc62b3ee01214309cc4",
+        "6af2ae232b3ee01214309c9a"
+      ],
+      "latencyMs": 405.05,
+      "hit": true
+    },
+    {
+      "id": "027",
+      "type": "budget",
+      "query": "Microsoft may tinh bang Surface Pro 9 dưới 17 triệu",
+      "expectedProductIds": [
+        "6af1f6ce2b3ee012143096c9"
+      ],
+      "returnedProductIds": [
+        "6af1f6ce2b3ee012143096c9",
+        "6af2ae232b3ee01214309c9b",
+        "6af2afc62b3ee01214309cc5",
+        "6af2afc62b3ee01214309cc4",
+        "6af2ae232b3ee01214309c9a"
+      ],
+      "latencyMs": 395.73,
+      "hit": true
+    },
+    {
+      "id": "028",
+      "type": "natural_language",
+      "query": "Tôi cần Microsoft may tinh bang Surface Pro 9 13 inch dưới 17 triệu",
+      "expectedProductIds": [
+        "6af1f6ce2b3ee012143096c9"
+      ],
+      "returnedProductIds": [
+        "6af1f6ce2b3ee012143096c9",
+        "6af2ae232b3ee01214309c9b",
+        "6af2afc62b3ee01214309cc5"
+      ],
+      "latencyMs": 408.72,
+      "hit": true
+    },
+    {
+      "id": "029",
+      "type": "exact_model",
+      "query": "iPhone 13",
+      "expectedProductIds": [
+        "6af1fac12b3ee012143096d5"
+      ],
+      "returnedProductIds": [
+        "6af1fac12b3ee012143096d5",
+        "6af205632b3ee012143096f9",
+        "6af29dca2b3ee01214309b5d",
+        "6af29dca2b3ee01214309b60",
+        "6af206422b3ee012143096fc",
+        "6af1f55b2b3ee012143096c2",
+        "6af2067d2b3ee012143096fd",
+        "6af29dc92b3ee01214309b50",
+        "6af2037f2b3ee012143096ef",
+        "6af29dc92b3ee01214309b4f"
+      ],
+      "latencyMs": 717.8,
+      "hit": true
+    },
+    {
+      "id": "030",
+      "type": "brand_model",
+      "query": "Apple dien thoai iPhone 13",
+      "expectedProductIds": [
+        "6af1fac12b3ee012143096d5"
+      ],
+      "returnedProductIds": [
+        "6af1fac12b3ee012143096d5",
+        "6af205632b3ee012143096f9",
+        "6af29dca2b3ee01214309b5d",
+        "6af29dca2b3ee01214309b60",
+        "6af206422b3ee012143096fc",
+        "6af2067d2b3ee012143096fd",
+        "6af1f55b2b3ee012143096c2",
+        "6af29dc92b3ee01214309b50",
+        "6af2037f2b3ee012143096ef",
+        "6af1f55b2b3ee012143096c1"
+      ],
+      "latencyMs": 788.74,
+      "hit": true
+    },
+    {
+      "id": "031",
+      "type": "budget",
+      "query": "Apple dien thoai iPhone 13 dưới 15 triệu",
+      "expectedProductIds": [
+        "6af1fac12b3ee012143096d5"
+      ],
+      "returnedProductIds": [
+        "6af1fac12b3ee012143096d5",
+        "6af205632b3ee012143096f9",
+        "6af29dca2b3ee01214309b5d",
+        "6af29dca2b3ee01214309b60",
+        "6af1f55b2b3ee012143096c2",
+        "6af29dca2b3ee01214309b53",
+        "6af29dca2b3ee01214309b52",
+        "6af206422b3ee012143096fc",
+        "6af2067d2b3ee012143096fd",
+        "6af29dc92b3ee01214309b4f"
+      ],
+      "latencyMs": 697.46,
+      "hit": true
+    },
+    {
+      "id": "032",
+      "type": "natural_language",
+      "query": "Tôi cần Apple dien thoai iPhone 13 6.1 inch dưới 15 triệu",
+      "expectedProductIds": [
+        "6af1fac12b3ee012143096d5"
+      ],
+      "returnedProductIds": [
+        "6af1fac12b3ee012143096d5",
+        "6af205632b3ee012143096f9",
+        "6af206422b3ee012143096fc",
+        "6af1f55b2b3ee012143096c2",
+        "6af29dca2b3ee01214309b53",
+        "6af29dc92b3ee01214309b50",
+        "6af29dca2b3ee01214309b5f",
+        "6af2037f2b3ee012143096ef"
+      ],
+      "latencyMs": 472.19,
+      "hit": true
+    },
+    {
+      "id": "033",
+      "type": "exact_model",
+      "query": "MacBook Pro 16-inch M2 Max (2023)",
+      "expectedProductIds": [
+        "6af1fac12b3ee012143096d6"
+      ],
+      "returnedProductIds": [
+        "6af1fac12b3ee012143096d6"
+      ],
+      "latencyMs": 122.99,
+      "hit": true
+    },
+    {
+      "id": "034",
+      "type": "brand_model",
+      "query": "Apple laptop MacBook Pro 16-inch M2 Max (2023)",
+      "expectedProductIds": [
+        "6af1fac12b3ee012143096d6"
+      ],
+      "returnedProductIds": [
+        "6af1fac12b3ee012143096d6"
+      ],
+      "latencyMs": 123.24,
+      "hit": true
+    },
+    {
+      "id": "035",
+      "type": "budget",
+      "query": "Apple laptop MacBook Pro 16-inch M2 Max (2023) dưới 54 triệu",
+      "expectedProductIds": [
+        "6af1fac12b3ee012143096d6"
+      ],
+      "returnedProductIds": [
+        "6af1fac12b3ee012143096d6"
+      ],
+      "latencyMs": 122.85,
+      "hit": true
+    },
+    {
+      "id": "036",
+      "type": "natural_language",
+      "query": "Tôi cần Apple laptop MacBook Pro 16-inch M2 Max (2023) 16.2 inch dưới 54 triệu",
+      "expectedProductIds": [
+        "6af1fac12b3ee012143096d6"
+      ],
+      "returnedProductIds": [
+        "6af1fac12b3ee012143096d6"
+      ],
+      "latencyMs": 128.03,
+      "hit": true
+    },
+    {
+      "id": "037",
+      "type": "exact_model",
+      "query": "iPad Air 10.9-inch (5th generation)",
+      "expectedProductIds": [
+        "6af1fac12b3ee012143096d7"
+      ],
+      "returnedProductIds": [
+        "6af1fac12b3ee012143096d7"
+      ],
+      "latencyMs": 124.67,
+      "hit": true
+    },
+    {
+      "id": "038",
+      "type": "brand_model",
+      "query": "Apple may tinh bang iPad Air 10.9-inch (5th generation)",
+      "expectedProductIds": [
+        "6af1fac12b3ee012143096d7"
+      ],
+      "returnedProductIds": [
+        "6af1fac12b3ee012143096d7"
+      ],
+      "latencyMs": 129.65,
+      "hit": true
+    },
+    {
+      "id": "039",
+      "type": "budget",
+      "query": "Apple may tinh bang iPad Air 10.9-inch (5th generation) dưới 9 triệu",
+      "expectedProductIds": [
+        "6af1fac12b3ee012143096d7"
+      ],
+      "returnedProductIds": [
+        "6af1fac12b3ee012143096d7"
+      ],
+      "latencyMs": 132.34,
+      "hit": true
+    },
+    {
+      "id": "040",
+      "type": "natural_language",
+      "query": "Tôi cần Apple may tinh bang iPad Air 10.9-inch (5th generation) 10.9 inch dưới 9 triệu",
+      "expectedProductIds": [
+        "6af1fac12b3ee012143096d7"
+      ],
+      "returnedProductIds": [
+        "6af1fac12b3ee012143096d7"
+      ],
+      "latencyMs": 131.5,
+      "hit": true
+    },
+    {
+      "id": "041",
+      "type": "exact_model",
+      "query": "980 PRO 1TB (MZ-V8P1T0)",
+      "expectedProductIds": [
+        "6af1fac22b3ee012143096d8"
+      ],
+      "returnedProductIds": [
+        "6af1fac22b3ee012143096d8"
+      ],
+      "latencyMs": 125.58,
+      "hit": true
+    },
+    {
+      "id": "042",
+      "type": "brand_model",
+      "query": "Samsung ssd 980 PRO 1TB (MZ-V8P1T0)",
+      "expectedProductIds": [
+        "6af1fac22b3ee012143096d8"
+      ],
+      "returnedProductIds": [],
+      "latencyMs": 63.23,
+      "hit": false
+    },
+    {
+      "id": "043",
+      "type": "budget",
+      "query": "Samsung ssd 980 PRO 1TB (MZ-V8P1T0) dưới 4 triệu",
+      "expectedProductIds": [
+        "6af1fac22b3ee012143096d8"
+      ],
+      "returnedProductIds": [],
+      "latencyMs": 100.99,
+      "hit": false
+    },
+    {
+      "id": "044",
+      "type": "natural_language",
+      "query": "Tôi cần Samsung ssd 980 PRO 1TB (MZ-V8P1T0)  1024GB dưới 4 triệu",
+      "expectedProductIds": [
+        "6af1fac22b3ee012143096d8"
+      ],
+      "returnedProductIds": [],
+      "latencyMs": 67.64,
+      "hit": false
+    },
+    {
+      "id": "045",
+      "type": "exact_model",
+      "query": "MX Master 3S",
+      "expectedProductIds": [
+        "6af1fac22b3ee012143096d9"
+      ],
+      "returnedProductIds": [
+        "6af1fac22b3ee012143096d9",
+        "6af4c47300cd88dbdeea85d6",
+        "6af4c47400cd88dbdeea85f2",
+        "6af4c47300cd88dbdeea85d2",
+        "6af47f2dc91fee01c7d6ff92",
+        "6af485c1cbaeab68b5fdb58f",
+        "6af48e4646425c4befacb95f"
+      ],
+      "latencyMs": 145.72,
+      "hit": true
+    },
+    {
+      "id": "046",
+      "type": "brand_model",
+      "query": "Logitech chuot MX Master 3S",
+      "expectedProductIds": [
+        "6af1fac22b3ee012143096d9"
+      ],
+      "returnedProductIds": [
+        "6af1fac22b3ee012143096d9",
+        "6af4c47300cd88dbdeea85d6",
+        "6af4c47400cd88dbdeea85f2",
+        "6af4c47300cd88dbdeea85d2"
+      ],
+      "latencyMs": 125.69,
+      "hit": true
+    },
+    {
+      "id": "047",
+      "type": "budget",
+      "query": "Logitech chuot MX Master 3S dưới 4 triệu",
+      "expectedProductIds": [
+        "6af1fac22b3ee012143096d9"
+      ],
+      "returnedProductIds": [
+        "6af1fac22b3ee012143096d9",
+        "6af4c47300cd88dbdeea85d6",
+        "6af4c47400cd88dbdeea85f2",
+        "6af4c47300cd88dbdeea85d2"
+      ],
+      "latencyMs": 125.42,
+      "hit": true
+    },
+    {
+      "id": "048",
+      "type": "natural_language",
+      "query": "Tôi cần Logitech chuot MX Master 3S dưới 4 triệu",
+      "expectedProductIds": [
+        "6af1fac22b3ee012143096d9"
+      ],
+      "returnedProductIds": [
+        "6af1fac22b3ee012143096d9",
+        "6af4c47300cd88dbdeea85d6",
+        "6af4c47400cd88dbdeea85f2",
+        "6af4c47300cd88dbdeea85d2"
+      ],
+      "latencyMs": 124.83,
+      "hit": true
+    },
+    {
+      "id": "049",
+      "type": "exact_model",
+      "query": "DUAL-RX6600XT-O8G",
+      "expectedProductIds": [
+        "6af1fac32b3ee012143096da"
+      ],
+      "returnedProductIds": [
+        "6af1fac32b3ee012143096da"
+      ],
+      "latencyMs": 150.17,
+      "hit": true
+    },
+    {
+      "id": "050",
+      "type": "brand_model",
+      "query": "ASUS gpu DUAL-RX6600XT-O8G",
+      "expectedProductIds": [
+        "6af1fac32b3ee012143096da"
+      ],
+      "returnedProductIds": [
+        "6af1fac32b3ee012143096da"
+      ],
+      "latencyMs": 125.43,
+      "hit": true
+    },
+    {
+      "id": "051",
+      "type": "budget",
+      "query": "ASUS gpu DUAL-RX6600XT-O8G dưới 13 triệu",
+      "expectedProductIds": [
+        "6af1fac32b3ee012143096da"
+      ],
+      "returnedProductIds": [
+        "6af1fac32b3ee012143096da"
+      ],
+      "latencyMs": 138.71,
+      "hit": true
+    },
+    {
+      "id": "052",
+      "type": "natural_language",
+      "query": "Tôi cần ASUS gpu DUAL-RX6600XT-O8G RAM 8GB VRAM 8GB dưới 13 triệu",
+      "expectedProductIds": [
+        "6af1fac32b3ee012143096da"
+      ],
+      "returnedProductIds": [],
+      "latencyMs": 61.66,
+      "hit": false
+    },
+    {
+      "id": "053",
+      "type": "exact_model",
+      "query": "MacBook Pro 13-inch M1 (2020)",
+      "expectedProductIds": [
+        "6af1fb672b3ee012143096db"
+      ],
+      "returnedProductIds": [
+        "6af1fb672b3ee012143096db",
+        "6af204372b3ee012143096f3"
+      ],
+      "latencyMs": 138.22,
+      "hit": true
+    },
+    {
+      "id": "054",
+      "type": "brand_model",
+      "query": "Apple laptop MacBook Pro 13-inch M1 (2020)",
+      "expectedProductIds": [
+        "6af1fb672b3ee012143096db"
+      ],
+      "returnedProductIds": [
+        "6af1fb672b3ee012143096db",
+        "6af204372b3ee012143096f3"
+      ],
+      "latencyMs": 126.35,
+      "hit": true
+    },
+    {
+      "id": "055",
+      "type": "budget",
+      "query": "Apple laptop MacBook Pro 13-inch M1 (2020) dưới 15 triệu",
+      "expectedProductIds": [
+        "6af1fb672b3ee012143096db"
+      ],
+      "returnedProductIds": [
+        "6af1fb672b3ee012143096db",
+        "6af204372b3ee012143096f3"
+      ],
+      "latencyMs": 136.47,
+      "hit": true
+    },
+    {
+      "id": "056",
+      "type": "natural_language",
+      "query": "Tôi cần Apple laptop MacBook Pro 13-inch M1 (2020) 13.3 inch dưới 15 triệu",
+      "expectedProductIds": [
+        "6af1fb672b3ee012143096db"
+      ],
+      "returnedProductIds": [
+        "6af1fb672b3ee012143096db",
+        "6af204372b3ee012143096f3"
+      ],
+      "latencyMs": 137.79,
+      "hit": true
+    },
+    {
+      "id": "057",
+      "type": "exact_model",
+      "query": "Ryzen 5 5600X",
+      "expectedProductIds": [
+        "6af1fb672b3ee012143096dc"
+      ],
+      "returnedProductIds": [
+        "6af1fb672b3ee012143096dc"
+      ],
+      "latencyMs": 134.09,
+      "hit": true
+    },
+    {
+      "id": "058",
+      "type": "brand_model",
+      "query": "AMD cpu Ryzen 5 5600X",
+      "expectedProductIds": [
+        "6af1fb672b3ee012143096dc"
+      ],
+      "returnedProductIds": [
+        "6af1fb672b3ee012143096dc"
+      ],
+      "latencyMs": 117.75,
+      "hit": true
+    },
+    {
+      "id": "059",
+      "type": "budget",
+      "query": "AMD cpu Ryzen 5 5600X dưới 6 triệu",
+      "expectedProductIds": [
+        "6af1fb672b3ee012143096dc"
+      ],
+      "returnedProductIds": [
+        "6af1fb672b3ee012143096dc"
+      ],
+      "latencyMs": 121.69,
+      "hit": true
+    },
+    {
+      "id": "060",
+      "type": "natural_language",
+      "query": "Tôi cần AMD cpu Ryzen 5 5600X dưới 6 triệu",
+      "expectedProductIds": [
+        "6af1fb672b3ee012143096dc"
+      ],
+      "returnedProductIds": [
+        "6af1fb672b3ee012143096dc"
+      ],
+      "latencyMs": 122.98,
+      "hit": true
+    },
+    {
+      "id": "061",
+      "type": "exact_model",
+      "query": "Watch Ultra 2 (49 mm)",
+      "expectedProductIds": [
+        "6af201562b3ee012143096ea"
+      ],
+      "returnedProductIds": [
+        "6af201562b3ee012143096ea",
+        "6af4c12364902603861ff1cc",
+        "6af4c12664902603861ff218",
+        "6af4c12664902603861ff210",
+        "6af4c12264902603861ff1c0",
+        "6af4c11f64902603861ff17c",
+        "6af4c11f64902603861ff178",
+        "6af47f27c91fee01c7d6fef6",
+        "6af47f27c91fee01c7d6fefa",
+        "6af4c12664902603861ff21c"
+      ],
+      "latencyMs": 760.94,
+      "hit": true
+    },
+    {
+      "id": "062",
+      "type": "brand_model",
+      "query": "Apple dong ho thong minh Watch Ultra 2 (49 mm)",
+      "expectedProductIds": [
+        "6af201562b3ee012143096ea"
+      ],
+      "returnedProductIds": [
+        "6af201562b3ee012143096ea",
+        "6af4c12664902603861ff218",
+        "6af4c12364902603861ff1cc",
+        "6af4c12264902603861ff1c0",
+        "6af4c12664902603861ff210",
+        "6af4c11f64902603861ff17c",
+        "6af4c11f64902603861ff178",
+        "6af47f27c91fee01c7d6fef6",
+        "6af47f27c91fee01c7d6fefa",
+        "6af4c12664902603861ff21c"
+      ],
+      "latencyMs": 797.29,
+      "hit": true
+    },
+    {
+      "id": "063",
+      "type": "budget",
+      "query": "Apple dong ho thong minh Watch Ultra 2 (49 mm) dưới 27 triệu",
+      "expectedProductIds": [
+        "6af201562b3ee012143096ea"
+      ],
+      "returnedProductIds": [
+        "6af201562b3ee012143096ea",
+        "6af4c12364902603861ff1cc",
+        "6af4c12664902603861ff218",
+        "6af4c12664902603861ff210",
+        "6af4c12264902603861ff1c0",
+        "6af4c11f64902603861ff17c",
+        "6af4c11f64902603861ff178",
+        "6af47f27c91fee01c7d6fef6",
+        "6af47f27c91fee01c7d6fefa",
+        "6af4c12664902603861ff21c"
+      ],
+      "latencyMs": 648.14,
+      "hit": true
+    },
+    {
+      "id": "064",
+      "type": "natural_language",
+      "query": "Tôi cần Apple dong ho thong minh Watch Ultra 2 (49 mm)  64GB 49 inch dưới 27 triệu",
+      "expectedProductIds": [
+        "6af201562b3ee012143096ea"
+      ],
+      "returnedProductIds": [
+        "6af201562b3ee012143096ea"
+      ],
+      "latencyMs": 461.52,
+      "hit": true
+    },
+    {
+      "id": "065",
+      "type": "exact_model",
+      "query": "Z fc",
+      "expectedProductIds": [
+        "6af201562b3ee012143096eb"
+      ],
+      "returnedProductIds": [
+        "6af201562b3ee012143096eb",
+        "6af4c48c00cd88dbdeea87ea",
+        "6af4c48c00cd88dbdeea87ee",
+        "6af4c48d00cd88dbdeea87fe",
+        "6af47f3bc91fee01c7d70102",
+        "6af47f21c91fee01c7d6fe62",
+        "6af485bfcbaeab68b5fdb550",
+        "6af483fe0f3a9f43771697d8",
+        "6af47ef4c91fee01c7d6fa22",
+        "6af483ff0f3a9f43771697e7"
+      ],
+      "latencyMs": 802.43,
+      "hit": true
+    },
+    {
+      "id": "066",
+      "type": "brand_model",
+      "query": "Nikon camera Z fc",
+      "expectedProductIds": [
+        "6af201562b3ee012143096eb"
+      ],
+      "returnedProductIds": [
+        "6af201562b3ee012143096eb",
+        "6af2037f2b3ee012143096f1"
+      ],
+      "latencyMs": 390.84,
+      "hit": true
+    },
+    {
+      "id": "067",
+      "type": "budget",
+      "query": "Nikon camera Z fc dưới 29 triệu",
+      "expectedProductIds": [
+        "6af201562b3ee012143096eb"
+      ],
+      "returnedProductIds": [
+        "6af201562b3ee012143096eb"
+      ],
+      "latencyMs": 409.38,
+      "hit": true
+    },
+    {
+      "id": "068",
+      "type": "natural_language",
+      "query": "Tôi cần Nikon camera Z fc 3 inch dưới 29 triệu",
+      "expectedProductIds": [
+        "6af201562b3ee012143096eb"
+      ],
+      "returnedProductIds": [
+        "6af201562b3ee012143096eb"
+      ],
+      "latencyMs": 442.58,
+      "hit": true
+    },
+    {
+      "id": "069",
+      "type": "exact_model",
+      "query": "C920 HD Pro Webcam",
+      "expectedProductIds": [
+        "6af201572b3ee012143096ec"
+      ],
+      "returnedProductIds": [
+        "6af201572b3ee012143096ec"
+      ],
+      "latencyMs": 190.15,
+      "hit": true
+    },
+    {
+      "id": "070",
+      "type": "brand_model",
+      "query": "Logitech webcam C920 HD Pro Webcam",
+      "expectedProductIds": [
+        "6af201572b3ee012143096ec"
+      ],
+      "returnedProductIds": [
+        "6af201572b3ee012143096ec"
+      ],
+      "latencyMs": 128.46,
+      "hit": true
+    },
+    {
+      "id": "071",
+      "type": "budget",
+      "query": "Logitech webcam C920 HD Pro Webcam dưới 3 triệu",
+      "expectedProductIds": [
+        "6af201572b3ee012143096ec"
+      ],
+      "returnedProductIds": [
+        "6af201572b3ee012143096ec"
+      ],
+      "latencyMs": 130.72,
+      "hit": true
+    },
+    {
+      "id": "072",
+      "type": "natural_language",
+      "query": "Tôi cần Logitech webcam C920 HD Pro Webcam dưới 3 triệu",
+      "expectedProductIds": [
+        "6af201572b3ee012143096ec"
+      ],
+      "returnedProductIds": [
+        "6af201572b3ee012143096ec"
+      ],
+      "latencyMs": 118.86,
+      "hit": true
+    },
+    {
+      "id": "073",
+      "type": "exact_model",
+      "query": "iPhone 12 Pro",
+      "expectedProductIds": [
+        "6af2037f2b3ee012143096ef"
+      ],
+      "returnedProductIds": [
+        "6af2037f2b3ee012143096ef",
+        "6af205632b3ee012143096f8",
+        "6af29dca2b3ee01214309b53",
+        "6af29dca2b3ee01214309b55",
+        "6af2067d2b3ee012143096fd",
+        "6af205632b3ee012143096f9",
+        "6af29dc92b3ee01214309b50",
+        "6af29dca2b3ee01214309b54",
+        "6af29dca2b3ee01214309b56",
+        "6af29dca2b3ee01214309b59"
+      ],
+      "latencyMs": 631.49,
+      "hit": true
+    },
+    {
+      "id": "074",
+      "type": "brand_model",
+      "query": "Apple dien thoai iPhone 12 Pro",
+      "expectedProductIds": [
+        "6af2037f2b3ee012143096ef"
+      ],
+      "returnedProductIds": [
+        "6af2037f2b3ee012143096ef",
+        "6af205632b3ee012143096f8",
+        "6af29dca2b3ee01214309b53",
+        "6af29dca2b3ee01214309b55",
+        "6af205632b3ee012143096f9",
+        "6af29dc92b3ee01214309b50",
+        "6af2067d2b3ee012143096fd",
+        "6af29dca2b3ee01214309b54",
+        "6af29dca2b3ee01214309b56",
+        "6af29dca2b3ee01214309b60"
+      ],
+      "latencyMs": 728.15,
+      "hit": true
+    },
+    {
+      "id": "075",
+      "type": "budget",
+      "query": "Apple dien thoai iPhone 12 Pro dưới 7 triệu",
+      "expectedProductIds": [
+        "6af2037f2b3ee012143096ef"
+      ],
+      "returnedProductIds": [
+        "6af2037f2b3ee012143096ef",
+        "6af2067d2b3ee012143096fd",
+        "6af205632b3ee012143096f9",
+        "6af29dca2b3ee01214309b60",
+        "6af29dca2b3ee01214309b5c",
+        "6af29dca2b3ee01214309b61",
+        "6af29dca2b3ee01214309b5d",
+        "6af205cf2b3ee012143096fa",
+        "6af29dca2b3ee01214309b62",
+        "6af29dca2b3ee01214309b5f"
+      ],
+      "latencyMs": 618.89,
+      "hit": true
+    },
+    {
+      "id": "076",
+      "type": "natural_language",
+      "query": "Tôi cần Apple dien thoai iPhone 12 Pro 6.1 inch dưới 7 triệu",
+      "expectedProductIds": [
+        "6af2037f2b3ee012143096ef"
+      ],
+      "returnedProductIds": [
+        "6af2037f2b3ee012143096ef",
+        "6af205632b3ee012143096f9",
+        "6af206422b3ee012143096fc",
+        "6af29dca2b3ee01214309b5f"
+      ],
+      "latencyMs": 422.08,
+      "hit": true
+    },
+    {
+      "id": "077",
+      "type": "exact_model",
+      "query": "AirPods Max 1",
+      "expectedProductIds": [
+        "6af2037f2b3ee012143096f0"
+      ],
+      "returnedProductIds": [
+        "6af2037f2b3ee012143096f0",
+        "6af4c48400cd88dbdeea8742"
+      ],
+      "latencyMs": 408.71,
+      "hit": true
+    },
+    {
+      "id": "078",
+      "type": "brand_model",
+      "query": "Apple tai nghe AirPods Max 1",
+      "expectedProductIds": [
+        "6af2037f2b3ee012143096f0"
+      ],
+      "returnedProductIds": [
+        "6af2037f2b3ee012143096f0",
+        "6af4c48400cd88dbdeea8742"
+      ],
+      "latencyMs": 376.8,
+      "hit": true
+    },
+    {
+      "id": "079",
+      "type": "budget",
+      "query": "Apple tai nghe AirPods Max 1 dưới 7 triệu",
+      "expectedProductIds": [
+        "6af2037f2b3ee012143096f0"
+      ],
+      "returnedProductIds": [
+        "6af2037f2b3ee012143096f0",
+        "6af4c48400cd88dbdeea8742"
+      ],
+      "latencyMs": 422.77,
+      "hit": true
+    },
+    {
+      "id": "080",
+      "type": "natural_language",
+      "query": "Tôi cần Apple tai nghe AirPods Max 1 dưới 7 triệu",
+      "expectedProductIds": [
+        "6af2037f2b3ee012143096f0"
+      ],
+      "returnedProductIds": [
+        "6af2037f2b3ee012143096f0",
+        "6af4c48400cd88dbdeea8742"
+      ],
+      "latencyMs": 431.3,
+      "hit": true
+    },
+    {
+      "id": "081",
+      "type": "exact_model",
+      "query": "D750",
+      "expectedProductIds": [
+        "6af2037f2b3ee012143096f1"
+      ],
+      "returnedProductIds": [
+        "6af2037f2b3ee012143096f1"
+      ],
+      "latencyMs": 448.53,
+      "hit": true
+    },
+    {
+      "id": "082",
+      "type": "brand_model",
+      "query": "Nikon camera D750",
+      "expectedProductIds": [
+        "6af2037f2b3ee012143096f1"
+      ],
+      "returnedProductIds": [
+        "6af2037f2b3ee012143096f1"
+      ],
+      "latencyMs": 121.3,
+      "hit": true
+    },
+    {
+      "id": "083",
+      "type": "budget",
+      "query": "Nikon camera D750 dưới 39 triệu",
+      "expectedProductIds": [
+        "6af2037f2b3ee012143096f1"
+      ],
+      "returnedProductIds": [
+        "6af2037f2b3ee012143096f1"
+      ],
+      "latencyMs": 131.7,
+      "hit": true
+    },
+    {
+      "id": "084",
+      "type": "natural_language",
+      "query": "Tôi cần Nikon camera D750 3.2 inch dưới 39 triệu",
+      "expectedProductIds": [
+        "6af2037f2b3ee012143096f1"
+      ],
+      "returnedProductIds": [
+        "6af2037f2b3ee012143096f1"
+      ],
+      "latencyMs": 118.37,
+      "hit": true
+    },
+    {
+      "id": "085",
+      "type": "exact_model",
+      "query": "MacBook Air 13-inch M1 (2020)",
+      "expectedProductIds": [
+        "6af204372b3ee012143096f3"
+      ],
+      "returnedProductIds": [
+        "6af204372b3ee012143096f3",
+        "6af1fb672b3ee012143096db"
+      ],
+      "latencyMs": 182.23,
+      "hit": true
+    },
+    {
+      "id": "086",
+      "type": "brand_model",
+      "query": "Apple laptop MacBook Air 13-inch M1 (2020)",
+      "expectedProductIds": [
+        "6af204372b3ee012143096f3"
+      ],
+      "returnedProductIds": [
+        "6af204372b3ee012143096f3",
+        "6af1fb672b3ee012143096db"
+      ],
+      "latencyMs": 123.24,
+      "hit": true
+    },
+    {
+      "id": "087",
+      "type": "budget",
+      "query": "Apple laptop MacBook Air 13-inch M1 (2020) dưới 13 triệu",
+      "expectedProductIds": [
+        "6af204372b3ee012143096f3"
+      ],
+      "returnedProductIds": [
+        "6af204372b3ee012143096f3",
+        "6af1fb672b3ee012143096db"
+      ],
+      "latencyMs": 132.1,
+      "hit": true
+    },
+    {
+      "id": "088",
+      "type": "natural_language",
+      "query": "Tôi cần Apple laptop MacBook Air 13-inch M1 (2020) 13.3 inch dưới 13 triệu",
+      "expectedProductIds": [
+        "6af204372b3ee012143096f3"
+      ],
+      "returnedProductIds": [
+        "6af204372b3ee012143096f3",
+        "6af1fb672b3ee012143096db"
+      ],
+      "latencyMs": 130.38,
+      "hit": true
+    },
+    {
+      "id": "089",
+      "type": "exact_model",
+      "query": "Galaxy Tab S8 (Wi-Fi)",
+      "expectedProductIds": [
+        "6af204372b3ee012143096f4"
+      ],
+      "returnedProductIds": [
+        "6af204372b3ee012143096f4",
+        "6af47f06c91fee01c7d6fbf6"
+      ],
+      "latencyMs": 192.92,
+      "hit": true
+    },
+    {
+      "id": "090",
+      "type": "brand_model",
+      "query": "Samsung may tinh bang Galaxy Tab S8 (Wi-Fi)",
+      "expectedProductIds": [
+        "6af204372b3ee012143096f4"
+      ],
+      "returnedProductIds": [
+        "6af204372b3ee012143096f4"
+      ],
+      "latencyMs": 134.49,
+      "hit": true
+    },
+    {
+      "id": "091",
+      "type": "budget",
+      "query": "Samsung may tinh bang Galaxy Tab S8 (Wi-Fi) dưới 9 triệu",
+      "expectedProductIds": [
+        "6af204372b3ee012143096f4"
+      ],
+      "returnedProductIds": [
+        "6af204372b3ee012143096f4"
+      ],
+      "latencyMs": 137.98,
+      "hit": true
+    },
+    {
+      "id": "092",
+      "type": "natural_language",
+      "query": "Tôi cần Samsung may tinh bang Galaxy Tab S8 (Wi-Fi) 11 inch dưới 9 triệu",
+      "expectedProductIds": [
+        "6af204372b3ee012143096f4"
+      ],
+      "returnedProductIds": [
+        "6af204372b3ee012143096f4"
+      ],
+      "latencyMs": 123.9,
+      "hit": true
+    },
+    {
+      "id": "093",
+      "type": "exact_model",
+      "query": "EOS R6 Mark III",
+      "expectedProductIds": [
+        "6af204372b3ee012143096f5"
+      ],
+      "returnedProductIds": [
+        "6af204372b3ee012143096f5"
+      ],
+      "latencyMs": 139.24,
+      "hit": true
+    },
+    {
+      "id": "094",
+      "type": "brand_model",
+      "query": "Canon camera EOS R6 Mark III",
+      "expectedProductIds": [
+        "6af204372b3ee012143096f5"
+      ],
+      "returnedProductIds": [
+        "6af204372b3ee012143096f5"
+      ],
+      "latencyMs": 127.04,
+      "hit": true
+    },
+    {
+      "id": "095",
+      "type": "budget",
+      "query": "Canon camera EOS R6 Mark III dưới 73 triệu",
+      "expectedProductIds": [
+        "6af204372b3ee012143096f5"
+      ],
+      "returnedProductIds": [
+        "6af204372b3ee012143096f5"
+      ],
+      "latencyMs": 121.96,
+      "hit": true
+    },
+    {
+      "id": "096",
+      "type": "natural_language",
+      "query": "Tôi cần Canon camera EOS R6 Mark III dưới 73 triệu",
+      "expectedProductIds": [
+        "6af204372b3ee012143096f5"
+      ],
+      "returnedProductIds": [
+        "6af204372b3ee012143096f5"
+      ],
+      "latencyMs": 132.49,
+      "hit": true
+    },
+    {
+      "id": "097",
+      "type": "exact_model",
+      "query": "G502 X PLUS",
+      "expectedProductIds": [
+        "6af205632b3ee012143096f7"
+      ],
+      "returnedProductIds": [
+        "6af205632b3ee012143096f7",
+        "6af4c47400cd88dbdeea85ee",
+        "6af4c47300cd88dbdeea85de"
+      ],
+      "latencyMs": 221.59,
+      "hit": true
+    },
+    {
+      "id": "098",
+      "type": "brand_model",
+      "query": "Logitech chuot G502 X PLUS",
+      "expectedProductIds": [
+        "6af205632b3ee012143096f7"
+      ],
+      "returnedProductIds": [
+        "6af205632b3ee012143096f7",
+        "6af4c47400cd88dbdeea85ee",
+        "6af4c47300cd88dbdeea85de"
+      ],
+      "latencyMs": 139.9,
+      "hit": true
+    },
+    {
+      "id": "099",
+      "type": "budget",
+      "query": "Logitech chuot G502 X PLUS dưới 4 triệu",
+      "expectedProductIds": [
+        "6af205632b3ee012143096f7"
+      ],
+      "returnedProductIds": [
+        "6af205632b3ee012143096f7",
+        "6af4c47400cd88dbdeea85ee",
+        "6af4c47300cd88dbdeea85de"
+      ],
+      "latencyMs": 125.53,
+      "hit": true
+    },
+    {
+      "id": "100",
+      "type": "natural_language",
+      "query": "Tôi cần Logitech chuot G502 X PLUS dưới 4 triệu",
+      "expectedProductIds": [
+        "6af205632b3ee012143096f7"
+      ],
+      "returnedProductIds": [
+        "6af205632b3ee012143096f7",
+        "6af4c47400cd88dbdeea85ee",
+        "6af4c47300cd88dbdeea85de"
+      ],
+      "latencyMs": 121.38,
+      "hit": true
+    },
+    {
+      "id": "101",
+      "type": "exact_model",
+      "query": "iPhone 12 Pro Max",
+      "expectedProductIds": [
+        "6af205632b3ee012143096f8"
+      ],
+      "returnedProductIds": [
+        "6af205632b3ee012143096f8",
+        "6af29dca2b3ee01214309b56",
+        "6af29dca2b3ee01214309b54",
+        "6af29dca2b3ee01214309b60",
+        "6af29dca2b3ee01214309b51",
+        "6af29dca2b3ee01214309b61",
+        "6af2037f2b3ee012143096ef",
+        "6af29dca2b3ee01214309b5a",
+        "6af4c49100cd88dbdeea8856",
+        "6af4c49400cd88dbdeea888e"
+      ],
+      "latencyMs": 573.42,
+      "hit": true
+    },
+    {
+      "id": "102",
+      "type": "brand_model",
+      "query": "Apple dien thoai iPhone 12 Pro Max",
+      "expectedProductIds": [
+        "6af205632b3ee012143096f8"
+      ],
+      "returnedProductIds": [
+        "6af205632b3ee012143096f8",
+        "6af29dca2b3ee01214309b54",
+        "6af29dca2b3ee01214309b60",
+        "6af29dca2b3ee01214309b56",
+        "6af29dca2b3ee01214309b51",
+        "6af29dca2b3ee01214309b61",
+        "6af29dca2b3ee01214309b5a",
+        "6af2037f2b3ee012143096ef",
+        "6af29dca2b3ee01214309b55",
+        "6af4c49100cd88dbdeea8856"
+      ],
+      "latencyMs": 720.53,
+      "hit": true
+    },
+    {
+      "id": "103",
+      "type": "budget",
+      "query": "Apple dien thoai iPhone 12 Pro Max dưới 9 triệu",
+      "expectedProductIds": [
+        "6af205632b3ee012143096f8"
+      ],
+      "returnedProductIds": [
+        "6af205632b3ee012143096f8",
+        "6af29dca2b3ee01214309b60",
+        "6af29dca2b3ee01214309b61",
+        "6af2037f2b3ee012143096ef",
+        "6af29dca2b3ee01214309b5e",
+        "6af205632b3ee012143096f9",
+        "6af2067d2b3ee012143096fd",
+        "6af29dca2b3ee01214309b5c",
+        "6af29dca2b3ee01214309b5d",
+        "6af29dca2b3ee01214309b5f"
+      ],
+      "latencyMs": 676.73,
+      "hit": true
+    },
+    {
+      "id": "104",
+      "type": "natural_language",
+      "query": "Tôi cần Apple dien thoai iPhone 12 Pro Max 6.7 inch dưới 9 triệu",
+      "expectedProductIds": [
+        "6af205632b3ee012143096f8"
+      ],
+      "returnedProductIds": [
+        "6af205632b3ee012143096f8",
+        "6af29dca2b3ee01214309b60",
+        "6af29dca2b3ee01214309b61",
+        "6af29dca2b3ee01214309b5e",
+        "6af29dc92b3ee01214309b4f"
+      ],
+      "latencyMs": 441.08,
+      "hit": true
+    },
+    {
+      "id": "105",
+      "type": "exact_model",
+      "query": "iPhone 13 Pro",
+      "expectedProductIds": [
+        "6af205632b3ee012143096f9"
+      ],
+      "returnedProductIds": [
+        "6af205632b3ee012143096f9",
+        "6af29dca2b3ee01214309b60",
+        "6af2067d2b3ee012143096fd",
+        "6af29dca2b3ee01214309b53",
+        "6af1fac12b3ee012143096d5",
+        "6af29dc92b3ee01214309b50",
+        "6af29dca2b3ee01214309b55",
+        "6af29dca2b3ee01214309b59",
+        "6af2037f2b3ee012143096ef",
+        "6af29dca2b3ee01214309b56"
+      ],
+      "latencyMs": 553.19,
+      "hit": true
+    },
+    {
+      "id": "106",
+      "type": "brand_model",
+      "query": "Apple dien thoai iPhone 13 Pro",
+      "expectedProductIds": [
+        "6af205632b3ee012143096f9"
+      ],
+      "returnedProductIds": [
+        "6af205632b3ee012143096f9",
+        "6af29dca2b3ee01214309b60",
+        "6af1fac12b3ee012143096d5",
+        "6af29dca2b3ee01214309b53",
+        "6af2067d2b3ee012143096fd",
+        "6af29dc92b3ee01214309b50",
+        "6af29dca2b3ee01214309b55",
+        "6af2037f2b3ee012143096ef",
+        "6af29dca2b3ee01214309b59",
+        "6af29dca2b3ee01214309b56"
+      ],
+      "latencyMs": 646.67,
+      "hit": true
+    },
+    {
+      "id": "107",
+      "type": "budget",
+      "query": "Apple dien thoai iPhone 13 Pro dưới 9 triệu",
+      "expectedProductIds": [
+        "6af205632b3ee012143096f9"
+      ],
+      "returnedProductIds": [
+        "6af205632b3ee012143096f9",
+        "6af29dca2b3ee01214309b60",
+        "6af2067d2b3ee012143096fd",
+        "6af2037f2b3ee012143096ef",
+        "6af29dca2b3ee01214309b5d",
+        "6af29dca2b3ee01214309b61",
+        "6af205632b3ee012143096f8",
+        "6af206422b3ee012143096fc",
+        "6af29dca2b3ee01214309b5c",
+        "6af29dc92b3ee01214309b4f"
+      ],
+      "latencyMs": 583.54,
+      "hit": true
+    },
+    {
+      "id": "108",
+      "type": "natural_language",
+      "query": "Tôi cần Apple dien thoai iPhone 13 Pro 6.1 inch dưới 9 triệu",
+      "expectedProductIds": [
+        "6af205632b3ee012143096f9"
+      ],
+      "returnedProductIds": [
+        "6af205632b3ee012143096f9",
+        "6af2037f2b3ee012143096ef",
+        "6af206422b3ee012143096fc",
+        "6af29dca2b3ee01214309b5f"
+      ],
+      "latencyMs": 430.26,
+      "hit": true
+    },
+    {
+      "id": "109",
+      "type": "exact_model",
+      "query": "iPhone SE (3rd generation)",
+      "expectedProductIds": [
+        "6af205cf2b3ee012143096fa"
+      ],
+      "returnedProductIds": [
+        "6af205cf2b3ee012143096fa"
+      ],
+      "latencyMs": 278.38,
+      "hit": true
+    },
+    {
+      "id": "110",
+      "type": "brand_model",
+      "query": "Apple dien thoai iPhone SE (3rd generation)",
+      "expectedProductIds": [
+        "6af205cf2b3ee012143096fa"
+      ],
+      "returnedProductIds": [
+        "6af205cf2b3ee012143096fa"
+      ],
+      "latencyMs": 256.05,
+      "hit": true
+    },
+    {
+      "id": "111",
+      "type": "budget",
+      "query": "Apple dien thoai iPhone SE (3rd generation) dưới 5 triệu",
+      "expectedProductIds": [
+        "6af205cf2b3ee012143096fa"
+      ],
+      "returnedProductIds": [
+        "6af205cf2b3ee012143096fa"
+      ],
+      "latencyMs": 211.03,
+      "hit": true
+    },
+    {
+      "id": "112",
+      "type": "natural_language",
+      "query": "Tôi cần Apple dien thoai iPhone SE (3rd generation) 4.7 inch dưới 5 triệu",
+      "expectedProductIds": [
+        "6af205cf2b3ee012143096fa"
+      ],
+      "returnedProductIds": [
+        "6af205cf2b3ee012143096fa"
+      ],
+      "latencyMs": 119.89,
+      "hit": true
+    },
+    {
+      "id": "113",
+      "type": "exact_model",
+      "query": "iPhone 11",
+      "expectedProductIds": [
+        "6af206422b3ee012143096fc"
+      ],
+      "returnedProductIds": [
+        "6af206422b3ee012143096fc",
+        "6af2067d2b3ee012143096fd",
+        "6af29dca2b3ee01214309b61",
+        "6af1fac12b3ee012143096d5",
+        "6af1f55b2b3ee012143096c1",
+        "6af29dca2b3ee01214309b57",
+        "6af29dca2b3ee01214309b5f",
+        "6af1f55b2b3ee012143096c2",
+        "6af29dca2b3ee01214309b5b",
+        "6af29dca2b3ee01214309b58"
+      ],
+      "latencyMs": 565.46,
+      "hit": true
+    },
+    {
+      "id": "114",
+      "type": "brand_model",
+      "query": "Apple dien thoai iPhone 11",
+      "expectedProductIds": [
+        "6af206422b3ee012143096fc"
+      ],
+      "returnedProductIds": [
+        "6af206422b3ee012143096fc",
+        "6af2067d2b3ee012143096fd",
+        "6af29dca2b3ee01214309b61",
+        "6af1fac12b3ee012143096d5",
+        "6af1f55b2b3ee012143096c1",
+        "6af1f55b2b3ee012143096c2",
+        "6af29dca2b3ee01214309b57",
+        "6af2037f2b3ee012143096ef",
+        "6af29dca2b3ee01214309b53",
+        "6af29dc92b3ee01214309b50"
+      ],
+      "latencyMs": 647.81,
+      "hit": true
+    },
+    {
+      "id": "115",
+      "type": "budget",
+      "query": "Apple dien thoai iPhone 11 dưới 5 triệu",
+      "expectedProductIds": [
+        "6af206422b3ee012143096fc"
+      ],
+      "returnedProductIds": [
+        "6af206422b3ee012143096fc",
+        "6af2067d2b3ee012143096fd",
+        "6af29dca2b3ee01214309b61",
+        "6af29dca2b3ee01214309b5c",
+        "6af29dca2b3ee01214309b5f",
+        "6af205cf2b3ee012143096fa",
+        "6af29dca2b3ee01214309b62",
+        "6af29dca2b3ee01214309b5e",
+        "6af4c49500cd88dbdeea88a2"
+      ],
+      "latencyMs": 611.97,
+      "hit": true
+    },
+    {
+      "id": "116",
+      "type": "natural_language",
+      "query": "Tôi cần Apple dien thoai iPhone 11 6.1 inch dưới 5 triệu",
+      "expectedProductIds": [
+        "6af206422b3ee012143096fc"
+      ],
+      "returnedProductIds": [
+        "6af206422b3ee012143096fc",
+        "6af29dca2b3ee01214309b5f"
+      ],
+      "latencyMs": 455.81,
+      "hit": true
+    },
+    {
+      "id": "117",
+      "type": "exact_model",
+      "query": "iPhone 11 Pro",
+      "expectedProductIds": [
+        "6af2067d2b3ee012143096fd"
+      ],
+      "returnedProductIds": [
+        "6af2067d2b3ee012143096fd",
+        "6af29dca2b3ee01214309b61",
+        "6af29dca2b3ee01214309b53",
+        "6af2037f2b3ee012143096ef",
+        "6af29dc92b3ee01214309b50",
+        "6af29dca2b3ee01214309b55",
+        "6af29dca2b3ee01214309b59",
+        "6af206422b3ee012143096fc",
+        "6af205632b3ee012143096f9",
+        "6af29dca2b3ee01214309b56"
+      ],
+      "latencyMs": 614.33,
+      "hit": true
+    },
+    {
+      "id": "118",
+      "type": "brand_model",
+      "query": "Apple dien thoai iPhone 11 Pro",
+      "expectedProductIds": [
+        "6af2067d2b3ee012143096fd"
+      ],
+      "returnedProductIds": [
+        "6af2067d2b3ee012143096fd",
+        "6af29dca2b3ee01214309b61",
+        "6af29dca2b3ee01214309b53",
+        "6af2037f2b3ee012143096ef",
+        "6af29dc92b3ee01214309b50",
+        "6af29dca2b3ee01214309b55",
+        "6af29dca2b3ee01214309b59",
+        "6af206422b3ee012143096fc",
+        "6af205632b3ee012143096f9",
+        "6af29dca2b3ee01214309b56"
+      ],
+      "latencyMs": 673.14,
+      "hit": true
+    },
+    {
+      "id": "119",
+      "type": "budget",
+      "query": "Apple dien thoai iPhone 11 Pro dưới 6 triệu",
+      "expectedProductIds": [
+        "6af2067d2b3ee012143096fd"
+      ],
+      "returnedProductIds": [
+        "6af2067d2b3ee012143096fd",
+        "6af29dca2b3ee01214309b61",
+        "6af2037f2b3ee012143096ef",
+        "6af206422b3ee012143096fc",
+        "6af29dca2b3ee01214309b5c",
+        "6af29dca2b3ee01214309b5f",
+        "6af29dca2b3ee01214309b5d",
+        "6af205cf2b3ee012143096fa",
+        "6af29dca2b3ee01214309b62",
+        "6af4c49500cd88dbdeea88a2"
+      ],
+      "latencyMs": 618.59,
+      "hit": true
+    },
+    {
+      "id": "120",
+      "type": "natural_language",
+      "query": "Tôi cần Apple dien thoai iPhone 11 Pro 5.8 inch dưới 6 triệu",
+      "expectedProductIds": [
+        "6af2067d2b3ee012143096fd"
+      ],
+      "returnedProductIds": [
+        "6af2067d2b3ee012143096fd"
+      ],
+      "latencyMs": 434.56,
+      "hit": true
+    },
+    {
+      "id": "121",
+      "type": "exact_model",
+      "query": "U2713HM",
+      "expectedProductIds": [
+        "6af20c662b3ee01214309706"
+      ],
+      "returnedProductIds": [
+        "6af20c662b3ee01214309706"
+      ],
+      "latencyMs": 418.46,
+      "hit": true
+    },
+    {
+      "id": "122",
+      "type": "brand_model",
+      "query": "Dell man hinh U2713HM",
+      "expectedProductIds": [
+        "6af20c662b3ee01214309706"
+      ],
+      "returnedProductIds": [
+        "6af20c662b3ee01214309706"
+      ],
+      "latencyMs": 126.04,
+      "hit": true
+    },
+    {
+      "id": "123",
+      "type": "budget",
+      "query": "Dell man hinh U2713HM dưới 3 triệu",
+      "expectedProductIds": [
+        "6af20c662b3ee01214309706"
+      ],
+      "returnedProductIds": [
+        "6af20c662b3ee01214309706"
+      ],
+      "latencyMs": 138.27,
+      "hit": true
+    },
+    {
+      "id": "124",
+      "type": "natural_language",
+      "query": "Tôi cần Dell man hinh U2713HM 27 inch dưới 3 triệu",
+      "expectedProductIds": [
+        "6af20c662b3ee01214309706"
+      ],
+      "returnedProductIds": [
+        "6af20c662b3ee01214309706"
+      ],
+      "latencyMs": 120.1,
+      "hit": true
+    },
+    {
+      "id": "125",
+      "type": "exact_model",
+      "query": "iPhone 14 Plus",
+      "expectedProductIds": [
+        "6af29dc92b3ee01214309b4f"
+      ],
+      "returnedProductIds": [
+        "6af29dc92b3ee01214309b4f",
+        "6af1f55b2b3ee012143096c2",
+        "6af29dc92b3ee01214309b50",
+        "6af29dca2b3ee01214309b52",
+        "6af4c49200cd88dbdeea885a",
+        "6af4c49200cd88dbdeea885e",
+        "6af4c49200cd88dbdeea8862",
+        "6af29dca2b3ee01214309b51",
+        "6af4c49200cd88dbdeea886a",
+        "6af4c48700cd88dbdeea8786"
+      ],
+      "latencyMs": 622.34,
+      "hit": true
+    },
+    {
+      "id": "126",
+      "type": "brand_model",
+      "query": "Apple dien thoai iPhone 14 Plus",
+      "expectedProductIds": [
+        "6af29dc92b3ee01214309b4f"
+      ],
+      "returnedProductIds": [
+        "6af29dc92b3ee01214309b4f",
+        "6af1f55b2b3ee012143096c2",
+        "6af29dc92b3ee01214309b50",
+        "6af29dca2b3ee01214309b51",
+        "6af29dca2b3ee01214309b52",
+        "6af4c49200cd88dbdeea885e",
+        "6af4c49200cd88dbdeea885a",
+        "6af4c49200cd88dbdeea8862",
+        "6af4c49200cd88dbdeea886a",
+        "6af4c49100cd88dbdeea8852"
+      ],
+      "latencyMs": 747.9,
+      "hit": true
+    },
+    {
+      "id": "127",
+      "type": "budget",
+      "query": "Apple dien thoai iPhone 14 Plus dưới 11 triệu",
+      "expectedProductIds": [
+        "6af29dc92b3ee01214309b4f"
+      ],
+      "returnedProductIds": [
+        "6af29dc92b3ee01214309b4f",
+        "6af29dca2b3ee01214309b52",
+        "6af206422b3ee012143096fc",
+        "6af2067d2b3ee012143096fd",
+        "6af205632b3ee012143096f9",
+        "6af29dca2b3ee01214309b61",
+        "6af2037f2b3ee012143096ef",
+        "6af29dca2b3ee01214309b5c",
+        "6af205632b3ee012143096f8",
+        "6af29dca2b3ee01214309b5d"
+      ],
+      "latencyMs": 766.46,
+      "hit": true
+    },
+    {
+      "id": "128",
+      "type": "natural_language",
+      "query": "Tôi cần Apple dien thoai iPhone 14 Plus  128GB 6.7 inch dưới 11 triệu",
+      "expectedProductIds": [
+        "6af29dc92b3ee01214309b4f"
+      ],
+      "returnedProductIds": [
+        "6af29dc92b3ee01214309b4f",
+        "6af29dca2b3ee01214309b52",
+        "6af29dca2b3ee01214309b60"
+      ],
+      "latencyMs": 427.71,
+      "hit": true
+    },
+    {
+      "id": "129",
+      "type": "exact_model",
+      "query": "iPhone 14 Pro",
+      "expectedProductIds": [
+        "6af29dc92b3ee01214309b50"
+      ],
+      "returnedProductIds": [
+        "6af29dc92b3ee01214309b50",
+        "6af4c49200cd88dbdeea885a",
+        "6af29dca2b3ee01214309b51",
+        "6af4c49200cd88dbdeea8862",
+        "6af4c49200cd88dbdeea885e",
+        "6af4c49100cd88dbdeea8852",
+        "6af4c49200cd88dbdeea886a",
+        "6af4c49100cd88dbdeea8856",
+        "6af29dca2b3ee01214309b53",
+        "6af1f55b2b3ee012143096c2"
+      ],
+      "latencyMs": 562.09,
+      "hit": true
+    },
+    {
+      "id": "130",
+      "type": "brand_model",
+      "query": "Apple dien thoai iPhone 14 Pro",
+      "expectedProductIds": [
+        "6af29dc92b3ee01214309b50"
+      ],
+      "returnedProductIds": [
+        "6af29dc92b3ee01214309b50",
+        "6af29dca2b3ee01214309b51",
+        "6af4c49200cd88dbdeea885a",
+        "6af4c49200cd88dbdeea885e",
+        "6af4c49200cd88dbdeea8862",
+        "6af1f55b2b3ee012143096c2",
+        "6af4c49200cd88dbdeea886a",
+        "6af4c49100cd88dbdeea8852",
+        "6af29dca2b3ee01214309b53",
+        "6af4c49100cd88dbdeea8856"
+      ],
+      "latencyMs": 672.8,
+      "hit": true
+    },
+    {
+      "id": "131",
+      "type": "budget",
+      "query": "Apple dien thoai iPhone 14 Pro dưới 15 triệu",
+      "expectedProductIds": [
+        "6af29dc92b3ee01214309b50"
+      ],
+      "returnedProductIds": [
+        "6af29dc92b3ee01214309b50",
+        "6af29dca2b3ee01214309b53",
+        "6af29dca2b3ee01214309b51",
+        "6af1f55b2b3ee012143096c2",
+        "6af205632b3ee012143096f9",
+        "6af29dc92b3ee01214309b4f",
+        "6af2037f2b3ee012143096ef",
+        "6af29dca2b3ee01214309b60",
+        "6af2067d2b3ee012143096fd",
+        "6af205632b3ee012143096f8"
+      ],
+      "latencyMs": 603.34,
+      "hit": true
+    },
+    {
+      "id": "132",
+      "type": "natural_language",
+      "query": "Tôi cần Apple dien thoai iPhone 14 Pro  128GB 6.1 inch dưới 15 triệu",
+      "expectedProductIds": [
+        "6af29dc92b3ee01214309b50"
+      ],
+      "returnedProductIds": [
+        "6af29dc92b3ee01214309b50",
+        "6af29dca2b3ee01214309b53",
+        "6af1f55b2b3ee012143096c2"
+      ],
+      "latencyMs": 482.38,
+      "hit": true
+    },
+    {
+      "id": "133",
+      "type": "exact_model",
+      "query": "iPhone 14 Pro Max",
+      "expectedProductIds": [
+        "6af29dca2b3ee01214309b51"
+      ],
+      "returnedProductIds": [
+        "6af29dca2b3ee01214309b51",
+        "6af4c49100cd88dbdeea8852",
+        "6af4c49200cd88dbdeea886a",
+        "6af4c49100cd88dbdeea8856",
+        "6af29dca2b3ee01214309b60",
+        "6af29dca2b3ee01214309b54",
+        "6af29dc92b3ee01214309b50",
+        "6af29dca2b3ee01214309b56",
+        "6af205632b3ee012143096f8",
+        "6af4c49200cd88dbdeea8866"
+      ],
+      "latencyMs": 723.48,
+      "hit": true
+    },
+    {
+      "id": "134",
+      "type": "brand_model",
+      "query": "Apple dien thoai iPhone 14 Pro Max",
+      "expectedProductIds": [
+        "6af29dca2b3ee01214309b51"
+      ],
+      "returnedProductIds": [
+        "6af29dca2b3ee01214309b51",
+        "6af4c49100cd88dbdeea8852",
+        "6af4c49200cd88dbdeea886a",
+        "6af4c49100cd88dbdeea8856",
+        "6af29dc92b3ee01214309b50",
+        "6af29dca2b3ee01214309b54",
+        "6af205632b3ee012143096f8",
+        "6af29dca2b3ee01214309b56",
+        "6af29dca2b3ee01214309b60",
+        "6af4c49200cd88dbdeea8866"
+      ],
+      "latencyMs": 769.16,
+      "hit": true
+    },
+    {
+      "id": "135",
+      "type": "budget",
+      "query": "Apple dien thoai iPhone 14 Pro Max dưới 15 triệu",
+      "expectedProductIds": [
+        "6af29dca2b3ee01214309b51"
+      ],
+      "returnedProductIds": [
+        "6af29dca2b3ee01214309b51",
+        "6af29dca2b3ee01214309b60",
+        "6af205632b3ee012143096f8",
+        "6af29dc92b3ee01214309b50",
+        "6af29dca2b3ee01214309b53",
+        "6af29dca2b3ee01214309b61",
+        "6af1f55b2b3ee012143096c2",
+        "6af29dc92b3ee01214309b4f",
+        "6af205632b3ee012143096f9",
+        "6af2037f2b3ee012143096ef"
+      ],
+      "latencyMs": 615.31,
+      "hit": true
+    },
+    {
+      "id": "136",
+      "type": "natural_language",
+      "query": "Tôi cần Apple dien thoai iPhone 14 Pro Max  128GB 6.7 inch dưới 15 triệu",
+      "expectedProductIds": [
+        "6af29dca2b3ee01214309b51"
+      ],
+      "returnedProductIds": [
+        "6af29dca2b3ee01214309b51",
+        "6af29dca2b3ee01214309b60",
+        "6af29dc92b3ee01214309b4f",
+        "6af29dca2b3ee01214309b52"
+      ],
+      "latencyMs": 513.85,
+      "hit": true
+    },
+    {
+      "id": "137",
+      "type": "exact_model",
+      "query": "iPhone 15 Plus",
+      "expectedProductIds": [
+        "6af29dca2b3ee01214309b52"
+      ],
+      "returnedProductIds": [
+        "6af29dca2b3ee01214309b52",
+        "6af29dc92b3ee01214309b4f",
+        "6af1f55b2b3ee012143096c1",
+        "6af4c48800cd88dbdeea8792",
+        "6af29dca2b3ee01214309b53",
+        "6af4c49300cd88dbdeea8872",
+        "6af29dca2b3ee01214309b54",
+        "6af4c48700cd88dbdeea8786",
+        "6af4c48400cd88dbdeea8746",
+        "6af1f55b2b3ee012143096c2"
+      ],
+      "latencyMs": 632.44,
+      "hit": true
+    },
+    {
+      "id": "138",
+      "type": "brand_model",
+      "query": "Apple dien thoai iPhone 15 Plus",
+      "expectedProductIds": [
+        "6af29dca2b3ee01214309b52"
+      ],
+      "returnedProductIds": [
+        "6af29dca2b3ee01214309b52",
+        "6af1f55b2b3ee012143096c1",
+        "6af29dc92b3ee01214309b4f",
+        "6af29dca2b3ee01214309b53",
+        "6af4c48800cd88dbdeea8792",
+        "6af29dca2b3ee01214309b54",
+        "6af4c49300cd88dbdeea8872",
+        "6af4c48400cd88dbdeea8746",
+        "6af4c48700cd88dbdeea8786",
+        "6af1f55b2b3ee012143096c2"
+      ],
+      "latencyMs": 707.11,
+      "hit": true
+    },
+    {
+      "id": "139",
+      "type": "budget",
+      "query": "Apple dien thoai iPhone 15 Plus dưới 12 triệu",
+      "expectedProductIds": [
+        "6af29dca2b3ee01214309b52"
+      ],
+      "returnedProductIds": [
+        "6af29dca2b3ee01214309b52",
+        "6af29dc92b3ee01214309b4f",
+        "6af29dca2b3ee01214309b53",
+        "6af205632b3ee012143096f9",
+        "6af2037f2b3ee012143096ef",
+        "6af1fac12b3ee012143096d5",
+        "6af29dca2b3ee01214309b5c",
+        "6af29dca2b3ee01214309b5d",
+        "6af29dca2b3ee01214309b60",
+        "6af205632b3ee012143096f8"
+      ],
+      "latencyMs": 578.6,
+      "hit": true
+    },
+    {
+      "id": "140",
+      "type": "natural_language",
+      "query": "Tôi cần Apple dien thoai iPhone 15 Plus  128GB 6.7 inch dưới 12 triệu",
+      "expectedProductIds": [
+        "6af29dca2b3ee01214309b52"
+      ],
+      "returnedProductIds": [
+        "6af29dca2b3ee01214309b52",
+        "6af29dc92b3ee01214309b4f",
+        "6af29dca2b3ee01214309b60",
+        "6af29dca2b3ee01214309b51"
+      ],
+      "latencyMs": 443.78,
+      "hit": true
+    },
+    {
+      "id": "141",
+      "type": "exact_model",
+      "query": "iPhone 15 Pro",
+      "expectedProductIds": [
+        "6af29dca2b3ee01214309b53"
+      ],
+      "returnedProductIds": [
+        "6af29dca2b3ee01214309b53",
+        "6af29dca2b3ee01214309b54",
+        "6af205632b3ee012143096f9",
+        "6af1f55b2b3ee012143096c1",
+        "6af29dca2b3ee01214309b52",
+        "6af29dca2b3ee01214309b55",
+        "6af29dc92b3ee01214309b50",
+        "6af4c48800cd88dbdeea8792",
+        "6af4c49300cd88dbdeea8872",
+        "6af29dca2b3ee01214309b60"
+      ],
+      "latencyMs": 564.47,
+      "hit": true
+    },
+    {
+      "id": "142",
+      "type": "brand_model",
+      "query": "Apple dien thoai iPhone 15 Pro",
+      "expectedProductIds": [
+        "6af29dca2b3ee01214309b53"
+      ],
+      "returnedProductIds": [
+        "6af29dca2b3ee01214309b53",
+        "6af29dca2b3ee01214309b54",
+        "6af205632b3ee012143096f9",
+        "6af1f55b2b3ee012143096c1",
+        "6af29dca2b3ee01214309b55",
+        "6af29dca2b3ee01214309b52",
+        "6af29dca2b3ee01214309b60",
+        "6af29dc92b3ee01214309b50",
+        "6af29dca2b3ee01214309b59",
+        "6af4c48800cd88dbdeea8792"
+      ],
+      "latencyMs": 706.45,
+      "hit": true
+    },
+    {
+      "id": "143",
+      "type": "budget",
+      "query": "Apple dien thoai iPhone 15 Pro dưới 15 triệu",
+      "expectedProductIds": [
+        "6af29dca2b3ee01214309b53"
+      ],
+      "returnedProductIds": [
+        "6af29dca2b3ee01214309b53",
+        "6af205632b3ee012143096f9",
+        "6af29dca2b3ee01214309b52",
+        "6af29dc92b3ee01214309b50",
+        "6af29dca2b3ee01214309b60",
+        "6af2067d2b3ee012143096fd",
+        "6af2037f2b3ee012143096ef",
+        "6af29dca2b3ee01214309b51",
+        "6af205632b3ee012143096f8",
+        "6af1f55b2b3ee012143096c2"
+      ],
+      "latencyMs": 642.68,
+      "hit": true
+    },
+    {
+      "id": "144",
+      "type": "natural_language",
+      "query": "Tôi cần Apple dien thoai iPhone 15 Pro  128GB 6.1 inch dưới 15 triệu",
+      "expectedProductIds": [
+        "6af29dca2b3ee01214309b53"
+      ],
+      "returnedProductIds": [
+        "6af29dca2b3ee01214309b53",
+        "6af29dc92b3ee01214309b50",
+        "6af1f55b2b3ee012143096c2"
+      ],
+      "latencyMs": 456.25,
+      "hit": true
+    },
+    {
+      "id": "145",
+      "type": "exact_model",
+      "query": "iPhone 15 Pro Max",
+      "expectedProductIds": [
+        "6af29dca2b3ee01214309b54"
+      ],
+      "returnedProductIds": [
+        "6af29dca2b3ee01214309b54",
+        "6af29dca2b3ee01214309b60",
+        "6af29dca2b3ee01214309b53",
+        "6af29dca2b3ee01214309b56",
+        "6af29dca2b3ee01214309b51",
+        "6af205632b3ee012143096f8",
+        "6af29dca2b3ee01214309b5a",
+        "6af29dca2b3ee01214309b61",
+        "6af4c49100cd88dbdeea8852",
+        "6af4c49100cd88dbdeea8856"
+      ],
+      "latencyMs": 537.43,
+      "hit": true
+    },
+    {
+      "id": "146",
+      "type": "brand_model",
+      "query": "Apple dien thoai iPhone 15 Pro Max",
+      "expectedProductIds": [
+        "6af29dca2b3ee01214309b54"
+      ],
+      "returnedProductIds": [
+        "6af29dca2b3ee01214309b54",
+        "6af29dca2b3ee01214309b60",
+        "6af29dca2b3ee01214309b53",
+        "6af29dca2b3ee01214309b56",
+        "6af29dca2b3ee01214309b51",
+        "6af205632b3ee012143096f8",
+        "6af29dca2b3ee01214309b5a",
+        "6af29dca2b3ee01214309b61",
+        "6af1f55b2b3ee012143096c1",
+        "6af4c49100cd88dbdeea8852"
+      ],
+      "latencyMs": 650.66,
+      "hit": true
+    },
+    {
+      "id": "147",
+      "type": "budget",
+      "query": "Apple dien thoai iPhone 15 Pro Max dưới 20 triệu",
+      "expectedProductIds": [
+        "6af29dca2b3ee01214309b54"
+      ],
+      "returnedProductIds": [
+        "6af29dca2b3ee01214309b54",
+        "6af29dca2b3ee01214309b60",
+        "6af29dca2b3ee01214309b53",
+        "6af205632b3ee012143096f8",
+        "6af29dca2b3ee01214309b51",
+        "6af29dca2b3ee01214309b61",
+        "6af205632b3ee012143096f9",
+        "6af29dca2b3ee01214309b55",
+        "6af29dca2b3ee01214309b52",
+        "6af29dc92b3ee01214309b50"
+      ],
+      "latencyMs": 638.69,
+      "hit": true
+    },
+    {
+      "id": "148",
+      "type": "natural_language",
+      "query": "Tôi cần Apple dien thoai iPhone 15 Pro Max  256GB 6.7 inch dưới 20 triệu",
+      "expectedProductIds": [
+        "6af29dca2b3ee01214309b54"
+      ],
+      "returnedProductIds": [
+        "6af29dca2b3ee01214309b54"
+      ],
+      "latencyMs": 452.62,
+      "hit": true
+    },
+    {
+      "id": "149",
+      "type": "exact_model",
+      "query": "iPhone 16 Pro",
+      "expectedProductIds": [
+        "6af29dca2b3ee01214309b55"
+      ],
+      "returnedProductIds": [
+        "6af29dca2b3ee01214309b55",
+        "6af29dca2b3ee01214309b56",
+        "6af29dca2b3ee01214309b53",
+        "6af29dc92b3ee01214309b50",
+        "6af29dca2b3ee01214309b59",
+        "6af4c48500cd88dbdeea8756",
+        "6af4c48400cd88dbdeea8746",
+        "6af2037f2b3ee012143096ef",
+        "6af205632b3ee012143096f9",
+        "6af29dca2b3ee01214309b54"
+      ],
+      "latencyMs": 547.29,
+      "hit": true
+    },
+    {
+      "id": "150",
+      "type": "brand_model",
+      "query": "Apple dien thoai iPhone 16 Pro",
+      "expectedProductIds": [
+        "6af29dca2b3ee01214309b55"
+      ],
+      "returnedProductIds": [
+        "6af29dca2b3ee01214309b55",
+        "6af29dca2b3ee01214309b56",
+        "6af29dc92b3ee01214309b50",
+        "6af29dca2b3ee01214309b53",
+        "6af29dca2b3ee01214309b59",
+        "6af205632b3ee012143096f9",
+        "6af2037f2b3ee012143096ef",
+        "6af29dca2b3ee01214309b51",
+        "6af29dca2b3ee01214309b54",
+        "6af4c48400cd88dbdeea8746"
+      ],
+      "latencyMs": 721.14,
+      "hit": true
+    },
+    {
+      "id": "151",
+      "type": "budget",
+      "query": "Apple dien thoai iPhone 16 Pro dưới 22 triệu",
+      "expectedProductIds": [
+        "6af29dca2b3ee01214309b55"
+      ],
+      "returnedProductIds": [
+        "6af29dca2b3ee01214309b55",
+        "6af29dca2b3ee01214309b53",
+        "6af29dc92b3ee01214309b50",
+        "6af2037f2b3ee012143096ef",
+        "6af205632b3ee012143096f9",
+        "6af2067d2b3ee012143096fd",
+        "6af29dca2b3ee01214309b54",
+        "6af29dca2b3ee01214309b51",
+        "6af205632b3ee012143096f8",
+        "6af29dca2b3ee01214309b60"
+      ],
+      "latencyMs": 600.99,
+      "hit": true
+    },
+    {
+      "id": "152",
+      "type": "natural_language",
+      "query": "Tôi cần Apple dien thoai iPhone 16 Pro  128GB 6.3 inch dưới 22 triệu",
+      "expectedProductIds": [
+        "6af29dca2b3ee01214309b55"
+      ],
+      "returnedProductIds": [
+        "6af29dca2b3ee01214309b55",
+        "6af29dc92b3ee01214309b50",
+        "6af29dca2b3ee01214309b53",
+        "6af29dca2b3ee01214309b57",
+        "6af1f55b2b3ee012143096c1",
+        "6af29dca2b3ee01214309b5b",
+        "6af1f55b2b3ee012143096c2"
+      ],
+      "latencyMs": 437.41,
+      "hit": true
+    },
+    {
+      "id": "153",
+      "type": "exact_model",
+      "query": "iPhone 16 Pro Max",
+      "expectedProductIds": [
+        "6af29dca2b3ee01214309b56"
+      ],
+      "returnedProductIds": [
+        "6af29dca2b3ee01214309b56",
+        "6af29dca2b3ee01214309b51",
+        "6af29dca2b3ee01214309b54",
+        "6af29dca2b3ee01214309b55",
+        "6af29dca2b3ee01214309b5a",
+        "6af205632b3ee012143096f8",
+        "6af29dca2b3ee01214309b60",
+        "6af29dca2b3ee01214309b61",
+        "6af4c49100cd88dbdeea8852",
+        "6af4c49400cd88dbdeea8892"
+      ],
+      "latencyMs": 516.21,
+      "hit": true
+    },
+    {
+      "id": "154",
+      "type": "brand_model",
+      "query": "Apple dien thoai iPhone 16 Pro Max",
+      "expectedProductIds": [
+        "6af29dca2b3ee01214309b56"
+      ],
+      "returnedProductIds": [
+        "6af29dca2b3ee01214309b56",
+        "6af29dca2b3ee01214309b55",
+        "6af29dca2b3ee01214309b51",
+        "6af29dca2b3ee01214309b54",
+        "6af205632b3ee012143096f8",
+        "6af29dca2b3ee01214309b60",
+        "6af29dca2b3ee01214309b5a",
+        "6af29dca2b3ee01214309b61",
+        "6af4c49400cd88dbdeea8892",
+        "6af29dc92b3ee01214309b50"
+      ],
+      "latencyMs": 696.4,
+      "hit": true
+    },
+    {
+      "id": "155",
+      "type": "budget",
+      "query": "Apple dien thoai iPhone 16 Pro Max dưới 30 triệu",
+      "expectedProductIds": [
+        "6af29dca2b3ee01214309b56"
+      ],
+      "returnedProductIds": [
+        "6af29dca2b3ee01214309b56",
+        "6af29dca2b3ee01214309b55",
+        "6af29dca2b3ee01214309b51",
+        "6af29dca2b3ee01214309b54",
+        "6af205632b3ee012143096f8",
+        "6af29dca2b3ee01214309b60",
+        "6af29dca2b3ee01214309b61",
+        "6af4c49100cd88dbdeea8852",
+        "6af29dca2b3ee01214309b53",
+        "6af29dc92b3ee01214309b50"
+      ],
+      "latencyMs": 612.54,
+      "hit": true
+    },
+    {
+      "id": "156",
+      "type": "natural_language",
+      "query": "Tôi cần Apple dien thoai iPhone 16 Pro Max  256GB 6.9 inch dưới 30 triệu",
+      "expectedProductIds": [
+        "6af29dca2b3ee01214309b56"
+      ],
+      "returnedProductIds": [
+        "6af29dca2b3ee01214309b56",
+        "6af29dca2b3ee01214309b54"
+      ],
+      "latencyMs": 476.83,
+      "hit": true
+    },
+    {
+      "id": "157",
+      "type": "exact_model",
+      "query": "iPhone 16e",
+      "expectedProductIds": [
+        "6af29dca2b3ee01214309b57"
+      ],
+      "returnedProductIds": [
+        "6af29dca2b3ee01214309b57",
+        "6af4c48700cd88dbdeea877e"
+      ],
+      "latencyMs": 214.47,
+      "hit": true
+    },
+    {
+      "id": "158",
+      "type": "brand_model",
+      "query": "Apple dien thoai iPhone 16e",
+      "expectedProductIds": [
+        "6af29dca2b3ee01214309b57"
+      ],
+      "returnedProductIds": [
+        "6af29dca2b3ee01214309b57",
+        "6af4c48700cd88dbdeea877e"
+      ],
+      "latencyMs": 308.56,
+      "hit": true
+    },
+    {
+      "id": "159",
+      "type": "budget",
+      "query": "Apple dien thoai iPhone 16e dưới 23 triệu",
+      "expectedProductIds": [
+        "6af29dca2b3ee01214309b57"
+      ],
+      "returnedProductIds": [
+        "6af29dca2b3ee01214309b57",
+        "6af4c48700cd88dbdeea877e"
+      ],
+      "latencyMs": 212.64,
+      "hit": true
+    },
+    {
+      "id": "160",
+      "type": "natural_language",
+      "query": "Tôi cần Apple dien thoai iPhone 16e  128GB 6.1 inch dưới 23 triệu",
+      "expectedProductIds": [
+        "6af29dca2b3ee01214309b57"
+      ],
+      "returnedProductIds": [
+        "6af29dca2b3ee01214309b57"
+      ],
+      "latencyMs": 131.44,
+      "hit": true
+    },
+    {
+      "id": "161",
+      "type": "no_result",
+      "query": "laptop model QZ900001NO",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 60.97,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "162",
+      "type": "no_result",
+      "query": "laptop model QZ900002NO",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 57.82,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "163",
+      "type": "no_result",
+      "query": "laptop model QZ900003NO",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 59.4,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "164",
+      "type": "no_result",
+      "query": "laptop model QZ900004NO",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 62.48,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "165",
+      "type": "no_result",
+      "query": "laptop model QZ900005NO",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 65.61,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "166",
+      "type": "no_result",
+      "query": "laptop model QZ900006NO",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 58.22,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "167",
+      "type": "no_result",
+      "query": "laptop model QZ900007NO",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 63.37,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "168",
+      "type": "no_result",
+      "query": "laptop model QZ900008NO",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 63.38,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "169",
+      "type": "no_result",
+      "query": "laptop model QZ900009NO",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 60.7,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "170",
+      "type": "no_result",
+      "query": "laptop model QZ900010NO",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 62.85,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "171",
+      "type": "no_result",
+      "query": "laptop model QZ900011NO",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 66.44,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "172",
+      "type": "no_result",
+      "query": "laptop model QZ900012NO",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 65.74,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "173",
+      "type": "no_result",
+      "query": "laptop model QZ900013NO",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 65.42,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "174",
+      "type": "no_result",
+      "query": "laptop model QZ900014NO",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 62.3,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "175",
+      "type": "no_result",
+      "query": "laptop model QZ900015NO",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 66.57,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "176",
+      "type": "no_result",
+      "query": "laptop model QZ900016NO",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 67.28,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "177",
+      "type": "no_result",
+      "query": "laptop model QZ900017NO",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 63.36,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "178",
+      "type": "no_result",
+      "query": "laptop model QZ900018NO",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 62.83,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "179",
+      "type": "no_result",
+      "query": "laptop model QZ900019NO",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 64.53,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "180",
+      "type": "no_result",
+      "query": "laptop model QZ900020NO",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 69.84,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "181",
+      "type": "no_result",
+      "query": "laptop RAM 4096GB",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 0.46,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "182",
+      "type": "no_result",
+      "query": "laptop RAM 8192GB",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 0.18,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "183",
+      "type": "no_result",
+      "query": "laptop RAM 16384GB",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 0.12,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "184",
+      "type": "no_result",
+      "query": "laptop RAM 32768GB",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 0.1,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "185",
+      "type": "no_result",
+      "query": "laptop RAM 65536GB",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 0.1,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "186",
+      "type": "no_result",
+      "query": "laptop RAM 8192GB",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 0.1,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "187",
+      "type": "no_result",
+      "query": "laptop RAM 16384GB",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 0.1,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "188",
+      "type": "no_result",
+      "query": "laptop RAM 32768GB",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 0.17,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "189",
+      "type": "no_result",
+      "query": "laptop RAM 65536GB",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 0.19,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "190",
+      "type": "no_result",
+      "query": "laptop RAM 131072GB",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 0.19,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "191",
+      "type": "no_result",
+      "query": "laptop RAM 12288GB",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 0.17,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "192",
+      "type": "no_result",
+      "query": "laptop RAM 24576GB",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 0.21,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "193",
+      "type": "no_result",
+      "query": "laptop RAM 49152GB",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 0.15,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "194",
+      "type": "no_result",
+      "query": "laptop RAM 98304GB",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 0.07,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "195",
+      "type": "no_result",
+      "query": "laptop RAM 196608GB",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 0.04,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "196",
+      "type": "no_result",
+      "query": "laptop RAM 16384GB",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 0.03,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "197",
+      "type": "no_result",
+      "query": "laptop RAM 32768GB",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 0.03,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "198",
+      "type": "no_result",
+      "query": "laptop RAM 65536GB",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 0.03,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "199",
+      "type": "no_result",
+      "query": "laptop RAM 131072GB",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 0.03,
+      "hit": false,
+      "noResultCorrect": true
+    },
+    {
+      "id": "200",
+      "type": "no_result",
+      "query": "laptop RAM 262144GB",
+      "expectedProductIds": [],
+      "returnedProductIds": [],
+      "latencyMs": 0.03,
+      "hit": false,
+      "noResultCorrect": true
+    }
+  ]
+}

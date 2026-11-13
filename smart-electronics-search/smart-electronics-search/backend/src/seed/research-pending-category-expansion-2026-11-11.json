@@ -1,0 +1,2797 @@
+[
+  {
+    "sourceKey": "web-research:amd:ryzen-7-4700g",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 4000 Series (Zen 2)",
+    "model": "Ryzen 7 4700G",
+    "modelNumber": "4700G",
+    "name": "AMD Ryzen 7 4700G with Radeon Graphics Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2020,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 8,
+      "threads": 16,
+      "maxBoostClock": "4.4 GHz",
+      "baseClock": "3.6 GHz",
+      "l2Cache": "4 MB",
+      "l3Cache": "8 MB",
+      "defaultTdp": "65 W",
+      "architecture": "Zen 2",
+      "socket": "AM4",
+      "pcieSupport": "Gen 3",
+      "graphicsModel": "Radeon Graphics",
+      "graphicsCores": 8,
+      "integratedGraphics": true,
+      "availability": "OEM only"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700g.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700g.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700g.html",
+        "notes": "Exact AMD support/specification page identifies the Ryzen 7 4700G, Ryzen 4000 Series, and OEM-only distribution."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700g.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 7 4700G."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700g.html",
+        "notes": "The AMD page title and specification section identify Ryzen 7 4700G; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Manufacturer identifies this SKU as OEM only; current lifecycle status and image reuse permission are unverified."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-7-4700ge",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 4000 Series (Zen 2)",
+    "model": "Ryzen 7 4700GE",
+    "modelNumber": "4700GE",
+    "name": "AMD Ryzen 7 4700GE with Radeon Graphics Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2020,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 8,
+      "threads": 16,
+      "maxBoostClock": "4.3 GHz",
+      "baseClock": "3.1 GHz",
+      "totalCache": "12 MB",
+      "defaultTdp": "35 W",
+      "architecture": "Zen 2",
+      "graphicsModel": "Radeon Graphics",
+      "graphicsCores": 8,
+      "integratedGraphics": true,
+      "availability": "OEM/SI only"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700ge.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700ge.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700ge.html",
+        "notes": "Exact AMD support/specification page identifies the Ryzen 7 4700GE; AMD's 2020 Ryzen 4000G announcement lists this OEM/SI SKU."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700ge.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 7 4700GE."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-7-4700ge.html",
+        "notes": "The AMD page title and specification section identify Ryzen 7 4700GE; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Manufacturer identifies this SKU as OEM/SI-only; current lifecycle status and image reuse permission are unverified."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-4600g",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 4000 Series (Zen 2)",
+    "model": "Ryzen 5 4600G",
+    "modelNumber": "4600G",
+    "name": "AMD Ryzen 5 4600G with Radeon Graphics Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2020,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "4.2 GHz",
+      "baseClock": "3.7 GHz",
+      "l2Cache": "3 MB",
+      "l3Cache": "8 MB",
+      "defaultTdp": "65 W",
+      "architecture": "Zen 2",
+      "socket": "AM4",
+      "pcieSupport": "Gen 3",
+      "graphicsModel": "Radeon Graphics",
+      "graphicsCores": 7,
+      "integratedGraphics": true
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600g.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600g.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600g.html",
+        "notes": "Exact AMD support/specification page identifies the Ryzen 5 4600G and Ryzen 4000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600g.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 4600G."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600g.html",
+        "notes": "The AMD page title and specification section identify Ryzen 5 4600G; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Current lifecycle status and image reuse permission are unverified."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-4600ge",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 4000 Series (Zen 2)",
+    "model": "Ryzen 5 4600GE",
+    "modelNumber": "4600GE",
+    "name": "AMD Ryzen 5 4600GE with Radeon Graphics Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2020,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "4.2 GHz",
+      "baseClock": "3.3 GHz",
+      "totalCache": "11 MB",
+      "defaultTdp": "35 W",
+      "architecture": "Zen 2",
+      "graphicsModel": "Radeon Graphics",
+      "graphicsCores": 7,
+      "integratedGraphics": true,
+      "availability": "OEM/SI only"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600ge.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600ge.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600ge.html",
+        "notes": "Exact AMD support/specification page identifies the Ryzen 5 4600GE; AMD's 2020 Ryzen 4000G announcement lists this OEM/SI SKU."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600ge.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 4600GE."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4600ge.html",
+        "notes": "The AMD page title and specification section identify Ryzen 5 4600GE; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Manufacturer identifies this SKU as OEM/SI-only; current lifecycle status and image reuse permission are unverified."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-4500",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 4000 Series (Zen 2)",
+    "model": "Ryzen 5 4500",
+    "modelNumber": "4500",
+    "name": "AMD Ryzen 5 4500 Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2022,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "4.1 GHz",
+      "baseClock": "3.6 GHz",
+      "l2Cache": "3 MB",
+      "l3Cache": "8 MB",
+      "defaultTdp": "65 W",
+      "architecture": "Zen 2",
+      "socket": "AM4",
+      "pcieSupport": "Gen 3",
+      "integratedGraphics": false
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4500.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4500.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4500.html",
+        "notes": "Exact AMD support/specification page identifies the Ryzen 5 4500, Ryzen 4000 Series, and April 2022 launch date."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4500.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 4500."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-5-4500.html",
+        "notes": "The AMD page title and specification section identify Ryzen 5 4500; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Current lifecycle status and image reuse permission are unverified."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-3-4300g",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 4000 Series (Zen 2)",
+    "model": "Ryzen 3 4300G",
+    "modelNumber": "4300G",
+    "name": "AMD Ryzen 3 4300G with Radeon Graphics Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2020,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 4,
+      "threads": 8,
+      "maxBoostClock": "4.0 GHz",
+      "baseClock": "3.8 GHz",
+      "l2Cache": "2 MB",
+      "l3Cache": "4 MB",
+      "defaultTdp": "65 W",
+      "architecture": "Zen 2",
+      "socket": "AM4",
+      "pcieSupport": "Gen 3",
+      "graphicsModel": "Radeon Graphics",
+      "graphicsCores": 6,
+      "integratedGraphics": true,
+      "availability": "OEM only"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300g.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300g.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300g.html",
+        "notes": "Exact AMD support/specification page identifies Ryzen 3 4300G, Ryzen 4000 Series, and OEM-only distribution."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300g.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 3 4300G."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300g.html",
+        "notes": "The AMD page title and specification section identify Ryzen 3 4300G; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Manufacturer identifies this SKU as OEM only; current lifecycle status and image reuse permission are unverified."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-3-4300ge",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 4000 Series (Zen 2)",
+    "model": "Ryzen 3 4300GE",
+    "modelNumber": "4300GE",
+    "name": "AMD Ryzen 3 4300GE with Radeon Graphics Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2020,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 4,
+      "threads": 8,
+      "maxBoostClock": "4.0 GHz",
+      "baseClock": "3.5 GHz",
+      "totalCache": "6 MB",
+      "defaultTdp": "35 W",
+      "architecture": "Zen 2",
+      "graphicsModel": "Radeon Graphics",
+      "graphicsCores": 6,
+      "integratedGraphics": true,
+      "availability": "OEM/SI only"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300ge.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300ge.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300ge.html",
+        "notes": "Exact AMD support/specification page identifies the Ryzen 3 4300GE; AMD's 2020 Ryzen 4000G announcement lists this OEM/SI SKU."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300ge.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 3 4300GE."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4300ge.html",
+        "notes": "The AMD page title and specification section identify Ryzen 3 4300GE; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Manufacturer identifies this SKU as OEM/SI-only; current lifecycle status and image reuse permission are unverified."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-3-4100",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 4000 Series (Zen 2)",
+    "model": "Ryzen 3 4100",
+    "modelNumber": "4100",
+    "name": "AMD Ryzen 3 4100 Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2022,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 4,
+      "threads": 8,
+      "maxBoostClock": "4.0 GHz",
+      "baseClock": "3.8 GHz",
+      "totalCache": "6 MB",
+      "defaultTdp": "65 W",
+      "architecture": "Zen 2",
+      "pcieSupport": "Gen 3",
+      "socket": "AM4"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4100.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4100.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4100.html",
+        "notes": "Exact AMD support/specification page identifies Ryzen 3 4100 and its Ryzen 4000 Series placement."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4100.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 3 4100."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-4000-series/amd-ryzen-3-4100.html",
+        "notes": "The AMD page title and specification section identify Ryzen 3 4100; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Current lifecycle status and image reuse permission are unverified."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-9-5900xt",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 5000 Series (Zen 3)",
+    "model": "Ryzen 9 5900XT",
+    "modelNumber": "5900XT",
+    "name": "AMD Ryzen 9 5900XT Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2024,
+    "productStatus": "unknown",
+    "description": "AMD Ryzen 5000 Series desktop processor.",
+    "specifications": {
+      "cores": 16,
+      "threads": 32,
+      "maxBoostClock": "4.8 GHz",
+      "baseClock": "3.3 GHz",
+      "totalCache": "72 MB",
+      "pcieSupport": "Gen 4",
+      "defaultTdp": "105 W",
+      "architecture": "Zen 3"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-9-5900xt.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-9-5900xt.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/newsroom/press-releases/2024-6-2-amd-unveils-next-gen-zen-5-ryzen-processors-to-p.html",
+        "notes": "AMD's 2024 release announces the Ryzen 9 5900XT by name and states the launch window."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-9-5900xt.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 9 5900XT."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-9-5900xt.html",
+        "notes": "The AMD page title and specification section identify Ryzen 9 5900XT; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-7-5700x3d",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 5000 Series (Zen 3)",
+    "model": "Ryzen 7 5700X3D",
+    "modelNumber": "5700X3D",
+    "name": "AMD Ryzen 7 5700X3D Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2024,
+    "productStatus": "unknown",
+    "description": "AMD Ryzen 5000 Series desktop processor.",
+    "specifications": {
+      "cores": 8,
+      "threads": 16,
+      "maxBoostClock": "4.1 GHz",
+      "baseClock": "3.0 GHz",
+      "totalCache": "100 MB",
+      "pcieSupport": "Gen 4",
+      "defaultTdp": "105 W",
+      "architecture": "Zen 3"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1177/amd-reveals-next-gen-desktop-processors-for-extreme-pc-gaming-and-creator-performance",
+        "notes": "AMD's January 2024 release names this exact processor and its expected availability date."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 7 5700X3D."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700x3d.html",
+        "notes": "The AMD page title and specification section identify Ryzen 7 5700X3D; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-7-5800xt",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 5000 Series (Zen 3)",
+    "model": "Ryzen 7 5800XT",
+    "modelNumber": "5800XT",
+    "name": "AMD Ryzen 7 5800XT Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2024,
+    "productStatus": "unknown",
+    "description": "AMD Ryzen 5000 Series desktop processor.",
+    "specifications": {
+      "cores": 8,
+      "threads": 16,
+      "maxBoostClock": "4.8 GHz",
+      "baseClock": "3.8 GHz",
+      "totalCache": "36 MB",
+      "pcieSupport": "Gen 4",
+      "defaultTdp": "105 W",
+      "architecture": "Zen 3"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5800xt.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5800xt.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/newsroom/press-releases/2024-6-2-amd-unveils-next-gen-zen-5-ryzen-processors-to-p.html",
+        "notes": "AMD's 2024 release announces the Ryzen 7 5800XT by name and states the launch window."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5800xt.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 7 5800XT."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5800xt.html",
+        "notes": "The AMD page title and specification section identify Ryzen 7 5800XT; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-7-5700g",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 5000 Series (Zen 3)",
+    "model": "Ryzen 7 5700G",
+    "modelNumber": "5700G",
+    "name": "AMD Ryzen 7 5700G with Radeon Graphics Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2021,
+    "productStatus": "unknown",
+    "description": "AMD Ryzen 5000 Series desktop processor.",
+    "specifications": {
+      "cores": 8,
+      "threads": 16,
+      "maxBoostClock": "4.6 GHz",
+      "baseClock": "3.8 GHz",
+      "totalCache": "20 MB",
+      "pcieSupport": "Gen 3",
+      "defaultTdp": "65 W",
+      "architecture": "Zen 3"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700g.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700g.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/newsroom/press-releases/2021-5-31-amd-showcases-industry-leading-innovation-across-t.html",
+        "notes": "AMD's May 2021 COMPUTEX announcement names the Ryzen 7 5700G and states it is a 5000G desktop APU."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700g.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 7 5700G."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700g.html",
+        "notes": "The AMD page title and specification section identify Ryzen 7 5700G; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-7-5700",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 5000 Series (Zen 3)",
+    "model": "Ryzen 7 5700",
+    "modelNumber": "5700",
+    "name": "AMD Ryzen 7 5700 Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2024,
+    "productStatus": "unknown",
+    "description": "AMD Ryzen 5000 Series desktop processor.",
+    "specifications": {
+      "cores": 8,
+      "threads": 16,
+      "maxBoostClock": "4.6 GHz",
+      "baseClock": "3.7 GHz",
+      "totalCache": "20 MB",
+      "pcieSupport": "Gen 3",
+      "defaultTdp": "65 W",
+      "architecture": "Zen 3"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1177/amd-reveals-next-gen-desktop-processors-for-extreme-pc-gaming-and-creator-performance",
+        "notes": "AMD's January 2024 release names the Ryzen 7 5700 and its expected availability."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 7 5700."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700.html",
+        "notes": "The AMD page title and specification section identify Ryzen 7 5700; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-5600x3d",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 5000 Series (Zen 3)",
+    "model": "Ryzen 5 5600X3D",
+    "modelNumber": "5600X3D",
+    "name": "AMD Ryzen 5 5600X3D Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2023,
+    "productStatus": "unknown",
+    "description": "AMD Ryzen 5000 Series desktop processor.",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "4.4 GHz",
+      "baseClock": "3.3 GHz",
+      "totalCache": "99 MB",
+      "pcieSupport": "Gen 4",
+      "defaultTdp": "105 W",
+      "architecture": "Zen 3"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600x3d.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600x3d.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1163/amd-reports-third-quarter-2023-financial-results",
+        "notes": "AMD's Q3 2023 report confirms the Ryzen 5 5600X3D launch; AMD's July 2024 QRG provides its exact SKU specifications."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600x3d.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 5600X3D."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600x3d.html",
+        "notes": "The AMD page title and specification section identify Ryzen 5 5600X3D; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-5600gt",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 5000 Series (Zen 3)",
+    "model": "Ryzen 5 5600GT",
+    "modelNumber": "5600GT",
+    "name": "AMD Ryzen 5 5600GT Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2024,
+    "productStatus": "unknown",
+    "description": "AMD Ryzen 5000 Series desktop processor.",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "4.6 GHz",
+      "baseClock": "3.6 GHz",
+      "totalCache": "19 MB",
+      "pcieSupport": "Gen 3",
+      "defaultTdp": "65 W",
+      "architecture": "Zen 3"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600gt.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600gt.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1177/amd-reveals-next-gen-desktop-processors-for-extreme-pc-gaming-and-creator-performance",
+        "notes": "AMD's January 2024 release names this exact processor and its expected availability date."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600gt.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 5600GT."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600gt.html",
+        "notes": "The AMD page title and specification section identify Ryzen 5 5600GT; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-5600",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 5000 Series (Zen 3)",
+    "model": "Ryzen 5 5600",
+    "modelNumber": "5600",
+    "name": "AMD Ryzen 5 5600 Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2022,
+    "productStatus": "unknown",
+    "description": "AMD Ryzen 5000 Series desktop processor.",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "4.4 GHz",
+      "baseClock": "3.5 GHz",
+      "totalCache": "35 MB",
+      "pcieSupport": "Gen 4",
+      "defaultTdp": "65 W",
+      "architecture": "Zen 3"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1053/amd-launches-the-ultimate-gaming-processor-brings-enthusiast-performance-to-an-expanded-lineup-of-ryzen-desktop-processors",
+        "notes": "AMD's March 2022 release identifies the Ryzen 5 5600 and availability beginning April 2022."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 5600."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600.html",
+        "notes": "The AMD page title and specification section identify Ryzen 5 5600; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-5500gt",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 5000 Series (Zen 3)",
+    "model": "Ryzen 5 5500GT",
+    "modelNumber": "5500GT",
+    "name": "AMD Ryzen 5 5500GT Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2024,
+    "productStatus": "unknown",
+    "description": "AMD Ryzen 5000 Series desktop processor.",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "4.4 GHz",
+      "baseClock": "3.6 GHz",
+      "totalCache": "19 MB",
+      "pcieSupport": "Gen 3",
+      "defaultTdp": "65 W",
+      "architecture": "Zen 3"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500gt.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500gt.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1177/amd-reveals-next-gen-desktop-processors-for-extreme-pc-gaming-and-creator-performance",
+        "notes": "AMD's January 2024 release names this exact processor and its expected availability date."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500gt.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 5500GT."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500gt.html",
+        "notes": "The AMD page title and specification section identify Ryzen 5 5500GT; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-5500",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 5000 Series (Zen 3)",
+    "model": "Ryzen 5 5500",
+    "modelNumber": "5500",
+    "name": "AMD Ryzen 5 5500 Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2022,
+    "productStatus": "unknown",
+    "description": "AMD Ryzen 5000 Series desktop processor.",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "4.2 GHz",
+      "baseClock": "3.6 GHz",
+      "totalCache": "19 MB",
+      "pcieSupport": "Gen 3",
+      "defaultTdp": "65 W",
+      "architecture": "Zen 3"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1053/amd-launches-the-ultimate-gaming-processor-brings-enthusiast-performance-to-an-expanded-lineup-of-ryzen-desktop-processors",
+        "notes": "AMD's March 2022 release identifies the Ryzen 5 5500 and availability beginning April 2022."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 5500."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500.html",
+        "notes": "The AMD page title and specification section identify Ryzen 5 5500; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-5500x3d",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 5000 Series (Zen 3)",
+    "model": "Ryzen 5 5500X3D",
+    "modelNumber": "5500X3D",
+    "name": "AMD Ryzen 5 5500X3D Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2025,
+    "productStatus": "unknown",
+    "description": "AMD Ryzen 5000 Series desktop processor.",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "4.0 GHz",
+      "baseClock": "3.0 GHz",
+      "l2Cache": "3 MB",
+      "l3Cache": "96 MB",
+      "defaultTdp": "105 W",
+      "architecture": "Zen 3",
+      "socket": "AM4",
+      "regionalAvailability": "LATAM"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500x3d.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500x3d.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5500x3d.html",
+        "notes": "Exact AMD product page identifies Ryzen 5 5500X3D, Ryzen 5000 Series, Zen 3, and LATAM availability."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500x3d.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 5500X3D."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5500x3d.html",
+        "notes": "The AMD page title and specification section identify Ryzen 5 5500X3D; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Current product lifecycle status and exact-model image permission remain unverified."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-5600xt",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 5000 Series (Zen 3)",
+    "model": "Ryzen 5 5600XT",
+    "modelNumber": "5600XT",
+    "name": "AMD Ryzen 5 5600XT Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2024,
+    "productStatus": "unknown",
+    "description": "AMD Ryzen 5000 Series desktop processor.",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "4.7 GHz",
+      "baseClock": "3.7 GHz",
+      "l2Cache": "3 MB",
+      "l3Cache": "32 MB",
+      "defaultTdp": "65 W",
+      "architecture": "Zen 3",
+      "socket": "AM4"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600xt.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600xt.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5600xt.html",
+        "notes": "Exact AMD product page identifies Ryzen 5 5600XT, Ryzen 5000 Series, and Zen 3."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600xt.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 5600XT."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-5-5600xt.html",
+        "notes": "The AMD page title and specification section identify Ryzen 5 5600XT; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Current product lifecycle status and exact-model image permission remain unverified."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-7-pro-4750ge",
+    "brand": "AMD",
+    "family": "AMD Ryzen PRO Desktop Processors",
+    "generation": "Ryzen PRO 4000 Series (Zen 2)",
+    "model": "Ryzen 7 PRO 4750GE",
+    "modelNumber": "4750GE",
+    "name": "AMD Ryzen 7 PRO 4750GE Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2020,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 8,
+      "threads": 16,
+      "maxBoostClock": "4.3 GHz",
+      "baseClock": "3.1 GHz",
+      "l2Cache": "4 MB",
+      "l3Cache": "8 MB",
+      "defaultTdp": "35 W",
+      "architecture": "Zen 2",
+      "socket": "AM4",
+      "pcieSupport": "Gen 3",
+      "graphicsModel": "Radeon Graphics",
+      "graphicsCores": 8,
+      "integratedGraphics": true
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-7-pro-4750ge.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-7-pro-4750ge.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-7-pro-4750ge.html",
+        "notes": "Exact AMD support/specification page identifies Ryzen 7 PRO 4750GE and Ryzen PRO 4000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-7-pro-4750ge.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 7 PRO 4750GE."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-7-pro-4750ge.html",
+        "notes": "The AMD page title and specification section identify Ryzen 7 PRO 4750GE; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Current lifecycle status and image reuse permission are unverified; this PRO model was released for OEM/system-integrator systems."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-pro-4650g",
+    "brand": "AMD",
+    "family": "AMD Ryzen PRO Desktop Processors",
+    "generation": "Ryzen PRO 4000 Series (Zen 2)",
+    "model": "Ryzen 5 PRO 4650G",
+    "modelNumber": "4650G",
+    "name": "AMD Ryzen 5 PRO 4650G Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2020,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "4.2 GHz",
+      "baseClock": "3.7 GHz",
+      "l2Cache": "3 MB",
+      "l3Cache": "8 MB",
+      "defaultTdp": "65 W",
+      "architecture": "Zen 2",
+      "socket": "AM4",
+      "pcieSupport": "Gen 3",
+      "graphicsModel": "Radeon Graphics",
+      "graphicsCores": 7,
+      "integratedGraphics": true
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650g.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650g.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650g.html",
+        "notes": "Exact AMD support/specification page identifies Ryzen 5 PRO 4650G and Ryzen PRO 4000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650g.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 PRO 4650G."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650g.html",
+        "notes": "The AMD page title and specification section identify Ryzen 5 PRO 4650G; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Current lifecycle status and image reuse permission are unverified; this PRO model was released for OEM/system-integrator systems."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-pro-4650ge",
+    "brand": "AMD",
+    "family": "AMD Ryzen PRO Desktop Processors",
+    "generation": "Ryzen PRO 4000 Series (Zen 2)",
+    "model": "Ryzen 5 PRO 4650GE",
+    "modelNumber": "4650GE",
+    "name": "AMD Ryzen 5 PRO 4650GE Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2020,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "4.2 GHz",
+      "baseClock": "3.3 GHz",
+      "l2Cache": "3 MB",
+      "l3Cache": "8 MB",
+      "defaultTdp": "35 W",
+      "architecture": "Zen 2",
+      "socket": "AM4",
+      "pcieSupport": "Gen 3",
+      "graphicsModel": "Radeon Graphics",
+      "graphicsCores": 7,
+      "integratedGraphics": true
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650ge.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650ge.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650ge.html",
+        "notes": "Exact AMD support/specification page identifies Ryzen 5 PRO 4650GE and Ryzen PRO 4000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650ge.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 PRO 4650GE."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650ge.html",
+        "notes": "The AMD page title and specification section identify Ryzen 5 PRO 4650GE; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Current lifecycle status and image reuse permission are unverified; this PRO model was released for OEM/system-integrator systems."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-3-pro-4350g",
+    "brand": "AMD",
+    "family": "AMD Ryzen PRO Desktop Processors",
+    "generation": "Ryzen PRO 4000 Series (Zen 2)",
+    "model": "Ryzen 3 PRO 4350G",
+    "modelNumber": "4350G",
+    "name": "AMD Ryzen 3 PRO 4350G Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2020,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 4,
+      "threads": 8,
+      "maxBoostClock": "4.0 GHz",
+      "baseClock": "3.8 GHz",
+      "l2Cache": "2 MB",
+      "l3Cache": "4 MB",
+      "defaultTdp": "65 W",
+      "architecture": "Zen 2",
+      "socket": "AM4",
+      "pcieSupport": "Gen 3",
+      "graphicsModel": "Radeon Graphics",
+      "graphicsCores": 6,
+      "integratedGraphics": true
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350g.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350g.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350g.html",
+        "notes": "Exact AMD support/specification page identifies Ryzen 3 PRO 4350G and Ryzen PRO 4000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350g.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 3 PRO 4350G."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350g.html",
+        "notes": "The AMD page title and specification section identify Ryzen 3 PRO 4350G; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Current lifecycle status and image reuse permission are unverified; this PRO model was released for OEM/system-integrator systems."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-3-pro-4350ge",
+    "brand": "AMD",
+    "family": "AMD Ryzen PRO Desktop Processors",
+    "generation": "Ryzen PRO 4000 Series (Zen 2)",
+    "model": "Ryzen 3 PRO 4350GE",
+    "modelNumber": "4350GE",
+    "name": "AMD Ryzen 3 PRO 4350GE Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2020,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 4,
+      "threads": 8,
+      "maxBoostClock": "4.0 GHz",
+      "baseClock": "3.5 GHz",
+      "l2Cache": "2 MB",
+      "l3Cache": "4 MB",
+      "defaultTdp": "35 W",
+      "architecture": "Zen 2",
+      "socket": "AM4",
+      "pcieSupport": "Gen 3",
+      "graphicsModel": "Radeon Vega 6 Graphics",
+      "graphicsCores": 6,
+      "integratedGraphics": true
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350ge.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350ge.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350ge.html",
+        "notes": "Exact AMD support/specification page identifies Ryzen 3 PRO 4350GE and Ryzen PRO 4000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350ge.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 3 PRO 4350GE."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350ge.html",
+        "notes": "The AMD page title and specification section identify Ryzen 3 PRO 4350GE; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Current lifecycle status and image reuse permission are unverified; this PRO model was released for OEM/system-integrator systems."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-pro-4655g",
+    "brand": "AMD",
+    "family": "AMD Ryzen PRO Desktop Processors",
+    "generation": "Ryzen PRO 4000 Series (Zen 2)",
+    "model": "Ryzen 5 PRO 4655G",
+    "modelNumber": "4655G",
+    "name": "AMD Ryzen 5 PRO 4655G Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2022,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "4.2 GHz",
+      "baseClock": "3.7 GHz",
+      "l2Cache": "3 MB",
+      "l3Cache": "8 MB",
+      "defaultTdp": "65 W",
+      "architecture": "Zen 2",
+      "socket": "AM4",
+      "pcieSupport": "Gen 3",
+      "graphicsModel": "Radeon Graphics",
+      "graphicsCores": 7,
+      "integratedGraphics": true
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655g.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655g.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655g.html",
+        "notes": "Exact AMD support/specification page identifies Ryzen 5 PRO 4655G and Ryzen PRO 4000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655g.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 PRO 4655G."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655g.html",
+        "notes": "The AMD page title and specification section identify Ryzen 5 PRO 4655G; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Current lifecycle status and image reuse permission are unverified; this PRO model is an OEM/business SKU."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-pro-4655ge",
+    "brand": "AMD",
+    "family": "AMD Ryzen PRO Desktop Processors",
+    "generation": "Ryzen PRO 4000 Series (Zen 2)",
+    "model": "Ryzen 5 PRO 4655GE",
+    "modelNumber": "4655GE",
+    "name": "AMD Ryzen 5 PRO 4655GE Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2022,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "4.2 GHz",
+      "baseClock": "3.3 GHz",
+      "l2Cache": "3 MB",
+      "l3Cache": "8 MB",
+      "defaultTdp": "35 W",
+      "architecture": "Zen 2",
+      "socket": "AM4",
+      "pcieSupport": "Gen 3",
+      "graphicsModel": "Radeon Graphics",
+      "graphicsCores": 7,
+      "integratedGraphics": true
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655ge.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655ge.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655ge.html",
+        "notes": "Exact AMD support/specification page identifies Ryzen 5 PRO 4655GE and Ryzen PRO 4000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655ge.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 PRO 4655GE."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655ge.html",
+        "notes": "The AMD page title and specification section identify Ryzen 5 PRO 4655GE; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Current lifecycle status and image reuse permission are unverified; this PRO model is an OEM/business SKU."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-3-pro-4355g",
+    "brand": "AMD",
+    "family": "AMD Ryzen PRO Desktop Processors",
+    "generation": "Ryzen PRO 4000 Series (Zen 2)",
+    "model": "Ryzen 3 PRO 4355G",
+    "modelNumber": "4355G",
+    "name": "AMD Ryzen 3 PRO 4355G Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2022,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 4,
+      "threads": 8,
+      "maxBoostClock": "4.0 GHz",
+      "baseClock": "3.8 GHz",
+      "l2Cache": "2 MB",
+      "l3Cache": "4 MB",
+      "defaultTdp": "65 W",
+      "architecture": "Zen 2",
+      "socket": "AM4",
+      "pcieSupport": "Gen 3",
+      "graphicsModel": "Radeon Graphics",
+      "graphicsCores": 6,
+      "integratedGraphics": true
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355g.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355g.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355g.html",
+        "notes": "Exact AMD support/specification page identifies Ryzen 3 PRO 4355G and Ryzen PRO 4000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355g.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 3 PRO 4355G."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355g.html",
+        "notes": "The AMD page title and specification section identify Ryzen 3 PRO 4355G; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Current lifecycle status and image reuse permission are unverified; this PRO model is an OEM/business SKU."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-3-pro-4355ge",
+    "brand": "AMD",
+    "family": "AMD Ryzen PRO Desktop Processors",
+    "generation": "Ryzen PRO 4000 Series (Zen 2)",
+    "model": "Ryzen 3 PRO 4355GE",
+    "modelNumber": "4355GE",
+    "name": "AMD Ryzen 3 PRO 4355GE Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2022,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 4,
+      "threads": 8,
+      "maxBoostClock": "4.0 GHz",
+      "baseClock": "3.5 GHz",
+      "l2Cache": "2 MB",
+      "l3Cache": "4 MB",
+      "defaultTdp": "35 W",
+      "architecture": "Zen 2",
+      "socket": "AM4",
+      "pcieSupport": "Gen 3",
+      "graphicsModel": "Radeon Vega 6 Graphics",
+      "graphicsCores": 6,
+      "integratedGraphics": true
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355ge.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355ge.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355ge.html",
+        "notes": "Exact AMD support/specification page identifies Ryzen 3 PRO 4355GE and Ryzen PRO 4000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355ge.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 3 PRO 4355GE."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355ge.html",
+        "notes": "The AMD page title and specification section identify Ryzen 3 PRO 4355GE; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Current lifecycle status and image reuse permission are unverified; this PRO model is an OEM/business SKU."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:techapi:gpu:geforce-rtx-5090",
+    "brand": "NVIDIA",
+    "family": "GeForce RTX",
+    "generation": "GeForce RTX 50 Series (Blackwell)",
+    "model": "GeForce RTX 5090",
+    "modelNumber": "RTX 5090",
+    "name": "NVIDIA GeForce RTX 5090 Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "GeForce RTX 5090 desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "Blackwell",
+      "cudaCores": 21760,
+      "tensorCoreGeneration": "5th generation",
+      "rayTracingCoreGeneration": "4th generation",
+      "baseClockMHz": 2010,
+      "boostClockMHz": 2410,
+      "memoryConfigurations": [
+        "32 GB GDDR7"
+      ],
+      "memoryInterfaceBits": 512,
+      "memoryBandwidthGBs": 1792,
+      "totalGraphicsPowerW": 575,
+      "pcieInterface": "PCI Express Gen 5"
+    },
+    "variants": [],
+    "productUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
+    "specificationSourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
+        "notes": "Official manufacturer page identifies GeForce RTX 5090 as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/geforce-rtx-5090/index.json",
+        "notes": "Data from TechAPI; record GeForce RTX 5090 (geforce-rtx-5090), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      }
+    ],
+    "imageCandidate": null,
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Exact product identity, selected specifications, and live manufacturer URLs were checked. No exact-model image with reusable rights has been approved; retain as private PendingProduct until image review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:techapi:gpu:geforce-rtx-5080",
+    "brand": "NVIDIA",
+    "family": "GeForce RTX",
+    "generation": "GeForce RTX 50 Series (Blackwell)",
+    "model": "GeForce RTX 5080",
+    "modelNumber": "RTX 5080",
+    "name": "NVIDIA GeForce RTX 5080 Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "GeForce RTX 5080 desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "Blackwell",
+      "cudaCores": 10752,
+      "tensorCoreGeneration": "5th generation",
+      "rayTracingCoreGeneration": "4th generation",
+      "baseClockMHz": 2300,
+      "boostClockMHz": 2620,
+      "memoryConfigurations": [
+        "16 GB GDDR7"
+      ],
+      "memoryInterfaceBits": 256,
+      "memoryBandwidthGBs": 960,
+      "totalGraphicsPowerW": 360,
+      "pcieInterface": "PCI Express Gen 5"
+    },
+    "variants": [],
+    "productUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/",
+    "specificationSourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/",
+        "notes": "Official manufacturer page identifies GeForce RTX 5080 as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5080/."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/geforce-rtx-5080/index.json",
+        "notes": "Data from TechAPI; record GeForce RTX 5080 (geforce-rtx-5080), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      }
+    ],
+    "imageCandidate": null,
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Exact product identity, selected specifications, and live manufacturer URLs were checked. No exact-model image with reusable rights has been approved; retain as private PendingProduct until image review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:techapi:gpu:geforce-rtx-5070-ti",
+    "brand": "NVIDIA",
+    "family": "GeForce RTX",
+    "generation": "GeForce RTX 50 Series (Blackwell)",
+    "model": "GeForce RTX 5070 Ti",
+    "modelNumber": "RTX 5070 Ti",
+    "name": "NVIDIA GeForce RTX 5070 Ti Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "GeForce RTX 5070 Ti desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "Blackwell",
+      "cudaCores": 8960,
+      "tensorCoreGeneration": "5th generation",
+      "rayTracingCoreGeneration": "4th generation",
+      "baseClockMHz": 2300,
+      "boostClockMHz": 2450,
+      "memoryConfigurations": [
+        "16 GB GDDR7"
+      ],
+      "memoryInterfaceBits": 256,
+      "memoryBandwidthGBs": 896,
+      "totalGraphicsPowerW": 300,
+      "pcieInterface": "PCI Express Gen 5"
+    },
+    "variants": [],
+    "productUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/",
+    "specificationSourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/",
+        "notes": "Official manufacturer page identifies GeForce RTX 5070 Ti as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/geforce-rtx-5070-ti/index.json",
+        "notes": "Data from TechAPI; record GeForce RTX 5070 Ti (geforce-rtx-5070-ti), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      }
+    ],
+    "imageCandidate": null,
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Exact product identity, selected specifications, and live manufacturer URLs were checked. No exact-model image with reusable rights has been approved; retain as private PendingProduct until image review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:techapi:gpu:geforce-rtx-5070",
+    "brand": "NVIDIA",
+    "family": "GeForce RTX",
+    "generation": "GeForce RTX 50 Series (Blackwell)",
+    "model": "GeForce RTX 5070",
+    "modelNumber": "RTX 5070",
+    "name": "NVIDIA GeForce RTX 5070 Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "GeForce RTX 5070 desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "Blackwell",
+      "cudaCores": 6144,
+      "tensorCoreGeneration": "5th generation",
+      "rayTracingCoreGeneration": "4th generation",
+      "baseClockMHz": 2330,
+      "boostClockMHz": 2510,
+      "memoryConfigurations": [
+        "12 GB GDDR7"
+      ],
+      "memoryInterfaceBits": 192,
+      "memoryBandwidthGBs": 672,
+      "totalGraphicsPowerW": 250,
+      "pcieInterface": "PCI Express Gen 5"
+    },
+    "variants": [],
+    "productUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/",
+    "specificationSourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/",
+        "notes": "Official manufacturer page identifies GeForce RTX 5070 as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/geforce-rtx-5070/index.json",
+        "notes": "Data from TechAPI; record GeForce RTX 5070 (geforce-rtx-5070), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      }
+    ],
+    "imageCandidate": null,
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Exact product identity, selected specifications, and live manufacturer URLs were checked. No exact-model image with reusable rights has been approved; retain as private PendingProduct until image review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:techapi:gpu:geforce-rtx-5060-ti",
+    "brand": "NVIDIA",
+    "family": "GeForce RTX",
+    "generation": "GeForce RTX 50 Series (Blackwell)",
+    "model": "GeForce RTX 5060 Ti",
+    "modelNumber": "RTX 5060 Ti",
+    "name": "NVIDIA GeForce RTX 5060 Ti Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "GeForce RTX 5060 Ti desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "Blackwell",
+      "cudaCores": 4608,
+      "tensorCoreGeneration": "5th generation",
+      "rayTracingCoreGeneration": "4th generation",
+      "baseClockMHz": 2410,
+      "boostClockMHz": 2570,
+      "memoryConfigurations": [
+        "16 GB GDDR7",
+        "8 GB GDDR7"
+      ],
+      "memoryInterfaceBits": 128,
+      "memoryBandwidthGBs": 448,
+      "totalGraphicsPowerW": 180,
+      "pcieInterface": "PCI Express Gen 5"
+    },
+    "variants": [
+      {
+        "name": "16 GB GDDR7",
+        "attributes": {
+          "memoryGB": 16,
+          "memoryType": "GDDR7",
+          "memoryInterfaceBits": 128,
+          "memoryBandwidthGBs": 448
+        }
+      },
+      {
+        "name": "8 GB GDDR7",
+        "attributes": {
+          "memoryGB": 8,
+          "memoryType": "GDDR7",
+          "memoryInterfaceBits": 128,
+          "memoryBandwidthGBs": 448
+        }
+      }
+    ],
+    "productUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/",
+    "specificationSourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/",
+        "notes": "Official manufacturer page identifies GeForce RTX 5060 Ti as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/geforce-rtx-5060-ti-16-gb/index.json",
+        "notes": "Data from TechAPI; record GeForce RTX 5060 Ti 16 GB (geforce-rtx-5060-ti-16-gb), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/geforce-rtx-5060-ti-8gb/index.json",
+        "notes": "Data from TechAPI; record GeForce RTX 5060 Ti 8GB (geforce-rtx-5060-ti-8gb), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      }
+    ],
+    "imageCandidate": null,
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Exact product identity, selected specifications, and live manufacturer URLs were checked. No exact-model image with reusable rights has been approved; retain as private PendingProduct until image review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:techapi:gpu:geforce-rtx-5060",
+    "brand": "NVIDIA",
+    "family": "GeForce RTX",
+    "generation": "GeForce RTX 50 Series (Blackwell)",
+    "model": "GeForce RTX 5060",
+    "modelNumber": "RTX 5060",
+    "name": "NVIDIA GeForce RTX 5060 Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "GeForce RTX 5060 desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "Blackwell",
+      "cudaCores": 3840,
+      "tensorCoreGeneration": "5th generation",
+      "rayTracingCoreGeneration": "4th generation",
+      "baseClockMHz": 2280,
+      "boostClockMHz": 2500,
+      "memoryConfigurations": [
+        "8 GB GDDR7"
+      ],
+      "memoryInterfaceBits": 128,
+      "memoryBandwidthGBs": 448,
+      "totalGraphicsPowerW": 145,
+      "pcieInterface": "PCI Express Gen 5"
+    },
+    "variants": [],
+    "productUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/",
+    "specificationSourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/",
+        "notes": "Official manufacturer page identifies GeForce RTX 5060 as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/geforce-rtx-5060/index.json",
+        "notes": "Data from TechAPI; record GeForce RTX 5060 (geforce-rtx-5060), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      }
+    ],
+    "imageCandidate": null,
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Exact product identity, selected specifications, and live manufacturer URLs were checked. No exact-model image with reusable rights has been approved; retain as private PendingProduct until image review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:techapi:gpu:geforce-rtx-5050",
+    "brand": "NVIDIA",
+    "family": "GeForce RTX",
+    "generation": "GeForce RTX 50 Series (Blackwell)",
+    "model": "GeForce RTX 5050",
+    "modelNumber": "RTX 5050",
+    "name": "NVIDIA GeForce RTX 5050 Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "GeForce RTX 5050 desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "Blackwell",
+      "cudaCores": 2560,
+      "tensorCoreGeneration": "5th generation",
+      "rayTracingCoreGeneration": "4th generation",
+      "baseClockMHz": 2310,
+      "boostClockMHz": 2570,
+      "memoryConfigurations": [
+        "8 GB GDDR6"
+      ],
+      "memoryInterfaceBits": 128,
+      "memoryBandwidthGBs": 320,
+      "totalGraphicsPowerW": 130,
+      "pcieInterface": "PCI Express Gen 5"
+    },
+    "variants": [],
+    "productUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5050/",
+    "specificationSourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5050/",
+        "notes": "Official manufacturer page identifies GeForce RTX 5050 as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5050/",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5050/."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "NVIDIA",
+        "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/geforce-rtx-5050/index.json",
+        "notes": "Data from TechAPI; record GeForce RTX 5050 (geforce-rtx-5050), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      }
+    ],
+    "imageCandidate": null,
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Exact product identity, selected specifications, and live manufacturer URLs were checked. No exact-model image with reusable rights has been approved; retain as private PendingProduct until image review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:techapi:gpu:radeon-rx-9070-xt",
+    "brand": "AMD",
+    "family": "Radeon RX",
+    "generation": "Radeon RX 9000 Series (RDNA 4)",
+    "model": "Radeon RX 9070 XT",
+    "modelNumber": "RX 9070 XT",
+    "name": "AMD Radeon RX 9070 XT Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "Radeon RX 9070 XT desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "RDNA 4",
+      "computeUnits": 64,
+      "streamProcessors": 4096,
+      "rayAccelerators": 64,
+      "aiAccelerators": 128,
+      "gameFrequencyMHz": 2400,
+      "boostFrequencyMHz": 2970,
+      "memoryConfigurations": [
+        "16 GB GDDR6"
+      ],
+      "memoryInterfaceBits": 256,
+      "memoryBandwidthGBs": 640,
+      "typicalBoardPowerW": 304,
+      "pcieInterface": "PCIe 5.0 x16"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070xt.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070xt.html",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070xt.html",
+        "notes": "Official manufacturer page identifies Radeon RX 9070 XT as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070xt.html",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070xt.html."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070xt.html",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070xt.html. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/radeon-rx-9070-xt/index.json",
+        "notes": "Data from TechAPI; record Radeon RX 9070 XT (radeon-rx-9070-xt), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      }
+    ],
+    "imageCandidate": null,
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Exact product identity, selected specifications, and live manufacturer URLs were checked. No exact-model image with reusable rights has been approved; retain as private PendingProduct until image review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:techapi:gpu:radeon-rx-9070",
+    "brand": "AMD",
+    "family": "Radeon RX",
+    "generation": "Radeon RX 9000 Series (RDNA 4)",
+    "model": "Radeon RX 9070",
+    "modelNumber": "RX 9070",
+    "name": "AMD Radeon RX 9070 Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "Radeon RX 9070 desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "RDNA 4",
+      "computeUnits": 56,
+      "streamProcessors": 3584,
+      "rayAccelerators": 56,
+      "aiAccelerators": 112,
+      "gameFrequencyMHz": 2070,
+      "boostFrequencyMHz": 2520,
+      "memoryConfigurations": [
+        "16 GB GDDR6"
+      ],
+      "memoryInterfaceBits": 256,
+      "memoryBandwidthGBs": 640,
+      "typicalBoardPowerW": 220,
+      "pcieInterface": "PCIe 5.0 x16"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070.html",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070.html",
+        "notes": "Official manufacturer page identifies Radeon RX 9070 as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070.html",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070.html."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070.html",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070.html. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/radeon-rx-9070/index.json",
+        "notes": "Data from TechAPI; record Radeon RX 9070 (radeon-rx-9070), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      }
+    ],
+    "imageCandidate": null,
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Exact product identity, selected specifications, and live manufacturer URLs were checked. No exact-model image with reusable rights has been approved; retain as private PendingProduct until image review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:techapi:gpu:radeon-rx-9070-gre",
+    "brand": "AMD",
+    "family": "Radeon RX",
+    "generation": "Radeon RX 9000 Series (RDNA 4)",
+    "model": "Radeon RX 9070 GRE",
+    "modelNumber": "RX 9070 GRE",
+    "name": "AMD Radeon RX 9070 GRE Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "Radeon RX 9070 GRE desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "RDNA 4",
+      "computeUnits": 48,
+      "streamProcessors": 3072,
+      "rayAccelerators": 48,
+      "aiAccelerators": 96,
+      "gameFrequencyMHz": 2220,
+      "boostFrequencyMHz": 2790,
+      "memoryConfigurations": [
+        "12 GB GDDR6"
+      ],
+      "memoryInterfaceBits": 192,
+      "memoryBandwidthGBs": 432,
+      "typicalBoardPowerW": 220,
+      "pcieInterface": "PCIe 5.0 x16"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070-gre.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070-gre.html",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070-gre.html",
+        "notes": "Official manufacturer page identifies Radeon RX 9070 GRE as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070-gre.html",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070-gre.html."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070-gre.html",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070-gre.html. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/radeon-rx-9070-gre/index.json",
+        "notes": "Data from TechAPI; record Radeon RX 9070 GRE (radeon-rx-9070-gre), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      }
+    ],
+    "imageCandidate": null,
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Exact product identity, selected specifications, and live manufacturer URLs were checked. No exact-model image with reusable rights has been approved; retain as private PendingProduct until image review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:techapi:gpu:radeon-rx-9060-xt",
+    "brand": "AMD",
+    "family": "Radeon RX",
+    "generation": "Radeon RX 9000 Series (RDNA 4)",
+    "model": "Radeon RX 9060 XT",
+    "modelNumber": "RX 9060 XT",
+    "name": "AMD Radeon RX 9060 XT Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "Radeon RX 9060 XT desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "RDNA 4",
+      "computeUnits": 32,
+      "streamProcessors": 2048,
+      "rayAccelerators": 32,
+      "gameFrequencyMHz": 2530,
+      "boostFrequencyMHz": 3130,
+      "memoryType": "GDDR6",
+      "memoryInterfaceBits": 128,
+      "memoryBandwidthGBs": 320,
+      "memoryConfigurations": [
+        "16 GB GDDR6",
+        "8 GB GDDR6"
+      ],
+      "typicalBoardPowerWByMemoryConfiguration": {
+        "16 GB": 160,
+        "8 GB": 150
+      },
+      "pcieInterface": "PCIe 5.0 x16"
+    },
+    "variants": [
+      {
+        "name": "16 GB GDDR6",
+        "attributes": {
+          "memoryGB": 16,
+          "memoryInterfaceBits": 128,
+          "memoryBandwidthGBs": 320,
+          "typicalBoardPowerW": 160
+        }
+      },
+      {
+        "name": "8 GB GDDR6",
+        "attributes": {
+          "memoryGB": 8,
+          "memoryInterfaceBits": 128,
+          "memoryBandwidthGBs": 320,
+          "typicalBoardPowerW": 150
+        }
+      }
+    ],
+    "productUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060xt.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060xt.html",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060xt.html",
+        "notes": "Official manufacturer page identifies Radeon RX 9060 XT as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060xt.html",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060xt.html."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060xt.html",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060xt.html. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/radeon-rx-9060-xt-16-gb/index.json",
+        "notes": "Data from TechAPI; record Radeon RX 9060 XT 16 GB (radeon-rx-9060-xt-16-gb), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      },
+      {
+        "evidenceType": "variant_specifications",
+        "sourceName": "AMD Graphics Specifications",
+        "sourceUrl": "https://www.amd.com/en/products/specifications/graphics.html",
+        "notes": "AMD lists distinct RX 9060 XT 16 GB and 8 GB configurations, with 160 W and 150 W typical board power respectively; used only for variant configuration. The official page returned HTTP 200 with text/html; its exact RX 9060 XT 8 GB row was checked from live manufacturer results."
+      }
+    ],
+    "imageCandidate": null,
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Exact product identity, selected specifications, and live manufacturer URLs were checked. No exact-model image with reusable rights has been approved; retain as private PendingProduct until image review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:techapi:gpu:radeon-rx-9060",
+    "brand": "AMD",
+    "family": "Radeon RX",
+    "generation": "Radeon RX 9000 Series (RDNA 4)",
+    "model": "Radeon RX 9060",
+    "modelNumber": "RX 9060",
+    "name": "AMD Radeon RX 9060 Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "description": "Radeon RX 9060 desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "RDNA 4",
+      "computeUnits": 28,
+      "streamProcessors": 1792,
+      "rayAccelerators": 28,
+      "aiAccelerators": 56,
+      "gameFrequencyMHz": 2400,
+      "boostFrequencyMHz": 2990,
+      "memoryConfigurations": [
+        "8 GB GDDR6"
+      ],
+      "memoryInterfaceBits": 128,
+      "memoryBandwidthGBs": 288,
+      "typicalBoardPowerW": 132,
+      "pcieInterface": "PCIe 5.0 x16"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060.html",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060.html",
+        "notes": "Official manufacturer page identifies Radeon RX 9060 as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060.html",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060.html."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060.html",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060.html. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/radeon-rx-9060/index.json",
+        "notes": "Data from TechAPI; record Radeon RX 9060 (radeon-rx-9060), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      }
+    ],
+    "imageCandidate": null,
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Exact product identity, selected specifications, and live manufacturer URLs were checked. No exact-model image with reusable rights has been approved; retain as private PendingProduct until image review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:techapi:gpu:arc-b580",
+    "brand": "Intel",
+    "family": "Intel Arc",
+    "generation": "Intel Arc B Series (Battlemage / Xe2)",
+    "model": "Intel Arc B580",
+    "modelNumber": "B580",
+    "name": "Intel Arc B580 Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2024,
+    "productStatus": "active",
+    "description": "Intel Arc B580 desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "Xe2 (Battlemage)",
+      "xeCores": 20,
+      "rayTracingUnits": 20,
+      "graphicsClockMHz": 2670,
+      "memoryConfigurations": [
+        "12 GB GDDR6"
+      ],
+      "memoryInterfaceBits": 192,
+      "memoryBandwidthGBs": 456,
+      "totalBoardPowerW": 190,
+      "pcieInterface": "PCIe 4.0 x8"
+    },
+    "variants": [],
+    "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html",
+    "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "Intel",
+        "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html",
+        "notes": "Official manufacturer page identifies Intel Arc B580 as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "Intel",
+        "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "Intel",
+        "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/arc-b580/index.json",
+        "notes": "Data from TechAPI; record Arc B580 (arc-b580), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      }
+    ],
+    "imageCandidate": null,
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Exact product identity, selected specifications, and live manufacturer URLs were checked. No exact-model image with reusable rights has been approved; retain as private PendingProduct until image review."
+    ]
+  },
+  {
+    "sourceKey": "web-research:techapi:gpu:arc-b570",
+    "brand": "Intel",
+    "family": "Intel Arc",
+    "generation": "Intel Arc B Series (Battlemage / Xe2)",
+    "model": "Intel Arc B570",
+    "modelNumber": "B570",
+    "name": "Intel Arc B570 Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2024,
+    "productStatus": "active",
+    "description": "Intel Arc B570 desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "Xe2 (Battlemage)",
+      "xeCores": 18,
+      "rayTracingUnits": 18,
+      "graphicsClockMHz": 2500,
+      "memoryConfigurations": [
+        "10 GB GDDR6"
+      ],
+      "memoryInterfaceBits": 160,
+      "memoryBandwidthGBs": 380,
+      "totalBoardPowerW": 150,
+      "pcieInterface": "PCIe 4.0 x8"
+    },
+    "variants": [],
+    "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241676/intel-arc-b570-graphics/specifications.html",
+    "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241676/intel-arc-b570-graphics/specifications.html",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "Intel",
+        "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241676/intel-arc-b570-graphics/specifications.html",
+        "notes": "Official manufacturer page identifies Intel Arc B570 as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "Intel",
+        "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241676/intel-arc-b570-graphics/specifications.html",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.intel.com/content/www/us/en/products/sku/241676/intel-arc-b570-graphics/specifications.html."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "Intel",
+        "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241676/intel-arc-b570-graphics/specifications.html",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.intel.com/content/www/us/en/products/sku/241676/intel-arc-b570-graphics/specifications.html. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/arc-b570/index.json",
+        "notes": "Data from TechAPI; record Arc B570 (arc-b570), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      }
+    ],
+    "imageCandidate": null,
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Exact product identity, selected specifications, and live manufacturer URLs were checked. No exact-model image with reusable rights has been approved; retain as private PendingProduct until image review."
+    ]
+  }
+]

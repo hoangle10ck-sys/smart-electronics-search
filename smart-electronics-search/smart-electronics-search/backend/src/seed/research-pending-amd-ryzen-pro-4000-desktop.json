@@ -1,0 +1,623 @@
+[
+  {
+    "sourceKey": "web-research:amd:ryzen-7-pro-4750g",
+    "brand": "AMD",
+    "family": "AMD Ryzen PRO Desktop Processors",
+    "generation": "Ryzen PRO 4000 Series (Zen 2)",
+    "model": "Ryzen 7 PRO 4750G",
+    "modelNumber": "4750G",
+    "name": "AMD Ryzen 7 PRO 4750G Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2020,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 8,
+      "threads": 16,
+      "maxBoostClock": "4.4 GHz",
+      "baseClock": "3.6 GHz",
+      "l2Cache": "4 MB",
+      "l3Cache": "8 MB",
+      "defaultTdp": "65 W",
+      "architecture": "Zen 2",
+      "socket": "AM4",
+      "pcieSupport": "Gen 3",
+      "graphicsModel": "Radeon Graphics",
+      "graphicsCores": 8,
+      "integratedGraphics": true
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-7-pro-4750g.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-7-pro-4750g.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-7-pro-4750g.html",
+        "notes": "Exact AMD support/specification page identifies Ryzen 7 PRO 4750G and Ryzen PRO 4000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-7-pro-4750g.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 7 PRO 4750G."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-7-pro-4750g.html",
+        "notes": "The AMD page title and specification section identify Ryzen 7 PRO 4750G; its model-specific URL returned HTTP 200."
+      },
+      {
+        "evidenceType": "image",
+        "sourceName": "Wikimedia Commons file page",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_PRO_4750G_6913.jpg",
+        "notes": "Visually inspected the 960×947 image; the processor lid itself reads AMD Ryzen 7 PRO 4750G."
+      },
+      {
+        "evidenceType": "image_rights",
+        "sourceName": "Wikimedia Commons file license record",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_PRO_4750G_6913.jpg",
+        "notes": "The file page states CC BY-SA 3.0 and identifies author Michael Wolf; attribution and license URL are stored with this candidate."
+      }
+    ],
+    "imageCandidate": {
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/AMD_Ryzen_7_PRO_4750G_6913.jpg/960px-AMD_Ryzen_7_PRO_4750G_6913.jpg",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_7_PRO_4750G_6913.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Michael Wolf (la-wolf.de), Penig",
+      "attribution": "Michael Wolf (la-wolf.de), Penig, CC BY-SA 3.0, via Wikimedia Commons; unmodified.",
+      "visualIdentityChecked": true,
+      "visualReviewNotes": "The CPU lid in the 960×947 Commons image visibly reads AMD Ryzen 7 PRO 4750G; it is an exact-model photograph, not a family illustration."
+    },
+    "reasons": [
+      "Exact-model image identity and CC BY-SA 3.0 reuse terms are verified; the record stays in the private research queue until the verified Product upsert is completed.",
+      "This is an OEM/business SKU; its availability is recorded as OEM-only and carries no price or sale offer."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "verified",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-7-pro-4750ge",
+    "brand": "AMD",
+    "family": "AMD Ryzen PRO Desktop Processors",
+    "generation": "Ryzen PRO 4000 Series (Zen 2)",
+    "model": "Ryzen 7 PRO 4750GE",
+    "modelNumber": "4750GE",
+    "name": "AMD Ryzen 7 PRO 4750GE Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2020,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 8,
+      "threads": 16,
+      "maxBoostClock": "4.3 GHz",
+      "baseClock": "3.1 GHz",
+      "l2Cache": "4 MB",
+      "l3Cache": "8 MB",
+      "defaultTdp": "35 W",
+      "architecture": "Zen 2",
+      "socket": "AM4",
+      "pcieSupport": "Gen 3",
+      "graphicsModel": "Radeon Graphics",
+      "graphicsCores": 8,
+      "integratedGraphics": true
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-7-pro-4750ge.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-7-pro-4750ge.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-7-pro-4750ge.html",
+        "notes": "Exact AMD support/specification page identifies Ryzen 7 PRO 4750GE and Ryzen PRO 4000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-7-pro-4750ge.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 7 PRO 4750GE."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-7-pro-4750ge.html",
+        "notes": "The AMD page title and specification section identify Ryzen 7 PRO 4750GE; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Current lifecycle status and image reuse permission are unverified; this PRO model was released for OEM/system-integrator systems."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-pro-4650g",
+    "brand": "AMD",
+    "family": "AMD Ryzen PRO Desktop Processors",
+    "generation": "Ryzen PRO 4000 Series (Zen 2)",
+    "model": "Ryzen 5 PRO 4650G",
+    "modelNumber": "4650G",
+    "name": "AMD Ryzen 5 PRO 4650G Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2020,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "4.2 GHz",
+      "baseClock": "3.7 GHz",
+      "l2Cache": "3 MB",
+      "l3Cache": "8 MB",
+      "defaultTdp": "65 W",
+      "architecture": "Zen 2",
+      "socket": "AM4",
+      "pcieSupport": "Gen 3",
+      "graphicsModel": "Radeon Graphics",
+      "graphicsCores": 7,
+      "integratedGraphics": true
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650g.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650g.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650g.html",
+        "notes": "Exact AMD support/specification page identifies Ryzen 5 PRO 4650G and Ryzen PRO 4000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650g.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 PRO 4650G."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650g.html",
+        "notes": "The AMD page title and specification section identify Ryzen 5 PRO 4650G; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Current lifecycle status and image reuse permission are unverified; this PRO model was released for OEM/system-integrator systems."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-pro-4650ge",
+    "brand": "AMD",
+    "family": "AMD Ryzen PRO Desktop Processors",
+    "generation": "Ryzen PRO 4000 Series (Zen 2)",
+    "model": "Ryzen 5 PRO 4650GE",
+    "modelNumber": "4650GE",
+    "name": "AMD Ryzen 5 PRO 4650GE Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2020,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "4.2 GHz",
+      "baseClock": "3.3 GHz",
+      "l2Cache": "3 MB",
+      "l3Cache": "8 MB",
+      "defaultTdp": "35 W",
+      "architecture": "Zen 2",
+      "socket": "AM4",
+      "pcieSupport": "Gen 3",
+      "graphicsModel": "Radeon Graphics",
+      "graphicsCores": 7,
+      "integratedGraphics": true
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650ge.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650ge.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650ge.html",
+        "notes": "Exact AMD support/specification page identifies Ryzen 5 PRO 4650GE and Ryzen PRO 4000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650ge.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 PRO 4650GE."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4650ge.html",
+        "notes": "The AMD page title and specification section identify Ryzen 5 PRO 4650GE; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Current lifecycle status and image reuse permission are unverified; this PRO model was released for OEM/system-integrator systems."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-3-pro-4350g",
+    "brand": "AMD",
+    "family": "AMD Ryzen PRO Desktop Processors",
+    "generation": "Ryzen PRO 4000 Series (Zen 2)",
+    "model": "Ryzen 3 PRO 4350G",
+    "modelNumber": "4350G",
+    "name": "AMD Ryzen 3 PRO 4350G Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2020,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 4,
+      "threads": 8,
+      "maxBoostClock": "4.0 GHz",
+      "baseClock": "3.8 GHz",
+      "l2Cache": "2 MB",
+      "l3Cache": "4 MB",
+      "defaultTdp": "65 W",
+      "architecture": "Zen 2",
+      "socket": "AM4",
+      "pcieSupport": "Gen 3",
+      "graphicsModel": "Radeon Graphics",
+      "graphicsCores": 6,
+      "integratedGraphics": true
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350g.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350g.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350g.html",
+        "notes": "Exact AMD support/specification page identifies Ryzen 3 PRO 4350G and Ryzen PRO 4000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350g.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 3 PRO 4350G."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350g.html",
+        "notes": "The AMD page title and specification section identify Ryzen 3 PRO 4350G; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Current lifecycle status and image reuse permission are unverified; this PRO model was released for OEM/system-integrator systems."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-3-pro-4350ge",
+    "brand": "AMD",
+    "family": "AMD Ryzen PRO Desktop Processors",
+    "generation": "Ryzen PRO 4000 Series (Zen 2)",
+    "model": "Ryzen 3 PRO 4350GE",
+    "modelNumber": "4350GE",
+    "name": "AMD Ryzen 3 PRO 4350GE Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2020,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 4,
+      "threads": 8,
+      "maxBoostClock": "4.0 GHz",
+      "baseClock": "3.5 GHz",
+      "l2Cache": "2 MB",
+      "l3Cache": "4 MB",
+      "defaultTdp": "35 W",
+      "architecture": "Zen 2",
+      "socket": "AM4",
+      "pcieSupport": "Gen 3",
+      "graphicsModel": "Radeon Vega 6 Graphics",
+      "graphicsCores": 6,
+      "integratedGraphics": true
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350ge.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350ge.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350ge.html",
+        "notes": "Exact AMD support/specification page identifies Ryzen 3 PRO 4350GE and Ryzen PRO 4000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350ge.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 3 PRO 4350GE."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4350ge.html",
+        "notes": "The AMD page title and specification section identify Ryzen 3 PRO 4350GE; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Current lifecycle status and image reuse permission are unverified; this PRO model was released for OEM/system-integrator systems."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-pro-4655g",
+    "brand": "AMD",
+    "family": "AMD Ryzen PRO Desktop Processors",
+    "generation": "Ryzen PRO 4000 Series (Zen 2)",
+    "model": "Ryzen 5 PRO 4655G",
+    "modelNumber": "4655G",
+    "name": "AMD Ryzen 5 PRO 4655G Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2022,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "4.2 GHz",
+      "baseClock": "3.7 GHz",
+      "l2Cache": "3 MB",
+      "l3Cache": "8 MB",
+      "defaultTdp": "65 W",
+      "architecture": "Zen 2",
+      "socket": "AM4",
+      "pcieSupport": "Gen 3",
+      "graphicsModel": "Radeon Graphics",
+      "graphicsCores": 7,
+      "integratedGraphics": true
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655g.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655g.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655g.html",
+        "notes": "Exact AMD support/specification page identifies Ryzen 5 PRO 4655G and Ryzen PRO 4000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655g.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 PRO 4655G."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655g.html",
+        "notes": "The AMD page title and specification section identify Ryzen 5 PRO 4655G; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Current lifecycle status and image reuse permission are unverified; this PRO model is an OEM/business SKU."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-pro-4655ge",
+    "brand": "AMD",
+    "family": "AMD Ryzen PRO Desktop Processors",
+    "generation": "Ryzen PRO 4000 Series (Zen 2)",
+    "model": "Ryzen 5 PRO 4655GE",
+    "modelNumber": "4655GE",
+    "name": "AMD Ryzen 5 PRO 4655GE Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2022,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "4.2 GHz",
+      "baseClock": "3.3 GHz",
+      "l2Cache": "3 MB",
+      "l3Cache": "8 MB",
+      "defaultTdp": "35 W",
+      "architecture": "Zen 2",
+      "socket": "AM4",
+      "pcieSupport": "Gen 3",
+      "graphicsModel": "Radeon Graphics",
+      "graphicsCores": 7,
+      "integratedGraphics": true
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655ge.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655ge.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655ge.html",
+        "notes": "Exact AMD support/specification page identifies Ryzen 5 PRO 4655GE and Ryzen PRO 4000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655ge.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 5 PRO 4655GE."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-5-pro-4655ge.html",
+        "notes": "The AMD page title and specification section identify Ryzen 5 PRO 4655GE; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Current lifecycle status and image reuse permission are unverified; this PRO model is an OEM/business SKU."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-3-pro-4355g",
+    "brand": "AMD",
+    "family": "AMD Ryzen PRO Desktop Processors",
+    "generation": "Ryzen PRO 4000 Series (Zen 2)",
+    "model": "Ryzen 3 PRO 4355G",
+    "modelNumber": "4355G",
+    "name": "AMD Ryzen 3 PRO 4355G Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2022,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 4,
+      "threads": 8,
+      "maxBoostClock": "4.0 GHz",
+      "baseClock": "3.8 GHz",
+      "l2Cache": "2 MB",
+      "l3Cache": "4 MB",
+      "defaultTdp": "65 W",
+      "architecture": "Zen 2",
+      "socket": "AM4",
+      "pcieSupport": "Gen 3",
+      "graphicsModel": "Radeon Graphics",
+      "graphicsCores": 6,
+      "integratedGraphics": true
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355g.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355g.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355g.html",
+        "notes": "Exact AMD support/specification page identifies Ryzen 3 PRO 4355G and Ryzen PRO 4000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355g.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 3 PRO 4355G."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355g.html",
+        "notes": "The AMD page title and specification section identify Ryzen 3 PRO 4355G; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Current lifecycle status and image reuse permission are unverified; this PRO model is an OEM/business SKU."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-3-pro-4355ge",
+    "brand": "AMD",
+    "family": "AMD Ryzen PRO Desktop Processors",
+    "generation": "Ryzen PRO 4000 Series (Zen 2)",
+    "model": "Ryzen 3 PRO 4355GE",
+    "modelNumber": "4355GE",
+    "name": "AMD Ryzen 3 PRO 4355GE Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2022,
+    "productStatus": "unknown",
+    "specifications": {
+      "cores": 4,
+      "threads": 8,
+      "maxBoostClock": "4.0 GHz",
+      "baseClock": "3.5 GHz",
+      "l2Cache": "2 MB",
+      "l3Cache": "4 MB",
+      "defaultTdp": "35 W",
+      "architecture": "Zen 2",
+      "socket": "AM4",
+      "pcieSupport": "Gen 3",
+      "graphicsModel": "Radeon Vega 6 Graphics",
+      "graphicsCores": 6,
+      "integratedGraphics": true
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355ge.html",
+    "specificationSourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355ge.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355ge.html",
+        "notes": "Exact AMD support/specification page identifies Ryzen 3 PRO 4355GE and Ryzen PRO 4000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355ge.html",
+        "notes": "AMD's exact-model specification page lists the recorded technical values for Ryzen 3 PRO 4355GE."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model support and specifications page",
+        "sourceUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-4000-series/amd-ryzen-3-pro-4355ge.html",
+        "notes": "The AMD page title and specification section identify Ryzen 3 PRO 4355GE; its model-specific URL returned HTTP 200."
+      }
+    ],
+    "imageCandidate": null,
+    "reasons": [
+      "No exact-model image with verified usage permission has been selected; keep private pending image identity and license review.",
+      "Current lifecycle status and image reuse permission are unverified; this PRO model is an OEM/business SKU."
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "pending",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "researchedAt": "2026-11-10T21:47:14.654Z"
+  }
+]

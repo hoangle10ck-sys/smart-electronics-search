@@ -1,0 +1,109 @@
+{
+  "checkedAt": "2026-11-11T01:47:09.184Z",
+  "database": "smart_electronics",
+  "collection": "techapicatalogrecords",
+  "totalRecords": 128042,
+  "categoryCounts": {
+    "cpu": 4628,
+    "device_catalog": 20366,
+    "gpu": 2075,
+    "laptop": 1966,
+    "monitor": 231,
+    "pda": 112,
+    "smartphone": 92824,
+    "smartwatch": 418,
+    "soc": 2117,
+    "tablet": 3305
+  },
+  "existingCatalog": {
+    "products": 163,
+    "pendingProductDocuments": 159,
+    "activePendingReview": 145,
+    "offers": 0
+  },
+  "completedImport": {
+    "source": "TechAPI",
+    "sourceRepository": "https://github.com/GetTechAPI/TechAPI",
+    "attribution": "Data from TechAPI",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "licenseTermsUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+    "checkedAt": "2026-11-11T01:46:07.708Z",
+    "listCounts": {
+      "smartphone": 92824,
+      "tablet": 3305,
+      "smartwatch": 418,
+      "pda": 112,
+      "gpu": 2075,
+      "cpu": 4628,
+      "laptop": 1966,
+      "monitor": 231,
+      "device_catalog": 20366,
+      "soc": 2117
+    },
+    "categoryResults": {
+      "smartphone": {
+        "expected": 92824,
+        "fetched": 92824,
+        "complete": true
+      },
+      "tablet": {
+        "expected": 3305,
+        "fetched": 3305,
+        "complete": true
+      },
+      "smartwatch": {
+        "expected": 418,
+        "fetched": 418,
+        "complete": true
+      },
+      "pda": {
+        "expected": 112,
+        "fetched": 112,
+        "complete": true
+      },
+      "gpu": {
+        "expected": 2075,
+        "fetched": 2075,
+        "complete": true
+      },
+      "cpu": {
+        "expected": 4628,
+        "fetched": 4628,
+        "complete": true
+      },
+      "laptop": {
+        "expected": 1966,
+        "fetched": 1966,
+        "complete": true
+      },
+      "monitor": {
+        "expected": 231,
+        "fetched": 231,
+        "complete": true
+      },
+      "device_catalog": {
+        "expected": 20366,
+        "fetched": 20366,
+        "complete": true
+      },
+      "soc": {
+        "expected": 2117,
+        "fetched": 2117,
+        "complete": true
+      }
+    },
+    "expectedRefs": 128042,
+    "uniqueRefsFetched": 128042,
+    "created": 96547,
+    "updated": 31495,
+    "failedPages": 0,
+    "collection": "techapicatalogrecords",
+    "workflow": "discovery_only; not verified, not published, no image or offer imported"
+  },
+  "attribution": "Data from TechAPI",
+  "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+  "dataLicense": "CC BY-SA 4.0",
+  "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "workflow": "discovery_only; not verified or published; source index does not hydrate specifications or authorize image reuse"
+}

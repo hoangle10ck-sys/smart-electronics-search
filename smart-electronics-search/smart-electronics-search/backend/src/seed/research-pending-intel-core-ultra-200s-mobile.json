@@ -1,0 +1,170 @@
+[
+  {
+    "sourceKey": "web-research:intel:core-ultra-9-285hx",
+    "brand": "Intel", "family": "Intel Core Ultra Mobile Processors", "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 9 285HX", "modelNumber": "285HX", "name": "Intel Core Ultra 9 Processor 285HX", "category": "cpu", "releaseYear": 2025, "productStatus": "active",
+    "description": "Mobile processor in Intel Core Ultra Processors Series 2; Intel lists it as launched in Q1 2025.",
+    "specifications": { "cores": 24, "performanceCores": 8, "efficientCores": 16, "threads": 24, "overallPeakTops": 36, "maxTurboFrequency": "5.5 GHz", "performanceCoreBase": "2.8 GHz", "efficientCoreBase": "2.1 GHz", "l3Cache": "36 MB", "l2Cache": "40 MB", "processorBasePower": "55 W", "maximumTurboPower": "160 W" },
+    "variants": [], "productUrl": "https://www.intel.com/content/www/us/en/products/sku/242297/intel-core-ultra-9-processor-285hx-36m-cache-up-to-5-50-ghz/specifications.html", "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/242297/intel-core-ultra-9-processor-285hx-36m-cache-up-to-5-50-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/242297/intel-core-ultra-9-processor-285hx-36m-cache-up-to-5-50-ghz/specifications.html", "notes": "Exact Processor Number 285HX; Intel identifies the Series 2 collection, Arrow Lake codename, and Mobile segment." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/242297/intel-core-ultra-9-processor-285hx-36m-cache-up-to-5-50-ghz/specifications.html", "notes": "Exact-model record lists Marketing Status Launched and Launch Date Q1 2025." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/242297/intel-core-ultra-9-processor-285hx-36m-cache-up-to-5-50-ghz/specifications.html", "notes": "Per-SKU record supplies core/thread counts, peak TOPS, turbo/base clocks, cache, and power." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra Series 2 product list", "sourceUrl": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html", "notes": "Intel's official Series 2 product list confirms this model belongs to the Series 2 lineup." }
+    ], "imageCandidate": null, "reasons": ["No exact-model image with verified usage permission has been selected; keep private pending visual identity and license review."]
+  },
+  {
+    "sourceKey": "web-research:intel:core-ultra-9-275hx",
+    "brand": "Intel", "family": "Intel Core Ultra Mobile Processors", "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 9 275HX", "modelNumber": "275HX", "name": "Intel Core Ultra 9 Processor 275HX", "category": "cpu", "releaseYear": 2025, "productStatus": "active",
+    "description": "Mobile processor in Intel Core Ultra Processors Series 2; Intel lists it as launched in Q1 2025.",
+    "specifications": { "cores": 24, "performanceCores": 8, "efficientCores": 16, "threads": 24, "overallPeakTops": 36, "maxTurboFrequency": "5.4 GHz", "performanceCoreBase": "2.7 GHz", "efficientCoreBase": "2.1 GHz", "l3Cache": "36 MB", "l2Cache": "40 MB", "processorBasePower": "55 W", "maximumTurboPower": "160 W" },
+    "variants": [], "productUrl": "https://www.intel.com/content/www/us/en/products/sku/242293/intel-core-ultra-9-processor-275hx-36m-cache-up-to-5-40-ghz/specifications.html", "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/242293/intel-core-ultra-9-processor-275hx-36m-cache-up-to-5-40-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/242293/intel-core-ultra-9-processor-275hx-36m-cache-up-to-5-40-ghz/specifications.html", "notes": "Exact Processor Number 275HX; Intel identifies the Series 2 collection, Arrow Lake codename, and Mobile segment." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/242293/intel-core-ultra-9-processor-275hx-36m-cache-up-to-5-40-ghz/specifications.html", "notes": "Exact-model record lists Marketing Status Launched and Launch Date Q1 2025." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/242293/intel-core-ultra-9-processor-275hx-36m-cache-up-to-5-40-ghz/specifications.html", "notes": "Per-SKU record supplies core/thread counts, peak TOPS, turbo/base clocks, cache, and power." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra Series 2 product list", "sourceUrl": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html", "notes": "Intel's official Series 2 product list confirms this model belongs to the Series 2 lineup." }
+    ], "imageCandidate": null, "reasons": ["No exact-model image with verified usage permission has been selected; keep private pending visual identity and license review."]
+  },
+  {
+    "sourceKey": "web-research:intel:core-ultra-7-265hx",
+    "brand": "Intel", "family": "Intel Core Ultra Mobile Processors", "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 7 265HX", "modelNumber": "265HX", "name": "Intel Core Ultra 7 Processor 265HX", "category": "cpu", "releaseYear": 2025, "productStatus": "active",
+    "description": "Mobile processor in Intel Core Ultra Processors Series 2; Intel lists it as launched in Q1 2025.",
+    "specifications": { "cores": 20, "performanceCores": 8, "efficientCores": 12, "threads": 20, "overallPeakTops": 33, "maxTurboFrequency": "5.3 GHz", "performanceCoreBase": "2.6 GHz", "efficientCoreBase": "2.3 GHz", "l3Cache": "30 MB", "l2Cache": "36 MB", "processorBasePower": "55 W", "maximumTurboPower": "160 W" },
+    "variants": [], "productUrl": "https://www.intel.com/content/www/us/en/products/sku/242294/intel-core-ultra-7-processor-265hx-30m-cache-up-to-5-30-ghz/specifications.html", "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/242294/intel-core-ultra-7-processor-265hx-30m-cache-up-to-5-30-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/242294/intel-core-ultra-7-processor-265hx-30m-cache-up-to-5-30-ghz/specifications.html", "notes": "Exact Processor Number 265HX; Intel identifies the Series 2 collection, Arrow Lake codename, and Mobile segment." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/242294/intel-core-ultra-7-processor-265hx-30m-cache-up-to-5-30-ghz/specifications.html", "notes": "Exact-model record lists Marketing Status Launched and Launch Date Q1 2025." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/242294/intel-core-ultra-7-processor-265hx-30m-cache-up-to-5-30-ghz/specifications.html", "notes": "Per-SKU record supplies core/thread counts, peak TOPS, turbo/base clocks, cache, and power." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra Series 2 product list", "sourceUrl": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html", "notes": "Intel's official Series 2 product list confirms this model belongs to the Series 2 lineup." }
+    ], "imageCandidate": null, "reasons": ["No exact-model image with verified usage permission has been selected; keep private pending visual identity and license review."]
+  },
+  {
+    "sourceKey": "web-research:intel:core-ultra-7-255hx",
+    "brand": "Intel", "family": "Intel Core Ultra Mobile Processors", "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 7 255HX", "modelNumber": "255HX", "name": "Intel Core Ultra 7 Processor 255HX", "category": "cpu", "releaseYear": 2025, "productStatus": "active",
+    "description": "Mobile processor in Intel Core Ultra Processors Series 2; Intel lists it as launched in Q1 2025.",
+    "specifications": { "cores": 20, "performanceCores": 8, "efficientCores": 12, "threads": 20, "overallPeakTops": 33, "maxTurboFrequency": "5.2 GHz", "performanceCoreBase": "2.4 GHz", "efficientCoreBase": "1.8 GHz", "l3Cache": "30 MB", "l2Cache": "36 MB", "processorBasePower": "55 W", "maximumTurboPower": "160 W" },
+    "variants": [], "productUrl": "https://www.intel.com/content/www/us/en/products/sku/242292/intel-core-ultra-7-processor-255hx-30m-cache-up-to-5-20-ghz/specifications.html", "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/242292/intel-core-ultra-7-processor-255hx-30m-cache-up-to-5-20-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/242292/intel-core-ultra-7-processor-255hx-30m-cache-up-to-5-20-ghz/specifications.html", "notes": "Exact Processor Number 255HX; Intel identifies the Series 2 collection, Arrow Lake codename, and Mobile segment." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/242292/intel-core-ultra-7-processor-255hx-30m-cache-up-to-5-20-ghz/specifications.html", "notes": "Exact-model record lists Marketing Status Launched and Launch Date Q1 2025." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/242292/intel-core-ultra-7-processor-255hx-30m-cache-up-to-5-20-ghz/specifications.html", "notes": "Per-SKU record supplies core/thread counts, peak TOPS, turbo/base clocks, cache, and power." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra Series 2 product list", "sourceUrl": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html", "notes": "Intel's official Series 2 product list confirms this model belongs to the Series 2 lineup." }
+    ], "imageCandidate": null, "reasons": ["No exact-model image with verified usage permission has been selected; keep private pending visual identity and license review."]
+  },
+  {
+    "sourceKey": "web-research:intel:core-ultra-7-265h",
+    "brand": "Intel", "family": "Intel Core Ultra Mobile Processors", "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 7 265H", "modelNumber": "265H", "name": "Intel Core Ultra 7 Processor 265H", "category": "cpu", "releaseYear": 2025, "productStatus": "active",
+    "description": "Mobile processor in Intel Core Ultra Processors Series 2; Intel lists it as launched in Q1 2025.",
+    "specifications": { "cores": 16, "performanceCores": 6, "efficientCores": 8, "lowPowerEfficientCores": 2, "threads": 16, "overallPeakTops": 97, "maxTurboFrequency": "5.3 GHz", "performanceCoreBase": "2.2 GHz", "efficientCoreBase": "1.7 GHz", "lowPowerEfficientCoreBase": "700 MHz", "l3Cache": "24 MB", "processorBasePower": "28 W", "maximumTurboPower": "115 W" },
+    "variants": [], "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241750/intel-core-ultra-7-processor-265h-24m-cache-up-to-5-30-ghz/specifications.html", "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241750/intel-core-ultra-7-processor-265h-24m-cache-up-to-5-30-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241750/intel-core-ultra-7-processor-265h-24m-cache-up-to-5-30-ghz/specifications.html", "notes": "Exact Processor Number 265H; Intel identifies the Series 2 collection, Arrow Lake codename, and Mobile segment." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241750/intel-core-ultra-7-processor-265h-24m-cache-up-to-5-30-ghz/specifications.html", "notes": "Exact-model record lists Marketing Status Launched and Launch Date Q1 2025." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241750/intel-core-ultra-7-processor-265h-24m-cache-up-to-5-30-ghz/specifications.html", "notes": "Per-SKU record supplies core/thread counts, peak TOPS, turbo/base clocks, cache, and power." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra Series 2 product list", "sourceUrl": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html", "notes": "Intel's official Series 2 product list confirms this model belongs to the Series 2 lineup." }
+    ], "imageCandidate": null, "reasons": ["No exact-model image with verified usage permission has been selected; keep private pending visual identity and license review."]
+  },
+  {
+    "sourceKey": "web-research:intel:core-ultra-7-255h",
+    "brand": "Intel", "family": "Intel Core Ultra Mobile Processors", "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 7 255H", "modelNumber": "255H", "name": "Intel Core Ultra 7 Processor 255H", "category": "cpu", "releaseYear": 2025, "productStatus": "active",
+    "description": "Mobile processor in Intel Core Ultra Processors Series 2; Intel lists it as launched in Q1 2025.",
+    "specifications": { "cores": 16, "performanceCores": 6, "efficientCores": 8, "lowPowerEfficientCores": 2, "threads": 16, "overallPeakTops": 96, "maxTurboFrequency": "5.1 GHz", "performanceCoreBase": "2 GHz", "efficientCoreBase": "1.5 GHz", "lowPowerEfficientCoreBase": "700 MHz", "l3Cache": "24 MB", "processorBasePower": "28 W", "maximumTurboPower": "115 W" },
+    "variants": [], "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241751/intel-core-ultra-7-processor-255h-24m-cache-up-to-5-10-ghz/specifications.html", "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241751/intel-core-ultra-7-processor-255h-24m-cache-up-to-5-10-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241751/intel-core-ultra-7-processor-255h-24m-cache-up-to-5-10-ghz/specifications.html", "notes": "Exact Processor Number 255H; Intel identifies the Series 2 collection, Arrow Lake codename, and Mobile segment." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241751/intel-core-ultra-7-processor-255h-24m-cache-up-to-5-10-ghz/specifications.html", "notes": "Exact-model record lists Marketing Status Launched and Launch Date Q1 2025." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241751/intel-core-ultra-7-processor-255h-24m-cache-up-to-5-10-ghz/specifications.html", "notes": "Per-SKU record supplies core/thread counts, peak TOPS, turbo/base clocks, cache, and power." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra Series 2 product list", "sourceUrl": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html", "notes": "Intel's official Series 2 product list confirms this model belongs to the Series 2 lineup." }
+    ], "imageCandidate": null, "reasons": ["No exact-model image with verified usage permission has been selected; keep private pending visual identity and license review."]
+  },
+  {
+    "sourceKey": "web-research:intel:core-ultra-5-235h",
+    "brand": "Intel", "family": "Intel Core Ultra Mobile Processors", "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 5 235H", "modelNumber": "235H", "name": "Intel Core Ultra 5 Processor 235H", "category": "cpu", "releaseYear": 2025, "productStatus": "active",
+    "description": "Mobile processor in Intel Core Ultra Processors Series 2; Intel lists it as launched in Q1 2025.",
+    "specifications": { "cores": 14, "performanceCores": 4, "efficientCores": 8, "lowPowerEfficientCores": 2, "threads": 14, "overallPeakTops": 94, "maxTurboFrequency": "5 GHz", "performanceCoreBase": "2.4 GHz", "efficientCoreBase": "1.8 GHz", "lowPowerEfficientCoreBase": "700 MHz", "l3Cache": "18 MB", "processorBasePower": "28 W", "maximumTurboPower": "115 W" },
+    "variants": [], "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241748/intel-core-ultra-5-processor-235h-18m-cache-up-to-5-00-ghz/specifications.html", "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241748/intel-core-ultra-5-processor-235h-18m-cache-up-to-5-00-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241748/intel-core-ultra-5-processor-235h-18m-cache-up-to-5-00-ghz/specifications.html", "notes": "Exact Processor Number 235H; Intel identifies the Series 2 collection, Arrow Lake codename, and Mobile segment." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241748/intel-core-ultra-5-processor-235h-18m-cache-up-to-5-00-ghz/specifications.html", "notes": "Exact-model record lists Marketing Status Launched and Launch Date Q1 2025." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241748/intel-core-ultra-5-processor-235h-18m-cache-up-to-5-00-ghz/specifications.html", "notes": "Per-SKU record supplies core/thread counts, peak TOPS, turbo/base clocks, cache, and power." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra Series 2 product list", "sourceUrl": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html", "notes": "Intel's official Series 2 product list confirms this model belongs to the Series 2 lineup." }
+    ], "imageCandidate": null, "reasons": ["No exact-model image with verified usage permission has been selected; keep private pending visual identity and license review."]
+  },
+  {
+    "sourceKey": "web-research:intel:core-ultra-7-265u",
+    "brand": "Intel", "family": "Intel Core Ultra Mobile Processors", "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 7 265U", "modelNumber": "265U", "name": "Intel Core Ultra 7 Processor 265U", "category": "cpu", "releaseYear": 2025, "productStatus": "active",
+    "description": "Mobile processor in Intel Core Ultra Processors Series 2; Intel lists it as launched in Q1 2025.",
+    "specifications": { "cores": 12, "performanceCores": 2, "efficientCores": 8, "lowPowerEfficientCores": 2, "threads": 14, "overallPeakTops": 24, "maxTurboFrequency": "5.3 GHz", "performanceCoreBase": "2.1 GHz", "efficientCoreBase": "1.7 GHz", "lowPowerEfficientCoreBase": "700 MHz", "l3Cache": "12 MB", "processorBasePower": "15 W", "maximumTurboPower": "57 W" },
+    "variants": [], "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241859/intel-core-ultra-7-processor-265u-12m-cache-up-to-5-30-ghz/specifications.html", "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241859/intel-core-ultra-7-processor-265u-12m-cache-up-to-5-30-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241859/intel-core-ultra-7-processor-265u-12m-cache-up-to-5-30-ghz/specifications.html", "notes": "Exact Processor Number 265U; Intel identifies the Series 2 collection, Arrow Lake codename, and Mobile segment." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241859/intel-core-ultra-7-processor-265u-12m-cache-up-to-5-30-ghz/specifications.html", "notes": "Exact-model record lists Marketing Status Launched and Launch Date Q1 2025." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241859/intel-core-ultra-7-processor-265u-12m-cache-up-to-5-30-ghz/specifications.html", "notes": "Per-SKU record supplies core/thread counts, peak TOPS, turbo/base clocks, cache, and power." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra Series 2 product list", "sourceUrl": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html", "notes": "Intel's official Series 2 product list confirms this model belongs to the Series 2 lineup." }
+    ], "imageCandidate": null, "reasons": ["No exact-model image with verified usage permission has been selected; keep private pending visual identity and license review."]
+  },
+  {
+    "sourceKey": "web-research:intel:core-ultra-7-255u",
+    "brand": "Intel", "family": "Intel Core Ultra Mobile Processors", "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 7 255U", "modelNumber": "255U", "name": "Intel Core Ultra 7 Processor 255U", "category": "cpu", "releaseYear": 2025, "productStatus": "active",
+    "description": "Mobile processor in Intel Core Ultra Processors Series 2; Intel lists it as launched in Q1 2025.",
+    "specifications": { "cores": 12, "performanceCores": 2, "efficientCores": 8, "lowPowerEfficientCores": 2, "threads": 14, "overallPeakTops": 24, "maxTurboFrequency": "5.2 GHz", "performanceCoreBase": "2 GHz", "efficientCoreBase": "1.7 GHz", "lowPowerEfficientCoreBase": "700 MHz", "l3Cache": "12 MB", "processorBasePower": "15 W", "maximumTurboPower": "57 W" },
+    "variants": [], "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241860/intel-core-ultra-7-processor-255u-12m-cache-up-to-5-20-ghz/specifications.html", "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241860/intel-core-ultra-7-processor-255u-12m-cache-up-to-5-20-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241860/intel-core-ultra-7-processor-255u-12m-cache-up-to-5-20-ghz/specifications.html", "notes": "Exact Processor Number 255U; Intel identifies the Series 2 collection, Arrow Lake codename, and Mobile segment." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241860/intel-core-ultra-7-processor-255u-12m-cache-up-to-5-20-ghz/specifications.html", "notes": "Exact-model record lists Marketing Status Launched and Launch Date Q1 2025." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241860/intel-core-ultra-7-processor-255u-12m-cache-up-to-5-20-ghz/specifications.html", "notes": "Per-SKU record supplies core/thread counts, peak TOPS, turbo/base clocks, cache, and power." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra Series 2 product list", "sourceUrl": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html", "notes": "Intel's official Series 2 product list confirms this model belongs to the Series 2 lineup." }
+    ], "imageCandidate": null, "reasons": ["No exact-model image with verified usage permission has been selected; keep private pending visual identity and license review."]
+  },
+  {
+    "sourceKey": "web-research:intel:core-ultra-5-235u",
+    "brand": "Intel", "family": "Intel Core Ultra Mobile Processors", "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 5 235U", "modelNumber": "235U", "name": "Intel Core Ultra 5 Processor 235U", "category": "cpu", "releaseYear": 2025, "productStatus": "active",
+    "description": "Mobile processor in Intel Core Ultra Processors Series 2; Intel lists it as launched in Q1 2025.",
+    "specifications": { "cores": 12, "performanceCores": 2, "efficientCores": 8, "lowPowerEfficientCores": 2, "threads": 14, "overallPeakTops": 24, "maxTurboFrequency": "4.9 GHz", "performanceCoreBase": "2 GHz", "efficientCoreBase": "1.6 GHz", "lowPowerEfficientCoreBase": "700 MHz", "l3Cache": "12 MB", "processorBasePower": "15 W", "maximumTurboPower": "57 W" },
+    "variants": [], "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241862/intel-core-ultra-5-processor-235u-12m-cache-up-to-4-90-ghz/specifications.html", "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241862/intel-core-ultra-5-processor-235u-12m-cache-up-to-4-90-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241862/intel-core-ultra-5-processor-235u-12m-cache-up-to-4-90-ghz/specifications.html", "notes": "Exact Processor Number 235U; Intel identifies the Series 2 collection, Arrow Lake codename, and Mobile segment." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241862/intel-core-ultra-5-processor-235u-12m-cache-up-to-4-90-ghz/specifications.html", "notes": "Exact-model record lists Marketing Status Launched and Launch Date Q1 2025." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241862/intel-core-ultra-5-processor-235u-12m-cache-up-to-4-90-ghz/specifications.html", "notes": "Per-SKU record supplies core/thread counts, peak TOPS, turbo/base clocks, cache, and power." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra Series 2 product list", "sourceUrl": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html", "notes": "Intel's official Series 2 product list confirms this model belongs to the Series 2 lineup." }
+    ], "imageCandidate": null, "reasons": ["No exact-model image with verified usage permission has been selected; keep private pending visual identity and license review."]
+  },
+  {
+    "sourceKey": "web-research:intel:core-ultra-5-225u",
+    "brand": "Intel", "family": "Intel Core Ultra Mobile Processors", "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 5 225U", "modelNumber": "225U", "name": "Intel Core Ultra 5 Processor 225U", "category": "cpu", "releaseYear": 2025, "productStatus": "active",
+    "description": "Mobile processor in Intel Core Ultra Processors Series 2; Intel lists it as launched in Q1 2025.",
+    "specifications": { "cores": 12, "performanceCores": 2, "efficientCores": 8, "lowPowerEfficientCores": 2, "threads": 14, "overallPeakTops": 24, "maxTurboFrequency": "4.8 GHz", "performanceCoreBase": "1.5 GHz", "efficientCoreBase": "1.3 GHz", "lowPowerEfficientCoreBase": "700 MHz", "l3Cache": "12 MB", "processorBasePower": "15 W", "maximumTurboPower": "57 W" },
+    "variants": [], "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241861/intel-core-ultra-5-processor-225u-12m-cache-up-to-4-80-ghz/specifications.html", "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241861/intel-core-ultra-5-processor-225u-12m-cache-up-to-4-80-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241861/intel-core-ultra-5-processor-225u-12m-cache-up-to-4-80-ghz/specifications.html", "notes": "Exact Processor Number 225U; Intel identifies the Series 2 collection, Arrow Lake codename, and Mobile segment." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241861/intel-core-ultra-5-processor-225u-12m-cache-up-to-4-80-ghz/specifications.html", "notes": "Exact-model record lists Marketing Status Launched and Launch Date Q1 2025." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241861/intel-core-ultra-5-processor-225u-12m-cache-up-to-4-80-ghz/specifications.html", "notes": "Per-SKU record supplies core/thread counts, peak TOPS, turbo/base clocks, cache, and power." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra Series 2 product list", "sourceUrl": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html", "notes": "Intel's official Series 2 product list confirms this model belongs to the Series 2 lineup." }
+    ], "imageCandidate": null, "reasons": ["No exact-model image with verified usage permission has been selected; keep private pending visual identity and license review."]
+  },
+  {
+    "sourceKey": "web-research:intel:core-ultra-5-225h",
+    "brand": "Intel", "family": "Intel Core Ultra Mobile Processors", "generation": "Series 2 (Arrow Lake)",
+    "model": "Core Ultra 5 225H", "modelNumber": "225H", "name": "Intel Core Ultra 5 Processor 225H", "category": "cpu", "releaseYear": 2025, "productStatus": "active",
+    "description": "Mobile processor in Intel Core Ultra Processors Series 2; Intel lists it as launched in Q1 2025.",
+    "specifications": { "cores": 14, "performanceCores": 4, "efficientCores": 8, "lowPowerEfficientCores": 2, "threads": 14, "overallPeakTops": 83, "maxTurboFrequency": "4.9 GHz", "performanceCoreBase": "1.7 GHz", "efficientCoreBase": "1.3 GHz", "lowPowerEfficientCoreBase": "700 MHz", "l3Cache": "18 MB", "processorBasePower": "28 W", "maximumTurboPower": "115 W" },
+    "variants": [], "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241749/intel-core-ultra-5-processor-225h-18m-cache-up-to-4-90-ghz/specifications.html", "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241749/intel-core-ultra-5-processor-225h-18m-cache-up-to-4-90-ghz/specifications.html",
+    "evidence": [
+      { "evidenceType": "identity", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241749/intel-core-ultra-5-processor-225h-18m-cache-up-to-4-90-ghz/specifications.html", "notes": "Exact Processor Number 225H; Intel identifies the Series 2 collection, Arrow Lake codename, and Mobile segment." },
+      { "evidenceType": "product_page", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241749/intel-core-ultra-5-processor-225h-18m-cache-up-to-4-90-ghz/specifications.html", "notes": "Exact-model record lists Marketing Status Launched and Launch Date Q1 2025." },
+      { "evidenceType": "specifications", "sourceName": "Intel ARK", "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241749/intel-core-ultra-5-processor-225h-18m-cache-up-to-4-90-ghz/specifications.html", "notes": "Per-SKU record supplies core/thread counts, peak TOPS, turbo/base clocks, cache, and power." },
+      { "evidenceType": "generation", "sourceName": "Intel Core Ultra Series 2 product list", "sourceUrl": "https://www.intel.com/content/www/us/en/products/details/processors/core-ultra/series-2/products.html", "notes": "Intel's official Series 2 product list confirms this model belongs to the Series 2 lineup." }
+    ], "imageCandidate": null, "reasons": ["No exact-model image with verified usage permission has been selected; keep private pending visual identity and license review."]
+  }
+]

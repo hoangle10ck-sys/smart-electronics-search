@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-11-11T15:59:58.793Z",
+  "mode": "apply",
+  "model": "bge-m3",
+  "dimensions": null,
+  "counts": {
+    "scanned": 1149,
+    "eligible": 1149,
+    "unchanged": 1149,
+    "metadataUpdated": 1149,
+    "embedded": 0,
+    "written": 0,
+    "failed": 0
+  },
+  "note": "Embeddings are separate from Product/Offer records; product facts and prices are not changed."
+}
