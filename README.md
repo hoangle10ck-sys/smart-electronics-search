@@ -41,7 +41,7 @@ npm run dev      # http://localhost:5173
 | GET | `/api/products/suggest?q=...` | Gợi ý khi gõ |
 | GET | `/api/products?category=laptop&page=1` | Danh sách |
 | GET | `/api/products/:id` | Chi tiết |
-| POST | `/api/products` | Thêm sản phẩm |
+| POST | `/api/products` | Thêm sản phẩm (cần `Authorization: Bearer <ADMIN_API_TOKEN>`; dùng Admin Catalog để quản lý sản phẩm đã xác minh) |
 
 ## Cấu hình MongoDB
 - Mẫu `backend/.env.example` dùng MongoDB local tại `127.0.0.1`. Backend tests hiện không cần kết nối MongoDB hay dịch vụ lưu trữ/crawl ngoài.

@@ -11,6 +11,7 @@ import { webSearchProvider } from '../services/webSearchProvider';
 import { normalizeSpecs } from '../utils/specs';
 import { normalizeProduct } from '../services/productNormalizer';
 import { advisorCurrentOffer, classifyAdvisorPrice } from '../services/advisorProductVerification';
+import { requireAdmin } from '../middleware/adminAuth';
 
 const router = Router();
 const SORTS = ['price_asc', 'price_desc', 'popular', 'rating'] as const;
@@ -169,7 +170,7 @@ router.get('/:id', async (req, res, next) => {
   } catch (e) { next(e); }
 });
 
-router.post('/', async (req, res, next) => {
+router.post('/', requireAdmin, async (req, res, next) => {
   try {
     const b = req.body;
     if (!b || typeof b !== 'object' || Array.isArray(b) || typeof b.name !== 'string' || typeof b.category !== 'string') {
