@@ -64,9 +64,20 @@ export default function ProductAdvisorWidget({
 
   useEffect(() => {
     const openAdvisor = () => setOpen(true);
+    const askAdvisor = (event: Event) => {
+      const custom = event as CustomEvent<{ query: string }>;
+      setOpen(true);
+      if (custom.detail?.query) {
+        window.setTimeout(() => send(custom.detail.query), 150);
+      }
+    };
     window.addEventListener('techfind:open-advisor', openAdvisor);
-    return () => window.removeEventListener('techfind:open-advisor', openAdvisor);
-  }, []);
+    window.addEventListener('techfind:ask-advisor', askAdvisor);
+    return () => {
+      window.removeEventListener('techfind:open-advisor', openAdvisor);
+      window.removeEventListener('techfind:ask-advisor', askAdvisor);
+    };
+  }, [conversationId, historyReady, loading]);
 
   useEffect(() => {
     if (!open) return;

@@ -50,6 +50,9 @@ export default function ProductComparison({ products, onRemove, onClear }: {
 }) {
   if (!products.length) return null;
   const fields = technicalFields(products);
+  const validPrices = products.map((p) => productPrice(p)).filter((p): p is number => p != null && p > 0);
+  const minPrice = validPrices.length >= 2 ? Math.min(...validPrices) : null;
+
   return (
     <section className="comparison-panel" id="product-comparison" aria-label="Bảng so sánh sản phẩm">
       <div className="comparison-heading">
@@ -58,7 +61,34 @@ export default function ProductComparison({ products, onRemove, onClear }: {
           <h3>Đặt cạnh nhau để chọn đúng mẫu</h3>
           <p>Giá và cấu hình được lấy từ nguồn đang hiển thị trên từng sản phẩm.</p>
         </div>
-        <button type="button" className="comparison-clear" onClick={onClear}>Bỏ chọn tất cả</button>
+        <div style={{ display: 'flex', gap: '8px', alignItems: 'center', flexWrap: 'wrap' }}>
+          {products.length >= 2 && (
+            <button
+              type="button"
+              style={{
+                background: 'var(--primary)',
+                color: '#fff',
+                border: 'none',
+                padding: '8px 14px',
+                borderRadius: '9px',
+                fontSize: '0.76rem',
+                fontWeight: 700,
+                cursor: 'pointer',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '6px',
+              }}
+              onClick={() => {
+                const names = products.map((p) => getProductDisplayName(p)).join(' vs ');
+                const query = `Hãy so sánh chi tiết và tư vấn giúp tôi nên chọn mẫu nào giữa: ${names}`;
+                window.dispatchEvent(new CustomEvent('techfind:ask-advisor', { detail: { query } }));
+              }}
+            >
+              <span>🤖</span> Nhờ AI tư vấn chọn mẫu
+            </button>
+          )}
+          <button type="button" className="comparison-clear" onClick={onClear}>Bỏ chọn tất cả</button>
+        </div>
       </div>
       {products.length < 2
         ? <p className="comparison-hint">Chọn thêm ít nhất một sản phẩm để bắt đầu so sánh. Có thể chọn tối đa 4 mẫu.</p>
@@ -79,7 +109,28 @@ export default function ProductComparison({ products, onRemove, onClear }: {
             <tbody>
               <tr><th scope="row">Giá tham khảo</th>{products.map((product) => {
                 const price = productPrice(product);
-                return <td key={product._id}>{price != null ? formatVND(price) : 'Chưa có giá'}</td>;
+                const isLowest = minPrice !== null && price === minPrice;
+                return (
+                  <td key={product._id}>
+                    {price != null ? (
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '6px', flexWrap: 'wrap' }}>
+                        <strong>{formatVND(price)}</strong>
+                        {isLowest && (
+                          <span style={{
+                            fontSize: '0.7rem',
+                            fontWeight: 600,
+                            color: 'var(--success, #16a34a)',
+                            background: 'rgba(22, 163, 74, 0.12)',
+                            padding: '2px 6px',
+                            borderRadius: '4px'
+                          }}>
+                            Giá tốt nhất
+                          </span>
+                        )}
+                      </div>
+                    ) : 'Chưa có giá'}
+                  </td>
+                );
               })}</tr>
               <tr><th scope="row">Cửa hàng</th>{products.map((product) => <td key={product._id}>{product.bestOffer?.sellerName ?? 'Chưa có nguồn giá'}</td>)}</tr>
               <tr><th scope="row">Hãng / model</th>{products.map((product) => { const model = product.model !== product.name ? product.model : null; return <td key={product._id}>{[product.brand, model, product.modelNumber].filter(Boolean).join(' · ') || 'Chưa có dữ liệu'}</td>; })}</tr>

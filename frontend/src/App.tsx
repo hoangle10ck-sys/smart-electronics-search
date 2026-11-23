@@ -286,6 +286,31 @@ function SearchApp() {
           <h1 id="hero-title">Tìm đúng thiết bị.<br /><span>Chọn đúng nhu cầu.</span></h1>
           <p className="hero-description">Mô tả điều bạn cần bằng ngôn ngữ tự nhiên. TechFind lọc sản phẩm từ catalog đã xác minh để bạn dễ chọn hơn.</p>
           <SearchBar id="main-search" value={query} loading={loading} onChange={setQuery} onSubmit={run} />
+          <div className="hero-presets" style={{ display: 'flex', flexWrap: 'wrap', gap: '6px', margin: '12px 0 6px', alignItems: 'center' }}>
+            <span style={{ fontSize: '0.8rem', color: 'var(--muted)', fontWeight: 500 }}>Gợi ý nhanh:</span>
+            {PRESET_QUERIES.map((preset) => (
+              <button
+                key={preset}
+                type="button"
+                style={{
+                  background: 'var(--surface)',
+                  border: '1px solid var(--line)',
+                  borderRadius: '20px',
+                  padding: '4px 10px',
+                  fontSize: '0.78rem',
+                  color: 'var(--ink)',
+                  cursor: 'pointer',
+                  transition: 'all 0.15s ease'
+                }}
+                onClick={() => {
+                  setQuery(preset);
+                  void run(preset);
+                }}
+              >
+                {preset}
+              </button>
+            ))}
+          </div>
           <div className="hero-assurances"><span><Icon name="shield" size={16} /> Nguồn sản phẩm rõ ràng</span><span><Icon name="compare" size={16} /> So sánh cấu hình</span></div>
         </div>
         <aside className="hero-guide" aria-label="Cách TechFind hỗ trợ tìm sản phẩm">
@@ -358,6 +383,16 @@ function SearchApp() {
     </main>
   );
 }
+
+const PRESET_QUERIES = [
+  'Laptop văn phòng mỏng nhẹ',
+  'Laptop gaming 144Hz',
+  'Điện thoại pin 5000mAh',
+  'Tai nghe chống ồn',
+  'Dưới 10 triệu',
+  '10 - 20 triệu',
+  'Trên 20 triệu',
+];
 
 export default function App() {
   const { preference, cyclePreference } = useThemePreference();
