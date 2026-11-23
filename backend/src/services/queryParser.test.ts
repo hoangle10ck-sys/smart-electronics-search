@@ -39,3 +39,20 @@ test('does not interpret storage capacity as the budget', () => {
   assert.equal(parsed.maxPrice, 8_000_000);
   assert.equal(parsed.storageGB, 256);
 });
+
+test('treats generic máy tính as laptop and desktop without a stray tinh keyword', () => {
+  for (const query of ['Máy tính', 'Tìm máy tính', 'may tinh']) {
+    const parsed = parseQuery(query);
+    assert.equal(parsed.category, undefined, query);
+    assert.deepEqual(parsed.categoryGroup, ['laptop', 'desktop'], query);
+    assert.equal(parsed.keywords.includes('tinh'), false, query);
+    assert.equal(parsed.keywords.length, 0, query);
+  }
+});
+
+test('specific computer categories remain more specific than generic máy tính', () => {
+  assert.equal(parseQuery('máy tính xách tay').category, 'laptop');
+  assert.equal(parseQuery('máy tính để bàn').category, 'desktop');
+  assert.equal(parseQuery('máy tính bảng').category, 'tablet');
+  assert.equal(parseQuery('máy tính xách tay').categoryGroup, undefined);
+});

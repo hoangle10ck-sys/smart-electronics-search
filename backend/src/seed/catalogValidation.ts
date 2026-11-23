@@ -2,6 +2,7 @@ import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { normalize } from '../utils/text';
 import { CANONICAL_CATEGORY_KEYS } from '../services/taxonomy';
+import { buildProductDescription } from '../services/productDescription';
 
 export type CatalogProduct = {
   sourceProductId: string; name: string; brand: string; model: string; category: string;
@@ -19,6 +20,7 @@ export function validateCatalogProducts(products: CatalogProduct[]) {
     if (missing.length || product.verified !== true || product.imageUsagePermission !== 'granted' || !Object.keys(product.specifications ?? {}).length) {
       throw new Error(`Incomplete/unverified product ${product.sourceProductId}: ${missing.join(', ') || 'verification or image license missing'}`);
     }
+    if (!buildProductDescription(product.name, product.specifications)) throw new Error(`Product ${product.sourceProductId} has no usable specifications for a sourced description`);
     if (!Number.isFinite(Date.parse(product.verifiedAt))) throw new Error(`Invalid verification date for ${product.sourceProductId}`);
     if (!CANONICAL_CATEGORY_KEYS.includes(product.category)) throw new Error(`Unknown canonical category ${product.category} for ${product.sourceProductId}`);
   }
@@ -57,9 +59,10 @@ export async function checkCatalogUrl(value: string, image = false) {
   }
 }
 
-export async function loadAndValidateCatalog() {
+export async function loadAndValidateCatalog(options: { verifyUrls?: boolean } = {}) {
   const products = JSON.parse(await readFile(resolve(__dirname, 'catalog.json'), 'utf8')) as CatalogProduct[];
   validateCatalogProducts(products);
+  if (options.verifyUrls === false) return products;
   const checks = products.flatMap((product) => [
     () => checkCatalogUrl(product.imageUrl, true),
     () => checkCatalogUrl(product.productUrl),

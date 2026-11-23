@@ -3,7 +3,7 @@ import { PendingProduct } from '../models/PendingProduct';
 import { Product } from '../models/Product';
 import { CANONICAL_CATEGORIES, canonicalCategory } from './taxonomy';
 
-const requiredEvidence = ['identity', 'product_page', 'specifications', 'image', 'image_rights'];
+const requiredEvidence = ['identity', 'product_page', 'specifications', 'description', 'image', 'image_rights'];
 
 function hasText(value: unknown): value is string {
   return typeof value === 'string' && value.trim().length > 0;
@@ -19,7 +19,7 @@ function uniqueKey(category: string, brand: string, model: string, fallback: str
 
 export async function readCatalogCoverage() {
   const [products, pendingRows, totalOffers, verifiedPricedOffers, rejected] = await Promise.all([
-    Product.find({}).select('name brand model category family generation verified verifiedAt electronicStatus productVerificationStatus imageVerificationStatus urlVerificationStatus publicationStatus imageUrl imageSource imageUsagePermission imagePermissionEvidence imageLicense imageLicenseUrl imageAttribution productUrl specificationSourceUrl specifications variants sourceEvidence').lean(),
+    Product.find({}).select('name brand model category family generation description verified verifiedAt electronicStatus productVerificationStatus imageVerificationStatus urlVerificationStatus publicationStatus imageUrl imageSource imageUsagePermission imagePermissionEvidence imageLicense imageLicenseUrl imageAttribution productUrl specificationSourceUrl specifications specs variants sourceEvidence').lean(),
     PendingProduct.find({ classification: 'pending_review', reviewDecision: null }).select('sourceKey raw productVerificationStatus imageVerificationStatus urlVerificationStatus publicationStatus').lean(),
     Offer.countDocuments(),
     Offer.countDocuments({ verified: true, verifiedAt: { $ne: null }, price: { $gt: 0 }, currency: 'VND', productUrl: { $type: 'string', $ne: '' } }),
@@ -31,7 +31,7 @@ export async function readCatalogCoverage() {
   let unidentifiedRecords = 0;
   const ensureCategory = (category: string) => {
     const key = canonicalCategory(category || 'uncategorized');
-    if (!categoryRows.has(key)) categoryRows.set(key, { category: key, totalModels: 0, verifiedModels: 0, pendingModels: 0, publishedModels: 0, publicationPendingModels: 0, hiddenModels: 0, imageVerifiedModels: 0, urlVerifiedModels: 0, missingImages: 0, missingSpecifications: 0, missingUrls: 0, missingImageRights: 0, brands: new Map<string, any>() });
+    if (!categoryRows.has(key)) categoryRows.set(key, { category: key, totalModels: 0, verifiedModels: 0, pendingModels: 0, publishedModels: 0, publicationPendingModels: 0, hiddenModels: 0, imageVerifiedModels: 0, urlVerifiedModels: 0, missingDescriptions: 0, missingImages: 0, missingSpecifications: 0, missingUrls: 0, missingImageRights: 0, brands: new Map<string, any>() });
     return categoryRows.get(key);
   };
 
@@ -43,16 +43,17 @@ export async function readCatalogCoverage() {
     const key = uniqueKey(category, brand, model, fallback);
     const imageRights = value.imageUsagePermission === 'granted' && hasText(value.imageUrl) && hasText(value.imageSource)
       && hasText(value.imageLicense) && hasText(value.imageLicenseUrl) && hasText(value.imageAttribution);
-    const hasSpecs = value.specifications && typeof value.specifications === 'object' && Object.keys(value.specifications).length > 0;
+    const hasSpecs = [value.specifications, value.specs].some((specs) => specs && typeof specs === 'object' && Object.keys(specs).length > 0);
     const hasUrls = hasHttps(value.productUrl) && hasHttps(value.specificationSourceUrl);
     const evidenceTypes = new Set((Array.isArray(value.sourceEvidence) ? value.sourceEvidence : Array.isArray(value.evidence) ? value.evidence : []).map((item: any) => item?.evidenceType));
+    const hasDescription = hasText(value.description) && evidenceTypes.has('description');
     const evidenceComplete = Boolean(value.family && value.generation && model && requiredEvidence.every((type) => evidenceTypes.has(type)) && imageRights);
     const verified = !isResearchPending && value.verified === true && value.verifiedAt && value.electronicStatus !== 'pending_review'
       && imageRights && hasUrls && hasSpecs && model && brand !== '(brand not recorded)';
     const current = models.get(key) ?? {
       key, category, brand, model: model || '(model not recorded)', family: hasText(value.family) ? value.family.trim() : '(family not recorded)',
       generation: hasText(value.generation) ? value.generation.trim() : '(generation not recorded)',
-      verified: false, evidenceComplete: false, imageRights: false, hasSpecs: false, hasUrls: false,
+      verified: false, evidenceComplete: false, imageRights: false, hasSpecs: false, hasUrls: false, hasDescription: false,
       productVerificationStatus: 'pending', imageVerificationStatus: 'pending', urlVerificationStatus: 'pending', publicationStatus: 'pending',
       variants: 0, recordCount: 0,
     };
@@ -66,6 +67,7 @@ export async function readCatalogCoverage() {
     current.imageRights ||= Boolean(imageRights);
     current.hasSpecs ||= Boolean(hasSpecs);
     current.hasUrls ||= Boolean(hasUrls);
+    current.hasDescription ||= Boolean(hasDescription);
     current.variants = Math.max(current.variants, Array.isArray(value.variants) ? value.variants.length : 0);
     current.recordCount += 1;
     if (current.family === '(family not recorded)' && hasText(value.family)) current.family = value.family.trim();
@@ -89,6 +91,7 @@ export async function readCatalogCoverage() {
     if (row.urlVerificationStatus === 'verified') category.urlVerifiedModels += 1;
     if (!row.imageRights) { category.missingImages += 1; category.missingImageRights += 1; }
     if (!row.hasSpecs) category.missingSpecifications += 1;
+    if (!row.hasDescription) category.missingDescriptions += 1;
     if (!row.hasUrls) category.missingUrls += 1;
 
     const brand = category.brands.get(row.brand) ?? { brand: row.brand, totalModels: 0, verifiedModels: 0, pendingModels: 0, families: new Map<string, any>() };
@@ -98,7 +101,7 @@ export async function readCatalogCoverage() {
     family.totalModels += 1;
     family[`${status}Models`] += 1;
     const generation = family.generations.get(row.generation) ?? { generation: row.generation, models: [] };
-    generation.models.push({ model: row.model, status, productVerificationStatus: row.productVerificationStatus, imageVerificationStatus: row.imageVerificationStatus, urlVerificationStatus: row.urlVerificationStatus, publicationStatus: row.publicationStatus, evidenceComplete: row.evidenceComplete, imageRights: row.imageRights, hasSpecifications: row.hasSpecs, hasProductAndSpecsUrls: row.hasUrls, variants: row.variants });
+    generation.models.push({ model: row.model, status, productVerificationStatus: row.productVerificationStatus, imageVerificationStatus: row.imageVerificationStatus, urlVerificationStatus: row.urlVerificationStatus, publicationStatus: row.publicationStatus, evidenceComplete: row.evidenceComplete, imageRights: row.imageRights, hasDescription: row.hasDescription, hasSpecifications: row.hasSpecs, hasProductAndSpecsUrls: row.hasUrls, variants: row.variants });
     family.generations.set(row.generation, generation);
     brand.families.set(row.family, family);
     category.brands.set(row.brand, brand);
@@ -109,7 +112,7 @@ export async function readCatalogCoverage() {
     return {
       category: key, label,
       totalModels: row.totalModels, verifiedModels: row.verifiedModels, pendingModels: row.pendingModels,
-      missingImages: row.missingImages, missingSpecifications: row.missingSpecifications, missingUrls: row.missingUrls,
+      missingDescriptions: row.missingDescriptions, missingImages: row.missingImages, missingSpecifications: row.missingSpecifications, missingUrls: row.missingUrls,
       brands: [...row.brands.values()].map((brand: any) => ({
         brand: brand.brand, totalModels: brand.totalModels, verifiedModels: brand.verifiedModels, pendingModels: brand.pendingModels,
         families: [...brand.families.values()].map((family: any) => ({
@@ -144,6 +147,7 @@ export async function readCatalogCoverage() {
       generationCount: new Set(all.map((row) => `${row.category}|${row.brand}|${row.family}|${row.generation}`).filter((key) => !key.endsWith('|(generation not recorded)'))).size,
       variants: all.reduce((sum, row) => sum + row.variants, 0),
       modelsMissingImages: all.filter((row) => !row.imageRights).length,
+      modelsMissingDescriptions: all.filter((row) => !row.hasDescription).length,
       modelsMissingSpecifications: all.filter((row) => !row.hasSpecs).length,
       modelsMissingUrls: all.filter((row) => !row.hasUrls).length,
       modelsMissingImageRights: all.filter((row) => !row.imageRights).length,

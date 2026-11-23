@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { getProductById, getSimilarProducts, Product, formatVND } from '../api';
+import { getProductDisplayName } from '../productDisplayName';
 import Icon from './Icon';
 
 function safeHref(value: string | null | undefined) {
@@ -110,13 +111,13 @@ export default function ProductDetailDialog({
         <div className="detail-overview">
           <div className="detail-image">
             {imageUrl
-              ? <img src={imageUrl} alt={product.name} />
+              ? <img src={imageUrl} alt={getProductDisplayName(product)} />
               : <div className="product-image-placeholder"><Icon name="image" size={42} /><span>Chưa có hình ảnh</span></div>}
           </div>
           <div className="detail-summary">
             <p className="product-brand">{product.brand || 'Sản phẩm điện tử'}</p>
-            <h2 id="product-dialog-title">{product.name}</h2>
-            {(product.model || product.modelNumber) && (product.model !== product.name || product.modelNumber) && <p className="detail-model">{[product.model !== product.name ? product.model : null, product.modelNumber].filter(Boolean).join(' · ')}</p>}
+            <h2 id="product-dialog-title">{getProductDisplayName(product)}</h2>
+            {product.modelNumber && <p className="detail-model">{product.modelNumber}</p>}
             {product.verified && <span className="verified-inline"><Icon name="shield" size={15} /> {product.verificationScope === 'retailer_feed' ? 'Tên sản phẩm và ưu đãi từ feed nhà bán' : 'Thông tin sản phẩm đã xác minh'}</span>}
             <p className="detail-price">{price != null ? formatVND(price) : 'Chưa có giá xác minh'}</p>
             {offer && <p className="detail-offer-meta">{[offer.sellerName, displayDate(offer.lastUpdated) && `Cập nhật ${displayDate(offer.lastUpdated)}`].filter(Boolean).join(' · ')}</p>}
@@ -168,7 +169,7 @@ export default function ProductDetailDialog({
             : similar.length
               ? <ul className="similar-list">{similar.map((item) => (
                   <li key={item._id}>
-                    <div><span>{item.brand ?? item.category}</span><strong>{item.name}</strong><small>{item.bestOffer?.verified && item.bestOffer.price ? formatVND(item.bestOffer.price) : 'Chưa có giá xác minh'}</small></div>
+                      <div><span>{item.brand ?? item.category}</span><strong>{getProductDisplayName(item)}</strong><small>{item.bestOffer?.verified && item.bestOffer.price ? formatVND(item.bestOffer.price) : 'Chưa có giá xác minh'}</small></div>
                     <button className="button-secondary" type="button" onClick={() => onSelectProduct(item)}>Xem <Icon name="arrow" size={15} /></button>
                   </li>
                 ))}</ul>

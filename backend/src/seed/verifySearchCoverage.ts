@@ -114,7 +114,7 @@ async function main() {
       advisor,
       queries,
     };
-    const projectRoot = resolve(process.cwd(), '..');
+    const projectRoot = resolve(process.cwd(), '../docs/catalog/reports');
     const reportFile = resolve(projectRoot, 'SEARCH_CATALOG_COVERAGE_2026_11_12.json');
     await mkdir(projectRoot, { recursive: true });
     await writeFile(reportFile, JSON.stringify(report, null, 2), 'utf8');

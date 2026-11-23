@@ -1,0 +1,97 @@
+[
+  {
+    "sourceKey": "web-research:techapi:gpu:arc-b580",
+    "brand": "Intel",
+    "family": "Intel Arc",
+    "generation": "Intel Arc B Series (Battlemage / Xe2)",
+    "model": "Intel Arc B580",
+    "modelNumber": "B580",
+    "name": "Intel Arc B580 Graphics Card",
+    "category": "gpu",
+    "releaseYear": 2024,
+    "productStatus": "active",
+    "description": "Intel Arc B580 desktop discrete graphics processor.",
+    "specifications": {
+      "architecture": "Xe2 (Battlemage)",
+      "xeCores": 20,
+      "rayTracingUnits": 20,
+      "graphicsClockMHz": 2670,
+      "memoryConfigurations": [
+        "12 GB GDDR6"
+      ],
+      "memoryInterfaceBits": 192,
+      "memoryBandwidthGBs": 456,
+      "totalBoardPowerW": 190,
+      "pcieInterface": "PCIe 4.0 x8"
+    },
+    "variants": [],
+    "productUrl": "https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html",
+    "specificationSourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html",
+    "dataAttribution": "Data from TechAPI",
+    "dataSourceUrl": "https://github.com/GetTechAPI/TechAPI",
+    "dataLicense": "CC BY-SA 4.0",
+    "dataLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "Intel",
+        "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html",
+        "notes": "Official manufacturer page identifies Intel Arc B580 as a desktop graphics processor."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "Intel",
+        "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html",
+        "notes": "Exact model or named product family page; live HTTP and model-text check passed at https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "Intel",
+        "sourceUrl": "https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html",
+        "notes": "Manufacturer specifications were independently checked for the fields stored in this record; live HTTP and model-text check passed at https://www.intel.com/content/www/us/en/products/sku/241598/intel-arc-b580-graphics/specifications.html. TechAPI values were not used where the manufacturer differed."
+      },
+      {
+        "evidenceType": "catalog_record",
+        "sourceName": "TechAPI",
+        "sourceUrl": "https://gettechapi.github.io/TechAPI/v1/gpus/arc-b580/index.json",
+        "notes": "Data from TechAPI; record Arc B580 (arc-b580), marked verified by TechAPI. Its fields were independently cross-checked against the manufacturer. The API record's source_urls are recorded in TECHAPI_GPU_VERIFICATION_2026_11_11.json."
+      },
+      {
+        "evidenceType": "data_license",
+        "sourceName": "TechAPI data license",
+        "sourceUrl": "https://github.com/GetTechAPI/TechAPI/blob/develop/data/LICENSE.md",
+        "notes": "TechAPI data is CC BY-SA 4.0. Required attribution: “Data from TechAPI” with a link to the repository; derived data must use the same license. This grant does not cover images."
+      },
+      {
+        "evidenceType": "image",
+        "sourceName": "Wikimedia Commons exact-model photograph",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intel_Arc_Battlemage_B580_Limited_Edition.jpg",
+        "notes": "Visually checked the card and box in the photograph; both identify Intel Arc B580."
+      },
+      {
+        "evidenceType": "image_rights",
+        "sourceName": "Wikimedia Commons file license record",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intel_Arc_Battlemage_B580_Limited_Edition.jpg",
+        "notes": "Exact file page identifies uploader Jiahwang and CC0 1.0; reuse terms checked on this page."
+      }
+    ],
+    "imageCandidate": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Intel_Arc_Battlemage_B580_Limited_Edition.jpg",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Intel_Arc_Battlemage_B580_Limited_Edition.jpg",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Jiahwang",
+      "attribution": "Jiahwang, CC0 1.0, via Wikimedia Commons; unmodified.",
+      "visualIdentityChecked": true,
+      "visualReviewNotes": "Visually checked the Commons photograph; the card and box show the exact Intel Arc B580 model."
+    },
+    "imageUrl": null,
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "verified",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Official Intel ARK identity and specifications are verified. Exact Intel Arc B580 image visually reviewed; Commons records CC0 1.0. Pending live URL, image, and rights revalidation before publication."
+    ]
+  }
+]

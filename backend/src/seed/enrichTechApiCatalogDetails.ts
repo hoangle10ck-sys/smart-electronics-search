@@ -1,18 +1,13 @@
 import mongoose from 'mongoose';
-import { TechApiCatalogRecord } from '../models/TechApiCatalogRecord';
+import { createTechApiImporterRepository, resolveTechApiStorageConfig } from '../repositories/techApiRepositoryFactory';
+import { TechApiCatalogReference } from '../repositories/techApiRepository';
 import { assertLocalMongoUri, buildTechApiSearchText, techApiDetailSha256, techApiDetailUrl, validateTechApiDetail } from '../services/techApiCatalog';
 
 const CONCURRENCY = 2;
 const MAX_BATCH = 1000;
 const ALLOWED_CATEGORIES = new Set(['smartphone', 'tablet', 'smartwatch', 'pda', 'gpu', 'cpu', 'laptop', 'monitor', 'device_catalog', 'soc']);
 
-type CatalogRow = {
-  sourceKey: string;
-  sourceCategory: string;
-  sourceSlug: string;
-  name: string;
-  sourceRecordUrl: string;
-};
+type CatalogRow = TechApiCatalogReference;
 
 function option(name: string): string | undefined {
   const position = process.argv.indexOf(name);
@@ -61,17 +56,11 @@ async function main() {
   const refresh = process.argv.includes('--refresh');
   if (refresh && !write) throw new Error('--refresh requires --write.');
 
-  await mongoose.connect(uri);
+  const storageConfig = resolveTechApiStorageConfig();
+  const repository = await createTechApiImporterRepository({ writeTechApi: write });
   try {
-    const filter: Record<string, unknown> = {
-      ...(refresh ? {} : { detailsFetchedAt: null }),
-      ...(category ? { sourceCategory: category } : {}),
-    };
-    const rows = await TechApiCatalogRecord.find(filter)
-      .select('sourceKey sourceCategory sourceSlug name sourceRecordUrl')
-      .sort({ lastSeenAt: -1, sourceCategory: 1, sourceSlug: 1 })
-      .limit(limit)
-      .lean() as CatalogRow[];
+    await mongoose.connect(uri);
+    const rows = await repository.findCatalogReferencesForEnrichment({ category, refresh, limit }) as CatalogRow[];
 
     let fetched = 0;
     let updated = 0;
@@ -85,12 +74,14 @@ async function main() {
           fetched += 1;
           if (write) {
             const detailsFetchedAt = new Date();
-            const result = await TechApiCatalogRecord.updateOne(
-              { sourceKey: row.sourceKey, ...(refresh ? {} : { detailsFetchedAt: null }) },
-              { $set: { raw: detail, searchText: buildTechApiSearchText(detail), detailsFetchedAt, detailsSha256: techApiDetailSha256(detail), lastSeenAt: detailsFetchedAt } },
-              { runValidators: true },
-            );
-            updated += result.modifiedCount;
+            updated += await repository.updateEnrichedRecord({
+              sourceKey: row.sourceKey,
+              onlyIfNotEnriched: !refresh,
+              raw: detail,
+              searchText: buildTechApiSearchText(detail),
+              detailsFetchedAt,
+              detailsSha256: techApiDetailSha256(detail),
+            });
           }
         } catch {
           failures.push({ category: row.sourceCategory, slug: row.sourceSlug });
@@ -99,7 +90,9 @@ async function main() {
     }));
 
     const summary = {
-      mode: write ? 'local_mongo_write' : 'dry_run',
+      mode: write ? (storageConfig.storage === 'sqlite' ? 'sqlite_write' : 'mongo_write') : 'dry_run',
+      techApiStorage: storageConfig.storage,
+      techApiAccess: storageConfig.storage === 'sqlite' ? (write ? 'readwrite' : 'readonly') : 'not_applicable',
       database: mongoose.connection.name,
       source: 'TechAPI',
       sourceLicense: 'CC BY-SA 4.0',
@@ -116,12 +109,12 @@ async function main() {
     console.log(JSON.stringify(summary, null, 2));
     if (failures.length) process.exitCode = 2;
   } finally {
+    await repository.close();
     await mongoose.disconnect();
   }
 }
 
-main().catch(async (error) => {
+main().catch((error) => {
   console.error(error instanceof Error ? error.message : 'TechAPI detail enrichment failed.');
-  await mongoose.disconnect();
   process.exitCode = 1;
 });

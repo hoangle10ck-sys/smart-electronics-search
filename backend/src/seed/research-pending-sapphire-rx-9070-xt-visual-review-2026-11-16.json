@@ -1,0 +1,97 @@
+[
+  {
+    "sourceKey": "web-research:sapphire:pulse-radeon-rx-9070-xt-16g",
+    "brand": "Sapphire",
+    "model": "Radeon RX 9070 XT",
+    "modelNumber": "11348-03-20G",
+    "name": "Sapphire PULSE AMD Radeon RX 9070 XT 16GB Graphics Card",
+    "category": "gpu",
+    "family": "Sapphire PULSE Radeon RX 9000",
+    "generation": "AMD RDNA 4",
+    "releaseYear": 2025,
+    "productStatus": "active",
+    "productUrl": "https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-9070-xt-16g-gddr6",
+    "specificationSourceUrl": "https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-9070-xt-16g-gddr6",
+    "description": "Card đồ họa Sapphire PULSE dùng GPU AMD Radeon RX 9070 XT, bộ nhớ GDDR6 16 GB và xung tăng tốc tối đa 2970 MHz.",
+    "specifications": {
+      "modelNumber": "11348-03-20G",
+      "gpu": "AMD Radeon RX 9070 XT",
+      "architecture": "AMD RDNA 4",
+      "boostClockMHz": 2970,
+      "gameClockMHz": 2400,
+      "streamProcessors": 4096,
+      "computeUnits": 64,
+      "rayAccelerators": 64,
+      "aiAccelerators": 128,
+      "infinityCacheMB": 64,
+      "memory": "16 GB GDDR6",
+      "memoryInterfaceBits": 256,
+      "memorySpeedGbps": 20
+    },
+    "specs": {
+      "gpu": "AMD Radeon RX 9070 XT",
+      "vramGB": 16,
+      "memoryType": "GDDR6",
+      "memoryBusBits": 256,
+      "architecture": "AMD RDNA 4",
+      "boostClockMHz": 2970
+    },
+    "tags": [
+      "gaming",
+      "graphics card"
+    ],
+    "variants": [],
+    "imageCandidate": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Sapphire_Pulse_Radeon_RX_9070_XT_-_Seitenansicht.jpg",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Sapphire_Pulse_Radeon_RX_9070_XT_-_Seitenansicht.jpg",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "Chaddy",
+      "attribution": "Photo by Chaddy, CC BY-SA 4.0.",
+      "visualIdentityChecked": true,
+      "visualReviewNotes": "Ảnh chụp mặt bên của card Sapphire PULSE; logo SAPPHIRE và Radeon hiện rõ, khớp dòng PULSE AMD Radeon RX 9070 XT."
+    },
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "Sapphire Technology",
+        "sourceUrl": "https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-9070-xt-16g-gddr6",
+        "notes": "Trang sản phẩm chính hãng ghi Sapphire PULSE AMD Radeon RX 9070 XT GPU, SKU 11348-03-20G."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "Sapphire Technology",
+        "sourceUrl": "https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-9070-xt-16g-gddr6",
+        "notes": "Trang chính hãng nhận diện bản PULSE RX 9070 XT 16G với SKU 11348-03-20G."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "Sapphire Technology",
+        "sourceUrl": "https://www.sapphiretech.com/en/consumer/pulse-radeon-rx-9070-xt-16g-gddr6",
+        "notes": "Đối chiếu xung boost/game, số stream processor, compute unit, ray accelerator, AI accelerator, Infinity Cache và cấu hình GDDR6 16GB/256-bit/20Gbps."
+      },
+      {
+        "evidenceType": "image",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Sapphire_Pulse_Radeon_RX_9070_XT_-_Seitenansicht.jpg",
+        "notes": "Ảnh được xem trực tiếp; logo Sapphire PULSE và Radeon trên card phù hợp đúng phiên bản sản phẩm."
+      },
+      {
+        "evidenceType": "image_rights",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sapphire_Pulse_Radeon_RX_9070_XT_-_Seitenansicht.jpg",
+        "notes": "Trang ảnh ghi tác giả Chaddy và giấy phép Creative Commons Attribution-Share Alike 4.0 International."
+      }
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "verified",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Danh tính sản phẩm, thông số từ Sapphire và ảnh đúng phiên bản có giấy phép CC BY-SA 4.0 đã được kiểm tra; chưa gắn giá vì chưa có Offer được xác minh."
+    ],
+    "brandAliases": [
+      "AMD"
+    ]
+  }
+]

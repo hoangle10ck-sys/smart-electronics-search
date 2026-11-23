@@ -7,6 +7,7 @@ import { understandQuery } from '../services/queryUnderstanding';
 import { smartSearch, SearchMode } from '../services/searchService';
 import { validateSearchRequest } from '../services/searchRequest';
 import { takeLiveSearchSlot } from '../services/liveSearchRateLimit';
+import { withRecommendationReadiness } from '../services/catalogReadiness';
 import advisorChatRoutes from './advisorChat';
 
 const router = Router();
@@ -108,10 +109,10 @@ router.post('/ai/understand-query', async (req, res, next) => {
 router.get('/products/:id/similar', async (req, res, next) => {
   try {
     if (!isValidObjectId(req.params.id)) return res.status(400).json({ success: false, message: 'invalid product id' });
-    const source = await Product.findOne({
+    const source = await Product.findOne(withRecommendationReadiness({
       _id: req.params.id, verified: true, productVerificationStatus: 'verified',
       urlVerificationStatus: 'verified', publicationStatus: 'published',
-    }).select('_id name brand model category description tags normalizedSpecs').lean() as any;
+    })).select('_id name brand model category description tags normalizedSpecs').lean() as any;
     if (!source) return res.status(404).json({ success: false, message: 'product not found' });
     const query = [source.category, source.brand, source.tags?.join(' ')]
       .filter(Boolean).join(' ').slice(0, 300);

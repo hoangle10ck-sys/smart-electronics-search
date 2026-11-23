@@ -4,9 +4,10 @@ import { basename, join, relative, resolve, sep } from 'node:path';
 import mongoose from 'mongoose';
 import { connectDB } from '../config/db';
 import { SyncRun } from '../models/SyncRun';
-import { TechApiCatalogRecord } from '../models/TechApiCatalogRecord';
-import { TechApiImportCheckpoint } from '../models/TechApiImportCheckpoint';
+import { createTechApiImporterRepository, resolveTechApiStorageConfig } from '../repositories/techApiRepositoryFactory';
+import { TechApiCatalogRecord as CatalogRecordInput, TechApiImportCheckpoint as CheckpointInput } from '../repositories/techApiRepository';
 import { assertLocalMongoUri, buildTechApiSearchText } from '../services/techApiCatalog';
+import { canSkipTechApiFile } from '../services/techApiImportResume';
 
 const API_ROOT = 'https://gettechapi.github.io/TechAPI';
 const API_VERSION = `${API_ROOT}/v1`;
@@ -58,7 +59,7 @@ async function prepareFile(filePath: string, sourceCommit: string) {
   const sourceListUrl = `${API_VERSION}/${LIST_ENDPOINTS[category]}`;
   const now = new Date();
   const sourceKey = `techapi:${category}:${slug}`;
-  const update = {
+  const catalogRecord: CatalogRecordInput = {
     sourceKey,
     sourceCategory: category,
     sourceSlug: slug,
@@ -77,21 +78,34 @@ async function prepareFile(filePath: string, sourceCommit: string) {
     detailsSha256: sha256,
     lastSeenAt: now,
     updatedAt: now,
+    createdAt: now,
   };
   return {
     category,
+    sourceKey,
     fileKey,
-    sourcePath: relativePath,
     sha256,
-    productOperation: { updateOne: { filter: { sourceKey }, update: { $set: update, $setOnInsert: { createdAt: now } }, upsert: true } },
-    checkpointOperation: { updateOne: { filter: { fileKey }, update: { $set: { fileKey, sourcePath: relativePath, sourceCommit, sha256, recordCount: 1, importedAt: now, updatedAt: now }, $setOnInsert: { createdAt: now } }, upsert: true } },
+    catalogRecord,
+    checkpoint: {
+      fileKey,
+      sourcePath: relativePath,
+      sourceCommit,
+      sha256,
+      recordCount: 1,
+      importedAt: now,
+      createdAt: now,
+      updatedAt: now,
+    } satisfies CheckpointInput,
   };
 }
 
 async function main() {
-  if (!process.env.TECHAPI_DATA_DIR?.trim()) throw new Error('Set TECHAPI_DATA_DIR to the extracted TechAPI data directory.');
-  if (!process.env.MONGODB_URI) throw new Error('MONGODB_URI is missing from the process environment; this command does not load .env.');
-  assertLocalMongoUri(process.env.MONGODB_URI);
+  const storageConfig = resolveTechApiStorageConfig();
+  const repository = await createTechApiImporterRepository({ writeTechApi: true });
+  try {
+    if (!process.env.TECHAPI_DATA_DIR?.trim()) throw new Error('Set TECHAPI_DATA_DIR to the extracted TechAPI data directory.');
+    if (!process.env.MONGODB_URI) throw new Error('MONGODB_URI is missing from the process environment; this command does not load .env.');
+    assertLocalMongoUri(process.env.MONGODB_URI);
   const filesByCategory = await Promise.all(CATEGORIES.map(async (category) => {
     const directory = join(DATA_ROOT, category);
     return { category, files: await listJsonFiles(directory) };
@@ -100,7 +114,7 @@ async function main() {
   if (!files.length) throw new Error(`No TechAPI JSON files found under ${DATA_ROOT}`);
 
   await connectDB();
-  await Promise.all([TechApiCatalogRecord.init(), TechApiImportCheckpoint.init()]);
+  await Promise.all([repository.initializeCatalog(), repository.initializeCheckpoints()]);
   const startedAt = new Date();
   const run = await SyncRun.create({ source: 'techapi', sourceKey: RUN_KEY, mode: 'import', status: 'running', startedAt, stats: { sourceCommit: SOURCE_COMMIT, files: files.length, categories: CATEGORIES } });
   const totals = { files: files.length, importedFiles: 0, skippedFiles: 0, records: 0, created: 0, updated: 0 };
@@ -110,20 +124,20 @@ async function main() {
     for (let index = 0; index < files.length; index += BATCH_SIZE) {
       const batch = files.slice(index, index + BATCH_SIZE);
       const prepared = await Promise.all(batch.map((filePath) => prepareFile(filePath, SOURCE_COMMIT)));
-      const savedCheckpoints = await TechApiImportCheckpoint.find({ fileKey: { $in: prepared.map((item) => item.fileKey) } })
-        .select('fileKey sha256').lean() as Array<{ fileKey: string; sha256: string }>;
-      const savedHashes = new Map(savedCheckpoints.map((item) => [item.fileKey, item.sha256]));
-      const changed = prepared.filter((item) => savedHashes.get(item.fileKey) !== item.sha256);
-      const productResult = changed.length
-        ? await TechApiCatalogRecord.collection.bulkWrite(changed.map((item) => item.productOperation), { ordered: false })
+      const resumeStates = await repository.findImportResumeStates(prepared);
+      const changed = prepared.filter((item) => !canSkipTechApiFile(item, resumeStates));
+      const catalogResult = changed.length
+        ? await repository.saveFullDatasetRecordsWithCheckpoints(
+          changed.map((item) => item.catalogRecord),
+          changed.map((item) => item.checkpoint),
+        )
         : null;
-      if (changed.length) await TechApiImportCheckpoint.collection.bulkWrite(changed.map((item) => item.checkpointOperation), { ordered: false });
       const skipped = prepared.length - changed.length;
       totals.importedFiles += changed.length;
       totals.skippedFiles += skipped;
       totals.records += changed.length;
-      totals.created += productResult?.upsertedCount ?? 0;
-      totals.updated += productResult?.modifiedCount ?? 0;
+      totals.created += catalogResult?.created ?? 0;
+      totals.updated += catalogResult?.updated ?? 0;
       for (const item of changed) {
         byCategory[item.category].files += 1;
         byCategory[item.category].records += 1;
@@ -135,13 +149,16 @@ async function main() {
 
     const summary = {
       source: 'TechAPI', sourceRepository: REPOSITORY, sourceCommit: SOURCE_COMMIT,
+      techApiStorage: storageConfig.storage,
+      techApiAccess: storageConfig.storage === 'sqlite' ? 'readwrite' : 'not_applicable',
+      syncRunStorage: 'mongo',
       attribution: ATTRIBUTION, license: 'CC BY-SA 4.0', licenseUrl: LICENSE_URL,
       imageHandling: 'Image assets are not copied or served. Per-image metadata stays in raw source records for later rights review.',
       workflow: 'Full source records are stored in TechApiCatalogRecord as discovery_only. They are not published Products, Offers, or search vectors.',
       checkedAt: new Date().toISOString(), dataDirectory: DATA_ROOT,
       categories: CATEGORIES, byCategory, ...totals,
-      collection: TechApiCatalogRecord.collection.name,
-      checkpointCollection: TechApiImportCheckpoint.collection.name,
+      collection: repository.catalogCollectionName,
+      checkpointCollection: repository.checkpointCollectionName,
     };
     await SyncRun.updateOne({ _id: run._id }, { $set: { status: 'succeeded', finishedAt: new Date(), stats: summary } });
     if (totals.importedFiles || totals.created || totals.updated) {
@@ -155,7 +172,9 @@ async function main() {
     const message = error instanceof Error ? error.message : 'TechAPI full-data import failed';
     await SyncRun.updateOne({ _id: run._id }, { $set: { status: 'failed', finishedAt: new Date(), error: message, stats: { sourceCommit: SOURCE_COMMIT, byCategory, ...totals } } });
     throw error;
+  }
   } finally {
+    await repository.close();
     await mongoose.disconnect();
   }
 }

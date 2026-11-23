@@ -19,14 +19,14 @@ type Source = {
 type ReviewItem = { _id: string; source: string; sourceKey: string; reasons: string[]; name: string | null; brand: string | null; category: string | null; model?: string | null; modelNumber?: string | null; family?: string | null; generation?: string | null; productUrl?: string | null; specificationSourceUrl?: string | null; specifications?: Record<string, unknown> | null; sourceEvidence?: Array<{ evidenceType?: string; sourceName?: string; sourceUrl?: string; notes?: string }>; imageCandidate?: { imageUrl?: string; filePageUrl?: string; license?: string; author?: string; visualIdentityChecked?: boolean } | null; imageReady?: boolean };
 type Category = { key: string; label: string };
 type CatalogTaxonomy = { brands: string[]; families: string[]; generations: string[] };
-type CoverageModel = { model: string; status: 'verified' | 'pending'; productVerificationStatus: string; imageVerificationStatus: string; urlVerificationStatus: string; publicationStatus: string; evidenceComplete: boolean; imageRights: boolean; hasSpecifications: boolean; hasProductAndSpecsUrls: boolean; variants: number };
+type CoverageModel = { model: string; status: 'verified' | 'pending'; productVerificationStatus: string; imageVerificationStatus: string; urlVerificationStatus: string; publicationStatus: string; evidenceComplete: boolean; imageRights: boolean; hasDescription: boolean; hasSpecifications: boolean; hasProductAndSpecsUrls: boolean; variants: number };
 type CoverageGeneration = { generation: string; models: CoverageModel[] };
 type CoverageFamily = { family: string; totalModels: number; verifiedModels: number; pendingModels: number; generations: CoverageGeneration[] };
 type CoverageBrand = { brand: string; totalModels: number; verifiedModels: number; pendingModels: number; families: CoverageFamily[] };
-type CoverageCategory = { category: string; label: string; totalModels: number; verifiedModels: number; pendingModels: number; publishedModels: number; publicationPendingModels: number; hiddenModels: number; imageVerifiedModels: number; urlVerifiedModels: number; missingImages: number; missingSpecifications: number; missingUrls: number; brands: CoverageBrand[] };
+type CoverageCategory = { category: string; label: string; totalModels: number; verifiedModels: number; pendingModels: number; publishedModels: number; publicationPendingModels: number; hiddenModels: number; imageVerifiedModels: number; urlVerifiedModels: number; missingDescriptions: number; missingImages: number; missingSpecifications: number; missingUrls: number; brands: CoverageBrand[] };
 type CoverageSnapshot = { generatedAt: string; source: 'MongoDB'; totals: Record<string, number>; categories: CoverageCategory[] };
 type CatalogOffer = { _id: string; sellerName: string; source: string; price: number | null; originalPrice: number | null; currency: string | null; productUrl: string | null; affiliateUrl: string | null; availability: string | null; verified: boolean; priceVerificationStatus?: 'verified' | 'pending' | 'rejected'; verificationNote?: string | null; lastUpdated: string };
-type CatalogProduct = { _id: string; name: string; brand: string; model: string; modelNumber?: string | null; family?: string | null; generation?: string | null; releaseYear?: number | null; productStatus?: string; productVerificationStatus: 'verified' | 'pending' | 'rejected'; imageVerificationStatus: 'verified' | 'pending' | 'rejected'; urlVerificationStatus: 'verified' | 'pending' | 'rejected'; publicationStatus: 'published' | 'pending' | 'hidden'; imageVisualIdentityChecked?: boolean; category: string; imageUrl: string; imageUsagePermission: string; productUrl: string; imageSource: string; imageSourceUrl?: string | null; imageAuthor?: string | null; imageRetrievedAt?: string | null; imageLicense: string; imageLicenseUrl: string; imageAttribution: string; specificationSourceUrl: string; specifications: Record<string, unknown>; specs: Record<string, string | number>; variants?: Array<Record<string, unknown>>; sourceEvidence?: Array<Record<string, unknown>>; offers?: CatalogOffer[]; price: number | null; verified: boolean };
+type CatalogProduct = { _id: string; name: string; brand: string; model: string; description?: string | null; modelNumber?: string | null; family?: string | null; generation?: string | null; releaseYear?: number | null; productStatus?: string; productVerificationStatus: 'verified' | 'pending' | 'rejected'; imageVerificationStatus: 'verified' | 'pending' | 'rejected'; urlVerificationStatus: 'verified' | 'pending' | 'rejected'; publicationStatus: 'published' | 'pending' | 'hidden'; imageVisualIdentityChecked?: boolean; category: string; imageUrl: string; imageUsagePermission: string; productUrl: string; imageSource: string; imageSourceUrl?: string | null; imageAuthor?: string | null; imageRetrievedAt?: string | null; imageLicense: string; imageLicenseUrl: string; imageAttribution: string; specificationSourceUrl: string; specifications: Record<string, unknown>; specs: Record<string, string | number>; variants?: Array<Record<string, unknown>>; sourceEvidence?: Array<Record<string, unknown>>; offers?: CatalogOffer[]; price: number | null; verified: boolean };
 
 export default function AdminConsole() {
   const [token, setToken] = useState('');
@@ -44,7 +44,7 @@ export default function AdminConsole() {
   const [catalogFamily, setCatalogFamily] = useState('');
   const [catalogGeneration, setCatalogGeneration] = useState('');
   const [editingId, setEditingId] = useState<string | null>(null);
-  const [catalogForm, setCatalogForm] = useState({ name: '', brand: '', model: '', modelNumber: '', family: '', generation: '', releaseYear: '', productStatus: 'unknown', productVerificationStatus: 'pending', imageVerificationStatus: 'pending', urlVerificationStatus: 'pending', imageVisualIdentityChecked: false, category: 'laptop', imageUrl: '', imageSource: '', imageSourceUrl: '', imageAuthor: '', imageRetrievedAt: '', imageLicense: '', imageLicenseUrl: '', imageAttribution: '', imageUsagePermission: 'not_authorized', productUrl: '', specificationSourceUrl: '', specifications: '{}', specs: '{}', variants: '[]', sourceEvidence: '[]', price: '' });
+  const [catalogForm, setCatalogForm] = useState({ name: '', brand: '', model: '', description: '', modelNumber: '', family: '', generation: '', releaseYear: '', productStatus: 'unknown', productVerificationStatus: 'pending', imageVerificationStatus: 'pending', urlVerificationStatus: 'pending', imageVisualIdentityChecked: false, category: 'laptop', imageUrl: '', imageSource: '', imageSourceUrl: '', imageAuthor: '', imageRetrievedAt: '', imageLicense: '', imageLicenseUrl: '', imageAttribution: '', imageUsagePermission: 'not_authorized', productUrl: '', specificationSourceUrl: '', specifications: '{}', specs: '{}', variants: '[]', sourceEvidence: '[]', price: '' });
   const [files, setFiles] = useState<Record<string, File | null>>({});
   const [busy, setBusy] = useState(false);
   const [notice, setNotice] = useState('');
@@ -102,13 +102,13 @@ export default function AdminConsole() {
 
   const resetCatalogForm = () => {
     setEditingId(null);
-    setCatalogForm({ name: '', brand: '', model: '', modelNumber: '', family: '', generation: '', releaseYear: '', productStatus: 'unknown', productVerificationStatus: 'pending', imageVerificationStatus: 'pending', urlVerificationStatus: 'pending', imageVisualIdentityChecked: false, category: 'laptop', imageUrl: '', imageSource: '', imageSourceUrl: '', imageAuthor: '', imageRetrievedAt: '', imageLicense: '', imageLicenseUrl: '', imageAttribution: '', imageUsagePermission: 'not_authorized', productUrl: '', specificationSourceUrl: '', specifications: '{}', specs: '{}', variants: '[]', sourceEvidence: '[]', price: '' });
+    setCatalogForm({ name: '', brand: '', model: '', description: '', modelNumber: '', family: '', generation: '', releaseYear: '', productStatus: 'unknown', productVerificationStatus: 'pending', imageVerificationStatus: 'pending', urlVerificationStatus: 'pending', imageVisualIdentityChecked: false, category: 'laptop', imageUrl: '', imageSource: '', imageSourceUrl: '', imageAuthor: '', imageRetrievedAt: '', imageLicense: '', imageLicenseUrl: '', imageAttribution: '', imageUsagePermission: 'not_authorized', productUrl: '', specificationSourceUrl: '', specifications: '{}', specs: '{}', variants: '[]', sourceEvidence: '[]', price: '' });
   };
 
   const editCatalogProduct = (product: CatalogProduct) => {
     setEditingId(product._id);
     setCatalogForm({
-      name: product.name, brand: product.brand, model: product.model, modelNumber: product.modelNumber ?? '',
+      name: product.name, brand: product.brand, model: product.model, description: product.description ?? '', modelNumber: product.modelNumber ?? '',
       family: product.family ?? '', generation: product.generation ?? '', releaseYear: product.releaseYear == null ? '' : String(product.releaseYear),
       productStatus: product.productStatus ?? 'unknown', category: product.category,
       productVerificationStatus: product.productVerificationStatus, imageVerificationStatus: product.imageVerificationStatus,
@@ -262,13 +262,14 @@ export default function AdminConsole() {
           <div><strong>{coverage.totals.generationCount}</strong><span>generation</span></div>
           <div><strong>{coverage.totals.variants}</strong><span>variant</span></div>
           <div><strong>{coverage.totals.modelsMissingImages}</strong><span>thiếu quyền ảnh</span></div>
+          <div><strong>{coverage.totals.modelsMissingDescriptions}</strong><span>thiếu mô tả / nguồn</span></div>
           <div><strong>{coverage.totals.modelsMissingSpecifications}</strong><span>thiếu thông số</span></div>
           <div><strong>{coverage.totals.modelsMissingUrls}</strong><span>thiếu URL</span></div>
           <div><strong>{coverage.totals.unidentifiedRecords}</strong><span>record thiếu model</span></div>
           <div><strong>{coverage.totals.offers}</strong><span>Offer · {coverage.totals.verifiedPricedOffers} giá xác minh</span></div>
         </div>
         <div className="coverage-tree">{coverage.categories.map((category) => <details key={category.category}>
-          <summary>{category.label} · {category.totalModels} model · {category.verifiedModels} verified · published {category.publishedModels} · publication pending {category.publicationPendingModels} · hidden {category.hiddenModels} · thiếu ảnh {category.missingImages} · thiếu specs {category.missingSpecifications} · thiếu URL {category.missingUrls}</summary>
+          <summary>{category.label} · {category.totalModels} model · {category.verifiedModels} verified · published {category.publishedModels} · publication pending {category.publicationPendingModels} · hidden {category.hiddenModels} · thiếu mô tả/nguồn {category.missingDescriptions} · thiếu ảnh {category.missingImages} · thiếu specs {category.missingSpecifications} · thiếu URL {category.missingUrls}</summary>
           {category.brands.length === 0 ? <p>Chưa phát hiện model trong MongoDB.</p> : category.brands.map((brand) => <details key={brand.brand}>
             <summary>{brand.brand} · {brand.totalModels} model</summary>
             {brand.families.map((family) => <details key={family.family}>
@@ -277,7 +278,7 @@ export default function AdminConsole() {
                 <summary>{generation.generation} · {generation.models.length} model</summary>
                 <ul>{generation.models.map((model) => <li key={model.model}>
                   <span className={`status-pill ${model.status === 'verified' ? 'authorized' : ''}`}>{model.status}</span> {model.model}
-                  <small> · product {model.productVerificationStatus} · image {model.imageVerificationStatus} · URL {model.urlVerificationStatus} · publication {model.publicationStatus} · V3 evidence {model.evidenceComplete ? 'đủ' : 'thiếu'} · image rights {model.imageRights ? 'đủ' : 'thiếu'} · specs {model.hasSpecifications ? 'có' : 'thiếu'} · URL {model.hasProductAndSpecsUrls ? 'có' : 'thiếu'} · variants {model.variants}</small>
+                  <small> · product {model.productVerificationStatus} · image {model.imageVerificationStatus} · URL {model.urlVerificationStatus} · publication {model.publicationStatus} · V3 evidence {model.evidenceComplete ? 'đủ' : 'thiếu'} · image rights {model.imageRights ? 'đủ' : 'thiếu'} · mô tả/nguồn {model.hasDescription ? 'đủ' : 'thiếu'} · specs {model.hasSpecifications ? 'có' : 'thiếu'} · URL {model.hasProductAndSpecsUrls ? 'có' : 'thiếu'} · variants {model.variants}</small>
                 </li>)}</ul>
               </details>)}
             </details>)}
@@ -347,6 +348,7 @@ export default function AdminConsole() {
           <label>Name<input required value={catalogForm.name} onChange={(e) => setCatalogForm({ ...catalogForm, name: e.target.value })} /></label>
           <label>Brand<input required value={catalogForm.brand} onChange={(e) => setCatalogForm({ ...catalogForm, brand: e.target.value })} /></label>
           <label>Model<input required value={catalogForm.model} onChange={(e) => setCatalogForm({ ...catalogForm, model: e.target.value })} /></label>
+          <label>Product description<textarea rows={3} value={catalogForm.description} onChange={(e) => setCatalogForm({ ...catalogForm, description: e.target.value })} placeholder="Use sourced product facts. Verified catalog imports can summarize existing specifications." /></label>
           <label>Model number / SKU<input value={catalogForm.modelNumber} onChange={(e) => setCatalogForm({ ...catalogForm, modelNumber: e.target.value })} /></label>
           <label>Product family<input value={catalogForm.family} onChange={(e) => setCatalogForm({ ...catalogForm, family: e.target.value })} placeholder="e.g. Galaxy S" /></label>
           <label>Generation<input value={catalogForm.generation} onChange={(e) => setCatalogForm({ ...catalogForm, generation: e.target.value })} placeholder="e.g. Galaxy S25 generation" /></label>

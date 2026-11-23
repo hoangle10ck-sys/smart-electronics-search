@@ -1,0 +1,93 @@
+[
+  {
+    "sourceKey": "web-research:sony:ps5-slim-cfi-2118-a01",
+    "brand": "Sony",
+    "model": "PlayStation 5",
+    "modelNumber": "CFI-2118 A01",
+    "name": "Sony PlayStation 5 Slim Disc Edition CFI-2118 A01 (1 TB, 1 controller)",
+    "category": "gaming_console",
+    "family": "PlayStation 5",
+    "generation": "PS5 Slim",
+    "releaseYear": null,
+    "productStatus": "active",
+    "productUrl": "https://store.sony.com.vn/collections/ps-console/products/may-ch%C6%A1i-game-playstation-5-slim-cfi-2118-a01-1-tay-c%E1%BA%A7m",
+    "specificationSourceUrl": "https://blog.playstation.com/2023/10/10/new-look-for-ps5-console-this-holiday-season/",
+    "description": "Bản PS5 Slim có ổ đĩa Ultra HD Blu-ray tháo rời, SSD 1TB và kèm một tay cầm DualSense; Sony Store Việt Nam niêm yết model CFI-2118 A01.",
+    "specifications": {
+      "modelNumber": "CFI-2118 A01",
+      "cpu": "AMD Ryzen Zen 2, 8 cores / 16 threads, up to 3.5 GHz",
+      "gpu": "AMD Radeon RDNA 2-based graphics engine, up to 10.3 TFLOPS",
+      "memory": "16 GB GDDR6",
+      "storage": "1 TB custom SSD",
+      "discDrive": "Ultra HD Blu-ray Disc drive",
+      "videoOutput": "Up to 4K at 120 Hz",
+      "includedController": "1 DualSense wireless controller"
+    },
+    "specs": {
+      "storage": "1 TB",
+      "cpu": "AMD Ryzen Zen 2, 8-core / 16-thread",
+      "gpu": "AMD Radeon RDNA 2, 10.3 TFLOPS",
+      "display": "Up to 4K 120 Hz",
+      "usage": "gaming"
+    },
+    "tags": [
+      "gaming"
+    ],
+    "variants": [],
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "Sony Store Online Việt Nam",
+        "sourceUrl": "https://store.sony.com.vn/collections/ps-console/products/may-ch%C6%A1i-game-playstation-5-slim-cfi-2118-a01-1-tay-c%E1%BA%A7m",
+        "notes": "Sony Store Vietnam product page names PS5 Slim Disc Edition CFI-2118 A01 and one included controller."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "Sony Store Online Việt Nam",
+        "sourceUrl": "https://store.sony.com.vn/collections/ps-console/products/may-ch%C6%A1i-game-playstation-5-slim-cfi-2118-a01-1-tay-c%E1%BA%A7m",
+        "notes": "Official product page displays the exact CFI-2118 A01 model and a 16,900,000 VND list price."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "PlayStation Blog",
+        "sourceUrl": "https://blog.playstation.com/2023/10/10/new-look-for-ps5-console-this-holiday-season/",
+        "notes": "Official announcement gives the smaller PS5 model's 1TB SSD, detachable Ultra HD Blu-ray drive, CPU, GPU, memory, and display specifications."
+      },
+      {
+        "evidenceType": "price",
+        "sourceName": "Sony Store Online Việt Nam",
+        "sourceUrl": "https://store.sony.com.vn/collections/ps-console/products/may-ch%C6%A1i-game-playstation-5-slim-cfi-2118-a01-1-tay-c%E1%BA%A7m",
+        "notes": "Single-source list price captured 2026-11-11 13:51 Asia/Ho_Chi_Minh: 16,900,000 VND."
+      },
+      {
+        "evidenceType": "image",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Playstation_5_mod%C3%A8le_slim_%28%C3%A9dition_standard_avec_lecteur_de_disque_amovible.png",
+        "notes": "Direct image visually checked against PlayStation 5 Slim Disc Edition; the slim chassis and detachable disc-drive side are visible."
+      },
+      {
+        "evidenceType": "image_rights",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playstation_5_mod%C3%A8le_slim_(%C3%A9dition_standard_avec_lecteur_de_disque_amovible.png",
+        "notes": "File page identifies uploader Back to our history and CC0 1.0 Universal Public Domain Dedication."
+      }
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "verified",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Official Sony identity and specification pages verified; a licensed, visually reviewed image is not available yet."
+    ],
+    "imageCandidate": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Playstation_5_mod%C3%A8le_slim_%28%C3%A9dition_standard_avec_lecteur_de_disque_amovible.png",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Playstation_5_mod%C3%A8le_slim_(%C3%A9dition_standard_avec_lecteur_de_disque_amovible.png",
+      "license": "CC0 1.0 Universal Public Domain Dedication",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Back to our history",
+      "attribution": "Photo by Back to our history; CC0 1.0.",
+      "visualIdentityChecked": true,
+      "visualReviewNotes": "Ảnh chụp cho thấy thân máy PlayStation 5 kiểu Slim với ổ đĩa rời lắp bên cạnh, phù hợp PlayStation 5 Slim Disc Edition."
+    }
+  }
+]

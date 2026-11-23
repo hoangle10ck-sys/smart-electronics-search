@@ -1,0 +1,325 @@
+[
+  {
+    "sourceKey": "web-research:amd:ryzen-9-7900x",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 7000 Series (Zen 4)",
+    "model": "Ryzen 9 7900X",
+    "modelNumber": "7900X",
+    "name": "AMD Ryzen 9 7900X Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2022,
+    "productStatus": "active",
+    "description": "12-core desktop processor in the Ryzen 7000 Series.",
+    "specifications": {
+      "cores": 12,
+      "threads": 24,
+      "maxBoostClock": "5.6 GHz",
+      "baseClock": "4.7 GHz",
+      "l2Cache": "12 MB",
+      "l3Cache": "64 MB",
+      "defaultTdp": "170 W",
+      "integratedGraphics": true,
+      "graphicsModel": "AMD Radeon Graphics",
+      "architecture": "Zen 4",
+      "socket": "AM5"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+        "notes": "Exact AMD product page identifies the Ryzen 9 7900X and Ryzen 7000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+        "notes": "Exact SKU page provides cores, threads, clocks, cache, TDP, graphics, Zen 4 architecture, and AM5 socket."
+      },
+      {
+        "evidenceType": "image",
+        "sourceName": "Wikimedia Commons exact-model photograph",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_9_7900X.jpg",
+        "notes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 9 7900X."
+      },
+      {
+        "evidenceType": "image_rights",
+        "sourceName": "Wikimedia Commons file license record",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_9_7900X.jpg",
+        "notes": "CC BY-SA 4.0; CristoCalis, CC BY-SA 4.0, via Wikimedia Commons; unmodified. License terms and author were checked on this exact file page."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model product page",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7900x.html",
+        "notes": "AMD's exact-model page identifies Ryzen 9 7900X and provides its official product specifications."
+      }
+    ],
+    "imageCandidate": {
+      "sourceKey": "web-research:amd:ryzen-9-7900x",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/AMD_Ryzen_9_7900X.jpg/960px-AMD_Ryzen_9_7900X.jpg",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_9_7900X.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "CristoCalis",
+      "attribution": "CristoCalis, CC BY-SA 4.0, via Wikimedia Commons; unmodified.",
+      "visualIdentityChecked": true,
+      "visualReviewNotes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 9 7900X."
+    },
+    "reasons": [
+      "Exact manufacturer model and specification page checked; exact product image identity and reuse license were previously reviewed. Publication stays pending until live verification succeeds."
+    ],
+    "imageVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "productVerificationStatus": "verified",
+    "urlVerificationStatus": "verified"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-7-7800x3d",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 7000 Series (Zen 4)",
+    "model": "Ryzen 7 7800X3D",
+    "modelNumber": "7800X3D",
+    "name": "AMD Ryzen 7 7800X3D Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2023,
+    "productStatus": "active",
+    "description": "8-core desktop gaming processor with AMD 3D V-Cache.",
+    "specifications": {
+      "cores": 8,
+      "threads": 16,
+      "maxBoostClock": "5.0 GHz",
+      "baseClock": "4.2 GHz",
+      "l2Cache": "8 MB",
+      "l3Cache": "96 MB",
+      "defaultTdp": "120 W",
+      "integratedGraphics": true,
+      "graphicsModel": "AMD Radeon Graphics",
+      "architecture": "Zen 4",
+      "socket": "AM5"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+        "notes": "Exact AMD product page identifies the Ryzen 7 7800X3D and Ryzen 7000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+        "notes": "Exact SKU page provides cores, threads, clocks, cache, TDP, Radeon Graphics, Zen 4 architecture, and AM5 socket."
+      },
+      {
+        "evidenceType": "image",
+        "sourceName": "Wikimedia Commons exact-model photograph",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ryzen_7_7800_X3D,_unlocked.jpg",
+        "notes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 7 7800X3D."
+      },
+      {
+        "evidenceType": "image_rights",
+        "sourceName": "Wikimedia Commons file license record",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ryzen_7_7800_X3D,_unlocked.jpg",
+        "notes": "CC BY 2.0; Thomas Vogt, CC BY 2.0, via Wikimedia Commons; unmodified. License terms and author were checked on this exact file page."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model product page",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7800x3d.html",
+        "notes": "AMD's exact-model page identifies Ryzen 7 7800X3D and provides its official product specifications."
+      }
+    ],
+    "imageCandidate": {
+      "sourceKey": "web-research:amd:ryzen-7-7800x3d",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Ryzen_7_7800_X3D%2C_unlocked.jpg/960px-Ryzen_7_7800_X3D%2C_unlocked.jpg",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Ryzen_7_7800_X3D,_unlocked.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "Thomas Vogt",
+      "attribution": "Thomas Vogt, CC BY 2.0, via Wikimedia Commons; unmodified.",
+      "visualIdentityChecked": true,
+      "visualReviewNotes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 7 7800X3D."
+    },
+    "reasons": [
+      "Exact manufacturer model and specification page checked; exact product image identity and reuse license were previously reviewed. Publication stays pending until live verification succeeds."
+    ],
+    "imageVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "productVerificationStatus": "verified",
+    "urlVerificationStatus": "verified"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-5-7600",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 7000 Series (Zen 4)",
+    "model": "Ryzen 5 7600",
+    "modelNumber": "7600",
+    "name": "AMD Ryzen 5 7600 Desktop Processor",
+    "category": "cpu",
+    "releaseYear": 2023,
+    "productStatus": "active",
+    "description": "6-core 65 W desktop processor supplied with AMD Wraith Stealth thermal solution.",
+    "specifications": {
+      "cores": 6,
+      "threads": 12,
+      "maxBoostClock": "5.1 GHz",
+      "baseClock": "3.8 GHz",
+      "l2Cache": "6 MB",
+      "l3Cache": "32 MB",
+      "defaultTdp": "65 W",
+      "integratedGraphics": true,
+      "graphicsModel": "AMD Radeon Graphics",
+      "architecture": "Zen 4",
+      "socket": "AM5",
+      "thermalSolution": "AMD Wraith Stealth"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+        "notes": "Exact AMD product page identifies the Ryzen 5 7600 and Ryzen 7000 Series."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+        "notes": "Exact SKU page and AMD Ryzen 7000 product brief provide cores, threads, clocks, cache, 65 W TDP, graphics, cooler, Zen 4 architecture, and AM5 socket."
+      },
+      {
+        "evidenceType": "image",
+        "sourceName": "Wikimedia Commons exact-model photograph",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_5_7600_top_IMGP6773_smial_wp.jpg",
+        "notes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 5 7600."
+      },
+      {
+        "evidenceType": "image_rights",
+        "sourceName": "Wikimedia Commons file license record",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_5_7600_top_IMGP6773_smial_wp.jpg",
+        "notes": "Free Art License; Rainer Knäpper (Smial), Free Art License, via Wikimedia Commons; unmodified. License terms and author were checked on this exact file page."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD exact-model product page",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-5-7600.html",
+        "notes": "AMD's exact-model page identifies Ryzen 5 7600 and provides its official product specifications."
+      }
+    ],
+    "imageCandidate": {
+      "sourceKey": "web-research:amd:ryzen-5-7600",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/AMD_Ryzen_5_7600_top_IMGP6773_smial_wp.jpg/960px-AMD_Ryzen_5_7600_top_IMGP6773_smial_wp.jpg",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_5_7600_top_IMGP6773_smial_wp.jpg",
+      "license": "Free Art License",
+      "licenseUrl": "https://artlibre.org/licence/lal/en/",
+      "author": "Rainer Knäpper",
+      "attribution": "Rainer Knäpper (Smial), Free Art License, via Wikimedia Commons; unmodified.",
+      "visualIdentityChecked": true,
+      "visualReviewNotes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 5 7600."
+    },
+    "reasons": [
+      "Exact manufacturer model and specification page checked; exact product image identity and reuse license were previously reviewed. Publication stays pending until live verification succeeds."
+    ],
+    "imageVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "productVerificationStatus": "verified",
+    "urlVerificationStatus": "verified"
+  },
+  {
+    "sourceKey": "web-research:amd:ryzen-9-9950x",
+    "brand": "AMD",
+    "family": "AMD Ryzen Desktop Processors",
+    "generation": "Ryzen 9000 Series (Zen 5)",
+    "model": "Ryzen 9 9950X",
+    "modelNumber": "9950X",
+    "name": "AMD Ryzen 9 9950X Processor",
+    "category": "cpu",
+    "releaseYear": 2024,
+    "productStatus": "active",
+    "description": "16-core desktop processor in AMD Ryzen 9000 Series.",
+    "specifications": {
+      "cores": 16,
+      "threads": 32,
+      "maxBoostClock": "5.7 GHz",
+      "baseClock": "4.3 GHz",
+      "l2Cache": "16 MB",
+      "l3Cache": "64 MB",
+      "defaultTdp": "170 W",
+      "integratedGraphics": true,
+      "graphicsModel": "AMD Radeon Graphics",
+      "architecture": "Zen 5",
+      "socket": "AM5"
+    },
+    "variants": [],
+    "productUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x.html",
+    "specificationSourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x.html",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x.html",
+        "notes": "Exact-model AMD page identifies Ryzen 9 9950X, Ryzen 9000 Series, and Zen 5 architecture."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x.html",
+        "notes": "Dedicated AMD product page; launch date August 15, 2024."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "AMD",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x.html",
+        "notes": "Exact SKU page supplies core/thread count, clocks, L2/L3 cache, TDP, integrated graphics, and AM5 socket."
+      },
+      {
+        "evidenceType": "generation",
+        "sourceName": "AMD Ryzen desktop processor list",
+        "sourceUrl": "https://www.amd.com/en/products/processors/desktops/ryzen.html",
+        "notes": "AMD's current desktop roster lists this model in Ryzen 9000 Series."
+      },
+      {
+        "evidenceType": "image",
+        "sourceName": "Wikimedia Commons exact-model photograph",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_9_9950X.jpg",
+        "notes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 9 9950X."
+      },
+      {
+        "evidenceType": "image_rights",
+        "sourceName": "Wikimedia Commons file license record",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_9_9950X.jpg",
+        "notes": "CC BY 4.0; 4300streetcar, CC BY 4.0, via Wikimedia Commons; unmodified. License terms and author were checked on this exact file page."
+      }
+    ],
+    "imageCandidate": {
+      "sourceKey": "web-research:amd:ryzen-9-9950x",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/AMD_Ryzen_9_9950X.jpg/960px-AMD_Ryzen_9_9950X.jpg",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:AMD_Ryzen_9_9950X.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "4300streetcar",
+      "attribution": "4300streetcar, CC BY 4.0, via Wikimedia Commons; unmodified.",
+      "visualIdentityChecked": true,
+      "visualReviewNotes": "Visually inspected the exact-model photograph; the processor lid marking reads Ryzen 9 9950X."
+    },
+    "reasons": [
+      "Exact manufacturer model and specification page checked; exact product image identity and reuse license were previously reviewed. Publication stays pending until live verification succeeds."
+    ],
+    "imageVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "productVerificationStatus": "verified",
+    "urlVerificationStatus": "verified"
+  }
+]

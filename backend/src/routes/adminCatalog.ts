@@ -58,7 +58,7 @@ export function validateCatalogBody(body: any, prior?: Record<string, any>) {
   if (!['verified', 'pending', 'rejected'].includes(imageVerificationStatus)) errors.push('imageVerificationStatus is invalid');
   if (!['verified', 'pending', 'rejected'].includes(urlVerificationStatus)) errors.push('urlVerificationStatus is invalid');
   if (!Array.isArray(variants) || variants.some((variant) => !variant || typeof variant !== 'object' || Array.isArray(variant) || (variant.attributes != null && (typeof variant.attributes !== 'object' || Array.isArray(variant.attributes))))) errors.push('variants must be an array of variant objects');
-  const validEvidenceTypes = ['identity', 'product_page', 'specifications', 'image', 'image_rights', 'lifecycle'];
+  const validEvidenceTypes = ['identity', 'product_page', 'specifications', 'description', 'image', 'image_rights', 'lifecycle'];
   if (!Array.isArray(sourceEvidence) || sourceEvidence.some((evidence) => !evidence || typeof evidence !== 'object' || !validEvidenceTypes.includes(evidence.evidenceType) || !text(evidence.sourceName, 200) || !validExternalUrl(evidence.sourceUrl) || !Number.isFinite(Date.parse(evidence.retrievedAt)) || !Number.isFinite(Date.parse(evidence.verifiedAt)))) {
     errors.push('sourceEvidence entries require a supported evidenceType, source name, HTTPS URL, retrievedAt, and verifiedAt');
   }
@@ -69,7 +69,9 @@ export function validateCatalogBody(body: any, prior?: Record<string, any>) {
     for (const requiredType of ['identity', 'specifications']) {
       if (!evidenceTypes.has(requiredType)) errors.push(`verified products require ${requiredType} source evidence`);
     }
+    if (!evidenceTypes.has('description')) errors.push('verified products require description source evidence');
     if (!family || !generation || !model || !brand || !specifications || !Object.keys(specifications).length) errors.push('verified products require model, brand, family, generation, and specifications');
+    if (!text(value.description, 2000)) errors.push('verified products require a non-empty product description');
   }
   if (imageVerificationStatus === 'verified' && (value.imageUsagePermission !== 'granted' || !imageRightsDocumented || !value.imageVisualIdentityChecked || !evidenceTypes.has('image') || !evidenceTypes.has('image_rights'))) errors.push('verified images require visual identity review, image evidence, documented reuse permission, and image_rights evidence');
   if (urlVerificationStatus === 'verified' && (!evidenceTypes.has('product_page') || !evidenceTypes.has('specifications'))) errors.push('verified URLs require product_page and specifications source evidence');

@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { readFile, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import mongoose from 'mongoose';
 import { connectDB } from '../config/db';
@@ -196,7 +196,8 @@ async function main() {
       },
       models: finalModels,
     };
-    const output = resolve(process.cwd(), '..', 'AMD_RYZEN_7000_8000_9000_2026_11_11_URL_VERIFICATION.json');
+    const output = resolve(process.cwd(), '../docs/catalog/verification/AMD_RYZEN_7000_8000_9000_2026_11_11_URL_VERIFICATION.json');
+    await mkdir(resolve(output, '..'), { recursive: true });
     await writeFile(output, `${JSON.stringify(report, null, 2)}\n`, 'utf8');
     await SyncRun.create({
       source: 'web_research', sourceKey: 'amd-ryzen-7000-8000-9000-exact-url-verification-2026-11-11', mode: 'update', page: 1,

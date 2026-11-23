@@ -1,0 +1,198 @@
+[
+    {
+        "brand":  "Microsoft",
+        "model":  "Surface Pro 9",
+        "category":  "tablet",
+        "sourceUrl":  "https://www.chotot.com/mua-ban-laptop-quan-thanh-xuan-ha-noi/135716551.htm",
+        "reason":  "Exception calling \"GetResult\" with \"0\" argument(s): \"Response status code does not indicate success: 410 (Gone).\""
+    },
+    {
+        "brand":  "Apple",
+        "model":  "MacBook Pro 16-inch M2 Max (2023)",
+        "category":  "laptop",
+        "sourceUrl":  "https://www.chotot.com/mua-ban-laptop-quan-hoang-mai-ha-noi/135638100.htm",
+        "reason":  "Exception calling \"GetResult\" with \"0\" argument(s): \"Response status code does not indicate success: 410 (Gone).\""
+    },
+    {
+        "brand":  "Apple",
+        "model":  "iPad Air 10.9-inch (5th generation)",
+        "category":  "tablet",
+        "sourceUrl":  "https://www.chotot.com/mua-ban-may-tinh-bang",
+        "reason":  "No active listing with a title and capacity that match the researched model."
+    },
+    {
+        "brand":  "Apple",
+        "model":  "MacBook Pro 13-inch M1 (2020)",
+        "category":  "laptop",
+        "sourceUrl":  "https://www.chotot.com/mua-ban-laptop-quan-3-tp-ho-chi-minh/135542785.htm",
+        "reason":  "Exception calling \"GetResult\" with \"0\" argument(s): \"Response status code does not indicate success: 410 (Gone).\""
+    },
+    {
+        "brand":  "Apple",
+        "model":  "MacBook Air 13-inch M1 (2020)",
+        "category":  "laptop",
+        "sourceUrl":  "https://www.chotot.com/mua-ban-laptop-quan-binh-chanh-tp-ho-chi-minh/135409756.htm",
+        "reason":  "Exception calling \"GetResult\" with \"0\" argument(s): \"Response status code does not indicate success: 410 (Gone).\""
+    },
+    {
+        "brand":  "Lenovo",
+        "model":  "ThinkPad T420 4177-25G",
+        "category":  "laptop",
+        "sourceUrl":  "https://www.chotot.com/mua-ban-laptop-quan-go-vap-tp-ho-chi-minh/135763773.htm",
+        "reason":  "Exception calling \"GetResult\" with \"0\" argument(s): \"Response status code does not indicate success: 410 (Gone).\""
+    },
+    {
+        "brand":  "Lenovo",
+        "model":  "ThinkPad T430 2342-38U",
+        "category":  "laptop",
+        "sourceUrl":  "https://www.chotot.com/mua-ban-laptop-quan-hoan-kiem-ha-noi/135761834.htm",
+        "reason":  "Exception calling \"GetResult\" with \"0\" argument(s): \"Response status code does not indicate success: 410 (Gone).\""
+    },
+    {
+        "brand":  "Lenovo",
+        "model":  "ThinkPad T460 20FN002JUS",
+        "category":  "laptop",
+        "sourceUrl":  "https://www.chotot.com/mua-ban-laptop-quan-hai-ba-trung-ha-noi/134788570.htm",
+        "reason":  "Exception calling \"GetResult\" with \"0\" argument(s): \"Response status code does not indicate success: 410 (Gone).\""
+    },
+    {
+        "brand":  "Lenovo",
+        "model":  "ThinkPad T470 20HD0070US",
+        "category":  "laptop",
+        "sourceUrl":  "https://www.chotot.com/mua-ban-laptop-lenovo-thinkpad-gia-duoi-5-trieu-ha-noi-sfLgEKUvwB1VcM",
+        "reason":  "No active listing with a title and capacity that match the researched model."
+    },
+    {
+        "brand":  "Lenovo",
+        "model":  "ThinkPad T530 2359-2HU",
+        "category":  "laptop",
+        "sourceUrl":  "https://www.chotot.com/mua-ban-laptop-quan-12-tp-ho-chi-minh/133439295.htm",
+        "reason":  "Exception calling \"GetResult\" with \"0\" argument(s): \"Response status code does not indicate success: 410 (Gone).\""
+    },
+    {
+        "brand":  "Lenovo",
+        "model":  "ThinkPad X1 Carbon 5th Gen 20HQ0020++",
+        "category":  "laptop",
+        "sourceUrl":  "https://www.chotot.com/mua-ban-laptop-quan-dong-da-ha-noi/135338698.htm",
+        "reason":  "Exception calling \"GetResult\" with \"0\" argument(s): \"Response status code does not indicate success: 410 (Gone).\""
+    },
+    {
+        "brand":  "Lenovo",
+        "model":  "ThinkPad X1 Carbon 1st Gen 3444-54U",
+        "category":  "laptop",
+        "sourceUrl":  "https://www.chotot.com/mua-ban-laptop-quan-10-tp-ho-chi-minh/135051139.htm",
+        "reason":  "Exception calling \"GetResult\" with \"0\" argument(s): \"Response status code does not indicate success: 410 (Gone).\""
+    },
+    {
+        "brand":  "Dell",
+        "model":  "XPS 13 9350 (2015)",
+        "category":  "laptop",
+        "sourceUrl":  "https://www.chotot.com/mua-ban-laptop-quan-dong-da-ha-noi/134907005.htm",
+        "reason":  "No active listing with a title and capacity that match the researched model."
+    },
+    {
+        "brand":  "Apple",
+        "model":  "MacBook Air Retina 13-inch (2018)",
+        "category":  "laptop",
+        "sourceUrl":  "https://www.chotot.com/mua-ban-laptop-apple-macbook-air-gia-tu-5-trieu-den-10-trieu-thanh-pho-thu-duc-tp-ho-chi-minh-sfbW28OYkuIQ5Q",
+        "reason":  "No active listing with a title and capacity that match the researched model."
+    },
+    {
+        "brand":  "Apple",
+        "model":  "MacBook Pro 13-inch (2019, two Thunderbolt 3 ports)",
+        "category":  "laptop",
+        "sourceUrl":  "https://www.chotot.com/mua-ban-laptop-quan-cau-giay-ha-noi/135708216.htm",
+        "reason":  "No active listing with a title and capacity that match the researched model."
+    },
+    {
+        "brand":  "Lenovo",
+        "model":  "ThinkPad T440s",
+        "category":  "laptop",
+        "sourceUrl":  "https://www.chotot.com/mua-ban-laptop-thi-xa-duy-tien-ha-nam/135713399.htm",
+        "reason":  "Exception calling \"GetResult\" with \"0\" argument(s): \"Response status code does not indicate success: 410 (Gone).\""
+    },
+    {
+        "brand":  "Lenovo",
+        "model":  "ThinkPad X230 2324-3YU",
+        "category":  "laptop",
+        "sourceUrl":  "https://www.chotot.com/mua-ban-laptop-thanh-pho-thu-duc-tp-ho-chi-minh/134820705.htm",
+        "reason":  "Exception calling \"GetResult\" with \"0\" argument(s): \"Response status code does not indicate success: 410 (Gone).\""
+    },
+    {
+        "brand":  "Microsoft",
+        "model":  "Surface Pro X",
+        "category":  "tablet",
+        "sourceUrl":  "https://www.chotot.com/mua-ban-laptop-quan-12-tp-ho-chi-minh/135682588.htm",
+        "reason":  "Exception calling \"GetResult\" with \"0\" argument(s): \"Response status code does not indicate success: 410 (Gone).\""
+    },
+    {
+        "brand":  "Apple",
+        "model":  "iPad Air 3rd generation",
+        "category":  "tablet",
+        "sourceUrl":  "https://www.chotot.com/mua-ban-may-tinh-bang-quan-go-vap-tp-ho-chi-minh/131010291.htm",
+        "reason":  "No active listing with a title and capacity that match the researched model."
+    },
+    {
+        "brand":  "Apple",
+        "model":  "iPad Air 11-inch M3",
+        "category":  "tablet",
+        "sourceUrl":  "https://www.chotot.com/mua-ban-may-tinh-bang",
+        "reason":  "No active listing with a title and capacity that match the researched model."
+    },
+    {
+        "brand":  "Apple",
+        "model":  "iPad Pro 13-inch M5",
+        "category":  "tablet",
+        "sourceUrl":  "https://www.chotot.com/mua-ban-may-tinh-bang-quan-dong-da-ha-noi/133078065.htm",
+        "reason":  "Exception calling \"GetResult\" with \"0\" argument(s): \"Response status code does not indicate success: 410 (Gone).\""
+    },
+    {
+        "brand":  "Apple",
+        "model":  "MacBook Pro 14-inch M3 (2023)",
+        "category":  "laptop",
+        "sourceUrl":  "https://www.chotot.com/mua-ban-laptop-quan-binh-thanh-tp-ho-chi-minh/133141926.htm",
+        "reason":  "Exception calling \"GetResult\" with \"0\" argument(s): \"Response status code does not indicate success: 410 (Gone).\""
+    },
+    {
+        "brand":  "Lenovo",
+        "model":  "ThinkPad T14 Gen 2 Intel",
+        "category":  "laptop",
+        "sourceUrl":  "https://www.chotot.com/mua-ban-laptop?pc_brand=7\u0026pc_model=32",
+        "reason":  "No active listing with a title and capacity that match the researched model."
+    },
+    {
+        "brand":  "Lenovo",
+        "model":  "ThinkPad T14 Gen 2 AMD",
+        "category":  "laptop",
+        "sourceUrl":  "https://www.chotot.com/mua-ban-laptop-quan-10-tp-ho-chi-minh/135413563.htm",
+        "reason":  "Exception calling \"GetResult\" with \"0\" argument(s): \"Response status code does not indicate success: 410 (Gone).\""
+    },
+    {
+        "brand":  "Apple",
+        "model":  "Mac mini (M1, 2020)",
+        "category":  "desktop",
+        "sourceUrl":  "https://www.chotot.com/mua-ban-may-tinh-de-ban-quan-3-tp-ho-chi-minh/133226566.htm?distance=10\u0026latitude=10.72785\u0026longitude=106.718",
+        "reason":  "Exception calling \"GetResult\" with \"0\" argument(s): \"Response status code does not indicate success: 410 (Gone).\""
+    },
+    {
+        "brand":  "Apple",
+        "model":  "Mac mini (2018)",
+        "category":  "desktop",
+        "sourceUrl":  "https://www.chotot.com/tags/mua-ban-may-tinh-de-ban/pc-mac-pro?page=2",
+        "reason":  "No active listing with a title and capacity that match the researched model."
+    },
+    {
+        "brand":  "Apple",
+        "model":  "Mac mini (Late 2012)",
+        "category":  "desktop",
+        "sourceUrl":  "https://www.chotot.com/mua-ban-may-tinh-de-ban-thanh-pho-thu-duc-tp-ho-chi-minh/134542222.htm",
+        "reason":  "No active listing with a title and capacity that match the researched model."
+    },
+    {
+        "brand":  "Apple",
+        "model":  "iMac 24-inch (M1, 2021)",
+        "category":  "desktop",
+        "sourceUrl":  "https://www.chotot.com/mua-ban-may-tinh-de-ban-quan-hai-chau-da-nang/134355819.htm",
+        "reason":  "No active listing with a title and capacity that match the researched model."
+    }
+]

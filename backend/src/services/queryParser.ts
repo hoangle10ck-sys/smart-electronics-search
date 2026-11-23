@@ -6,6 +6,8 @@ export type SortMode = 'price_asc' | 'price_desc' | 'popular' | 'rating';
 export interface ParsedQuery {
   raw: string;
   category?: string;
+  /** A deterministic category family for generic terms such as "máy tính". */
+  categoryGroup?: string[];
   brands: string[];
   minPrice?: number;
   maxPrice?: number;
@@ -156,6 +158,12 @@ export function parseQuery(raw: string): ParsedQuery {
     p.category = bestCat.key;
     for (const t of CATEGORIES[bestCat.key].terms) if (!KEEP_AS_KEYWORD.has(t)) text = removePhrase(text, t);
   } else if (categoryFromOriginalText) p.category = categoryFromOriginalText;
+  else if (hasPhrase(text, 'may tinh')) {
+    // "Máy tính" is a broad computer request, not a motherboard request.
+    // Keep the query scoped to computers while including both laptop and desktop.
+    p.categoryGroup = ['laptop', 'desktop'];
+    text = removePhrase(text, 'may tinh');
+  }
 
   // ---- hãng
   for (const [name, terms] of Object.entries(BRANDS)) {

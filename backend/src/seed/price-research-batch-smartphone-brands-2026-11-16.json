@@ -1,0 +1,39 @@
+{
+  "batchId": "web-research:fptshop:smartphone-brands-2026-11-16",
+  "researchedAt": "2026-11-16T05:23:29.000Z",
+  "source": "web-research",
+  "sellerName": "FPT Shop",
+  "currency": "VND",
+  "offers": [
+    {
+      "brand": "Xiaomi",
+      "category": "phone",
+      "model": "Xiaomi 15",
+      "sellerName": "FPT Shop",
+      "storageGb": 256,
+      "variantLabel": "12GB + 256GB (Xanh), SKU 00916352",
+      "sku": "00916352",
+      "price": 24540000,
+      "originalPrice": null,
+      "productUrl": "https://fptshop.com.vn/dien-thoai/xiaomi-15?sku=00916352",
+      "availability": "not_stated",
+      "evidence": "FPT Shop product page currently identifies Xiaomi 15 5G 12GB 256GB, variant 256 GB, SKU 00916352, and displays 24.540.000 VND. Captured 2026-11-16T05:23:29Z; stock status was not stated.",
+      "retrievedAt": "2026-11-16T05:23:29.000Z"
+    },
+    {
+      "brand": "OPPO",
+      "category": "phone",
+      "model": "Find X9",
+      "sellerName": "FPT Shop",
+      "storageGb": 256,
+      "variantLabel": "12GB + 256GB (Xám Titan), SKU 00922878",
+      "sku": "00922878",
+      "price": 22990000,
+      "originalPrice": 28990000,
+      "productUrl": "https://fptshop.com.vn/dien-thoai/oppo-find-x9?sku=00922878",
+      "availability": "not_stated",
+      "evidence": "FPT Shop product page currently identifies OPPO Find X9 5G 12GB 256GB, variant 256 GB, SKU 00922878, displays 22.990.000 VND as the selling price and 28.990.000 VND as the original price. Captured 2026-11-16T05:23:29Z; stock status was not stated.",
+      "retrievedAt": "2026-11-16T05:23:29.000Z"
+    }
+  ]
+}

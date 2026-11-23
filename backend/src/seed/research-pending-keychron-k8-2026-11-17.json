@@ -1,0 +1,103 @@
+[
+  {
+    "sourceKey": "web-research:keychron:k8-non-backlight",
+    "brand": "Keychron",
+    "model": "K8 Non-Backlight",
+    "modelNumber": "K8-K1",
+    "name": "Keychron K8 Non-Backlight Wireless Mechanical Keyboard",
+    "description": "Bàn phím cơ tenkeyless Keychron K8 Non-Backlight dùng layout ANSI 80%, kết nối Bluetooth 5.1 với tối đa ba thiết bị hoặc USB-C có dây. Bản không đèn nền có pin 4.000 mAh, thời lượng tối đa 570 giờ theo công bố của hãng. Một số biến thể có khung nhôm hoặc hỗ trợ thay switch không cần hàn; bàn phím tương thích macOS, Windows và Linux.",
+    "category": "keyboard",
+    "family": "K8",
+    "generation": null,
+    "releaseYear": null,
+    "productStatus": "unknown",
+    "productUrl": "https://www.keychron.com/products/keychron-k8-non-backlight-wireless-mechanical-keyboard",
+    "specificationSourceUrl": "https://www.keychron.com/products/keychron-k8-non-backlight-wireless-mechanical-keyboard",
+    "specifications": {
+      "layout": "80% Tenkeyless (TKL), ANSI",
+      "connectivity": "Bluetooth 5.1 for up to 3 devices; USB Type-C wired",
+      "batteryCapacityMah": 4000,
+      "batteryLifeHours": 570,
+      "backlight": "None",
+      "switchType": "Keychron Mechanical",
+      "hotSwappable": "Available on selected variants",
+      "compatibleSystems": ["macOS", "Windows", "Linux"],
+      "dimensionsMm": {
+        "plasticFrame": "355 x 123",
+        "aluminumFrame": "359 x 127"
+      },
+      "weightGrams": {
+        "plasticFrame": "740 ± 10",
+        "aluminumFrame": "887 ± 10"
+      },
+      "keycapProfile": "OEM double-shot ABS",
+      "pollingRate": {
+        "wired": "1000 Hz",
+        "bluetooth": "90 Hz"
+      }
+    },
+    "variants": [
+      {
+        "name": "Non-Backlight / Keychron Mechanical / Red",
+        "sku": "K8-K1",
+        "attributes": {
+          "backlight": false,
+          "switchType": "Keychron Mechanical",
+          "switchOption": "Red"
+        }
+      }
+    ],
+    "dataAttribution": "Product identity and specifications from Keychron's official product page; photograph by Triple-green under CC BY 2.0.",
+    "dataSourceUrl": "https://www.keychron.com/products/keychron-k8-non-backlight-wireless-mechanical-keyboard",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "Keychron official product page",
+        "sourceUrl": "https://www.keychron.com/products/keychron-k8-non-backlight-wireless-mechanical-keyboard",
+        "notes": "The manufacturer identifies the K8 Non-Backlight Wireless Mechanical Keyboard and SKU K8-K1."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "Keychron official product page",
+        "sourceUrl": "https://www.keychron.com/products/keychron-k8-non-backlight-wireless-mechanical-keyboard",
+        "notes": "Official page names the exact model, lists switch variants, and shows its sales status as sold out; no current offer is recorded."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "Keychron official product specifications",
+        "sourceUrl": "https://www.keychron.com/products/keychron-k8-non-backlight-wireless-mechanical-keyboard",
+        "notes": "The manufacturer page states TKL/ANSI layout, Bluetooth 5.1 and USB-C connectivity, 4000 mAh battery, up to 570 hours for the non-backlight version, dimensions, weight, operating systems, and polling rates."
+      },
+      {
+        "evidenceType": "image",
+        "sourceName": "Wikimedia Commons file page; image originally posted to Flickr",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Home_-_Keychron_K8_Non-Backlight_Wireless_Mechanical_Keyboard.jpg",
+        "notes": "Exact-model photograph; the file title, image metadata, and visual keyboard layout identify the Keychron K8 Non-Backlight."
+      },
+      {
+        "evidenceType": "image_rights",
+        "sourceName": "Wikimedia Commons file page",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Home_-_Keychron_K8_Non-Backlight_Wireless_Mechanical_Keyboard.jpg",
+        "notes": "Commons records author Triple-green and CC BY 2.0; FlickreviewR 2 confirmed the source Flickr license."
+      }
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "verified",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "imageCandidate": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Home_-_Keychron_K8_Non-Backlight_Wireless_Mechanical_Keyboard.jpg",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Home_-_Keychron_K8_Non-Backlight_Wireless_Mechanical_Keyboard.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "Triple-green",
+      "attribution": "Triple-green, “Home - Keychron K8 Non-Backlight Wireless Mechanical Keyboard,” CC BY 2.0, via Wikimedia Commons; no modifications made.",
+      "visualIdentityChecked": true,
+      "visualReviewNotes": "K8 Non-Backlight: visually checked against the exact-model Commons photograph and Keychron product page. The photo shows the same tenkeyless keyboard without backlighting; its model title and image metadata also identify K8 Non-Backlight."
+    },
+    "reasons": [
+      "Added as a verified keyboard category candidate with official specifications and a CC BY 2.0 exact-model photograph.",
+      "Keychron does not state a generation or release year on the product page, so both remain unknown. The listed product page currently shows sold out; no Offer or current price is imported."
+    ]
+  }
+]

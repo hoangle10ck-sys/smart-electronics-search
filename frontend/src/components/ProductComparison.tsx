@@ -1,4 +1,5 @@
 import { Product, formatVND } from '../api';
+import { getProductDisplayName } from '../productDisplayName';
 
 const LABELS: Record<string, string> = {
   cpu: 'CPU', gpu: 'GPU', ram: 'RAM', storage: 'Lưu trữ', screen: 'Màn hình', display: 'Màn hình',
@@ -69,8 +70,8 @@ export default function ProductComparison({ products, onRemove, onClear }: {
                 {products.map((product) => <th scope="col" key={product._id}>
                   <div className="comparison-product">
                     {(product.imageUsagePermission === 'granted' || (product.localOnlyAsset && product.imageVerificationStatus === 'pending')) && safeImageHref(product.imageUrl) && <img src={safeImageHref(product.imageUrl)!} alt="" loading="lazy" />}
-                    <span>{product.name}</span>
-                    <button type="button" aria-label={`Bỏ ${product.name} khỏi so sánh`} onClick={() => onRemove(product._id)}>×</button>
+                    <span>{getProductDisplayName(product)}</span>
+                    <button type="button" aria-label={`Bỏ ${getProductDisplayName(product)} khỏi so sánh`} onClick={() => onRemove(product._id)}>×</button>
                   </div>
                 </th>)}
               </tr>

@@ -1,0 +1,119 @@
+[
+  {
+    "sourceKey": "web-research:microsoft:xbox-series-x",
+    "brand": "Microsoft",
+    "model": "Xbox Series X",
+    "modelNumber": null,
+    "name": "Microsoft Xbox Series X Console",
+    "category": "gaming_console",
+    "family": "Xbox Series",
+    "generation": "Xbox Series X",
+    "releaseYear": 2020,
+    "productStatus": "active",
+    "productUrl": "https://www.xbox.com/en-us/consoles/xbox-series-x/",
+    "specificationSourceUrl": "https://www.xbox.com/en-us/consoles/xbox-series-x/",
+    "description": "Máy chơi game Xbox Series X với CPU 8 nhân AMD Zen 2, GPU AMD RDNA 2 12 TFLOPS, bộ nhớ GDDR6 16 GB và SSD NVMe 1–2 TB tùy phiên bản; hỗ trợ chơi game 4K và tối đa 120 FPS.",
+    "specifications": {
+      "cpu": "Custom AMD Zen 2 CPU, 8 cores, 3.8 GHz (3.6 GHz with SMT)",
+      "gpu": "Custom AMD RDNA 2 GPU, 12 TFLOPS, 52 CUs at 1.825 GHz",
+      "memory": "16 GB GDDR6, 320-bit bus",
+      "storage": "Custom NVMe SSD, 1 TB or 2 TB by edition",
+      "discDrive": "4K UHD Blu-ray on Carbon Black and Galaxy Black disc editions",
+      "videoOutput": "True 4K; up to 8K HDR; up to 120 FPS",
+      "ports": "1 HDMI 2.1; 3 USB 3.1 Gen 1",
+      "wireless": "802.11ac dual-band Wi-Fi",
+      "dimensions": "15.1 × 15.1 × 30.1 cm"
+    },
+    "specs": {
+      "storage": "1–2 TB NVMe SSD",
+      "cpu": "8-core AMD Zen 2 custom CPU",
+      "gpu": "AMD RDNA 2, 12 TFLOPS",
+      "display": "True 4K, up to 120 FPS",
+      "usage": "gaming"
+    },
+    "tags": [
+      "gaming"
+    ],
+    "variants": [
+      {
+        "name": "Series X Carbon Black Disc 1TB",
+        "modelNumber": null,
+        "sku": null,
+        "attributes": {
+          "storage": "1 TB NVMe SSD",
+          "discDrive": "4K UHD Blu-ray",
+          "color": "Carbon Black"
+        }
+      },
+      {
+        "name": "Series X All-Digital 1TB",
+        "modelNumber": null,
+        "sku": null,
+        "attributes": {
+          "storage": "1 TB NVMe SSD",
+          "discDrive": "None",
+          "color": "Robot White"
+        }
+      },
+      {
+        "name": "Series X Galaxy Black Special Edition 2TB",
+        "modelNumber": null,
+        "sku": null,
+        "attributes": {
+          "storage": "2 TB NVMe SSD",
+          "discDrive": "4K UHD Blu-ray",
+          "color": "Galaxy Black"
+        }
+      }
+    ],
+    "imageCandidate": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Xbox_Series_X_%28July_8%2C_2026%29.jpg",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Xbox_Series_X_(July_8,_2026).jpg",
+      "license": "Creative Commons Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+      "author": "茅野ふたば",
+      "attribution": "Photo by 茅野ふたば, CC BY-SA 4.0.",
+      "visualIdentityChecked": true,
+      "visualReviewNotes": "Ảnh chụp cho thấy thân máy Xbox Series X màu đen dạng tháp và biểu tượng Xbox ở mặt trước; nhận diện phù hợp Xbox Series X."
+    },
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "Xbox",
+        "sourceUrl": "https://www.xbox.com/en-us/consoles/xbox-series-x/",
+        "notes": "Trang Xbox chính thức nhận diện sản phẩm Xbox Series X và các phiên bản lưu trữ 1 TB/2 TB."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "Xbox",
+        "sourceUrl": "https://www.xbox.com/en-us/consoles/xbox-series-x/",
+        "notes": "Trang sản phẩm Xbox chính thức có các cấu hình Series X: Carbon Black 1 TB có ổ đĩa, Robot White 1 TB kỹ thuật số và Galaxy Black 2 TB có ổ đĩa."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "Xbox",
+        "sourceUrl": "https://www.xbox.com/en-us/consoles/xbox-series-x/",
+        "notes": "Thông số CPU, GPU, bộ nhớ, lưu trữ, cổng, video, không dây và kích thước được đối chiếu trên trang thông số chính thức của Xbox."
+      },
+      {
+        "evidenceType": "image",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Xbox_Series_X_%28July_8%2C_2026%29.jpg",
+        "notes": "Ảnh được xem trực tiếp; tháp console Xbox Series X màu đen và biểu tượng Xbox hiện rõ."
+      },
+      {
+        "evidenceType": "image_rights",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xbox_Series_X_(July_8,_2026).jpg",
+        "notes": "Trang tệp ghi tác giả 茅野ふたば và giấy phép Creative Commons Attribution-Share Alike 4.0 International."
+      }
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "verified",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "reasons": [
+      "Product identity, manufacturer specifications, image identity and CC BY-SA 4.0 rights are verified; no current price offer is asserted."
+    ]
+  }
+]

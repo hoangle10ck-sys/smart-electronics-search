@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Product, formatVND } from '../api';
+import { getProductDisplayName } from '../productDisplayName';
 import Icon, { IconName } from './Icon';
 
 const CATEGORY_ICONS: Record<string, IconName> = {
@@ -8,8 +9,22 @@ const CATEGORY_ICONS: Record<string, IconName> = {
   monitor: 'monitor', cpu: 'cpu', gpu: 'gpu', keyboard: 'keyboard', camera: 'camera',
 };
 const SPEC_LABELS: Record<string, string> = {
-  cpu: 'CPU', gpu: 'GPU', ram: 'RAM', storage: 'Lưu trữ', screen: 'Màn hình',
-  display: 'Màn hình', battery: 'Pin', camera: 'Camera', resolution: 'Độ phân giải',
+  cpu: 'CPU', gpu: 'GPU', ram: 'RAM', storage: 'Lưu trữ', screen: 'Màn hình', display: 'Màn hình',
+  battery: 'Pin', camera: 'Camera', resolution: 'Độ phân giải', megapixels: 'Độ phân giải',
+  coolingCapacityHp: 'Công suất', coolingCapacityBtuH: 'Công suất', refrigerant: 'Gas', technology: 'Công nghệ',
+  refreshRateHz: 'Tần số quét', panelType: 'Tấm nền', batteryCapacityMah: 'Dung lượng pin', wifiGeneration: 'Wi-Fi', connectivity: 'Kết nối',
+};
+
+const CATEGORY_SPEC_KEYS: Record<string, string[]> = {
+  laptop: ['cpu', 'ram', 'gpu', 'storage', 'display', 'screen', 'battery'],
+  desktop: ['cpu', 'ram', 'gpu', 'storage'],
+  phone: ['camera', 'resolution', 'ram', 'storage', 'screen', 'battery'],
+  tablet: ['screen', 'ram', 'storage', 'battery'],
+  camera: ['megapixels', 'resolution', 'camera', 'sensor'],
+  air_conditioner: ['coolingCapacityHp', 'coolingCapacityBtuH', 'technology', 'refrigerant'],
+  monitor: ['screen', 'display', 'resolution', 'refreshRateHz', 'panelType'],
+  tv: ['screen', 'display', 'resolution', 'refreshRateHz', 'panelType'],
+  networking: ['wifiGeneration', 'connectivity'],
 };
 
 function safeLink(value: string | null | undefined): string | null {
@@ -22,22 +37,31 @@ function safeLink(value: string | null | undefined): string | null {
 }
 
 function specChips(product: Product): string[] {
+  const sources = [product.specifications, product.specs].filter((value): value is Record<string, unknown> => Boolean(value && typeof value === 'object'));
+  const aliases: Record<string, string[]> = {
+    ram: ['ram', 'ramGB', 'RAM'], storage: ['storage', 'storageGB', 'SSD', 'HDD'],
+    screen: ['screen', 'display', 'screenSizeInches'], display: ['display', 'screen', 'screenSizeInches'],
+    camera: ['camera'], resolution: ['resolution', 'videoResolution', 'megapixels'],
+    battery: ['battery', 'batteryCapacityMah'], connectivity: ['connectivity', 'wireless'],
+  };
+  const keys = CATEGORY_SPEC_KEYS[product.category] ?? ['cpu', 'gpu', 'ram', 'storage', 'screen', 'display', 'battery', 'resolution'];
   const values: string[] = [];
-  const ram = product.specs?.ram ?? product.specifications?.ram ?? product.specifications?.RAM;
-  const storage = product.specs?.storage ?? product.specifications?.storage ?? product.specifications?.SSD;
-  if (ram) values.push(`RAM ${ram}${String(ram).match(/\d$/) ? 'GB' : ''}`);
-  if (storage) values.push(`${storage}${String(storage).match(/\d$/) ? 'GB' : ''}`);
-  for (const key of ['cpu', 'gpu', 'screen', 'display']) {
-    const value = product.specs?.[key] ?? product.specifications?.[key];
-    if (value != null && String(value).trim()) values.push(`${SPEC_LABELS[key]} · ${String(value)}`);
+  for (const key of keys) {
+    const names = aliases[key] ?? [key];
+    let value: unknown;
+    for (const source of sources) {
+      const entry = Object.entries(source).find(([sourceKey]) => names.some((name) => sourceKey.toLowerCase() === name.toLowerCase()));
+      if (entry) { value = entry[1]; break; }
+    }
+    if (value == null || !['string', 'number'].includes(typeof value) || !String(value).trim()) continue;
+    let display = String(value).trim();
+    const suffixes: Record<string, string> = { ram: 'GB', storage: 'GB', coolingCapacityHp: ' HP', coolingCapacityBtuH: ' BTU', refreshRateHz: ' Hz', megapixels: ' MP', batteryCapacityMah: ' mAh' };
+    const suffix = suffixes[key];
+    if (suffix && typeof value === 'number') display += suffix;
+    values.push(`${SPEC_LABELS[key] ?? key} · ${display}`);
+    if (values.length === 3) break;
   }
-  return [...new Set(values)].slice(0, 3);
-}
-
-function formatUpdatedAt(value: string | null | undefined) {
-  if (!value) return null;
-  const date = new Date(value);
-  return Number.isNaN(date.getTime()) ? null : new Intl.DateTimeFormat('vi-VN', { dateStyle: 'medium' }).format(date);
+  return [...new Set(values)];
 }
 
 export default function ProductCard({
@@ -54,21 +78,17 @@ export default function ProductCard({
   const [imageFailed, setImageFailed] = useState(false);
   const offer = p.bestOffer;
   const price = offer?.verified === true && offer.priceStatus === 'current_verified' && typeof offer.price === 'number' && offer.price > 0 ? offer.price : null;
-  const originalPrice = price != null && typeof offer?.originalPrice === 'number' ? offer.originalPrice : null;
-  const discount = price && originalPrice && originalPrice > price ? Math.round((1 - price / originalPrice) * 100) : 0;
   const imageUrl = safeLink(p.imageUrl);
   const canDisplayImage = p.imageUsagePermission === 'granted' || (p.localOnlyAsset === true && p.imageVerificationStatus === 'pending');
-  const attributionUrl = safeLink(p.imageSource) ?? safeLink(p.imageSourceUrl);
   const purchaseUrl = safeLink(offer?.productUrl) ?? safeLink(offer?.affiliateUrl) ?? safeLink(p.productUrl) ?? safeLink(p.sourceUrl);
   const chips = specChips(p);
-  const updatedAt = formatUpdatedAt(offer?.observedAt ?? offer?.lastUpdated);
   const categoryIcon = CATEGORY_ICONS[p.category.toLocaleLowerCase('vi-VN')] ?? 'image';
 
   return (
     <article className="product-card">
       <div className="product-card-media">
         {canDisplayImage && imageUrl && !imageFailed
-          ? <img src={imageUrl} alt={p.name} loading="lazy" onError={() => setImageFailed(true)} />
+          ? <img src={imageUrl} alt={getProductDisplayName(p)} loading="lazy" onError={() => setImageFailed(true)} />
           : <div className="product-image-placeholder" aria-label="Chưa có hình ảnh sản phẩm">
               <Icon name={categoryIcon} size={36} />
               <span>Chưa có hình ảnh</span>
@@ -79,7 +99,7 @@ export default function ProductCard({
             className={`compare-toggle${compared ? ' selected' : ''}`}
             type="button"
             aria-pressed={compared}
-            aria-label={`${compared ? 'Bỏ' : 'Thêm'} ${p.name} ${compared ? 'khỏi' : 'vào'} danh sách so sánh`}
+            aria-label={`${compared ? 'Bỏ' : 'Thêm'} ${getProductDisplayName(p)} ${compared ? 'khỏi' : 'vào'} danh sách so sánh`}
             onClick={() => onToggleCompare(p)}
           >
             {compared ? <Icon name="check" size={16} /> : <Icon name="compare" size={16} />}
@@ -88,50 +108,13 @@ export default function ProductCard({
         )}
       </div>
 
-      {canDisplayImage && p.imageAttribution && (
-        <small className="product-credit">
-          Ảnh: {attributionUrl
-            ? <a href={attributionUrl} target="_blank" rel="noopener noreferrer">{p.imageAttribution}</a>
-            : p.imageAttribution}
-        </small>
-      )}
-      {p.imageVerificationStatus === 'pending' && (
-        <small className="image-status">{p.localOnlyAsset ? 'Ảnh nội bộ để tham khảo' : 'Ảnh chưa xác minh quyền sử dụng'}</small>
-      )}
-
       <div className="product-card-body">
         <div className="product-heading">
           <p className="product-brand">{p.brand || 'Thương hiệu chưa có'}</p>
-          {p.releaseYear && <span className="product-year">{p.releaseYear}</span>}
         </div>
-        <h3>{p.name}</h3>
-        {(p.model || p.modelNumber) && (p.model !== p.name || p.modelNumber) && <p className="product-model">{[p.model !== p.name ? p.model : null, p.modelNumber].filter(Boolean).join(' · ')}</p>}
-        <ul className="product-specs" aria-label="Một số thông số">
-          {chips.map((chip) => <li key={chip}>{chip}</li>)}
-          {!chips.length && <li>Thông số chi tiết trong sản phẩm</li>}
-        </ul>
-
-        <div className="product-price-block">
-          <div className="product-price-row">
-            <strong className={price == null ? 'price-unavailable' : ''}>{price != null ? formatVND(price) : 'Chưa có giá xác minh'}</strong>
-            {discount > 0 && <span className="discount-badge">−{discount}%</span>}
-          </div>
-          {discount > 0 && <span className="product-old-price">Giá cũ {formatVND(originalPrice!)}</span>}
-          {price == null && p.priceEvidence?.status === 'historical' && <small>Giá này được ghi nhận trước đây; cần xác minh lại trước khi mua.</small>}
-          {price == null && p.priceEvidence?.status === 'reference' && <small>Giá tham khảo, chưa đủ căn cứ xác minh là giá hiện hành.</small>}
-          {price == null && p.priceEvidence?.status === 'expired' && <small>Giá đã hết hiệu lực.</small>}
-          {price != null && <small>Giá hiện hành đã xác minh bằng VND.</small>}
-          {price != null && (offer?.sellerName || updatedAt) && (
-            <span className="product-offer-meta">{[offer?.sellerName, offer?.variantLabel, updatedAt && `Cập nhật ${updatedAt}`].filter(Boolean).join(' · ')}</span>
-          )}
-        </div>
-
-        {p.advisorFit
-          ? <div className="advisor-product-fit"><strong>Phù hợp {p.advisorFit.score}/100</strong><span>{p.advisorFit.reasons.slice(0, 2).join(' ')}</span></div>
-          : p.reasons && p.reasons.length > 0 && <p className="product-fit"><Icon name="check" size={15} /> {p.reasons[0]}</p>}
-        {p.advisorFit?.dataConfidence != null && <small>Độ tin cậy dữ liệu {p.advisorFit.dataConfidence}% · Điểm phù hợp {p.advisorFit.matchScore ?? p.advisorFit.score}/100</small>}
-        {p.advisorFit?.matchingStatus === 'incomplete' && <small>Catalog chưa đủ dữ liệu để xác minh mọi tiêu chí bắt buộc.</small>}
-        {p.advisorFit?.matchingStatus === 'historical_reference' && <small>Sản phẩm thuộc kết quả tìm kiếm trước.</small>}
+        <h3>{getProductDisplayName(p)}</h3>
+        {chips.length > 0 && <ul className="product-specs" aria-label="Một số thông số">{chips.map((chip) => <li key={chip}>{chip}</li>)}</ul>}
+        {price != null && <div className="product-price-block"><strong>{formatVND(price)}</strong></div>}
         <div className="product-card-actions">
           {onViewDetails && <button className="button-secondary" type="button" onClick={() => onViewDetails(p)}>Chi tiết</button>}
           {purchaseUrl && <a className="button-primary" href={purchaseUrl} target="_blank" rel="noopener noreferrer">Xem nơi bán <Icon name="external" size={15} /></a>}

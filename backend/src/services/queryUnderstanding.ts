@@ -114,7 +114,9 @@ function mergeIntent(raw: string, rules: ParsedQuery, ai: ModelIntent): ParsedQu
   const aiRam = explicitRam && ai.ram !== null && ai.ram > 0 && ai.ram <= 2048 ? ai.ram : undefined;
   return {
     ...rules,
-    category: rules.category ?? (ai.category && categoryKeys.includes(ai.category) ? ai.category : undefined),
+    // A generic category family is already an explicit deterministic decision;
+    // do not let an LLM narrow it to an unrelated single category.
+    category: rules.category ?? (!rules.categoryGroup?.length && ai.category && categoryKeys.includes(ai.category) ? ai.category : undefined),
     // Brands are hard search filters, so only accept one the user actually named.
     // The language model often guesses a set of likely manufacturers for generic
     // requests such as "gaming laptop"; treating those guesses as requirements
@@ -138,6 +140,9 @@ function mergeIntent(raw: string, rules: ParsedQuery, ai: ModelIntent): ParsedQu
 export async function understandQuery(raw: string): Promise<QueryUnderstandingResult> {
   const rules = parseQuery(raw);
   if (rules.validationIssues.length) return fallback(raw, 'fallback');
+  // Broad computer terms have a deliberate multi-category interpretation. There
+  // is no benefit in asking the model to guess one category for them.
+  if (rules.categoryGroup?.length) return { parsed: rules, provider: 'rules', status: 'active' };
   // The evaluation runner uses the same search engine and deterministic parser
   // on both revisions, so ranking metrics exclude model warm-up/network latency.
   if (process.env.SEARCH_EVAL_SKIP_OLLAMA === 'true') return fallback(raw, 'fallback');

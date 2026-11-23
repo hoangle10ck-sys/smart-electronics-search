@@ -31,6 +31,7 @@ const productSchema = new Schema(
     sku: { type: String, default: null },
     normalizedName: { type: String, default: null },
     normalizedBrand: { type: String, default: null },
+    normalizedBrandAliases: { type: [String], default: [] },
     normalizedModel: { type: String, default: null },
     normalizedModelNumber: { type: String, default: null },
     normalizedSku: { type: String, default: null },

@@ -1,4 +1,4 @@
-import { writeFile } from 'node:fs/promises';
+import { mkdir, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { verifyModelPage } from '../services/urlVerification';
 
@@ -205,14 +205,16 @@ async function main() {
   const keys = new Set(entries.map((entry) => `${entry.brand.toLowerCase()}|${entry.model.toLowerCase()}`));
   if (keys.size !== entries.length || entries.length > 20) throw new Error('The prepared GPU batch has duplicate identities or exceeds the 20-record import limit.');
   await writeFile(resolve(__dirname, 'research-pending-techapi-gpu-2026-11-11.json'), JSON.stringify(entries, null, 2), 'utf8');
-  await writeFile(resolve(__dirname, '../../../TECHAPI_GPU_VERIFICATION_2026_11_11.json'), JSON.stringify({
+  const reportDir = resolve(__dirname, '../../../docs/catalog/verification');
+  await mkdir(reportDir, { recursive: true });
+  await writeFile(resolve(reportDir, 'TECHAPI_GPU_VERIFICATION_2026_11_11.json'), JSON.stringify({
     checkedAt: new Date().toISOString(), source: 'TechAPI', dataAttribution: 'Data from TechAPI', dataSourceUrl: TECHAPI_REPO,
     dataLicense: 'CC BY-SA 4.0', dataLicenseUrl: CC_BY_SA, licenseTermsUrl: TECHAPI_LICENSE,
     scope: { curatedModelRows: entries.length, TechAPIRecords: audit.reduce((sum, row) => sum + row.apiRecords.length, 0), productAndSpecificationPageChecks, supplementalManufacturerPagesChecked: audit.filter((row) => row.variantSourceUrlCheck).length },
     records: audit,
     limitation: 'TechAPI describes itself as a curated, growing dataset and not an exhaustive catalog. Its verified flag is not a substitute for manufacturer cross-checks. No offers, MSRP values, synthetic scores, or image URLs were imported.',
   }, null, 2), 'utf8');
-  console.log(JSON.stringify({ prepared: entries.length, apiRecords: audit.reduce((sum, row) => sum + row.apiRecords.length, 0), productAndSpecificationPageChecks, supplementalManufacturerPagesChecked: audit.filter((row) => row.variantSourceUrlCheck).length, seedFile: 'research-pending-techapi-gpu-2026-11-11.json', reportFile: 'TECHAPI_GPU_VERIFICATION_2026_11_11.json' }, null, 2));
+  console.log(JSON.stringify({ prepared: entries.length, apiRecords: audit.reduce((sum, row) => sum + row.apiRecords.length, 0), productAndSpecificationPageChecks, supplementalManufacturerPagesChecked: audit.filter((row) => row.variantSourceUrlCheck).length, seedFile: 'research-pending-techapi-gpu-2026-11-11.json', reportFile: 'docs/catalog/verification/TECHAPI_GPU_VERIFICATION_2026_11_11.json' }, null, 2));
 }
 
 main().catch((error) => {

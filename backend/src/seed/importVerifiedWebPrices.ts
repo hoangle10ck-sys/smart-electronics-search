@@ -32,6 +32,10 @@ type Batch = {
 
 const APPROVED_RETAILERS = new Map([
   ['fptshop.com.vn', 'FPT Shop'],
+  ['cellphones.com.vn', 'CellphoneS'],
+  ['hanoinew.vn', 'Hanoinew Computer'],
+  ['tecki.vn', 'TecKi.vn'],
+  ['ankervietnam.vn', 'AnkerVietNam'],
   ['hacom.vn', 'HACOM'],
   ['tncstore.vn', 'TNC Store'],
   ['gearvn.com', 'GEARVN'],
@@ -48,6 +52,7 @@ const APPROVED_RETAILERS = new Map([
   ['www.kindlesaigon.vn', 'Kindle Saigon'],
   ['logico.com.vn', 'LOGICO'],
   ['www.8matter.com', '8MATTER'],
+  ['vn.store.tp-link.com', 'TP-Link Việt Nam Official Store'],
 ]);
 
 function validateBatch(batch: Batch) {

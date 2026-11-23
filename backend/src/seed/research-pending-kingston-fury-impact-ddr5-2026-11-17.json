@@ -1,0 +1,116 @@
+[
+  {
+    "sourceKey": "web-research:kingston:fury-impact-ddr5-kf556s40ibk2-64",
+    "brand": "Kingston",
+    "model": "FURY Impact",
+    "modelNumber": "KF556S40IBK2-64",
+    "name": "Kingston FURY Impact 64GB (2x32GB) DDR5-5600 CL40 SO-DIMM Kit",
+    "description": "Kingston FURY Impact KF556S40IBK2-64 là bộ RAM laptop DDR5 dung lượng 64 GB gồm hai thanh SO-DIMM 32 GB. Hãng công bố tốc độ 5.600 MT/s, độ trễ CL40-40-40, điện áp 1,1 V và cấu hình Plug N Play. Đây là bộ nhớ non-ECC unbuffered 262-pin; mức tốc độ thực tế phụ thuộc khả năng hỗ trợ của máy tính.",
+    "category": "ram",
+    "family": "FURY Impact DDR5",
+    "generation": null,
+    "releaseYear": null,
+    "productStatus": "active",
+    "productUrl": "https://www.kingstonstore.com.br/products/kf556s40ibk2-64",
+    "specificationSourceUrl": "https://www.kingstonstore.com.br/products/kf556s40ibk2-64",
+    "specifications": {
+      "totalCapacityGb": 64,
+      "moduleConfiguration": "2 x 32 GB",
+      "memoryType": "DDR5 SDRAM",
+      "speedMts": 5600,
+      "casLatency": 40,
+      "timings": "40-40-40",
+      "voltageV": 1.1,
+      "formFactor": "262-pin SO-DIMM",
+      "moduleType": "Non-ECC Unbuffered",
+      "rankOrganization": "2Rx8",
+      "plugAndPlay": true,
+      "onDieEcc": true,
+      "dimensionsMm": "69.6 x 30",
+      "operatingTemperatureC": "0 to 85"
+    },
+    "variants": [
+      {
+        "name": "64GB kit (2 x 32GB), DDR5-5600 CL40, black",
+        "sku": "KF556S40IBK2-64",
+        "attributes": {
+          "totalCapacityGb": 64,
+          "moduleConfiguration": "2 x 32 GB",
+          "speedMts": 5600,
+          "casLatency": 40,
+          "color": "Black"
+        }
+      }
+    ],
+    "dataAttribution": "Product identity and technical specifications from Kingston's official Brazil store product page and Kingston datasheet; photographs by ITEagle Europe - Sebastiaan Broekhoven under CC BY-SA 4.0.",
+    "dataSourceUrl": "https://www.kingstonstore.com.br/products/kf556s40ibk2-64",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "Kingston Store official online store product page",
+        "sourceUrl": "https://www.kingstonstore.com.br/products/kf556s40ibk2-64",
+        "notes": "Kingston Store identifies itself as Kingston Technology's official online store in Brazil and identifies part KF556S40IBK2-64 as a 64GB (2x32GB) DDR5-5600 CL40 FURY Impact kit."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "Kingston Store official online store product page",
+        "sourceUrl": "https://www.kingstonstore.com.br/products/kf556s40ibk2-64",
+        "notes": "The official store lists the exact part number and kit configuration, marks the Brazilian listing sold out, and shows a BRL price; no Vietnam retailer offer or local price was verified or imported."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "Kingston Store official online store product page",
+        "sourceUrl": "https://www.kingstonstore.com.br/products/kf556s40ibk2-64",
+        "notes": "The official store lists 64GB (2x32GB), DDR5-5600 MT/s, CL40, 262-pin SO-DIMM, non-ECC unbuffered configuration, 2Rx8 rank, and 1.1V."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "Kingston official datasheet",
+        "sourceUrl": "https://www.kingston.com/datasheets/KF556S40IBK2-64.pdf",
+        "notes": "The Kingston manufacturer datasheet confirms timings 40-40-40 at 1.1V, Plug N Play, on-die ECC, operating temperature, and 69.6 x 30 mm module dimensions."
+      },
+      {
+        "evidenceType": "image",
+        "sourceName": "Wikimedia Commons front-view file page",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kingston_FURY_Impact_DDR5_SO-DIMM_Laptop_Memory_32GB_Module_-_front_view.jpg",
+        "notes": "Front photograph shows the Kingston FURY Impact DDR5 SO-DIMM; visual appearance matches the manufacturer's image and product description."
+      },
+      {
+        "evidenceType": "image",
+        "sourceName": "Wikimedia Commons rear-view file page",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kingston_FURY_Impact_DDR5_SO-DIMM_Laptop_Memory_32GB_Module_-_rear_view.jpg",
+        "notes": "The complementary rear photograph visibly shows the module label KF556S40IBK2-64, confirming the exact part number in this kit."
+      },
+      {
+        "evidenceType": "image_rights",
+        "sourceName": "Wikimedia Commons front-view file page",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kingston_FURY_Impact_DDR5_SO-DIMM_Laptop_Memory_32GB_Module_-_front_view.jpg",
+        "notes": "Commons credits ITEagle Europe - Sebastiaan Broekhoven and records the file under Creative Commons Attribution-Share Alike 4.0 International."
+      },
+      {
+        "evidenceType": "image_rights",
+        "sourceName": "Wikimedia Commons rear-view file page",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kingston_FURY_Impact_DDR5_SO-DIMM_Laptop_Memory_32GB_Module_-_rear_view.jpg",
+        "notes": "Commons credits ITEagle Europe - Sebastiaan Broekhoven and records the file under Creative Commons Attribution-Share Alike 4.0 International."
+      }
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "verified",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "imageCandidate": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Kingston_FURY_Impact_DDR5_SO-DIMM_Laptop_Memory_32GB_Module_-_front_view.jpg",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Kingston_FURY_Impact_DDR5_SO-DIMM_Laptop_Memory_32GB_Module_-_front_view.jpg",
+      "license": "Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "ITEagle Europe - Sebastiaan Broekhoven",
+      "attribution": "ITEagle Europe - Sebastiaan Broekhoven, “Kingston FURY Impact DDR5 SO-DIMM Laptop Memory 32GB Module - front view,” CC BY-SA 4.0, via Wikimedia Commons; no modifications made.",
+      "visualIdentityChecked": true,
+      "visualReviewNotes": "FURY Impact DDR5: visually checked the front image against Kingston's official part page. It shows the matching black FURY Impact DDR5 laptop SO-DIMM. The paired rear-view Commons photo shows the label KF556S40IBK2-64, which matches Kingston's 64GB (2x32GB) kit listing."
+    },
+    "reasons": [
+      "Added as an exact Kingston FURY Impact DDR5 RAM kit with official part-level specifications and a CC BY-SA 4.0 product photograph.",
+      "Kingston does not state a numbered generation or a release year for this exact kit; both remain unknown. No local retailer price was verified, so no Offer is added."
+    ]
+  }
+]

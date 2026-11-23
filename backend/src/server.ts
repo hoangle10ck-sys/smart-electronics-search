@@ -2,7 +2,9 @@ import 'dotenv/config';
 import express, { NextFunction, Request, Response } from 'express';
 import cors from 'cors';
 import mongoose from 'mongoose';
+import type { Server } from 'node:http';
 import { connectDB } from './config/db';
+import { getTechApiRuntimeRepository } from './repositories/techApiRepositoryFactory';
 import { ProductSearchVector } from './models/ProductSearchVector';
 import { DEFAULT_EMBEDDING_MODEL } from './services/productEmbeddings';
 import productRoutes from './routes/products';
@@ -11,7 +13,7 @@ import adminCollectorRoutes from './routes/adminCollector';
 import adminCatalogRoutes from './routes/adminCatalog';
 import v1Routes from './routes/v1';
 
-const app = express();
+export const app = express();
 let healthCache: { expiresAt: number; payload: Record<string, any> } | null = null;
 app.use(cors({ origin: process.env.FRONTEND_ORIGIN ?? 'http://localhost:5173' }));
 app.use(express.json({ limit: '1mb' }));
@@ -66,7 +68,39 @@ app.use((err: Error, _req: Request, res: Response, _next: NextFunction) => {
   res.status(500).json({ message: 'Lỗi máy chủ' });
 });
 
+export async function startServer(port = Number(process.env.PORT) || 5000, host?: string): Promise<{ server: Server; close: () => Promise<void> }> {
+  await connectDB();
+  const server = await new Promise<Server>((resolve, reject) => {
+    const onListening = () => resolve(listening);
+    const listening = host ? app.listen(port, host, onListening) : app.listen(port, onListening);
+    listening.once('error', reject);
+  });
+  let closing: Promise<void> | undefined;
+  const close = () => {
+    closing ??= new Promise<void>((resolve, reject) => {
+      server.close((error) => error ? reject(error) : resolve());
+    }).then(async () => {
+      const results = await Promise.allSettled([getTechApiRuntimeRepository().close(), mongoose.disconnect()]);
+      const failure = results.find((result): result is PromiseRejectedResult => result.status === 'rejected');
+      if (failure) throw failure.reason;
+    });
+    return closing;
+  };
+  return { server, close };
+}
+
 const PORT = Number(process.env.PORT) || 5000;
-connectDB()
-  .then(() => app.listen(PORT, () => console.log(`🚀 API chạy tại http://localhost:${PORT}`)))
+if (require.main === module) connectDB()
+  .then(() => {
+    const server = app.listen(PORT, () => console.log(`🚀 API chạy tại http://localhost:${PORT}`));
+    const shutdown = () => {
+      server.close((serverError) => {
+        void Promise.allSettled([getTechApiRuntimeRepository().close(), mongoose.disconnect()]).then((results) => {
+          if (serverError || results.some((result) => result.status === 'rejected')) process.exitCode = 1;
+        });
+      });
+    };
+    process.once('SIGINT', shutdown);
+    process.once('SIGTERM', shutdown);
+  })
   .catch((e) => { console.error('❌ Không kết nối được MongoDB:', e.message); process.exit(1); });

@@ -1,0 +1,91 @@
+[
+  {
+    "sourceKey": "web-research:tp-link:archer-be9700",
+    "brand": "TP-Link",
+    "model": "Archer BE9700",
+    "modelNumber": "Archer BE9700",
+    "name": "TP-Link Archer BE9700 Tri-Band Wi-Fi 7 Router",
+    "description": "TP-Link Archer BE9700 là router Wi-Fi 7 ba băng tần, hỗ trợ Multi-Link Operation và tốc độ gộp tối đa 9,7 Gbps theo cấu hình của hãng. Thiết bị có sáu ăng-ten ngoài, một cổng WAN/LAN 10 Gbps, một cổng WAN/LAN 2,5 Gbps, ba cổng LAN 2,5 Gbps và một cổng USB 3.0. Router hỗ trợ EasyMesh, chế độ Access Point và máy chủ/ứng dụng khách VPN.",
+    "category": "networking",
+    "family": "Archer BE",
+    "generation": "Wi-Fi 7",
+    "releaseYear": null,
+    "productStatus": "active",
+    "productUrl": "https://www.tp-link.com/us/home-networking/wifi-router/archer-be9700/",
+    "specificationSourceUrl": "https://www.tp-link.com/us/home-networking/wifi-router/archer-be9700/",
+    "specifications": {
+      "wirelessStandard": "Wi-Fi 7 (IEEE 802.11be)",
+      "bands": ["2.4 GHz", "5 GHz", "6 GHz"],
+      "bandSpeedsMbps": {
+        "2.4GHz": 1032,
+        "5GHz": 2882,
+        "6GHz": 5765
+      },
+      "combinedSpeedClass": "BE9700 / up to 9.7 Gbps",
+      "multiLinkOperation": true,
+      "antennas": "6 external high-performance antennas with Beamforming",
+      "ethernetPorts": [
+        "1 x 10 Gbps WAN/LAN",
+        "1 x 2.5 Gbps WAN/LAN",
+        "3 x 2.5 Gbps LAN"
+      ],
+      "usb": "1 x USB 3.0",
+      "wirelessModes": ["Router", "Access Point"],
+      "mesh": "EasyMesh compatible",
+      "security": "TP-Link HomeShield; WPA/WPA2/WPA3; SPI Firewall",
+      "vpn": ["OpenVPN", "PPTP", "L2TP", "WireGuard"]
+    },
+    "dataAttribution": "Product identity and technical specifications from TP-Link's official product page; photograph by TaurusEmerald under CC BY-SA 4.0.",
+    "dataSourceUrl": "https://www.tp-link.com/us/home-networking/wifi-router/archer-be9700/",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "TP-Link official product page",
+        "sourceUrl": "https://www.tp-link.com/us/home-networking/wifi-router/archer-be9700/",
+        "notes": "TP-Link identifies Archer BE9700 as its BE9700 Tri-Band Wi-Fi 7 Router."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "TP-Link official product page",
+        "sourceUrl": "https://www.tp-link.com/us/home-networking/wifi-router/archer-be9700/",
+        "notes": "Official model page names Archer BE9700 and lists product features and specifications."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "TP-Link official product specifications",
+        "sourceUrl": "https://www.tp-link.com/us/home-networking/wifi-router/archer-be9700/",
+        "notes": "The manufacturer page states the Wi-Fi 7 tri-band rates, MLO, six external antennas, Ethernet and USB ports, EasyMesh, security and VPN features."
+      },
+      {
+        "evidenceType": "image",
+        "sourceName": "Wikimedia Commons file page",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:TP-Link_Archer_BE9700_Tri-band_Wi-Fi_7_Router.jpg",
+        "notes": "Exact-model router photograph; title and Commons description identify TP-Link Archer BE9700. The visible six-antenna router design matches the official product page."
+      },
+      {
+        "evidenceType": "image_rights",
+        "sourceName": "Wikimedia Commons file page",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:TP-Link_Archer_BE9700_Tri-band_Wi-Fi_7_Router.jpg",
+        "notes": "Commons lists TaurusEmerald as author and CC BY-SA 4.0 as the reuse license."
+      }
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "verified",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "imageCandidate": {
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/TP-Link_Archer_BE9700_Tri-band_Wi-Fi_7_Router.jpg/960px-TP-Link_Archer_BE9700_Tri-band_Wi-Fi_7_Router.jpg",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:TP-Link_Archer_BE9700_Tri-band_Wi-Fi_7_Router.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "TaurusEmerald",
+      "attribution": "TaurusEmerald, “TP-Link Archer BE9700 Tri-band Wi-Fi 7 Router,” CC BY-SA 4.0, via Wikimedia Commons; no modifications made.",
+      "visualIdentityChecked": true,
+      "visualReviewNotes": "Archer BE9700: the original Commons photograph was visually checked against the official product page. It shows a black TP-Link router with six external antennas, matching the model and antenna count published by TP-Link."
+    },
+    "reasons": [
+      "Added as a verified networking category product with official model and Wi-Fi 7 specifications plus an exact-model CC BY-SA 4.0 image.",
+      "TP-Link's product page does not state a release year; that field remains unknown. No retailer offer or live price was verified, so none is included."
+    ]
+  }
+]

@@ -99,8 +99,8 @@ async function main() {
     }
 
     const report = { generatedAt: reviewedAt.toISOString(), database: mongoose.connection.name, mode: apply ? 'apply' : 'dry-run', reviewedPairs: rows.length, rows };
-    const reportFile = resolve(process.cwd(), '..', 'PRODUCT_DUPLICATE_REVIEW_2026_11_12.json');
-    await mkdir(resolve(process.cwd(), '..'), { recursive: true });
+    const reportFile = resolve(process.cwd(), '../docs/catalog/reports/PRODUCT_DUPLICATE_REVIEW_2026_11_12.json');
+    await mkdir(resolve(reportFile, '..'), { recursive: true });
     await writeFile(reportFile, JSON.stringify(report, null, 2), 'utf8');
     console.log(JSON.stringify({ ...report, reportFile }, null, 2));
   } finally {

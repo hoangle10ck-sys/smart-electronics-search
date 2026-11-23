@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { readFile, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import mongoose from 'mongoose';
 import { connectDB } from '../config/db';
@@ -50,7 +50,9 @@ async function main() {
       publishedProductsCreated: 0,
       offersCreated: 0,
     };
-    await writeFile(resolve(__dirname, '../../../TECHAPI_GPU_MONGO_IMPORT_2026_11_11.json'), JSON.stringify(report, null, 2), 'utf8');
+    const reportDir = resolve(__dirname, '../../../docs/catalog/verification');
+    await mkdir(reportDir, { recursive: true });
+    await writeFile(resolve(reportDir, 'TECHAPI_GPU_MONGO_IMPORT_2026_11_11.json'), JSON.stringify(report, null, 2), 'utf8');
     console.log(JSON.stringify(report, null, 2));
     if (!complete) process.exitCode = 1;
   } finally {

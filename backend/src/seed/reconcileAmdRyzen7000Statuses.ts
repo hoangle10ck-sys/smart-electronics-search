@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { readFile, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { EJSON } from 'bson';
 import mongoose from 'mongoose';
@@ -108,13 +108,15 @@ async function main() {
       },
       models,
     };
-    await writeFile(resolve(process.cwd(), '..', 'AMD_RYZEN_7000_8000_9000_2026_11_11_URL_VERIFICATION.json'), `${JSON.stringify(report, null, 2)}\n`, 'utf8');
+    const reportPath = resolve(process.cwd(), '../docs/catalog/verification/AMD_RYZEN_7000_8000_9000_2026_11_11_URL_VERIFICATION.json');
+    await mkdir(resolve(reportPath, '..'), { recursive: true });
+    await writeFile(reportPath, `${JSON.stringify(report, null, 2)}\n`, 'utf8');
     await SyncRun.create({
       source: 'web_research', sourceKey: 'amd-ryzen-7000-8000-9000-url-status-reconciliation-2026-11-11', mode: 'update', page: 1,
       status: 'succeeded', startedAt, finishedAt,
       stats: { fetched: models.length, created: 0, updated, skippedReviewed: 0, existingProductMatches: 0, pendingReview: models.length, publicProductsCreated: 0, offersCreated: 0, verifiedProductStatus: models.length, verifiedUrlStatus: models.filter((row) => row.urlVerificationStatus === 'verified').length },
     });
-    console.log(JSON.stringify({ output: 'AMD_RYZEN_7000_8000_9000_2026_11_11_URL_VERIFICATION.json', ...report.summary }, null, 2));
+    console.log(JSON.stringify({ output: 'docs/catalog/verification/AMD_RYZEN_7000_8000_9000_2026_11_11_URL_VERIFICATION.json', ...report.summary }, null, 2));
   } finally {
     await mongoose.disconnect();
   }

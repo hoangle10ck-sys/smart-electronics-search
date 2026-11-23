@@ -1,0 +1,100 @@
+[
+    {
+        "brand":  "Apple",
+        "model":  "Watch Ultra 2 (49 mm)",
+        "sellerName":  "MediaMart",
+        "productUrl":  "https://mediamart.vn/dong-ho-apple-watch/apple-watch-ultra-2-lte-49mm-vien-titanium-day-ocean",
+        "reason":  "No current VND price found in the product page structured data."
+    },
+    {
+        "brand":  "DJI",
+        "model":  "DJI Mini 4 Pro",
+        "sellerName":  "AGTEK",
+        "productUrl":  "https://agtek.vn/product/dji-mini-4-pro/",
+        "reason":  "No current VND price found in the product page structured data."
+    },
+    {
+        "brand":  "AMD",
+        "model":  "Ryzen 5 5600X",
+        "sellerName":  "TNC Store",
+        "productUrl":  "https://tncstore.vn/products/cpu-amd-ryzen-5-5600x",
+        "reason":  "No current VND price found in the product page structured data."
+    },
+    {
+        "brand":  "AMD",
+        "model":  "Ryzen 7 7800X3D",
+        "sellerName":  "TNC Store",
+        "productUrl":  "https://tncstore.vn/products/cpu-amd-ryzen-7-7800x3d-4-2ghz-boost-5-0ghz-8-nhan-16-luong-104mb-am5-hang-tray-100-000000910",
+        "reason":  "No current VND price found in the product page structured data."
+    },
+    {
+        "brand":  "AMD",
+        "model":  "Ryzen 5 7600",
+        "sellerName":  "TNC Store",
+        "productUrl":  "https://tncstore.vn/products/cpu-amd-ryzen5-7600",
+        "reason":  "No current VND price found in the product page structured data."
+    },
+    {
+        "brand":  "ASUS",
+        "model":  "DUAL-RX6600XT-O8G",
+        "sellerName":  "Đỗ Lợi Computer",
+        "productUrl":  "https://doloicomputer.vn/products/card-man-hinh-asus-dual-rx-6600-xt-o8g",
+        "reason":  "No current VND price found in the product page structured data."
+    },
+    {
+        "brand":  "Logitech",
+        "model":  "C920 HD Pro Webcam",
+        "sellerName":  "Tường Vui",
+        "productUrl":  "https://tuongvui.vn/san-pham/webcam-logitech-c920-hd/",
+        "reason":  "No current VND price found in the product page structured data."
+    },
+    {
+        "brand":  "Apple",
+        "model":  "Watch Ultra 2 (49 mm)",
+        "sellerName":  "MediaMart",
+        "productUrl":  "https://mediamart.vn/dong-ho-apple-watch/apple-watch-ultra-2-lte-49mm-vien-titanium-day-ocean",
+        "reason":  "No current VND price found in the product page structured data."
+    },
+    {
+        "brand":  "DJI",
+        "model":  "DJI Mini 4 Pro",
+        "sellerName":  "AGTEK",
+        "productUrl":  "https://agtek.vn/product/dji-mini-4-pro/",
+        "reason":  "No current VND price found in the product page structured data."
+    },
+    {
+        "brand":  "Acer",
+        "model":  "Nitro V 15 ANV15-41-R1JY",
+        "sellerName":  "Tuấn Lộc Store",
+        "productUrl":  "https://tuanlocstore.vn/acer-nitro-v-15-anv15-41-r1jy.html",
+        "reason":  "No current VND price found in the product page structured data."
+    },
+    {
+        "brand":  "Sony",
+        "model":  "PlayStation 5",
+        "sellerName":  "Sony Store Online",
+        "productUrl":  "https://store.sony.com.vn/collections/ps-console/products/may-ch%C6%A1i-game-playstation-5-slim-cfi-2118-a01-1-tay-c%E1%BA%A7m",
+        "reason":  "Exception calling \"GetResult\" with \"0\" argument(s): \"Response status code does not indicate success: 429 (Too Many Requests).\""
+    },
+    {
+        "brand":  "Amazon",
+        "model":  "Kindle Paperwhite 16 GB",
+        "sellerName":  "Kindle Saigon",
+        "productUrl":  "https://www.kindlesaigon.vn/collections/kindle-paperwhite/products/kindle-paperwhite-6-12th-2024-16gb-hong",
+        "reason":  "No current VND price found in the product page structured data."
+    },
+    {
+        "brand":  "Epson",
+        "model":  "EpiqVision Mini EF21",
+        "sellerName":  "LOGICO",
+        "productUrl":  "https://logico.com.vn/may-chieu-mini-epson-ef-21-dp17692",
+        "reason":  "No current VND price found in the product page structured data."
+    },
+    {
+        "brand":  "Elgato",
+        "model":  "Game Capture HD60 X",
+        "sellerName":  "HACOM",
+        "productUrl":  "https://hacom.vn/thiet-bi-chuyen-doi-hinh-anh-elgato-hd60x",
+        "reason":  "No current VND price found in the product page structured data."
+    }
+]

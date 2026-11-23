@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { writeFile } from 'node:fs/promises';
+import { mkdir, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import mongoose from 'mongoose';
 import { connectDB } from '../config/db';
@@ -7,28 +7,35 @@ import { Offer } from '../models/Offer';
 import { PendingProduct } from '../models/PendingProduct';
 import { Product } from '../models/Product';
 import { SyncRun } from '../models/SyncRun';
-import { TechApiCatalogRecord } from '../models/TechApiCatalogRecord';
+import { getTechApiRuntimeRepository, resolveTechApiStorageConfig } from '../repositories/techApiRepositoryFactory';
+import { assertLocalMongoUri } from '../services/techApiCatalog';
 
 async function main() {
-  await connectDB();
+  const uri = process.env.MONGODB_URI;
+  if (!uri) throw new Error('MONGODB_URI is missing from the process environment.');
+  assertLocalMongoUri(uri);
+  const storageConfig = resolveTechApiStorageConfig();
+  const repository = getTechApiRuntimeRepository();
   try {
+    await connectDB();
     const dateKey = new Date().toISOString().slice(0, 10);
     const runKey = `techapi-catalog-index-${dateKey}`;
     await SyncRun.updateMany(
       { source: 'techapi', sourceKey: runKey, status: 'running' },
       { $set: { status: 'failed', finishedAt: new Date(), error: 'Import process stopped before completion; see the next import run.' } }
     );
-    const categoryCounts = await TechApiCatalogRecord.aggregate([
-      { $group: { _id: '$sourceCategory', records: { $sum: 1 } } },
-      { $sort: { _id: 1 } },
-    ]);
+    const categoryCounts = await repository.countCatalogRecordsByCategory();
     const completedRun = await SyncRun.findOne({ source: 'techapi', sourceKey: runKey, status: 'succeeded' }).sort({ createdAt: -1 }).lean();
     const report = {
       checkedAt: new Date().toISOString(),
       database: mongoose.connection.name,
-      collection: TechApiCatalogRecord.collection.name,
-      totalRecords: await TechApiCatalogRecord.countDocuments(),
-      categoryCounts: Object.fromEntries(categoryCounts.map(({ _id, records }) => [_id, records])),
+      techApiSourceStorage: storageConfig.storage,
+      techApiAccess: storageConfig.storage === 'sqlite' ? 'readonly' : 'not_applicable',
+      syncRunStorage: 'mongo',
+      productCatalogStorage: 'mongo',
+      collection: repository.catalogCollectionName,
+      totalRecords: await repository.countCatalogRecords(),
+      categoryCounts: Object.fromEntries(categoryCounts.map(({ category, records }) => [category, records])),
       existingCatalog: {
         products: await Product.countDocuments(),
         pendingProductDocuments: await PendingProduct.countDocuments(),
@@ -42,9 +49,12 @@ async function main() {
       dataLicenseUrl: 'https://creativecommons.org/licenses/by-sa/4.0/',
       workflow: 'discovery_only; not verified or published; source index does not hydrate specifications or authorize image reuse',
     };
-    await writeFile(resolve(__dirname, '../../../TECHAPI_CATALOG_INDEX_IMPORT_2026_11_11.json'), JSON.stringify(report, null, 2), 'utf8');
+    const reportDir = resolve(__dirname, '../../../docs/catalog/verification');
+    await mkdir(reportDir, { recursive: true });
+    await writeFile(resolve(reportDir, 'TECHAPI_CATALOG_INDEX_IMPORT_2026_11_11.json'), JSON.stringify(report, null, 2), 'utf8');
     console.log(JSON.stringify(report, null, 2));
   } finally {
+    await repository.close();
     await mongoose.disconnect();
   }
 }

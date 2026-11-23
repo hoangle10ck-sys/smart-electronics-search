@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { getCategories, getProducts, Product, SearchResponse, formatShort, formatVND, searchProducts } from './api';
+import { Product, SearchResponse, formatShort, formatVND, searchProducts } from './api';
 import AdminConsole from './components/AdminConsole';
-import Icon, { IconName } from './components/Icon';
+import Icon from './components/Icon';
 import ProductCard from './components/ProductCard';
 import ProductComparison from './components/ProductComparison';
 import ProductDetailDialog from './components/ProductDetailDialog';
@@ -9,14 +9,6 @@ import ProductAdvisorWidget from './components/ProductAdvisorWidget';
 import SearchBar from './components/SearchBar';
 import ThemeToggle, { ThemePreference, useThemePreference } from './components/ThemeToggle';
 
-const EXAMPLES = [
-  'laptop gaming dưới 20 triệu',
-  'điện thoại chụp ảnh đẹp 8–15 triệu',
-  'tai nghe chống ồn giá rẻ',
-  'MacBook pin trâu 25 triệu',
-  'laptop văn phòng RAM 16GB',
-  'đồng hồ theo dõi sức khỏe',
-];
 const PAGE_SIZE = 12;
 
 type Sort = 'relevance' | 'price_asc' | 'price_desc' | 'rating';
@@ -25,22 +17,18 @@ const EMPTY_FILTERS: Filters = { category: '', brand: '', minPrice: '', maxPrice
 
 const CATEGORY_LABELS: Record<string, string> = {
   laptop: 'Laptop', smartphone: 'Điện thoại', phone: 'Điện thoại', tablet: 'Máy tính bảng',
-  cpu: 'Bộ xử lý', gpu: 'Card đồ họa', monitor: 'Màn hình', smartwatch: 'Đồng hồ thông minh',
+  air_conditioner: 'Máy lạnh / điều hòa', desktop: 'Máy tính để bàn / PC',
+  cpu: 'CPU', soc: 'SoC / chipset', gpu: 'GPU', ram: 'RAM', storage: 'SSD / ổ cứng',
+  motherboard: 'Mainboard', monitor: 'Màn hình', smartwatch: 'Đồng hồ thông minh',
   headphone: 'Tai nghe', headphones: 'Tai nghe', earphone: 'Tai nghe', keyboard: 'Bàn phím',
-  mouse: 'Chuột', camera: 'Máy ảnh', speaker: 'Loa', television: 'Tivi', storage: 'Lưu trữ',
-  desktop: 'Máy tính để bàn', drone: 'Flycam', ereader: 'Máy đọc sách', gaming_console: 'Máy chơi game',
-  microphone: 'Micro', projector: 'Máy chiếu', smart_home: 'Nhà thông minh', streaming_capture: 'Thiết bị livestream',
+  mouse: 'Chuột', camera: 'Camera', speaker: 'Loa', television: 'Tivi', tv: 'Tivi',
+  networking: 'Thiết bị mạng', charger: 'Sạc và pin dự phòng', electronics_accessory: 'Phụ kiện điện tử',
+  printer_scanner: 'Máy in / máy quét', gaming_console: 'Máy chơi game', projector: 'Máy chiếu',
+  drone: 'Flycam', ereader: 'Máy đọc sách', nas: 'Thiết bị lưu trữ NAS', ups: 'Bộ lưu điện UPS',
+  microphone: 'Micro', professional_audio: 'Thiết bị âm thanh chuyên nghiệp',
+  smart_home: 'Thiết bị nhà thông minh', streaming_capture: 'Thiết bị livestream / capture',
   vr_ar: 'Kính thực tế ảo', webcam: 'Webcam',
 };
-const CATEGORY_ICONS: Record<string, IconName> = {
-  laptop: 'laptop', smartphone: 'phone', phone: 'phone', tablet: 'tablet', cpu: 'cpu', gpu: 'gpu',
-  monitor: 'monitor', smartwatch: 'watch', headphone: 'headphones', headphones: 'headphones',
-  earphone: 'headphones', keyboard: 'keyboard', camera: 'camera', desktop: 'laptop',
-  microphone: 'microphone', webcam: 'camera', vr_ar: 'vr', gaming_console: 'gamepad',
-  drone: 'drone', ereader: 'book', projector: 'projector', smart_home: 'home',
-  streaming_capture: 'camera', storage: 'database',
-};
-
 function categoryLabel(category: string) {
   const key = category.toLocaleLowerCase('vi-VN');
   return CATEGORY_LABELS[key] ?? category.replace(/[_-]/g, ' ').replace(/^./, (letter) => letter.toUpperCase());
@@ -71,24 +59,29 @@ function SiteHeader({
   const home = isAdmin ? '/' : '#home';
   const nav = isAdmin ? [
     { href: '/', label: 'Về tìm kiếm' },
-    { href: '/admin', label: 'Quản trị' },
   ] : [
     { href: '#home', label: 'Trang chủ' },
-    { href: '#categories', label: 'Danh mục' },
-    { href: '#products', label: 'Sản phẩm' },
     { href: '#assistant', label: 'Trợ lý AI' },
-    { href: '/admin', label: 'Quản trị' },
   ];
 
   return (
     <header className="site-header">
       <div className="site-header-inner">
-        <a className="site-brand" href={home} aria-label="TechFind — trang chủ">
+        <a className="site-brand" href={home} aria-label="TechFind — trang chủ" onClick={() => {
+          if (!isAdmin) window.dispatchEvent(new Event('techfind:reset-home'));
+        }}>
           <span className="site-brand-icon"><Icon name="search" size={20} /></span>
           <span className="site-brand-copy"><strong>TechFind</strong><small>SMART ELECTRONICS SEARCH</small></span>
         </a>
         <nav className={`site-nav${menuOpen ? ' is-open' : ''}`} aria-label="Điều hướng chính">
-          {nav.map((item) => <a href={item.href} key={item.href} onClick={() => setMenuOpen(false)}>{item.label}</a>)}
+          {nav.map((item) => <a href={item.href} key={item.href} onClick={(event) => {
+            setMenuOpen(false);
+            if (!isAdmin && item.href === '#home') window.dispatchEvent(new Event('techfind:reset-home'));
+            if (!isAdmin && item.href === '#assistant') {
+              event.preventDefault();
+              window.dispatchEvent(new Event('techfind:open-advisor'));
+            }
+          }}>{item.label}</a>)}
         </nav>
         <div className="site-header-actions">
           <ThemeToggle preference={preference} onChange={onThemeChange} />
@@ -106,7 +99,6 @@ function SiteFooter() {
     <footer className="site-footer">
       <div className="site-footer-inner">
         <div><strong>TechFind</strong><p>Tìm kiếm và so sánh sản phẩm điện tử theo nhu cầu thực tế.</p></div>
-        <nav aria-label="Liên kết cuối trang"><a href="#home">Tìm kiếm</a><a href="#categories">Danh mục</a><a href="#assistant">Trợ lý AI</a><a href="/admin">Quản trị</a></nav>
         <small>Thông tin sản phẩm và giá được lấy từ catalog cùng nguồn bán đã xác minh.</small>
       </div>
     </footer>
@@ -162,7 +154,7 @@ function SearchFilters({
   return (
     <aside className={`filter-panel${isOpen ? ' is-open' : ''}`} aria-label="Bộ lọc kết quả">
       <div className="filter-panel-heading"><div><span className="small-icon"><Icon name="sliders" size={17} /></span><h3>Bộ lọc</h3></div>{onClose && <button type="button" className="icon-button filter-close" aria-label="Đóng bộ lọc" onClick={onClose}><Icon name="close" size={18} /></button>}</div>
-      <label className="filter-field"><span>Danh mục</span><select value={filters.category} onChange={(event) => onChange('category', event.target.value)}><option value="">Tất cả danh mục</option>{categories.map((category) => <option key={category} value={category}>{categoryLabel(category)}</option>)}</select></label>
+      {categories.length > 1 && <label className="filter-field"><span>Danh mục</span><select value={filters.category} onChange={(event) => onChange('category', event.target.value)}><option value="">Tất cả danh mục</option>{categories.map((category) => <option key={category} value={category}>{categoryLabel(category)}</option>)}</select></label>}
       <label className="filter-field"><span>Thương hiệu</span><select value={filters.brand} onChange={(event) => onChange('brand', event.target.value)}><option value="">Tất cả thương hiệu</option>{brands.map((brand) => <option key={brand} value={brand}>{brand}</option>)}</select></label>
       <fieldset className="filter-field"><legend>Khoảng giá (₫)</legend><div className="filter-range"><label><span className="visually-hidden">Giá thấp nhất</span><input type="number" min="0" inputMode="numeric" placeholder="Từ" value={filters.minPrice} onChange={(event) => onChange('minPrice', event.target.value)} /></label><span aria-hidden="true">–</span><label><span className="visually-hidden">Giá cao nhất</span><input type="number" min="0" inputMode="numeric" placeholder="Đến" value={filters.maxPrice} onChange={(event) => onChange('maxPrice', event.target.value)} /></label></div></fieldset>
       <label className="filter-field"><span>RAM tối thiểu</span><select value={filters.minRam} onChange={(event) => onChange('minRam', event.target.value)}><option value="">Mọi dung lượng</option><option value="8">8GB trở lên</option><option value="16">16GB trở lên</option><option value="32">32GB trở lên</option></select></label>
@@ -181,25 +173,11 @@ function SearchApp() {
   const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS);
   const [page, setPage] = useState(1);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
-  const [categories, setCategories] = useState<string[]>([]);
-  const [homeProducts, setHomeProducts] = useState<Product[]>([]);
-  const [homeLoading, setHomeLoading] = useState(true);
   const [comparison, setComparison] = useState<Product[]>([]);
   const [compareNotice, setCompareNotice] = useState('');
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const requestRef = useRef<AbortController | null>(null);
   const resultsRef = useRef<HTMLElement>(null);
-
-  useEffect(() => {
-    const controller = new AbortController();
-    Promise.allSettled([getCategories(controller.signal), getProducts(1, 8, controller.signal)]).then(([categoryResult, productResult]) => {
-      if (controller.signal.aborted) return;
-      if (categoryResult.status === 'fulfilled') setCategories(categoryResult.value);
-      if (productResult.status === 'fulfilled') setHomeProducts(productResult.value.items);
-      setHomeLoading(false);
-    });
-    return () => controller.abort();
-  }, []);
 
   const run = async (rawQuery: string) => {
     const value = rawQuery.trim();
@@ -228,6 +206,27 @@ function SearchApp() {
   };
 
   useEffect(() => () => requestRef.current?.abort(), []);
+
+  useEffect(() => {
+    const resetHome = () => {
+      requestRef.current?.abort();
+      requestRef.current = null;
+      setQuery('');
+      setData(null);
+      setLoading(false);
+      setError('');
+      setSort('relevance');
+      setFilters(EMPTY_FILTERS);
+      setPage(1);
+      setMobileFiltersOpen(false);
+      setComparison([]);
+      setCompareNotice('');
+      setSelectedProduct(null);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+    window.addEventListener('techfind:reset-home', resetHome);
+    return () => window.removeEventListener('techfind:reset-home', resetHome);
+  }, []);
 
   const sourceItems = data?.items ?? [];
   const availableCategories = useMemo(() => [...new Set(sourceItems.map((product) => product.category).filter(Boolean))].sort(), [sourceItems]);
@@ -287,7 +286,6 @@ function SearchApp() {
           <h1 id="hero-title">Tìm đúng thiết bị.<br /><span>Chọn đúng nhu cầu.</span></h1>
           <p className="hero-description">Mô tả điều bạn cần bằng ngôn ngữ tự nhiên. TechFind lọc sản phẩm từ catalog đã xác minh để bạn dễ chọn hơn.</p>
           <SearchBar id="main-search" value={query} loading={loading} onChange={setQuery} onSubmit={run} />
-          <div className="quick-searches" aria-label="Tìm kiếm gợi ý"><span>Gợi ý</span>{EXAMPLES.map((example) => <button key={example} type="button" onClick={() => void run(example)}>{example}</button>)}</div>
           <div className="hero-assurances"><span><Icon name="shield" size={16} /> Nguồn sản phẩm rõ ràng</span><span><Icon name="compare" size={16} /> So sánh cấu hình</span></div>
         </div>
         <aside className="hero-guide" aria-label="Cách TechFind hỗ trợ tìm sản phẩm">
@@ -345,26 +343,6 @@ function SearchApp() {
             </div>
           </div>
         </section>
-      )}
-
-      {!data && !loading && (
-        <>
-          <section className="discovery-section" id="categories" aria-labelledby="categories-heading">
-            <div className="section-heading"><div><p className="eyebrow">KHÁM PHÁ THEO DANH MỤC</p><h2 id="categories-heading">Bắt đầu từ thiết bị bạn cần</h2></div><span className="section-support">Danh mục từ catalog sản phẩm</span></div>
-            {categories.length
-              ? <div className="category-grid">{categories.map((category) => <button className="category-tile" key={category} type="button" onClick={() => void run(category)}><span className="category-icon"><Icon name={CATEGORY_ICONS[category.toLocaleLowerCase('vi-VN')] ?? 'database'} size={22} /></span><span>{categoryLabel(category)}</span><Icon name="arrow" size={17} className="category-arrow" /></button>)}</div>
-              : <p className="discovery-empty">{homeLoading ? 'Đang tải danh mục…' : 'Danh mục hiện chưa tải được từ catalog.'}</p>}
-          </section>
-
-          <section className="discovery-section products-discovery" id="products" aria-labelledby="products-heading">
-            <div className="section-heading"><div><p className="eyebrow">TỪ CATALOG ĐÃ XÁC MINH</p><h2 id="products-heading">Khám phá sản phẩm</h2></div><span className="section-support">Thông tin lấy trực tiếp từ sản phẩm và offer</span></div>
-            {homeLoading
-              ? <div className="skeleton-grid">{Array.from({ length: 4 }, (_, index) => <div className="product-skeleton" key={index}><span /><div><i /><i /><i /></div></div>)}</div>
-              : homeProducts.length
-                ? <div className="product-grid">{homeProducts.slice(0, 4).map((product) => <ProductCard key={product._id} p={product} compared={comparison.some((item) => item._id === product._id)} onToggleCompare={toggleComparison} onViewDetails={setSelectedProduct} />)}</div>
-                : <p className="discovery-empty">Chưa có sản phẩm để hiển thị từ catalog.</p>}
-          </section>
-        </>
       )}
 
       {comparison.length > 0 && !data && <div className="compare-bar home-compare-bar"><span><strong>{comparison.length}/4</strong> sản phẩm được chọn</span>{compareNotice && <span className="compare-notice" role="status">{compareNotice}</span>}<button type="button" onClick={jumpToComparison}>Xem so sánh <Icon name="arrow" size={16} /></button></div>}

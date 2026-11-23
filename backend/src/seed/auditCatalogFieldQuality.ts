@@ -302,7 +302,7 @@ async function main() {
       issues: jobs,
     };
 
-    const projectRoot = resolve(process.cwd(), '..');
+    const projectRoot = resolve(process.cwd(), '../docs/catalog/reports');
     await mkdir(projectRoot, { recursive: true });
     await writeFile(resolve(projectRoot, 'PRODUCT_FIELD_QUALITY.json'), JSON.stringify(report, null, 2), 'utf8');
     const markdown = [

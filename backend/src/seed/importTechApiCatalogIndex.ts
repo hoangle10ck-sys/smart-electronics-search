@@ -3,8 +3,8 @@ import { resolve } from 'node:path';
 import mongoose from 'mongoose';
 import { connectDB } from '../config/db';
 import { SyncRun } from '../models/SyncRun';
-import { TechApiCatalogRecord } from '../models/TechApiCatalogRecord';
 import { assertLocalMongoUri, buildTechApiSearchText } from '../services/techApiCatalog';
+import { createTechApiImporterRepository, resolveTechApiStorageConfig } from '../repositories/techApiRepositoryFactory';
 
 type CatalogRef = { slug: string; name: string; url: string; [key: string]: unknown };
 type CatalogPage = { count: number; results: CatalogRef[] };
@@ -76,10 +76,13 @@ async function runWithConcurrency<T>(items: T[], worker: (item: T) => Promise<vo
 }
 
 async function main() {
-  if (!process.env.MONGODB_URI) throw new Error('MONGODB_URI is missing from the process environment; this command does not load .env.');
-  assertLocalMongoUri(process.env.MONGODB_URI);
-  await connectDB();
-  await TechApiCatalogRecord.init();
+  const storageConfig = resolveTechApiStorageConfig();
+  const repository = await createTechApiImporterRepository({ writeTechApi: true });
+  try {
+    if (!process.env.MONGODB_URI) throw new Error('MONGODB_URI is missing from the process environment; this command does not load .env.');
+    assertLocalMongoUri(process.env.MONGODB_URI);
+    await connectDB();
+    await repository.initializeCatalog();
   const startedAt = new Date();
   await SyncRun.create({ source: 'techapi', sourceKey: RUN_KEY, mode: 'import', status: 'running', startedAt, stats: { categories: categories.length } });
 
@@ -111,7 +114,13 @@ async function main() {
       if (currentPage.count !== expectedCount) throw new Error(`TechAPI count changed during ${category.endpoint}: ${expectedCount} -> ${currentPage.count}`);
 
       const now = new Date();
-      const operations: any[] = [];
+      const records: Array<{
+        sourceKey: string; sourceCategory: string; sourceSlug: string; name: string;
+        sourceRecordUrl: string; sourceListUrl: string; dataAttribution: string;
+        dataSourceUrl: string; dataLicense: string; dataLicenseUrl: string;
+        licenseTermsUrl: string; workflowStatus: 'discovery_only'; lastSeenAt: Date;
+        raw: Record<string, unknown>; searchText: string;
+      }> = [];
       for (const item of currentPage.results) {
         if (!item?.slug || !item?.name || !item?.url || !/^\/v1\//.test(item.url)) throw new Error(`Malformed ${category.endpoint} ref at offset ${offset}`);
         const sourceKey = `techapi:${category.key}:${item.slug}`;
@@ -121,7 +130,7 @@ async function main() {
         categoryFetched.set(category.key, (categoryFetched.get(category.key) ?? 0) + 1);
         const sourceRecordUrl = `${API_ROOT}${item.url}`;
         const sourceListUrl = `${API_VERSION}/${category.endpoint}`;
-        const update = {
+        records.push({
           sourceKey,
           sourceCategory: category.key,
           sourceSlug: item.slug,
@@ -135,21 +144,16 @@ async function main() {
           licenseTermsUrl: LICENSE_TERMS_URL,
           workflowStatus: 'discovery_only',
           lastSeenAt: now,
-        };
-        operations.push({
-          updateOne: {
-            filter: { sourceKey },
-            update: { $set: update, $setOnInsert: { createdAt: now, raw: item, searchText: buildTechApiSearchText(item), detailsFetchedAt: null, detailsSha256: null } },
-            upsert: true,
-          },
+          raw: item,
+          searchText: buildTechApiSearchText(item),
         });
       }
 
-      if (operations.length) {
-        for (let index = 0; index < operations.length; index += 500) {
-          const result = await TechApiCatalogRecord.collection.bulkWrite(operations.slice(index, index + 500), { ordered: false });
-          created += result.upsertedCount;
-          updated += result.modifiedCount;
+      if (records.length) {
+        for (let index = 0; index < records.length; index += 500) {
+          const result = await repository.upsertIndexRecords(records.slice(index, index + 500));
+          created += result.created;
+          updated += result.updated;
         }
       }
       if (offset % (PAGE_SIZE * 20) === 0 || currentPage.results.length >= expectedCount) {
@@ -168,6 +172,9 @@ async function main() {
       licenseUrl: LICENSE_URL,
       licenseTermsUrl: LICENSE_TERMS_URL,
       checkedAt: new Date().toISOString(),
+      techApiStorage: storageConfig.storage,
+      techApiAccess: storageConfig.storage === 'sqlite' ? 'readwrite' : 'not_applicable',
+      syncRunStorage: 'mongo',
       listCounts: Object.fromEntries(totals),
       categoryResults,
       expectedRefs: [...totals.values()].reduce((sum, value) => sum + value, 0),
@@ -175,7 +182,7 @@ async function main() {
       created,
       updated,
       failedPages,
-      collection: TechApiCatalogRecord.collection.name,
+      collection: repository.catalogCollectionName,
       workflow: 'discovery_only; not verified, not published, no image or offer imported',
     };
     const reportDirectory = resolve(__dirname, '../../reports');
@@ -188,7 +195,9 @@ async function main() {
     failedPages += 1;
     await SyncRun.create({ source: 'techapi', sourceKey: `${RUN_KEY}:failure`, mode: 'import', status: 'failed', startedAt, finishedAt: new Date(), error: error instanceof Error ? error.message : 'TechAPI import failed', stats: { fetched, created, updated, failedPages, listCounts: Object.fromEntries(totals) } });
     throw error;
+  }
   } finally {
+    await repository.close();
     await mongoose.disconnect();
   }
 }

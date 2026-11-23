@@ -1,7 +1,8 @@
 # Hệ thống tìm kiếm sản phẩm điện tử thông minh
 
-See [DATA_COLLECTOR.md](DATA_COLLECTOR.md) for source permissions, CSV format, Admin setup, and collector workflows.
-See [PRODUCT_CATALOG.md](PRODUCT_CATALOG.md) for the verified MongoDB catalog, seed script, and Admin CRUD.
+See [docs/catalog/guides/DATA_COLLECTOR.md](docs/catalog/guides/DATA_COLLECTOR.md) for source permissions, CSV format, Admin setup, and collector workflows.
+See [docs/catalog/guides/PRODUCT_CATALOG.md](docs/catalog/guides/PRODUCT_CATALOG.md) for the verified MongoDB catalog, seed script, and Admin CRUD.
+See [docs/README.md](docs/README.md) for the organized project documentation and reports.
 See [backend/SEARCH_ENGINE.md](backend/SEARCH_ENGINE.md) for normalization, vector search setup, and evaluation workflows.
 
 - **Frontend:** React + TypeScript (Vite) — `frontend/`
@@ -56,7 +57,7 @@ npm run dev      # http://localhost:5173
 - Đồng bộ thủ công qua `POST /api/admin/accesstrade/sync`; cần cấu hình thêm `ADMIN_API_TOKEN` trong `backend/.env` và gửi header `Authorization: Bearer <ADMIN_API_TOKEN>`. Xem trạng thái gần nhất tại `GET /api/admin/accesstrade/status` với cùng xác thực.
 - Đồng bộ dùng upsert, lưu Offers riêng, đưa sản phẩm chưa phân loại chắc chắn vào hàng chờ kiểm tra và không xóa dữ liệu cũ. Tìm kiếm công khai chỉ trả về sản phẩm đã nhập từ ACCESSTRADE; dữ liệu mẫu cũ được giữ nguyên trong database nhưng không dùng thay kết quả live.
 - Chạy test backend bằng `npm test` trong `backend/`.
-- `npm run audit:catalog` thống kê 33 loại canonical cùng model, family, generation, variant, evidence, Offer và URL coverage trực tiếp từ MongoDB; script tạo `PRODUCT_CATALOG_REPORT.md`, `PRODUCT_COVERAGE.json` và `IMPORT_HISTORY.md`.
+- `npm run audit:catalog` thống kê 33 loại canonical cùng model, family, generation, variant, evidence, Offer và URL coverage trực tiếp từ MongoDB; script tạo `docs/catalog/reports/PRODUCT_CATALOG_REPORT.md`, `docs/catalog/reports/PRODUCT_COVERAGE.json` và `docs/catalog/reports/IMPORT_HISTORY.md`.
 - `npm run verify:catalog` kiểm tra model metadata cùng URL ảnh, URL sản phẩm và URL thông số mà không ghi DB.
 - `npm run backup:db` sao lưu các collection MongoDB sang thư mục tạm của hệ điều hành trước khi thay đổi dữ liệu.
 - `watch` được chuẩn hóa thành `smartwatch`; endpoint category cũ vẫn được chấp nhận như alias.

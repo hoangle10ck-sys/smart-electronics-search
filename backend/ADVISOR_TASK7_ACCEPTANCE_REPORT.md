@@ -26,7 +26,7 @@
 - Backend `npm run build`: PASS.
 - Frontend `npm run build`: PASS.
 - Read-only MongoDB `smartSearch` probes were run for laptop programming, laptop gaming, smartphone photography, headphones for study, CPU gaming, GPU design, gaming monitor, RAM, SSD, router, and gaming mouse. The sampled returned products had verified product identities and URLs; some images were pending and one laptop had no verified price, so those fields remain unavailable rather than being asserted.
-- The dated catalog coverage snapshot (`SEARCH_CATALOG_COVERAGE_2026_11_12.json`) records 19/27 advisor probes with verified products and 8 without. The dated field-quality snapshot records 28.23% fully verified specification coverage, 61.64% verified image coverage, 67.99% verified price coverage, and 3.43% fully verified source-provenance coverage. Those coverage gaps limit claims across all categories.
+- The dated catalog coverage snapshot (`../docs/catalog/reports/SEARCH_CATALOG_COVERAGE_2026_11_12.json`) records 19/27 advisor probes with verified products and 8 without. The dated field-quality snapshot records 28.23% fully verified specification coverage, 61.64% verified image coverage, 67.99% verified price coverage, and 3.43% fully verified source-provenance coverage. Those coverage gaps limit claims across all categories.
 - There is no configured lint, integration-test, or API-test script. No Qdrant service/client is configured; vector retrieval uses MongoDB Atlas Vector Search.
 
 ## Live category probes

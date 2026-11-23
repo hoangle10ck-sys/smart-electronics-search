@@ -12,17 +12,12 @@ import { normalizeSpecs } from '../utils/specs';
 import { normalizeProduct } from '../services/productNormalizer';
 import { advisorCurrentOffer, classifyAdvisorPrice } from '../services/advisorProductVerification';
 import { requireAdmin } from '../middleware/adminAuth';
+import { withRecommendationReadiness } from '../services/catalogReadiness';
 
 const router = Router();
 const SORTS = ['price_asc', 'price_desc', 'popular', 'rating'] as const;
 const ELECTRONIC_CATEGORIES = CANONICAL_CATEGORY_KEYS;
-const LOCAL_ONLY_IMAGE_FILTER = process.env.SERVE_LOCAL_ONLY_IMAGES === 'true' || process.env.NODE_ENV !== 'production'
-  ? [{
-    imageVerificationStatus: 'pending', imageUsagePermission: 'not_provided', localOnlyAsset: true,
-    imageUrl: { $regex: '^/catalog-images/[a-z0-9][a-z0-9._-]*\\.(jpg|jpeg|png|webp)$', $options: 'i' },
-  }]
-  : [];
-const PUBLIC_VERIFIED_FILTER = {
+const PUBLIC_VERIFIED_FILTER = withRecommendationReadiness({
   source: { $in: ['accesstrade', 'csv', 'curated'] },
   verified: true,
   productVerificationStatus: 'verified',
@@ -34,23 +29,7 @@ const PUBLIC_VERIFIED_FILTER = {
   specificationSourceUrl: { $type: 'string', $ne: '' },
   brand: { $type: 'string', $ne: '' },
   model: { $type: 'string', $ne: '' },
-  $and: [{
-    $or: [
-      {
-        imageVerificationStatus: 'verified',
-        imageUsagePermission: 'granted',
-        imageUrl: { $type: 'string', $ne: '' },
-        imageSource: { $type: 'string', $ne: '' },
-        $or: [
-          { imagePermissionEvidence: { $type: 'string', $ne: '' } },
-          { imageLicenseUrl: { $type: 'string', $ne: '' }, imageAttribution: { $type: 'string', $ne: '' } },
-        ],
-      },
-      { imageVerificationStatus: 'pending', imageUsagePermission: 'not_provided', imageUrl: null },
-      ...LOCAL_ONLY_IMAGE_FILTER,
-    ],
-  }],
-};
+});
 
 async function addOffers(items: any[]) {
   if (!items.length) return items;

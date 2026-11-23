@@ -2,15 +2,16 @@ import { useEffect, useState } from 'react';
 import Icon, { IconName } from './Icon';
 
 export type ThemePreference = 'system' | 'light' | 'dark';
-const STORAGE_KEY = 'smart-electronics-theme';
+const STORAGE_KEY = 'smart-electronics-theme-v2';
 const cycle: ThemePreference[] = ['system', 'light', 'dark'];
 
 function readPreference(): ThemePreference {
   try {
     const value = window.localStorage.getItem(STORAGE_KEY);
-    return value === 'light' || value === 'dark' ? value : 'system';
+    if (value === 'system' || value === 'light' || value === 'dark') return value;
+    return 'dark';
   } catch {
-    return 'system';
+    return 'dark';
   }
 }
 

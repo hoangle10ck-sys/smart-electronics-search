@@ -3247,5 +3247,103 @@
     "source": "curated",
     "verified": true,
     "verifiedAt": "2026-11-10T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "samsung-galaxy-s24-sm-s921",
+    "name": "Samsung Galaxy S24",
+    "brand": "Samsung",
+    "model": "Galaxy S24",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Samsung_Galaxy_S24_01.jpg/960px-Samsung_Galaxy_S24_01.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S24_01.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Ganesh Mohan T, via Wikimedia Commons",
+    "productUrl": "https://images.samsung.com/is/content/samsung/assets/us/2401/business/mobile/phones/galaxy/Galaxy_S24_Series_B2B_Spec_Sheet.pdf",
+    "specificationSourceUrl": "https://images.samsung.com/is/content/samsung/assets/us/2401/business/mobile/phones/galaxy/Galaxy_S24_Series_B2B_Spec_Sheet.pdf",
+    "specifications": {
+      "display": "6.2-inch FHD+ Dynamic AMOLED 2X, adaptive 1–120Hz",
+      "rearCamera": "50 MP wide with OIS, 10 MP telephoto with 3x optical zoom, 12 MP ultrawide",
+      "frontCamera": "12 MP",
+      "memory": "8 GB RAM",
+      "storageOptions": "128 GB or 256 GB; availability varies by sales channel",
+      "battery": "4,000 mAh typical capacity"
+    },
+    "specs": {
+      "ram": 8,
+      "screen": "6.2-inch FHD+ Dynamic AMOLED 2X, 1–120Hz"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-14T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "samsung-galaxy-a55-5g-8gb-128gb",
+    "name": "Samsung Galaxy A55 5G 128GB",
+    "brand": "Samsung",
+    "model": "Galaxy A55 5G",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Samsung_Galaxy_A55_5G_2024_%281%29.jpg/960px-Samsung_Galaxy_A55_5G_2024_%281%29.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A55_5G_2024_(1).jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "Captainmorlypogi1959, via Wikimedia Commons",
+    "productUrl": "https://images.samsung.com/is/content/samsung/assets/jp/explore/news/galaxy-a55-launch-docomo/NewsRelease_galaxy-a55-launch-docomo_240523.pdf",
+    "specificationSourceUrl": "https://images.samsung.com/is/content/samsung/assets/jp/explore/news/galaxy-a55-launch-docomo/NewsRelease_galaxy-a55-launch-docomo_240523.pdf",
+    "specifications": {
+      "processor": "Samsung Exynos 1480",
+      "display": "6.6-inch FHD+ Super AMOLED, up to 120Hz",
+      "rearCamera": "50 MP main with OIS, 12 MP ultrawide, 5 MP macro",
+      "frontCamera": "32 MP",
+      "memory": "8 GB RAM",
+      "storage": "128 GB; microSDXC expansion up to 1 TB",
+      "battery": "5,000 mAh typical capacity",
+      "dimensionsAndWeight": "161.1 × 77.4 × 8.2 mm; 213 g",
+      "waterResistance": "IPX5/IPX8 water resistance and IP6X dust resistance"
+    },
+    "specs": {
+      "ram": 8,
+      "storage": 128,
+      "cpu": "Samsung Exynos 1480",
+      "screen": "6.6-inch FHD+ Super AMOLED, up to 120Hz"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-14T00:00:00.000Z"
+  },
+  {
+    "sourceProductId": "google-pixel-8",
+    "name": "Google Pixel 8",
+    "brand": "Google",
+    "model": "Pixel 8",
+    "category": "phone",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Google_Pixel_8_Rose_front.jpg/960px-Google_Pixel_8_Rose_front.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Google_Pixel_8_Rose_front.jpg",
+    "imageUsagePermission": "granted",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "imageAttribution": "IXTA9839, via Wikimedia Commons",
+    "productUrl": "https://store.google.com/us/product/pixel_8_specs?hl=en-US",
+    "specificationSourceUrl": "https://store.google.com/magazine/compare_pixel?hl=en-US&toggler0=Pixel+8+Pro&toggler1=Pixel+8&toggler2=Pixel+8a",
+    "specifications": {
+      "processor": "Google Tensor G3 with Titan M2 security coprocessor",
+      "display": "6.2-inch Actua OLED, 1080 × 2400, 60–120Hz",
+      "rearCamera": "50 MP wide and 12 MP ultrawide",
+      "memory": "8 GB LPDDR5X RAM",
+      "storageOptions": "128 GB or 256 GB UFS 3.1",
+      "battery": "4,575 mAh typical capacity",
+      "dimensionsAndWeight": "150.5 × 70.8 × 8.9 mm; 187 g",
+      "waterResistance": "IP68"
+    },
+    "specs": {
+      "ram": 8,
+      "screen": "6.2-inch Actua OLED, 1080 × 2400, 60–120Hz",
+      "cpu": "Google Tensor G3"
+    },
+    "source": "curated",
+    "verified": true,
+    "verifiedAt": "2026-11-14T00:00:00.000Z"
   }
 ]

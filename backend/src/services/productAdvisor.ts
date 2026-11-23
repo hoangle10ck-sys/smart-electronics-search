@@ -45,6 +45,7 @@ const text_1 = require("../utils/text");
 const advisorProductVerification_1 = require("./advisorProductVerification");
 const advisorPerformance_1 = require("./advisorPerformance");
 const advisorResponsePolicy_1 = require("./advisorResponsePolicy");
+const catalogReadiness_1 = require("./catalogReadiness");
 exports.ADVISOR_INTENTS = [
     'greeting', 'product_consultation', 'product_search', 'budget_consultation', 'product_comparison',
     'specification_question', 'compatibility_check', 'price_question', 'purchase_advice', 'follow_up', 'clarification', 'unknown',
@@ -586,12 +587,12 @@ async function generateAdvisorAnswer(intent, requirements, history, latestMessag
         && (0, advisorProductVerification_1.validateGeneratedAdvisorAnswer)(value, verifiedProducts, requirements, latestMessage), 750,
     { timeoutMs: 20000, maxAttempts: 1, phase: 'response_generation' });
 }
-const PUBLIC_PRODUCT_FILTER = {
+const PUBLIC_PRODUCT_FILTER = (0, catalogReadiness_1.withRecommendationReadiness)({
     source: { $in: ['accesstrade', 'csv', 'curated'] }, verified: true,
     productVerificationStatus: 'verified', urlVerificationStatus: 'verified', publicationStatus: 'published', verifiedAt: { $ne: null },
     electronicStatus: { $in: ['approved', null] }, productUrl: { $type: 'string', $ne: '' },
     specificationSourceUrl: { $type: 'string', $ne: '' }, brand: { $type: 'string', $ne: '' }, model: { $type: 'string', $ne: '' },
-};
+});
 async function loadVerifiedProductsById(ids) {
     const validIds = [...new Set(ids)].filter((id) => mongoose_1.Types.ObjectId.isValid(id));
     if (!validIds.length)

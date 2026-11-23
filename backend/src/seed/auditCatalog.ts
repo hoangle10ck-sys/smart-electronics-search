@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { readFile, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import mongoose from 'mongoose';
 import { connectDB } from '../config/db';
@@ -184,9 +184,9 @@ async function main() {
     Offer.countDocuments(),
     SyncRun.find({}).sort({ startedAt: -1 }).limit(100).lean(),
   ]);
-  const outputRoot = resolve(process.cwd(), '..');
+  const outputRoot = resolve(process.cwd(), '../docs/catalog/reports');
   let urlVerification: Record<string, any> | null = null;
-  try { urlVerification = JSON.parse(await readFile(resolve(outputRoot, 'CATALOG_URL_VERIFICATION.json'), 'utf8')); } catch { /* no successful verifier report exists yet */ }
+  try { urlVerification = JSON.parse(await readFile(resolve(process.cwd(), '../docs/catalog/verification/CATALOG_URL_VERIFICATION.json'), 'utf8')); } catch { /* no successful verifier report exists yet */ }
   const eligibleTotal = categories.reduce((sum, row) => sum + row.eligibleVerified, 0);
   const coverage = {
     generatedAt: new Date().toISOString(),
@@ -251,8 +251,9 @@ async function main() {
   const independentStatusTable = `## Independent verification status by category\n\nCounts combine Product records and active PendingProduct records. Verification status and publication status are separate fields.\n\n| Category | Records | Model verified | Image verified | URL verified | Published | Publication pending | Hidden |\n|---|---:|---:|---:|---:|---:|---:|---:|\n${coverage.verificationByCategory.map((row: any) => `| ${row.category} | ${row.records} | ${row.productVerified} | ${row.imageVerified} | ${row.urlVerified} | ${row.published} | ${row.publicationPending} | ${row.hidden} |`).join('\n')}\n\n`;
   const completeReport = reportWithStatusSummary.replace('## Coverage by category, brand, and family', `${urlVerificationNote}${pendingResearchNote}${liveSearchProviderNote}${independentStatusTable}## Coverage by category, brand, and family`);
   const importHistory = recentRuns.length
-    ? `# Import History\n\nGenerated from MongoDB collection \`${SyncRun.collection.collectionName}\` at ${coverage.generatedAt}. Most recent 100 runs are shown.\n\n| Started | Source | Mode | Status | Fetched | Products imported / updated | Offers updated | Pending | Error |\n|---|---|---|---|---:|---:|---:|---:|---|\n${recentRuns.map((run: any) => `| ${run.startedAt ? new Date(run.startedAt).toISOString() : ''} | ${run.sourceKey ?? run.source} | ${run.mode} | ${run.status} | ${run.stats?.fetched ?? ''} | ${(run.stats?.created ?? 0) + (run.stats?.updated ?? 0)} | ${run.stats?.offersCreatedOrUpdated ?? ''} | ${run.stats?.pendingReview ?? ''} | ${String(run.error ?? '').replace(/\|/g, '\\|').slice(0, 160)} |`).join('\n')}\n`
+    ? `# Import History\n\nGenerated from MongoDB collection \`${SyncRun.collection.collectionName}\` at ${coverage.generatedAt}. Most recent 100 runs are shown.\n\n| Started | Source | Mode | Status | Fetched | Products imported / updated | Offers updated | Pending | Error |\n|---|---|---|---|---:|---:|---:|---:|---|\n${recentRuns.map((run: any) => `| ${run.startedAt ? new Date(run.startedAt).toISOString() : ''} | ${run.sourceKey ?? run.source} | ${run.mode} | ${run.status} | ${run.stats?.fetched ?? run.stats?.scanned ?? ''} | ${(run.stats?.created ?? run.stats?.productsCreated ?? 0) + (run.stats?.updated ?? run.stats?.productsMatchedExisting ?? 0)} | ${run.stats?.offersCreatedOrUpdated ?? run.stats?.offersUpserted ?? ''} | ${run.stats?.pendingReview ?? ''} | ${String(run.error ?? '').replace(/\|/g, '\\|').slice(0, 160)} |`).join('\n')}\n`
     : `# Import History\n\nGenerated from MongoDB at ${coverage.generatedAt}.\n\nNo import-run records are currently stored in MongoDB. Existing Product records are preserved; their original import timestamps are not present in the import-history collection.\n`;
+  await mkdir(outputRoot, { recursive: true });
   await Promise.all([
     writeFile(resolve(outputRoot, 'PRODUCT_CATALOG_REPORT.md'), completeReport, 'utf8'),
     writeFile(resolve(outputRoot, 'PRODUCT_COVERAGE.json'), JSON.stringify(coverage, null, 2), 'utf8'),

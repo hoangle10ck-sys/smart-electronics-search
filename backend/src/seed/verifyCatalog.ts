@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { writeFile } from 'node:fs/promises';
+import { mkdir, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { loadAndValidateCatalog } from './catalogValidation';
 
@@ -15,7 +15,9 @@ loadAndValidateCatalog()
       specificationUrlsReachable: products.length,
       entries: products.map((product) => ({ sourceProductId: product.sourceProductId, brand: product.brand, model: product.model, imageUrl: product.imageUrl, productUrl: product.productUrl, specificationSourceUrl: product.specificationSourceUrl })),
     };
-    await writeFile(resolve(__dirname, '../../../CATALOG_URL_VERIFICATION.json'), JSON.stringify(result, null, 2), 'utf8');
+    const reportDir = resolve(__dirname, '../../../docs/catalog/verification');
+    await mkdir(reportDir, { recursive: true });
+    await writeFile(resolve(reportDir, 'CATALOG_URL_VERIFICATION.json'), JSON.stringify(result, null, 2), 'utf8');
     console.log(JSON.stringify({ ...result, entries: undefined }, null, 2));
   })
   .catch((error) => {

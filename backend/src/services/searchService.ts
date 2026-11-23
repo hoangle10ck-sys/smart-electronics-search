@@ -1,7 +1,8 @@
 import { Product } from '../models/Product';
 import { ProductSearchVector } from '../models/ProductSearchVector';
 import { Offer } from '../models/Offer';
-import { TechApiCatalogRecord } from '../models/TechApiCatalogRecord';
+import { getTechApiRuntimeRepository } from '../repositories/techApiRepositoryFactory';
+import type { TechApiCandidateOrdering } from '../repositories/techApiRepository';
 import { CATEGORIES, TAGS, BRANDS } from './dictionary';
 import { ParsedQuery, SortMode, parseQuery } from './queryParser';
 import { understandQuery } from './queryUnderstanding';
@@ -11,6 +12,7 @@ import { CANONICAL_CATEGORY_KEYS, CATEGORY_ALIASES } from './taxonomy';
 import { advisorCurrentOffer, classifyAdvisorPrice } from './advisorProductVerification';
 import { recordAdvisorPhase } from './advisorPerformance';
 import { techApiImageReference } from './techApiCatalog';
+import { withRecommendationReadiness } from './catalogReadiness';
 
 type Filter = Record<string, any>;
 type RankChannel = 'exact' | 'keyword' | 'semantic';
@@ -19,17 +21,17 @@ export type SearchMode = 'hybrid' | 'exact' | 'keyword' | 'semantic';
 const CANDIDATE_LIMIT = 120;
 const ELECTRONIC_CATEGORIES = CANONICAL_CATEGORY_KEYS;
 const VECTOR_INDEX_NAME = process.env.MONGODB_VECTOR_SEARCH_INDEX?.trim() || 'product_embedding_vector_index';
-const LOCAL_ONLY_IMAGE_FILTER = process.env.SERVE_LOCAL_ONLY_IMAGES === 'true' || process.env.NODE_ENV !== 'production'
-  ? [{
-    imageVerificationStatus: 'pending', imageUsagePermission: 'not_provided', localOnlyAsset: true,
-    imageUrl: { $regex: '^/catalog-images/[a-z0-9][a-z0-9._-]*\\.(jpg|jpeg|png|webp)$', $options: 'i' },
-  }]
-  : [];
-
 const TECHAPI_CATEGORIES: Record<string, string[]> = {
   laptop: ['laptop'], phone: ['smartphone'], tablet: ['tablet'], smartwatch: ['smartwatch'],
   cpu: ['cpu'], gpu: ['gpu'], monitor: ['monitor'], soc: ['soc'],
 };
+
+export function resolveTechApiCandidateOrdering(environment: NodeJS.ProcessEnv = process.env): TechApiCandidateOrdering {
+  const configured = environment.TECHAPI_CANDIDATE_ORDERING?.trim().toLowerCase();
+  if (!configured || configured === 'legacy') return 'legacy';
+  if (configured === 'stable_v1') return 'stable_v1';
+  throw new Error('TECHAPI_CANDIDATE_ORDERING must be either "legacy" or "stable_v1".');
+}
 
 function discoverySpecificationHighlights(raw: Record<string, any>) {
   const ignored = /^(id|slug|name|manufacturer|brand|release_date|verified|source_urls|.*url.*|.*image.*|.*logo.*|.*price.*|.*msrp.*|score|created_at|updated_at|.*_license|.*_attribution)$/i;
@@ -97,24 +99,13 @@ async function findTechApiDiscovery(p: ParsedQuery, limit: number) {
     ...p.keywords.filter((term) => term.length > 1),
   ])];
   if (!queryTerms.length && !brandTerms.length) return [];
-  const filter: Record<string, any> = { sourceCategory: { $in: categories } };
-  if (queryTerms.length) filter.$and = queryTerms.map((term) => ({ $or: [
-    { name: { $regex: escapeRegex(term), $options: 'i' } },
-    { searchText: { $regex: escapeRegex(term), $options: 'i' } },
-  ] }));
-  if (brandTerms.length) {
-    const brandPattern = brandTerms.map(escapeRegex).join('|');
-    filter.$and ??= [];
-    filter.$and.push({ $or: [
-      { name: { $regex: brandPattern, $options: 'i' } },
-      { 'raw.manufacturer': { $regex: brandPattern, $options: 'i' } },
-      { 'raw.manufacturer.name': { $regex: brandPattern, $options: 'i' } },
-      { 'raw.brand': { $regex: brandPattern, $options: 'i' } },
-    ] });
-  }
-  const refs = await TechApiCatalogRecord.find({
-    ...filter,
-  }).select('sourceCategory sourceSlug name sourceRecordUrl dataAttribution dataSourceUrl dataLicense dataLicenseUrl searchText raw').limit(500).lean() as any[];
+  const refs = await getTechApiRuntimeRepository().findDiscoveryCandidates({
+    categories,
+    queryTerms,
+    brandTerms,
+    limit: 500,
+    candidateOrdering: resolveTechApiCandidateOrdering(),
+  });
   const ranked = refs.map((item) => {
     const name = normalize(item.name);
     const searchableText = normalize([item.name, item.searchText].filter(Boolean).join(' '));
@@ -181,27 +172,28 @@ async function attachOffers(items: any[]) {
   });
 }
 
-function buildFilter(p: ParsedQuery, categoryWasExplicit: boolean): Filter {
+export function buildFilter(p: ParsedQuery, categoryWasExplicit: boolean): Filter {
+  const requestedCategories = p.categoryGroup?.length ? p.categoryGroup : p.category ? [p.category] : [];
+  const allowedRequestedCategories = requestedCategories.filter((category) => ELECTRONIC_CATEGORIES.includes(category));
   const filter: Filter = {
-    category: p.category && categoryWasExplicit && ELECTRONIC_CATEGORIES.includes(p.category)
-      ? { $in: [p.category, ...Object.entries(CATEGORY_ALIASES).filter(([, canonical]) => canonical === p.category).map(([alias]) => alias)] }
+    category: categoryWasExplicit && allowedRequestedCategories.length
+      ? { $in: [...new Set(allowedRequestedCategories.flatMap((category) => [category, ...Object.entries(CATEGORY_ALIASES).filter(([, canonical]) => canonical === category).map(([alias]) => alias)]))] }
       : { $in: ELECTRONIC_CATEGORIES },
     electronicStatus: { $in: ['approved', null] },
     source: { $in: ['accesstrade', 'csv', 'curated'] },
     verified: true, productVerificationStatus: 'verified', urlVerificationStatus: 'verified', publicationStatus: 'published',
     verifiedAt: { $ne: null }, productUrl: { $type: 'string', $ne: '' }, specificationSourceUrl: { $type: 'string', $ne: '' },
     brand: { $type: 'string', $ne: '' }, model: { $type: 'string', $ne: '' },
-    $and: [{ $or: [
-      { imageVerificationStatus: 'verified', imageUsagePermission: 'granted', imageUrl: { $type: 'string', $ne: '' }, imageSource: { $type: 'string', $ne: '' },
-        $or: [{ imagePermissionEvidence: { $type: 'string', $ne: '' } }, { imageLicenseUrl: { $type: 'string', $ne: '' }, imageAttribution: { $type: 'string', $ne: '' } }] },
-      { imageVerificationStatus: 'pending', imageUsagePermission: 'not_provided', imageUrl: null },
-      ...LOCAL_ONLY_IMAGE_FILTER,
-    ] }],
+    $and: [],
   };
   if (p.brands.length) {
     const normalizedBrands = p.brands.map(normalize);
     const fallbackBrands = p.brands.map((brand) => new RegExp(`^${escapeRegex(brand)}$`, 'i'));
-    filter.$and.push({ $or: [{ normalizedBrand: { $in: normalizedBrands } }, { normalizedBrand: null, brand: { $in: fallbackBrands } }] });
+    filter.$and.push({ $or: [
+      { normalizedBrand: { $in: normalizedBrands } },
+      { normalizedBrand: null, brand: { $in: fallbackBrands } },
+      { normalizedBrandAliases: { $in: normalizedBrands } },
+    ] });
   }
   const addNumericConstraint = (path: string, value: number, mode: 'min' | 'range' = 'min') => {
     const expected = mode === 'range' ? { $gte: Math.max(0, value - 0.25), $lte: value + 0.25 } : { $gte: value };
@@ -215,7 +207,11 @@ function buildFilter(p: ParsedQuery, categoryWasExplicit: boolean): Filter {
     const tolerance = Number.isInteger(p.displayInches) ? 0.75 : 0.25;
     filter.$and.push({ 'normalizedSpecs.displayInches': { $gte: Math.max(0, p.displayInches - tolerance), $lte: p.displayInches + tolerance } });
   }
-  return filter;
+  return withRecommendationReadiness(filter);
+}
+
+async function categoryBrowseCandidates(filter: Filter) {
+  return Product.find(filter).sort({ verifiedAt: -1, _id: 1 }).limit(CANDIDATE_LIMIT).lean() as Promise<any[]>;
 }
 
 function queryNamesCategory(q: string, category?: string) {
@@ -340,19 +336,24 @@ export async function smartSearch(
     };
   }
   const modelCodes = queryModelCodes(q);
-  const hasDeterministicSignal = !!(rules.category || rules.brands.length || rules.minPrice !== undefined || rules.maxPrice !== undefined
+  const hasDeterministicSignal = !!(rules.category || rules.categoryGroup?.length || rules.brands.length || rules.minPrice !== undefined || rules.maxPrice !== undefined
     || rules.ram || rules.storageGB || rules.storageType || rules.vramGB || rules.displayInches || rules.tags.length || modelCodes.length);
   const understanding = hasDeterministicSignal
     ? { parsed: rules, provider: 'rules' as const, status: 'active' as const }
     : await understandQuery(q);
   const parsed = understanding.parsed;
   const notes: string[] = [];
-  const categoryWasExplicit = queryNamesCategory(q, parsed.category);
+  const categoryWasExplicit = Boolean(parsed.categoryGroup?.length) || queryNamesCategory(q, parsed.category);
   const baseFilter = buildFilter(parsed, categoryWasExplicit);
+  const isCategoryBrowse = Boolean(parsed.categoryGroup?.length || parsed.category)
+    && !parsed.brands.length && parsed.minPrice === undefined && parsed.maxPrice === undefined
+    && !parsed.ram && !parsed.storageGB && !parsed.storageType && !parsed.vramGB && !parsed.displayInches
+    && !parsed.tags.length && !parsed.keywords.length && modelCodes.length === 0;
   const candidatesStartedAt = performance.now();
-  const [exact, keyword] = await Promise.all([
+  const [exact, keyword, browse] = await Promise.all([
     mode === 'hybrid' || mode === 'exact' ? exactCandidates(baseFilter, q, modelCodes, parsed.keywords) : Promise.resolve([]),
     mode === 'hybrid' || mode === 'keyword' ? keywordCandidates(baseFilter, parsed) : Promise.resolve([]),
+    isCategoryBrowse ? categoryBrowseCandidates(baseFilter) : Promise.resolve([]),
   ]);
   recordAdvisorPhase('mongo_retrieval', performance.now() - candidatesStartedAt);
   const hasAllCodes = (product: any) => {
@@ -373,7 +374,7 @@ export async function smartSearch(
     ...(mode === 'hybrid' || mode === 'keyword' ? [{ channel: 'keyword' as const, weight: 1, ids: keywordMatches.map((product: any) => String(product._id)) }] : []),
     ...(useSemantic ? [{ channel: 'semantic' as const, weight: 1.5, ids: semanticResult.items.map((product: any) => String(product._id)) }] : []),
   ];
-  const candidateRows = [...exactMatches, ...keywordMatches, ...semanticResult.items];
+  const candidateRows = [...exactMatches, ...keywordMatches, ...semanticResult.items, ...browse];
   const candidates = [...new Map(candidateRows.map((product: any) => [String(product._id), product])).values()];
   const attachOffersStartedAt = performance.now();
   const candidatesWithOffers = await attachOffers(candidates);
@@ -449,7 +450,7 @@ export async function smartSearch(
       semanticStatus: semanticResult.status,
     },
     intent: {
-      category: parsed.category ? CATEGORIES[parsed.category]?.label ?? parsed.category : undefined,
+      category: parsed.category ? CATEGORIES[parsed.category]?.label ?? parsed.category : parsed.categoryGroup?.length ? 'Máy tính' : undefined,
       brands: parsed.brands, minPrice: parsed.minPrice, maxPrice: parsed.maxPrice, ram: parsed.ram,
       storageGB: parsed.storageGB, storageType: parsed.storageType, vramGB: parsed.vramGB, displayInches: parsed.displayInches,
       tags: parsed.tags.map((tag) => TAGS[tag]?.label ?? tag), keywords: parsed.keywords,
@@ -466,17 +467,11 @@ export async function smartSearch(
 export async function suggestProducts(q: string, limit = 6) {
   const tokens = normalize(q).split(' ').filter(Boolean).slice(0, 4);
   if (!tokens.length) return [];
-  return Product.find({
+  return Product.find(withRecommendationReadiness({
     source: { $in: ['accesstrade', 'csv', 'curated'] }, verified: true, verifiedAt: { $ne: null },
+    productVerificationStatus: 'verified', urlVerificationStatus: 'verified', publicationStatus: 'published',
     electronicStatus: { $in: ['approved', null] }, productUrl: { $type: 'string', $ne: '' },
     specificationSourceUrl: { $type: 'string', $ne: '' }, brand: { $type: 'string', $ne: '' }, model: { $type: 'string', $ne: '' },
-    category: { $in: ELECTRONIC_CATEGORIES }, $and: [
-      { $or: [
-        { imageUsagePermission: 'granted', imageUrl: { $type: 'string', $ne: '' }, imageSource: { $type: 'string', $ne: '' },
-          $or: [{ imagePermissionEvidence: { $type: 'string', $ne: '' } }, { imageLicenseUrl: { $type: 'string', $ne: '' }, imageAttribution: { $type: 'string', $ne: '' } }] },
-        ...LOCAL_ONLY_IMAGE_FILTER,
-      ] },
-      ...tokens.map((token) => ({ searchText: { $regex: escapeRegex(token) } })),
-    ],
-  }).sort({ sold: -1 }).limit(limit).select('name category').lean();
+    category: { $in: ELECTRONIC_CATEGORIES }, $and: tokens.map((token) => ({ searchText: { $regex: escapeRegex(token) } })),
+  })).sort({ sold: -1 }).limit(limit).select('name category').lean();
 }

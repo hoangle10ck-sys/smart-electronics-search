@@ -59,7 +59,8 @@ async function main() {
       || !entry.evidence.some((source) => source.evidenceType === 'specifications' && source.sourceUrl === entry.specificationSourceUrl))) throw new Error(`Verified URLs require exact-model product and specification evidence on their respective source pages: ${entry.sourceKey}`);
     if (imageStatus === 'verified') {
       const candidate = entry.imageCandidate;
-      const hasImageEvidence = entry.evidence.some((source) => source.evidenceType === 'image' && source.sourceUrl === candidate?.filePageUrl);
+      const hasImageEvidence = entry.evidence.some((source) => source.evidenceType === 'image'
+        && (source.sourceUrl === candidate?.imageUrl || source.sourceUrl === candidate?.filePageUrl));
       const hasRightsEvidence = entry.evidence.some((source) => source.evidenceType === 'image_rights' && source.sourceUrl === candidate?.filePageUrl);
       if (!candidate?.imageUrl || !httpsUrl(candidate.filePageUrl) || !candidate.license?.trim() || !httpsUrl(candidate.licenseUrl) || !candidate.author?.trim() || !candidate.attribution?.trim() || candidate.visualIdentityChecked !== true || !candidate.visualReviewNotes?.trim() || !hasImageEvidence || !hasRightsEvidence) throw new Error(`Verified image requires exact model match, file URL, visual review, license, attribution, and source evidence: ${entry.sourceKey}`);
     }

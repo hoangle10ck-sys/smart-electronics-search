@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { readFile, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import mongoose from 'mongoose';
 import { connectDB } from '../config/db';
@@ -84,7 +84,8 @@ async function main() {
       urlVerification: 'The 36 exact AMD model pages returned HTTP 200 and identified the model in the page content during the preparation pass; six promoted records were checked again before publication.',
       models,
     };
-    const output = resolve(process.cwd(), '..', 'AMD_RYZEN_2026_11_11_VERIFICATION.json');
+    const output = resolve(process.cwd(), '../docs/catalog/verification/AMD_RYZEN_2026_11_11_VERIFICATION.json');
+    await mkdir(resolve(output, '..'), { recursive: true });
     await writeFile(output, `${JSON.stringify(report, null, 2)}\n`, 'utf8');
     console.log(JSON.stringify({ output, summary: report.summary }, null, 2));
   } finally {

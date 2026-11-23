@@ -1,0 +1,93 @@
+[
+  {
+    "sourceKey": "web-research:anker:521-power-bank-a1626",
+    "brand": "Anker",
+    "model": "521 Power Bank (PowerCore Fusion, 45W)",
+    "modelNumber": "A1626",
+    "name": "Anker 521 Power Bank (PowerCore Fusion, 45W)",
+    "description": "Anker 521 Power Bank A1626 là bộ sạc tường kiêm pin dự phòng dung lượng 5.000 mAh. Khi cắm điện, hai cổng USB-C cho tổng công suất tối đa 45 W; ở chế độ pin, công suất tối đa là 20 W khi dùng một cổng. Thiết bị có phích cắm gập, hỗ trợ sạc xuyên qua, kích thước khoảng 71 × 60 × 31 mm và nặng khoảng 200 g.",
+    "category": "charger",
+    "family": "PowerCore Fusion",
+    "generation": null,
+    "releaseYear": 2022,
+    "productStatus": "active",
+    "productUrl": "https://www.ankerjapan.com/products/a1626",
+    "specificationSourceUrl": "https://www.ankerjapan.com/products/a1626",
+    "specifications": {
+      "batteryCapacityMah": 5000,
+      "ports": ["2 x USB-C"],
+      "wallChargerOutputMaxW": 45,
+      "powerBankOutputMaxW": 20,
+      "powerBankOutputTwoPortsMaxW": 18,
+      "wallInput": "100-240 V ~ 1.5 A, 50-60 Hz",
+      "usbCInput": "5 V / 2.1 A (max 10.5 W)",
+      "usbCOutputWallMode": "5 V / 3 A; 9 V / 3 A; 15 V / 3 A; 20 V / 2.25 A",
+      "usbCOutputBatteryMode": "5 V / 3 A; 9 V / 2.22 A",
+      "passThroughCharging": true,
+      "foldablePlug": true,
+      "dimensionsMm": "71 x 60 x 31",
+      "weightGrams": 200,
+      "modelSkus": ["A1626N11", "A1626N21", "A1626161", "A16261V1", "A1626N31"]
+    },
+    "variants": [
+      { "name": "Black", "sku": "A1626N11", "attributes": { "color": "Black" } },
+      { "name": "White", "sku": "A1626N21", "attributes": { "color": "White" } },
+      { "name": "Green", "sku": "A1626161", "attributes": { "color": "Green" } },
+      { "name": "Purple", "sku": "A16261V1", "attributes": { "color": "Purple" } },
+      { "name": "Blue", "sku": "A1626N31", "attributes": { "color": "Blue" } }
+    ],
+    "dataAttribution": "Product identity and specifications from Anker's official product page; photograph by KKPCW (Kyu3) under CC BY-SA 4.0.",
+    "dataSourceUrl": "https://www.ankerjapan.com/products/a1626",
+    "evidence": [
+      {
+        "evidenceType": "identity",
+        "sourceName": "Anker Japan official product page",
+        "sourceUrl": "https://www.ankerjapan.com/products/a1626",
+        "notes": "The manufacturer identifies Anker 521 Power Bank (PowerCore Fusion, 45W), product family A1626, and lists its color SKUs."
+      },
+      {
+        "evidenceType": "product_page",
+        "sourceName": "Anker Japan official product page",
+        "sourceUrl": "https://www.ankerjapan.com/products/a1626",
+        "notes": "The official page shows the product and its listed retail price in JPY. That Japan price is not imported as a Vietnam offer; availability differs by color."
+      },
+      {
+        "evidenceType": "specifications",
+        "sourceName": "Anker Japan official product specifications",
+        "sourceUrl": "https://www.ankerjapan.com/products/a1626",
+        "notes": "The manufacturer lists 5,000 mAh capacity, dual USB-C ports, 45 W wall-charger output, up to 20 W battery output, passthrough charging, folded-plug design, dimensions, weight, color SKUs, and December 2022 release."
+      },
+      {
+        "evidenceType": "image",
+        "sourceName": "Wikimedia Commons file page",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anker_521_Power_Bank.jpg",
+        "notes": "The file title and Japanese description identify the Anker 521 Power Bank (PowerCore Fusion, 45W); visual review confirms the exact green A1626 device and dual USB-C ports."
+      },
+      {
+        "evidenceType": "image_rights",
+        "sourceName": "Wikimedia Commons file page",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anker_521_Power_Bank.jpg",
+        "notes": "Commons lists KKPCW (Kyu3) as the author and CC BY-SA 4.0 as the reuse license."
+      }
+    ],
+    "productVerificationStatus": "verified",
+    "imageVerificationStatus": "verified",
+    "urlVerificationStatus": "verified",
+    "publicationStatus": "pending",
+    "imageCandidate": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Anker_521_Power_Bank.jpg",
+      "filePageUrl": "https://commons.wikimedia.org/wiki/File:Anker_521_Power_Bank.jpg",
+      "license": "Attribution-Share Alike 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "author": "KKPCW",
+      "attribution": "KKPCW (Kyu3), “Anker 521 Power Bank,” CC BY-SA 4.0, via Wikimedia Commons; no modifications made.",
+      "visualIdentityChecked": true,
+      "visualReviewNotes": "Anker 521 Power Bank (PowerCore Fusion, 45W): visually checked the Commons photograph against Anker Japan's official page. The image shows the exact compact green A1626 model with its two USB-C ports and Anker mark; the author describes it as this 45 W PowerCore Fusion model."
+    },
+    "reasons": [
+      "Added as a verified charger category product with official A1626 specifications and an exact-model CC BY-SA 4.0 photograph.",
+      "Anker gives the PowerCore Fusion family name but does not assign a numbered generation to this A1626 model; generation remains unknown.",
+      "The manufacturer page lists ¥8,990 but is a Japanese store page; no Vietnam retailer price or current local offer was verified, so no Offer is imported."
+    ]
+  }
+]

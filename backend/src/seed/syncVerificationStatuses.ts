@@ -11,7 +11,7 @@ type UrlCheck = { sourceProductId: string; imageUrl: string; productUrl: string;
 async function main() {
   await connectDB();
   try {
-    const report = JSON.parse(await readFile(resolve(__dirname, '../../../CATALOG_URL_VERIFICATION.json'), 'utf8')) as { entries?: UrlCheck[] };
+    const report = JSON.parse(await readFile(resolve(__dirname, '../../../docs/catalog/verification/CATALOG_URL_VERIFICATION.json'), 'utf8')) as { entries?: UrlCheck[] };
     const checked = new Map((report.entries ?? []).map((entry) => [entry.sourceProductId, entry]));
     const products = await Product.find({}).lean() as any[];
     const byCategory = new Map<string, { total: number; verified: number; published: number; pending: number; hidden: number }>();

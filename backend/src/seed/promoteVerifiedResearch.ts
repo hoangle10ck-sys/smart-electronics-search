@@ -8,12 +8,14 @@ import { PendingProduct } from '../models/PendingProduct';
 import { Product } from '../models/Product';
 import { SyncRun } from '../models/SyncRun';
 import { verifyModelPage } from '../services/urlVerification';
-import { buildSearchText } from '../utils/text';
+import { buildProductDescription } from '../services/productDescription';
+import { normalizeProduct } from '../services/productNormalizer';
+import { buildSearchText, normalize } from '../utils/text';
 import { normalizeSpecs } from '../utils/specs';
 
 type Evidence = { evidenceType: string; sourceName: string; sourceUrl: string; notes: string };
 type Entry = {
-  sourceKey: string; brand: string; model: string; modelNumber: string | null; name: string; category: string;
+  sourceKey: string; brand: string; brandAliases?: string[]; model: string; modelNumber: string | null; name: string; category: string;
   family: string; generation: string | null; releaseYear: number | null; productStatus: string;
   productUrl: string; specificationSourceUrl: string; specifications: Record<string, unknown>;
   description?: string; variants?: unknown[]; evidence: Evidence[];
@@ -28,6 +30,15 @@ type Entry = {
 
 function escapeRegex(value: string) { return value.replace(/[.*+?^${}()|[\\]\\]/g, '\\$&'); }
 
+function normalizeHtmlEvidence(value: string) {
+  return value
+    .replace(/&nbsp;|&#160;|&#x0*a0;|\u00a0/gi, ' ')
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .toLocaleLowerCase();
+}
+
 async function checkImageAndRights(entry: Entry) {
   const image = entry.imageCandidate;
   if (!image?.imageUrl || !image.filePageUrl || !image.license || !image.licenseUrl || !image.author || !image.attribution
@@ -41,7 +52,8 @@ async function checkImageAndRights(entry: Entry) {
   });
   if (!pageResponse.ok) throw new Error(`${entry.sourceKey}: image file page returned HTTP ${pageResponse.status}`);
   const page = await pageResponse.text();
-  if (!page.toLowerCase().includes(image.license.toLowerCase()) || !page.toLowerCase().includes(image.author.toLowerCase())) {
+  const normalizedPage = normalizeHtmlEvidence(page);
+  if (!normalizedPage.includes(normalizeHtmlEvidence(image.license)) || !normalizedPage.includes(normalizeHtmlEvidence(image.author))) {
     throw new Error(`${entry.sourceKey}: Commons file page does not confirm the recorded author and license`);
   }
   const licenseResponse = await fetch(image.licenseUrl, { method: 'HEAD', signal: AbortSignal.timeout(15000) });
@@ -80,7 +92,8 @@ async function main() {
     }
     if (!entry.evidence.some((item) => ['identity', 'product_page'].includes(item.evidenceType) && item.sourceUrl === entry.productUrl)
       || !entry.evidence.some((item) => item.evidenceType === 'specifications' && item.sourceUrl === entry.specificationSourceUrl)
-      || !entry.evidence.some((item) => item.evidenceType === 'image' && item.sourceUrl === entry.imageCandidate.imageUrl)
+      || !entry.evidence.some((item) => item.evidenceType === 'image'
+        && (item.sourceUrl === entry.imageCandidate.imageUrl || item.sourceUrl === entry.imageCandidate.filePageUrl))
       || !entry.evidence.some((item) => item.evidenceType === 'image_rights' && item.sourceUrl === entry.imageCandidate.filePageUrl)) {
       throw new Error(`${entry.sourceKey}: exact product, specs, image, and rights evidence URLs are required`);
     }
@@ -124,14 +137,26 @@ async function main() {
       if (pending.reviewDecision === 'approved' && pending.publicationStatus === 'published') { skippedPublished += 1; continue; }
       const image = entry.imageCandidate;
       const sourceEvidence = entry.evidence.map((item) => ({ ...item, retrievedAt: now, verifiedAt: now }));
+      const description = entry.description?.trim() || buildProductDescription(entry.name, entry.specifications);
+      if (!description) throw new Error(`${entry.sourceKey}: verified specifications cannot produce a sourced description`);
+      if (!sourceEvidence.some((item) => item.evidenceType === 'description' && item.sourceUrl === entry.specificationSourceUrl)) {
+        sourceEvidence.push({
+          evidenceType: 'description', sourceName: 'Description summarized from verified specifications',
+          sourceUrl: entry.specificationSourceUrl,
+          notes: 'Description summarizes only sourced specification fields; no additional product claims were added.',
+          retrievedAt: now, verifiedAt: now,
+        });
+      }
       const previous = await Product.findOne({
         brand: new RegExp(`^${escapeRegex(entry.brand)}$`, 'i'),
         model: new RegExp(`^${escapeRegex(entry.model)}$`, 'i'),
       }).select('_id').lean();
       const value = {
-        name: entry.name, brand: entry.brand, model: entry.model, modelNumber: entry.modelNumber,
+        name: entry.name, brand: entry.brand,
+        normalizedBrandAliases: [...new Set((entry.brandAliases ?? []).map(normalize).filter(Boolean))],
+        model: entry.model, modelNumber: entry.modelNumber,
         family: entry.family, generation: entry.generation, releaseYear: entry.releaseYear,
-        productStatus: entry.productStatus, category: entry.category, description: entry.description ?? null,
+        productStatus: entry.productStatus, category: entry.category, description,
         imageUrl: image.imageUrl, imageSource: image.filePageUrl, imageSourceUrl: image.filePageUrl,
         imageAuthor: image.author, imageRetrievedAt: now, imageUsagePermission: 'granted',
         imagePermissionEvidence: `${image.license}; ${image.attribution}; exact model visually checked against the Commons file page.`,
@@ -146,8 +171,9 @@ async function main() {
         sourceEvidence, source: 'curated', sourceProductId: entry.sourceKey, sourceKey: entry.sourceKey,
         dedupeKey: `catalog:${entry.brand.toLowerCase()}-${entry.model.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`,
         electronicStatus: 'approved', price: null, originalPrice: null, rating: null, sold: null, stock: null,
-        searchText: buildSearchText({ name: entry.name, brand: entry.brand, category: entry.category, description: entry.description, specs: normalizeSpecs(entry.specifications) }),
+        searchText: buildSearchText({ name: entry.name, brand: entry.brand, category: entry.category, description, specs: normalizeSpecs(entry.specifications) }),
       };
+      Object.assign(value, normalizeProduct(value));
       const result = await Product.updateOne(previous ? { _id: previous._id } : { dedupeKey: value.dedupeKey },
         { $set: value }, { upsert: !previous, runValidators: true, setDefaultsOnInsert: true });
       if (result.upsertedCount) created += 1; else updated += 1;

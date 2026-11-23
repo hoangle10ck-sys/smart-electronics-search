@@ -1,5 +1,6 @@
 import { FormEvent, KeyboardEvent, useEffect, useState } from 'react';
 import { Suggestion, suggest } from '../api';
+import { getProductDisplayName } from '../productDisplayName';
 import Icon from './Icon';
 
 interface Props {
@@ -33,8 +34,9 @@ export default function SearchBar({ id, value, loading, placeholder, onChange, o
   }, [value]);
 
   const choose = (item: Suggestion) => {
-    onChange(item.name);
-    onSubmit(item.name);
+    const displayName = getProductDisplayName(item);
+    onChange(displayName);
+    onSubmit(displayName);
     setOpen(false);
     setActiveIndex(-1);
   };
@@ -100,7 +102,7 @@ export default function SearchBar({ id, value, loading, placeholder, onChange, o
               className={activeIndex === index ? 'active' : ''}
             >
               <Icon name="search" size={16} />
-              <span>{item.name}</span>
+              <span>{getProductDisplayName(item)}</span>
               <small>{item.category}</small>
             </li>
           ))}

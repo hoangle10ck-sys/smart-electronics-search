@@ -4,6 +4,7 @@ import express from 'express';
 import { createServer } from 'node:http';
 import adminAccesstradeRoutes from '../routes/adminAccesstrade';
 import { fetchAllDatafeeds, fetchDatafeedPage } from './accesstradeClient';
+import { classifyAccessTradeListing, extractFeedBrand, mapAccessTradeCatalogListing, normalizeAccessTradeProductUrl } from './accesstradeCatalog';
 import { classifyElectronics } from './electronicsClassifier';
 import { mapDatafeedItem, syncDatafeedItems, SyncRepository, validExternalUrl } from './accesstradeSync';
 import { parseProductCsv } from './csvProductAdapter';
@@ -49,6 +50,81 @@ test('classification approves electronics, rejects unrelated items and holds amb
   assert.equal(drone.status, 'approved'); assert.equal(drone.category, 'drone');
   assert.equal(classifyElectronics({ name: 'T-shirt', cate: 'Clothing' }).status, 'rejected');
   assert.equal(classifyElectronics({ name: 'New item', cate: 'Other' }).status, 'pending_review');
+});
+
+test('AC feed classifier assigns air conditioners correctly and keeps accessories separate', () => {
+  assert.equal(classifyAccessTradeListing({ name: 'Máy lạnh Inverter LG 1 HP' }), 'air_conditioner');
+  assert.equal(classifyAccessTradeListing({ name: 'Điều hòa Panasonic 12000 BTU Inverter' }), 'air_conditioner');
+  assert.equal(classifyAccessTradeListing({ name: 'Daikin air conditioner 1.5 HP' }), 'air_conditioner');
+  assert.equal(classifyAccessTradeListing({ name: 'Remote máy lạnh đa năng' }), 'electronics_accessory');
+  assert.equal(classifyAccessTradeListing({ name: 'Máy lọc không khí Xiaomi' }), null);
+  assert.equal(classifyAccessTradeListing({ name: 'Car air conditioner cleaner' }), null);
+  assert.equal(classifyAccessTradeListing({ name: 'Ốp lưng MagSafe iPhone 16 Pro Apple' }), null);
+  assert.equal(classifyAccessTradeListing({ name: 'Bao da Smart Folio cho iPad Air' }), null);
+  assert.equal(classifyAccessTradeListing({ name: 'Cáp USB-C sạc nhanh 100W' }), 'charger');
+  assert.equal(classifyAccessTradeListing({ name: 'Jonsbo CPU Cooler with 120mm fan' }), null);
+  assert.equal(classifyAccessTradeListing({ name: 'Máy chiếu Wanbo Dali - Cũ' }), null);
+  assert.equal(classifyAccessTradeListing({ name: 'Bàn phím tablet Xiaomi Pad 7 / 7 Pro' }), 'keyboard');
+  assert.equal(classifyAccessTradeListing({ name: 'Sạc USB-C Innostyle 65W cho laptop' }), 'charger');
+  assert.equal(extractFeedBrand({ name: 'Máy lạnh Mijia Pro Eco Star 1.0 HP Inverter' }), 'Xiaomi');
+});
+
+test('AccessTrade product URL normalization catches duplicate listings across category labels', () => {
+  assert.equal(
+    normalizeAccessTradeProductUrl('https://www.thegioididong.com/ban-phim/magic-keyboard-cho-ipad-pro-m4-11-inch?utm_source=feed#details'),
+    'https://www.thegioididong.com/ban-phim/magic-keyboard-cho-ipad-pro-m4-11-inch',
+  );
+  assert.equal(normalizeAccessTradeProductUrl('http://user:password@shop.example/item'), null);
+  assert.equal(normalizeAccessTradeProductUrl(undefined), null);
+});
+
+test('catalog feed extracts only explicit title specifications with exact numeric values', () => {
+  const now = new Date('2026-11-13T00:00:00.000Z');
+  const powerBank = mapAccessTradeCatalogListing({
+    product_id: 'feed-power-1', name: 'Pin sạc dự phòng Anker 10000mAh PD 22.5W', brand: 'Anker',
+    price: 500000, currency: 'VND', update_time: '12-11-2026T10:00:00',
+    image: 'https://cdn.example/power.jpg', url: 'https://shop.example/power', aff_link: 'https://go.example/power',
+  }, { domain: 'thegioididong.com', imageUsageAuthorized: true, now });
+  assert.equal(powerBank?.product.specifications.listedPowerW, 22.5);
+  assert.equal(powerBank?.product.specifications.batteryCapacityMah, 10000);
+  assert.ok(powerBank?.product.sourceEvidence.some((item) => item.evidenceType === 'specifications'));
+  assert.equal(powerBank?.product.imageUrl, 'https://cdn.example/power.jpg');
+  assert.equal(powerBank?.product.imageVerificationStatus, 'pending');
+  assert.equal(powerBank?.product.imageVisualIdentityChecked, false);
+  assert.equal(powerBank?.product.publicationStatus, 'pending');
+
+  const airConditioner = mapAccessTradeCatalogListing({
+    product_id: 'feed-ac-1', name: 'Máy lạnh Hitachi Inverter 1 HP 9,210 BTU Gas R32', brand: 'Hitachi',
+    price: 6990000, currency: 'VND', update_time: '12-11-2026T10:00:00',
+    image: 'https://cdn.example/ac.jpg', url: 'https://shop.example/ac', aff_link: 'https://go.example/ac',
+  }, { domain: 'thegioididong.com', imageUsageAuthorized: true, now });
+  assert.deepEqual(airConditioner?.product.specifications, {
+    coolingCapacityHp: 1, coolingCapacityBtuH: 9210, refrigerant: 'R32', technology: 'Inverter',
+  });
+  assert.ok(airConditioner?.product.sourceEvidence.some((item) => item.evidenceType === 'specifications'));
+
+  const ram = mapAccessTradeCatalogListing({
+    product_id: 'feed-ram-1', name: 'RAM Laptop Transcend DDR5 5600MHz 16GB', brand: 'Transcend',
+    price: 900000, currency: 'VND', update_time: '12-11-2026T10:00:00',
+    image: 'https://cdn.example/ram.jpg', url: 'https://shop.example/ram', aff_link: 'https://go.example/ram',
+  }, { domain: 'thegioididong.com', imageUsageAuthorized: true, now });
+  assert.deepEqual(ram?.product.specifications, { ramGB: 16, memoryType: 'DDR5', memoryFrequencyMHz: 5600 });
+
+  const monitor = mapAccessTradeCatalogListing({
+    product_id: 'feed-monitor-1', name: 'Màn hình MSI PRO MP273L-E14 27 inch Full HD IPS 144Hz 4ms', brand: 'MSI',
+    price: 3000000, currency: 'VND', update_time: '12-11-2026T10:00:00',
+    image: 'https://cdn.example/monitor.jpg', url: 'https://shop.example/monitor', aff_link: 'https://go.example/monitor',
+  }, { domain: 'thegioididong.com', imageUsageAuthorized: true, now });
+  assert.deepEqual(monitor?.product.specifications, {
+    screenSizeInches: 27, resolution: 'FULL HD', panelType: 'IPS', refreshRateHz: 144, responseTimeMs: 4,
+  });
+
+  const accessoryMisclassifiedAsPhone = mapAccessTradeCatalogListing({
+    product_id: 'feed-phone-accessory-1', name: 'iPhone 17 Ulanzi phone filming grip', brand: 'Ulanzi',
+    price: 900000, currency: 'VND', update_time: '12-11-2026T10:00:00',
+    image: 'https://cdn.example/grip.jpg', url: 'https://shop.example/grip', aff_link: 'https://go.example/grip',
+  }, { domain: 'thegioididong.com', imageUsageAuthorized: true, now });
+  assert.equal(accessoryMisclassifiedAsPhone, null);
 });
 
 test('image URL is withheld until the source has image permission', () => {
@@ -145,18 +221,37 @@ test('external URL validation accepts only public HTTPS URLs', () => {
 test('catalog verification requires model specs, a working product URL and licensed image attribution', () => {
   const body = {
     name: 'Product', brand: 'Brand', model: 'Model-1', family: 'Book Series', generation: '2026 generation', category: 'laptop',
+    description: 'Verified CPU and 16 GB RAM.',
     imageUrl: 'https://images.example/item.jpg', imageSource: 'https://commons.wikimedia.org/wiki/File:Item.jpg',
     imageUsagePermission: 'granted', imageLicense: 'CC BY 4.0', imageLicenseUrl: 'https://creativecommons.org/licenses/by/4.0/',
     imageAttribution: 'Author, Wikimedia Commons', productUrl: 'https://vendor.example/product/model-1',
     specificationSourceUrl: 'https://vendor.example/specs/model-1', specifications: { cpu: 'Verified CPU' }, specs: { cpu: 'Verified CPU' }, verified: true,
-    sourceEvidence: ['identity', 'product_page', 'specifications', 'image', 'image_rights'].map((evidenceType) => ({
+    sourceEvidence: ['identity', 'product_page', 'specifications', 'description', 'image', 'image_rights'].map((evidenceType) => ({
       evidenceType, sourceName: 'Official / licensed source', sourceUrl: 'https://vendor.example/source/model-1',
       retrievedAt: '2026-11-10T00:00:00.000Z', verifiedAt: '2026-11-10T00:00:00.000Z',
     })),
   };
   assert.equal(validateCatalogBody(body).errors.length, 0);
+  assert.ok(validateCatalogBody({ ...body, description: '' }).errors.some((error) => error.includes('description')));
   assert.ok(validateCatalogBody({ ...body, imageAttribution: '' }).errors.length > 0);
   assert.ok(validateCatalogBody({ ...body, productUrl: 'http://vendor.example/product' }).errors.length > 0);
+});
+
+test('a product without a sourced description cannot be marked verified or published', () => {
+  const body = {
+    name: 'Product', brand: 'Brand', model: 'Model-1', family: 'Product Series', generation: '2026', category: 'laptop',
+    description: '', imageUrl: 'https://images.example/item.jpg', imageSource: 'https://commons.wikimedia.org/wiki/File:Item.jpg',
+    imageUsagePermission: 'granted', imageLicense: 'CC BY 4.0', imageLicenseUrl: 'https://creativecommons.org/licenses/by/4.0/',
+    imageAttribution: 'Author, Wikimedia Commons', productUrl: 'https://vendor.example/product/model-1',
+    specificationSourceUrl: 'https://vendor.example/specs/model-1', specifications: { cpu: 'Verified CPU' }, specs: { cpu: 'Verified CPU' },
+    productVerificationStatus: 'verified', imageVerificationStatus: 'verified', urlVerificationStatus: 'verified', imageVisualIdentityChecked: true,
+    sourceEvidence: ['identity', 'product_page', 'specifications', 'description', 'image', 'image_rights'].map((evidenceType) => ({
+      evidenceType, sourceName: 'Official / licensed source', sourceUrl: 'https://vendor.example/source/model-1',
+      retrievedAt: '2026-11-10T00:00:00.000Z', verifiedAt: '2026-11-10T00:00:00.000Z',
+    })),
+  };
+  assert.ok(validateCatalogBody(body).errors.some((error) => error.includes('description')));
+  assert.equal(validateCatalogBody({ ...body, description: 'CPU: Verified CPU.' }).data?.publicationStatus, 'published');
 });
 
 test('Offer validation keeps price evidence attached to a seller URL and currency', () => {

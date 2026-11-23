@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { readFile, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import mongoose from 'mongoose';
 import { connectDB } from '../config/db';
@@ -144,7 +144,8 @@ async function main() {
       },
       models: checks,
     };
-    const output = resolve(process.cwd(), '..', 'INTEL_CORE_ULTRA_2026_11_11_URL_VERIFICATION.json');
+    const output = resolve(process.cwd(), '../docs/catalog/verification/INTEL_CORE_ULTRA_2026_11_11_URL_VERIFICATION.json');
+    await mkdir(resolve(output, '..'), { recursive: true });
     await writeFile(output, `${JSON.stringify(report, null, 2)}\n`, 'utf8');
     await SyncRun.create({
       source: 'web_research', sourceKey: 'intel-core-ultra-ark-exact-url-verification-2026-11-11', mode: 'update', page: 1,
