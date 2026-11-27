@@ -280,31 +280,102 @@ async function keywordCandidates(filter: Filter, p: ParsedQuery) {
   }
 }
 
+export function cosineSimilarity(a: number[], b: number[], normA?: number, normB?: number): number {
+  if (!a.length || a.length !== b.length) return 0;
+  let dot = 0;
+  let sqA = 0;
+  let sqB = 0;
+  for (let i = 0; i < a.length; i += 1) {
+    dot += a[i] * b[i];
+    if (normA === undefined) sqA += a[i] * a[i];
+    if (normB === undefined) sqB += b[i] * b[i];
+  }
+  const denom = (normA ?? Math.sqrt(sqA)) * (normB ?? Math.sqrt(sqB));
+  return denom > 0 ? dot / denom : 0;
+}
+
 let vectorUnavailableUntil = 0;
+let localVectorCache: { expiresAt: number; rows: Array<{ productId: any; embedding: number[]; norm: number }> } | null = null;
+
+async function getLocalSearchVectors() {
+  if (localVectorCache && localVectorCache.expiresAt > Date.now()) return localVectorCache.rows;
+  const docs = await ProductSearchVector.find({
+    publicationStatus: 'published',
+    productVerificationStatus: 'verified',
+  }).select('productId embedding').lean() as Array<{ productId: any; embedding?: number[] }>;
+  const rows = docs
+    .filter((doc) => Array.isArray(doc.embedding) && doc.embedding.length > 0)
+    .map((doc) => {
+      const embedding = doc.embedding!;
+      let sq = 0;
+      for (let i = 0; i < embedding.length; i += 1) sq += embedding[i] * embedding[i];
+      return { productId: doc.productId, embedding, norm: Math.sqrt(sq) };
+    });
+  localVectorCache = { expiresAt: Date.now() + 60_000, rows };
+  return rows;
+}
+
 async function semanticCandidates(filter: Filter, query: string, limit = CANDIDATE_LIMIT) {
-  if (process.env.MONGODB_VECTOR_SEARCH_ENABLED !== 'true' || vectorUnavailableUntil > Date.now()) return { items: [] as any[], status: 'not_enabled' };
+  if (process.env.MONGODB_VECTOR_SEARCH_ENABLED === 'false') return { items: [] as any[], status: 'not_enabled' };
   const retrievalStartedAt = performance.now();
+
+  if (process.env.MONGODB_VECTOR_SEARCH_ENABLED === 'true' && vectorUnavailableUntil <= Date.now()) {
+    try {
+      const vector = await embedQuery(query);
+      const matches = await ProductSearchVector.aggregate([
+        { $vectorSearch: { index: VECTOR_INDEX_NAME, path: 'embedding', queryVector: vector, numCandidates: Math.max(200, Math.min(2000, limit * 10)), limit } },
+        { $project: { productId: 1, score: { $meta: 'vectorSearchScore' } } },
+      ]);
+      const ids = matches.map((match: any) => match.productId);
+      if (!ids.length) {
+        recordAdvisorPhase('vector_retrieval', performance.now() - retrievalStartedAt);
+        return { items: [], status: 'active' };
+      }
+      const products = await Product.find({ ...filter, _id: { $in: ids } }).lean() as any[];
+      const byId = new Map(products.map((product) => [String(product._id), product]));
+      const items = matches.flatMap((match: any) => {
+        const product = byId.get(String(match.productId));
+        return product ? [{ ...product, semanticScore: match.score }] : [];
+      });
+      recordAdvisorPhase('vector_retrieval', performance.now() - retrievalStartedAt);
+      return { items, status: 'active' };
+    } catch {
+      vectorUnavailableUntil = Date.now() + 60_000;
+    }
+  }
+
+  // Local MongoDB fallback: compute exact cosine similarity in memory when Atlas $vectorSearch is unavailable.
   try {
-    const vector = await embedQuery(query);
-    const matches = await ProductSearchVector.aggregate([
-      { $vectorSearch: { index: VECTOR_INDEX_NAME, path: 'embedding', queryVector: vector, numCandidates: Math.max(200, Math.min(2000, limit * 10)), limit } },
-      { $project: { productId: 1, score: { $meta: 'vectorSearchScore' } } },
-    ]);
-    const ids = matches.map((match: any) => match.productId);
-    if (!ids.length) {
+    const rows = await getLocalSearchVectors();
+    if (!rows.length) {
+      recordAdvisorPhase('vector_retrieval', performance.now() - retrievalStartedAt);
+      return { items: [] as any[], status: 'not_enabled' };
+    }
+    const queryVector = await embedQuery(query);
+    let querySq = 0;
+    for (let i = 0; i < queryVector.length; i += 1) querySq += queryVector[i] * queryVector[i];
+    const queryNorm = Math.sqrt(querySq);
+
+    const matches = rows
+      .map((row) => ({ productId: row.productId, score: cosineSimilarity(queryVector, row.embedding, queryNorm, row.norm) }))
+      .filter((m) => m.score > 0.25)
+      .sort((a, b) => b.score - a.score)
+      .slice(0, limit);
+
+    if (!matches.length) {
       recordAdvisorPhase('vector_retrieval', performance.now() - retrievalStartedAt);
       return { items: [], status: 'active' };
     }
+    const ids = matches.map((m) => m.productId);
     const products = await Product.find({ ...filter, _id: { $in: ids } }).lean() as any[];
     const byId = new Map(products.map((product) => [String(product._id), product]));
-    const items = matches.flatMap((match: any) => {
+    const items = matches.flatMap((match) => {
       const product = byId.get(String(match.productId));
       return product ? [{ ...product, semanticScore: match.score }] : [];
     });
     recordAdvisorPhase('vector_retrieval', performance.now() - retrievalStartedAt);
     return { items, status: 'active' };
   } catch {
-    vectorUnavailableUntil = Date.now() + 60_000;
     recordAdvisorPhase('vector_retrieval', performance.now() - retrievalStartedAt);
     return { items: [] as any[], status: 'unavailable' };
   }
