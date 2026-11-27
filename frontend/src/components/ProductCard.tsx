@@ -88,7 +88,7 @@ export default function ProductCard({
     <article className="product-card">
       <div className="product-card-media">
         {canDisplayImage && imageUrl && !imageFailed
-          ? <img src={imageUrl} alt={getProductDisplayName(p)} loading="lazy" onError={() => setImageFailed(true)} />
+          ? <img src={imageUrl} alt={getProductDisplayName(p)} loading="lazy" referrerPolicy="no-referrer" onError={() => setImageFailed(true)} />
           : <div className="product-image-placeholder" aria-label="Chưa có hình ảnh sản phẩm">
               <Icon name={categoryIcon} size={36} />
               <span>Chưa có hình ảnh</span>

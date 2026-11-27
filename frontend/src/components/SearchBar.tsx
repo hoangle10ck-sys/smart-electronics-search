@@ -114,7 +114,7 @@ export default function SearchBar({ id, value, loading, placeholder, onChange, o
                 className={activeIndex === index ? 'active' : ''}
               >
                 {thumb ? (
-                  <img className="suggestion-thumb" src={thumb} alt="" loading="lazy" />
+                  <img className="suggestion-thumb" src={thumb} alt="" loading="lazy" referrerPolicy="no-referrer" />
                 ) : (
                   <span className="suggestion-thumb-fallback" aria-hidden="true">
                     <Icon name="search" size={16} />

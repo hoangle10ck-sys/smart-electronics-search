@@ -229,7 +229,7 @@ export default function ProductComparison({ products, onRemove, onClear }: {
                 <th scope="col">Thông tin</th>
                 {products.map((product) => <th scope="col" key={product._id}>
                   <div className="comparison-product">
-                    {(product.imageUsagePermission === 'granted' || (product.localOnlyAsset && product.imageVerificationStatus === 'pending')) && safeImageHref(product.imageUrl) && <img src={safeImageHref(product.imageUrl)!} alt="" loading="lazy" />}
+                    {(product.imageUsagePermission === 'granted' || (product.localOnlyAsset && product.imageVerificationStatus === 'pending')) && safeImageHref(product.imageUrl) && <img src={safeImageHref(product.imageUrl)!} alt="" loading="lazy" referrerPolicy="no-referrer" />}
                     <span>{getProductDisplayName(product)}</span>
                     <button type="button" aria-label={`Bỏ ${getProductDisplayName(product)} khỏi so sánh`} onClick={() => onRemove(product._id)}>×</button>
                   </div>
