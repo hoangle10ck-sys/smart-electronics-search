@@ -8,7 +8,8 @@ test('watch aliases normalize to smartwatch without dropping other categories', 
   assert.equal(canonicalCategory('monitor'), 'monitor');
   assert.equal(parseQuery('smartwatch').category, 'smartwatch');
   assert.equal(parseQuery('đồng hồ thông minh').category, 'smartwatch');
-  assert.equal(CANONICAL_CATEGORIES.length, 35);
+  assert.equal(CANONICAL_CATEGORIES.length, 40);
+  assert.ok(CANONICAL_CATEGORIES.some(({ key }) => key === 'power_supply'));
   assert.equal(parseQuery('SoC Snapdragon').category, 'soc');
   assert.ok(CANONICAL_CATEGORIES.some(({ key }) => key === 'tv'));
   assert.ok(CANONICAL_CATEGORIES.some(({ key }) => key === 'keyboard'));

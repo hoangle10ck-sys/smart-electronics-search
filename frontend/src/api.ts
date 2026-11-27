@@ -45,6 +45,15 @@ export interface Product {
   bestOffer?: Offer | null;
   offers?: Offer[];
   specs: Record<string, string | number>;
+  normalizedSpecs?: {
+    ramGB?: number;
+    storageGB?: number;
+    vramGB?: number;
+    displayInches?: number;
+    refreshRateHz?: number;
+    batteryMah?: number;
+    powerWatts?: number;
+  } | null;
   tags: string[];
   rating: number | null;
   sold: number | null;
@@ -142,7 +151,10 @@ export interface WebSearchCandidate {
 export interface Suggestion {
   _id: string;
   name: string;
+  brand?: string | null;
   category: string;
+  imageUrl?: string | null;
+  price?: number | null;
 }
 
 export interface AdvisorConversationMessage {

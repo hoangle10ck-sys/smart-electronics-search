@@ -1,7 +1,16 @@
 import { FormEvent, KeyboardEvent, useEffect, useState } from 'react';
-import { Suggestion, suggest } from '../api';
+import { Suggestion, formatVND, suggest } from '../api';
 import { getProductDisplayName } from '../productDisplayName';
 import Icon from './Icon';
+
+function safeSuggestionImage(value: string | null | undefined) {
+  if (!value) return null;
+  if (/^\/catalog-images\/[a-z0-9][a-z0-9._-]*\.(jpg|jpeg|png|webp)$/i.test(value)) return value;
+  try {
+    const url = new URL(value);
+    return url.protocol === 'https:' && !url.username && !url.password ? url.toString() : null;
+  } catch { return null; }
+}
 
 interface Props {
   id: string;
@@ -91,21 +100,36 @@ export default function SearchBar({ id, value, loading, placeholder, onChange, o
       </button>
       {open && items.length > 0 && (
         <ul className="suggestion-list" id={listId} role="listbox" aria-label="Gợi ý sản phẩm">
-          {items.map((item, index) => (
-            <li
-              id={`${listId}-${index}`}
-              key={item._id}
-              role="option"
-              aria-selected={activeIndex === index}
-              onMouseDown={(event) => event.preventDefault()}
-              onClick={() => choose(item)}
-              className={activeIndex === index ? 'active' : ''}
-            >
-              <Icon name="search" size={16} />
-              <span>{getProductDisplayName(item)}</span>
-              <small>{item.category}</small>
-            </li>
-          ))}
+          {items.map((item, index) => {
+            const thumb = safeSuggestionImage(item.imageUrl);
+            const meta = [item.brand, item.category].filter(Boolean).join(' · ');
+            return (
+              <li
+                id={`${listId}-${index}`}
+                key={item._id}
+                role="option"
+                aria-selected={activeIndex === index}
+                onMouseDown={(event) => event.preventDefault()}
+                onClick={() => choose(item)}
+                className={activeIndex === index ? 'active' : ''}
+              >
+                {thumb ? (
+                  <img className="suggestion-thumb" src={thumb} alt="" loading="lazy" />
+                ) : (
+                  <span className="suggestion-thumb-fallback" aria-hidden="true">
+                    <Icon name="search" size={16} />
+                  </span>
+                )}
+                <div className="suggestion-info">
+                  <span className="suggestion-title">{getProductDisplayName(item)}</span>
+                  <small className="suggestion-meta">{meta}</small>
+                </div>
+                {typeof item.price === 'number' && item.price > 0 && (
+                  <strong className="suggestion-price">{formatVND(item.price)}</strong>
+                )}
+              </li>
+            );
+          })}
         </ul>
       )}
     </form>

@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Product, formatVND } from '../api';
 import { getProductDisplayName } from '../productDisplayName';
 
@@ -43,15 +44,82 @@ function technicalFields(products: Product[]) {
   }).slice(0, 14);
 }
 
+function extractNumericSpec(product: Product, field: string): number | null {
+  const key = field.toLowerCase();
+  const rawVal = product.specs?.[field] ?? product.specifications?.[field];
+  const rawStr = rawVal != null ? String(rawVal) : '';
+
+  if (key === 'ram' || key === 'ramgb') {
+    if (typeof product.normalizedSpecs?.ramGB === 'number' && product.normalizedSpecs.ramGB > 0) return product.normalizedSpecs.ramGB;
+    const m = rawStr.match(/(\d+(?:\.\d+)?)\s*(tb|gb)?/i);
+    if (!m) return null;
+    const val = Number(m[1]);
+    return m[2]?.toLowerCase() === 'tb' ? val * 1024 : val;
+  }
+  if (key === 'storage' || key === 'storagegb' || key === 'capacity') {
+    if (typeof product.normalizedSpecs?.storageGB === 'number' && product.normalizedSpecs.storageGB > 0) return product.normalizedSpecs.storageGB;
+    const m = rawStr.match(/(\d+(?:\.\d+)?)\s*(tb|gb)/i);
+    if (!m) return null;
+    const val = Number(m[1]);
+    return m[2].toLowerCase() === 'tb' ? val * 1024 : val;
+  }
+  if (key === 'refreshrate' || key === 'refresh_rate' || key === 'refreshratehz') {
+    if (typeof product.normalizedSpecs?.refreshRateHz === 'number' && product.normalizedSpecs.refreshRateHz > 0) return product.normalizedSpecs.refreshRateHz;
+    const m = rawStr.match(/(\d+(?:\.\d+)?)\s*hz/i);
+    return m ? Number(m[1]) : null;
+  }
+  if (key === 'battery' || key === 'batterymah') {
+    if (typeof product.normalizedSpecs?.batteryMah === 'number' && product.normalizedSpecs.batteryMah > 0) return product.normalizedSpecs.batteryMah;
+    const m = rawStr.match(/(\d{3,5})\s*mah/i);
+    return m ? Number(m[1]) : null;
+  }
+  if (key === 'vram' || key === 'vramgb') {
+    if (typeof product.normalizedSpecs?.vramGB === 'number' && product.normalizedSpecs.vramGB > 0) return product.normalizedSpecs.vramGB;
+    const m = rawStr.match(/(\d+(?:\.\d+)?)\s*gb/i);
+    return m ? Number(m[1]) : null;
+  }
+  return null;
+}
+
+function getBestSpecIds(products: Product[], field: string): Set<string> {
+  if (products.length < 2) return new Set();
+  const entries = products
+    .map((p) => ({ id: p._id, val: extractNumericSpec(p, field) }))
+    .filter((e): e is { id: string; val: number } => e.val != null && Number.isFinite(e.val) && e.val > 0);
+  if (entries.length < 2) return new Set();
+  const max = Math.max(...entries.map((e) => e.val));
+  const min = Math.min(...entries.map((e) => e.val));
+  if (max <= min) return new Set();
+  return new Set(entries.filter((e) => e.val === max).map((e) => e.id));
+}
+
+function hasRowDifference(values: string[]): boolean {
+  if (values.length < 2) return true;
+  return new Set(values.map((v) => v.trim().toLowerCase())).size > 1;
+}
+
 export default function ProductComparison({ products, onRemove, onClear }: {
   products: Product[];
   onRemove: (id: string) => void;
   onClear: () => void;
 }) {
+  const [showDiffOnly, setShowDiffOnly] = useState(false);
   if (!products.length) return null;
   const fields = technicalFields(products);
   const validPrices = products.map((p) => productPrice(p)).filter((p): p is number => p != null && p > 0);
-  const minPrice = validPrices.length >= 2 ? Math.min(...validPrices) : null;
+  const minPrice = validPrices.length >= 2 && new Set(validPrices).size > 1 ? Math.min(...validPrices) : null;
+
+  const visibleFields = showDiffOnly
+    ? fields.filter((field) => hasRowDifference(products.map((p) => display(p.specs?.[field] ?? p.specifications?.[field]))))
+    : fields;
+
+  const showPriceRow = !showDiffOnly || hasRowDifference(products.map((p) => { const pr = productPrice(p); return pr != null ? String(pr) : 'unknown'; }));
+  const showSellerRow = !showDiffOnly || hasRowDifference(products.map((p) => p.bestOffer?.sellerName ?? ''));
+  const showBrandRow = !showDiffOnly || hasRowDifference(products.map((p) => {
+    const model = p.model !== p.name ? p.model : null;
+    return [p.brand, model, p.modelNumber].filter(Boolean).join(' · ');
+  }));
+  const showCategoryRow = !showDiffOnly || hasRowDifference(products.map((p) => p.category));
 
   return (
     <section className="comparison-panel" id="product-comparison" aria-label="Bảng so sánh sản phẩm">
@@ -63,29 +131,48 @@ export default function ProductComparison({ products, onRemove, onClear }: {
         </div>
         <div style={{ display: 'flex', gap: '8px', alignItems: 'center', flexWrap: 'wrap' }}>
           {products.length >= 2 && (
-            <button
-              type="button"
-              style={{
-                background: 'var(--primary)',
-                color: '#fff',
-                border: 'none',
-                padding: '8px 14px',
-                borderRadius: '9px',
-                fontSize: '0.76rem',
-                fontWeight: 700,
-                cursor: 'pointer',
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '6px',
-              }}
-              onClick={() => {
-                const names = products.map((p) => getProductDisplayName(p)).join(' vs ');
-                const query = `Hãy so sánh chi tiết và tư vấn giúp tôi nên chọn mẫu nào giữa: ${names}`;
-                window.dispatchEvent(new CustomEvent('techfind:ask-advisor', { detail: { query } }));
-              }}
-            >
-              <span>🤖</span> Nhờ AI tư vấn chọn mẫu
-            </button>
+            <>
+              <button
+                type="button"
+                aria-pressed={showDiffOnly}
+                onClick={() => setShowDiffOnly((prev) => !prev)}
+                style={{
+                  background: showDiffOnly ? 'rgba(37, 99, 235, 0.12)' : 'var(--surface-subtle)',
+                  color: showDiffOnly ? 'var(--primary)' : 'var(--ink)',
+                  border: `1px solid ${showDiffOnly ? 'var(--primary)' : 'var(--line)'}`,
+                  padding: '8px 12px',
+                  borderRadius: '9px',
+                  fontSize: '0.76rem',
+                  fontWeight: 600,
+                  cursor: 'pointer',
+                }}
+              >
+                {showDiffOnly ? '✓ Chỉ điểm khác biệt' : 'Chỉ xem điểm khác biệt'}
+              </button>
+              <button
+                type="button"
+                style={{
+                  background: 'var(--primary)',
+                  color: '#fff',
+                  border: 'none',
+                  padding: '8px 14px',
+                  borderRadius: '9px',
+                  fontSize: '0.76rem',
+                  fontWeight: 700,
+                  cursor: 'pointer',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '6px',
+                }}
+                onClick={() => {
+                  const names = products.map((p) => getProductDisplayName(p)).join(' vs ');
+                  const query = `Hãy so sánh chi tiết và tư vấn giúp tôi nên chọn mẫu nào giữa: ${names}`;
+                  window.dispatchEvent(new CustomEvent('techfind:ask-advisor', { detail: { query } }));
+                }}
+              >
+                <span>🤖</span> Nhờ AI tư vấn chọn mẫu
+              </button>
+            </>
           )}
           <button type="button" className="comparison-clear" onClick={onClear}>Bỏ chọn tất cả</button>
         </div>
@@ -107,11 +194,11 @@ export default function ProductComparison({ products, onRemove, onClear }: {
               </tr>
             </thead>
             <tbody>
-              <tr><th scope="row">Giá tham khảo</th>{products.map((product) => {
+              {showPriceRow && <tr><th scope="row">Giá tham khảo</th>{products.map((product) => {
                 const price = productPrice(product);
                 const isLowest = minPrice !== null && price === minPrice;
                 return (
-                  <td key={product._id}>
+                  <td key={product._id} style={isLowest ? { background: 'rgba(22, 163, 74, 0.06)' } : undefined}>
                     {price != null ? (
                       <div style={{ display: 'flex', alignItems: 'center', gap: '6px', flexWrap: 'wrap' }}>
                         <strong>{formatVND(price)}</strong>
@@ -120,7 +207,7 @@ export default function ProductComparison({ products, onRemove, onClear }: {
                             fontSize: '0.7rem',
                             fontWeight: 600,
                             color: 'var(--success, #16a34a)',
-                            background: 'rgba(22, 163, 74, 0.12)',
+                            background: 'rgba(22, 163, 74, 0.14)',
                             padding: '2px 6px',
                             borderRadius: '4px'
                           }}>
@@ -131,19 +218,45 @@ export default function ProductComparison({ products, onRemove, onClear }: {
                     ) : 'Chưa có giá'}
                   </td>
                 );
-              })}</tr>
-              <tr><th scope="row">Cửa hàng</th>{products.map((product) => <td key={product._id}>{product.bestOffer?.sellerName ?? 'Chưa có nguồn giá'}</td>)}</tr>
-              <tr><th scope="row">Hãng / model</th>{products.map((product) => { const model = product.model !== product.name ? product.model : null; return <td key={product._id}>{[product.brand, model, product.modelNumber].filter(Boolean).join(' · ') || 'Chưa có dữ liệu'}</td>; })}</tr>
-              <tr><th scope="row">Danh mục</th>{products.map((product) => <td key={product._id}>{product.category}</td>)}</tr>
-              {fields.map((field) => <tr key={field}>
-                <th scope="row">{LABELS[field] ?? field.replace(/([A-Z])/g, ' $1').replace(/^./, (letter) => letter.toUpperCase())}</th>
-                {products.map((product) => <td key={product._id}>{display(product.specs?.[field] ?? product.specifications?.[field])}</td>)}
-              </tr>)}
-              <tr><th scope="row">Nguồn giá</th>{products.map((product) => {
-                const href = safeHref(product.bestOffer?.productUrl);
-                return <td key={product._id}>{href ? <a href={href} target="_blank" rel="noopener noreferrer">{product.bestOffer?.sellerName} · Xem giá</a> : 'Chưa có liên kết'}</td>;
-              })}</tr>
-              <tr><th scope="row">Lần cập nhật giá</th>{products.map((product) => <td key={product._id}>{product.bestOffer?.lastUpdated ? new Date(product.bestOffer.lastUpdated).toLocaleString('vi-VN') : 'Chưa có dữ liệu'}</td>)}</tr>
+              })}</tr>}
+              {showSellerRow && <tr><th scope="row">Cửa hàng</th>{products.map((product) => <td key={product._id}>{product.bestOffer?.sellerName ?? 'Chưa có nguồn giá'}</td>)}</tr>}
+              {showBrandRow && <tr><th scope="row">Hãng / model</th>{products.map((product) => { const model = product.model !== product.name ? product.model : null; return <td key={product._id}>{[product.brand, model, product.modelNumber].filter(Boolean).join(' · ') || 'Chưa có dữ liệu'}</td>; })}</tr>}
+              {showCategoryRow && <tr><th scope="row">Danh mục</th>{products.map((product) => <td key={product._id}>{product.category}</td>)}</tr>}
+              {visibleFields.map((field) => {
+                const bestIds = getBestSpecIds(products, field);
+                return (
+                  <tr key={field}>
+                    <th scope="row">{LABELS[field] ?? field.replace(/([A-Z])/g, ' $1').replace(/^./, (letter) => letter.toUpperCase())}</th>
+                    {products.map((product) => {
+                      const isBest = bestIds.has(product._id);
+                      return (
+                        <td
+                          key={product._id}
+                          style={isBest ? { background: 'rgba(22, 163, 74, 0.08)', color: 'var(--success, #15803d)', fontWeight: 600 } : undefined}
+                        >
+                          {display(product.specs?.[field] ?? product.specifications?.[field])}
+                        </td>
+                      );
+                    })}
+                  </tr>
+                );
+              })}
+              {showDiffOnly && !showPriceRow && !showSellerRow && !showBrandRow && !showCategoryRow && visibleFields.length === 0 && (
+                <tr>
+                  <td colSpan={products.length + 1} style={{ textAlign: 'center', color: 'var(--muted)', padding: '16px' }}>
+                    Các sản phẩm có thông số hoàn toàn giống nhau ở những mục đang hiển thị.
+                  </td>
+                </tr>
+              )}
+              {!showDiffOnly && (
+                <>
+                  <tr><th scope="row">Nguồn giá</th>{products.map((product) => {
+                    const href = safeHref(product.bestOffer?.productUrl);
+                    return <td key={product._id}>{href ? <a href={href} target="_blank" rel="noopener noreferrer">{product.bestOffer?.sellerName} · Xem giá</a> : 'Chưa có liên kết'}</td>;
+                  })}</tr>
+                  <tr><th scope="row">Lần cập nhật giá</th>{products.map((product) => <td key={product._id}>{product.bestOffer?.lastUpdated ? new Date(product.bestOffer.lastUpdated).toLocaleString('vi-VN') : 'Chưa có dữ liệu'}</td>)}</tr>
+                </>
+              )}
             </tbody>
           </table>
         </div>}

@@ -469,11 +469,32 @@ export async function smartSearch(
 export async function suggestProducts(q: string, limit = 6) {
   const tokens = normalize(q).split(' ').filter(Boolean).slice(0, 4);
   if (!tokens.length) return [];
-  return Product.find(withRecommendationReadiness({
+  const items = await Product.find(withRecommendationReadiness({
     source: { $in: ['accesstrade', 'csv', 'curated'] }, verified: true, verifiedAt: { $ne: null },
     productVerificationStatus: 'verified', urlVerificationStatus: 'verified', publicationStatus: 'published',
     electronicStatus: { $in: ['approved', null] }, productUrl: { $type: 'string', $ne: '' },
     specificationSourceUrl: { $type: 'string', $ne: '' }, brand: { $type: 'string', $ne: '' }, model: { $type: 'string', $ne: '' },
-    category: { $in: ELECTRONIC_CATEGORIES }, $and: tokens.map((token) => ({ searchText: { $regex: escapeRegex(token) } })),
-  })).sort({ sold: -1 }).limit(limit).select('name category').lean();
+    category: { $in: ELECTRONIC_CATEGORIES }, $and: tokens.map((token) => ({ searchText: { $regex: `(?:^|\\s)${escapeRegex(token)}` } })),
+  })).sort({ sold: -1 }).limit(limit).select('name brand category imageUrl imageUsagePermission imageVerificationStatus localOnlyAsset').lean();
+
+  if (!items.length) return [];
+  const offers = await Offer.find({ productId: { $in: items.map((p) => p._id) }, price: { $gt: 0 } }).lean();
+  const offersByProduct = new Map<string, any[]>();
+  for (const offer of offers) {
+    const key = String(offer.productId);
+    offersByProduct.set(key, [...(offersByProduct.get(key) ?? []), offer]);
+  }
+
+  return items.map((item) => {
+    const bestOffer = advisorCurrentOffer(offersByProduct.get(String(item._id)) ?? []);
+    const canShowImage = item.imageUsagePermission === 'granted' || (item.localOnlyAsset && item.imageVerificationStatus === 'pending');
+    return {
+      _id: item._id,
+      name: item.name,
+      brand: item.brand ?? null,
+      category: item.category,
+      imageUrl: canShowImage ? (item.imageUrl ?? null) : null,
+      price: bestOffer && typeof bestOffer.price === 'number' ? bestOffer.price : null,
+    };
+  });
 }

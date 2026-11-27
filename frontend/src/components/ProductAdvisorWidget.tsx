@@ -10,10 +10,14 @@ type DisplayMessage = AdvisorConversationMessage & { streamId?: string; streamin
 const STORAGE_KEY = 'techfind-advisor-conversation-v1';
 const INTRO: DisplayMessage = {
   role: 'assistant',
-  content: 'Chào bạn! Mình có thể giúp tìm và so sánh thiết bị điện tử trong catalog. Bạn đang cần mua thiết bị gì, dùng cho mục đích nào ạ?',
-  suggested_questions: ['Tư vấn laptop theo ngân sách', 'Tìm điện thoại chụp ảnh tốt', 'So sánh CPU Intel và AMD'],
+  content: 'Chào bạn! Mình có thể giúp tìm và so sánh thiết bị điện tử trong catalog. Bạn có thể chọn nhanh theo 3 bước bên dưới hoặc gõ trực tiếp nhu cầu nhé!',
+  suggested_questions: [],
   products: [],
 };
+
+const WIZARD_DEVICES = ['Laptop', 'Điện thoại', 'Gaming / PC', 'Linh kiện PC', 'Tai nghe / Màn hình'];
+const WIZARD_BUDGETS = ['dưới 10 triệu', '10 – 20 triệu', '20 – 30 triệu', 'trên 30 triệu'];
+const WIZARD_PURPOSES = ['Học tập / Văn phòng', 'Làm việc / Lập trình', 'Gaming', 'Đồ họa / Dựng phim', 'Chụp ảnh / Giải trí'];
 
 export default function ProductAdvisorWidget({
   comparedIds,
@@ -38,6 +42,9 @@ export default function ProductAdvisorWidget({
   const [feedbackError, setFeedbackError] = useState<{ messageId: string; text: string } | null>(null);
   const [reportingMessageId, setReportingMessageId] = useState<string | null>(null);
   const [reportCategory, setReportCategory] = useState<AdvisorFeedbackCategory>('query_understanding');
+  const [wizardStep, setWizardStep] = useState<1 | 2 | 3>(1);
+  const [wizardDevice, setWizardDevice] = useState<string | null>(null);
+  const [wizardBudget, setWizardBudget] = useState<string | null>(null);
   const endRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLTextAreaElement>(null);
   const abortRef = useRef<AbortController | null>(null);
@@ -208,6 +215,9 @@ export default function ProductAdvisorWidget({
     setMessages([]);
     setInput('');
     setFailedRequest(null);
+    setWizardStep(1);
+    setWizardDevice(null);
+    setWizardBudget(null);
     setLoading(false);
   };
 
@@ -290,7 +300,68 @@ export default function ProductAdvisorWidget({
           </div>
 
           {!messages.length && historyReady && (
-            <div className="advisor-welcome-prompts">{INTRO.suggested_questions?.map((question) => <button key={question} type="button" disabled={loading} onClick={() => void send(question)}>{question}</button>)}</div>
+            <div className="advisor-wizard" aria-label="Hướng dẫn chọn nhu cầu nhanh">
+              <div className="advisor-wizard-header">
+                <span className="advisor-wizard-badge">Bước {wizardStep}/3</span>
+                <strong>
+                  {wizardStep === 1
+                    ? 'Bạn đang tìm loại thiết bị nào?'
+                    : wizardStep === 2
+                      ? `Ngân sách cho ${wizardDevice}?`
+                      : `Mục đích sử dụng chính?`}
+                </strong>
+                {wizardStep > 1 && (
+                  <button
+                    type="button"
+                    className="advisor-wizard-back"
+                    onClick={() => setWizardStep((prev) => (prev === 3 ? 2 : 1))}
+                  >
+                    Quay lại
+                  </button>
+                )}
+              </div>
+              <div className="advisor-wizard-options">
+                {wizardStep === 1 && WIZARD_DEVICES.map((device) => (
+                  <button
+                    key={device}
+                    type="button"
+                    disabled={loading}
+                    onClick={() => {
+                      setWizardDevice(device);
+                      setWizardStep(2);
+                    }}
+                  >
+                    {device}
+                  </button>
+                ))}
+                {wizardStep === 2 && WIZARD_BUDGETS.map((budget) => (
+                  <button
+                    key={budget}
+                    type="button"
+                    disabled={loading}
+                    onClick={() => {
+                      setWizardBudget(budget);
+                      setWizardStep(3);
+                    }}
+                  >
+                    {budget}
+                  </button>
+                ))}
+                {wizardStep === 3 && WIZARD_PURPOSES.map((purpose) => (
+                  <button
+                    key={purpose}
+                    type="button"
+                    disabled={loading}
+                    onClick={() => {
+                      const query = `Tôi cần ${wizardDevice} cho ${purpose}, ngân sách ${wizardBudget}`;
+                      void send(query);
+                    }}
+                  >
+                    {purpose}
+                  </button>
+                ))}
+              </div>
+            </div>
           )}
 
           <form className="advisor-composer" onSubmit={submit}>
