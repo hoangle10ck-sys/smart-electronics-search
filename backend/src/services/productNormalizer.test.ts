@@ -19,14 +19,15 @@ test('normalizes product identifiers while preserving variant identifiers as ali
 test('normalizes only unambiguous hardware capacities and leaves the source data alone', () => {
   const source = {
     name: 'Example laptop', brand: 'Dell', model: 'XPS 15',
-    specs: { ram: '32 GB DDR5', storage: '1TB NVMe', vram: '8 GB', cpu: 'Intel Core Ultra 7 155H', gpu: 'NVIDIA RTX 4060' },
-    specifications: { 'Display Size': '15.6 inch', 'Refresh Rate': '120 Hz', 'Other memory': 'shared/system memory' },
+    specs: { ram: '32 GB DDR5', storage: '1TB NVMe', vram: '8 GB', cpu: 'Intel Core Ultra 7 155H', gpu: 'NVIDIA RTX 4060', pin: '5000 mAh', socket: 'LGA 1700' },
+    specifications: { 'Display Size': '15.6 inch', 'Refresh Rate': '120 Hz', 'Other memory': 'shared/system memory', 'Công suất': '750W', 'Form factor': 'ATX' },
   };
   const normalized = normalizeProduct(source);
   assert.deepEqual(normalized.normalizedSpecs, {
     ramGB: 32, storageGB: 1024, storageType: 'ssd', vramGB: 8,
     cpuModel: 'Intel Core Ultra 7 155H', gpuModel: 'NVIDIA RTX 4060',
     displayInches: 15.6, refreshRateHz: 120,
+    batteryMah: 5000, powerWatts: 750, socket: 'LGA1700', memoryType: 'DDR5', formFactor: 'ATX'
   });
   assert.equal(source.specs.storage, '1TB NVMe');
   assert.equal(source.specifications['Other memory'], 'shared/system memory');

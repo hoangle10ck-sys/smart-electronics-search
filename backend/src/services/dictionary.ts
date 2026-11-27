@@ -36,6 +36,11 @@ export const CATEGORIES: Record<string, { label: string; terms: string[] }> = {
   streaming_capture: { label: 'Streaming / Capture Devices', terms: ['capture card', 'capture device', 'video capture', 'streaming device', 'stream deck'] },
   ereader: { label: 'E-reader', terms: ['e-reader', 'ereader', 'e reader', 'ebook reader', 'kindle', 'kobo'] },
   professional_audio: { label: 'Professional Audio', terms: ['professional audio', 'audio interface', 'audio mixer', 'studio monitor', 'pa system', 'live sound mixer'] },
+  cpu_cooler: { label: 'Tản nhiệt CPU', terms: ['tan nhiet cpu', 'tan nhiet', 'cpu cooler', 'cooler', 'tan khi', 'tan nuoc', 'aio'] },
+  case_fan: { label: 'Quạt tản nhiệt / Case fan', terms: ['quat tan nhiet', 'case fan', 'quat case', 'fan case', 'quat'] },
+  pc_case: { label: 'Vỏ máy tính / Case PC', terms: ['vo case', 'case pc', 'vo may tinh', 'thung may', 'case may tinh'] },
+  power_supply: { label: 'Nguồn máy tính / PSU', terms: ['nguon may tinh', 'nguon pc', 'psu', 'power supply', 'nguon'] },
+  single_board_computer: { label: 'Máy tính mini / SBC', terms: ['may tinh don bo', 'single board computer', 'sbc', 'raspberry pi', 'orange pi', 'banana pi'] },
 };
 
 export const BRANDS: Record<string, string[]> = {
@@ -91,6 +96,24 @@ export const BRANDS: Record<string, string[]> = {
   Vivo: ['vivo'],
   'Western Digital': ['western digital', 'wd'],
   'Nothing': ['nothing'],
+  DeepCool: ['deepcool', 'deep cool'],
+  'Cooler Master': ['cooler master', 'coolermaster'],
+  Noctua: ['noctua'],
+  Thermalright: ['thermalright'],
+  'be quiet!': ['be quiet', 'bequiet', 'dark rock'],
+  Seasonic: ['seasonic'],
+  NZXT: ['nzxt'],
+  Kingston: ['kingston', 'fury'],
+  'G.Skill': ['gskill', 'g skill', 'trident'],
+  Crucial: ['crucial'],
+  Bose: ['bose'],
+  Sennheiser: ['sennheiser'],
+  Marshall: ['marshall'],
+  Edifier: ['edifier'],
+  Garmin: ['garmin'],
+  Akko: ['akko'],
+  'Raspberry Pi': ['raspberry pi', 'raspi', 'rpi'],
+  'Orange Pi': ['orange pi', 'orangepi', 'opi'],
 };
 
 // Từ khoá là tên dòng sản phẩm: dùng để suy ra hãng/loại nhưng vẫn giữ lại làm từ khoá chấm điểm.

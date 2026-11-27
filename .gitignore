@@ -5,6 +5,7 @@ dist
 !.env.example
 .chrome-preview-profile
 frontend/dark-style-check.png
+backend/reports/
 
 
 

@@ -100,6 +100,35 @@ function normalizedSpecs(product: ProductLike): Record<string, number | string> 
   const hzMatch = typeof refresh === 'string' ? refresh.match(/(\d+(?:\.\d+)?)\s*hz/i) : null;
   const refreshHz = positiveNumber(refresh) ?? (hzMatch ? Number(hzMatch[1]) : undefined);
   if (refreshHz && refreshHz <= 1000) result.refreshRateHz = refreshHz;
+
+  const battery = lookup(sources, ['battery', 'battery capacity', 'pin', 'dung lượng pin']);
+  const batteryMatch = typeof battery === 'string' ? battery.match(/(\d{3,5})\s*mah/i) : null;
+  const batteryMah = batteryMatch ? Number(batteryMatch[1]) : (typeof battery === 'number' && battery >= 500 && battery <= 50000 ? battery : undefined);
+  if (batteryMah) result.batteryMah = batteryMah;
+
+  const power = lookup(sources, ['công suất', 'công suất nguồn', 'power', 'wattage', 'psu wattage', 'nguồn khuyến nghị', 'công suất danh định', 'công suất tối đa']);
+  const powerMatch = typeof power === 'string' ? power.match(/(\d{2,4})\s*w(?:att)?\b/i) : null;
+  const powerWatts = powerMatch ? Number(powerMatch[1]) : (typeof power === 'number' && power >= 10 && power <= 3000 ? power : undefined);
+  if (powerWatts) result.powerWatts = powerWatts;
+
+  const socketVal = lookup(sources, ['socket', 'loại socket', 'chân cắm', 'socket cpu', 'tương thích']);
+  if (typeof socketVal === 'string') {
+    const socketMatch = socketVal.match(/\b(LGA\s*\d+|AM[45]|sTRX\d+|sWRX\d+|SP\d+|BGA\s*\d+)\b/i);
+    if (socketMatch) result.socket = socketMatch[1].toUpperCase().replace(/\s+/g, '');
+  }
+
+  const memoryTypeVal = lookup(sources, ['chuẩn ram', 'loại ram', 'memory type', 'ram type', 'chuẩn bộ nhớ', 'ram', 'memory']);
+  if (typeof memoryTypeVal === 'string') {
+    const memMatch = memoryTypeVal.match(/\b(DDR[345]|LPDDR[45]X?|GDDR[56]X?)\b/i);
+    if (memMatch) result.memoryType = memMatch[1].toUpperCase();
+  }
+
+  const formFactorVal = lookup(sources, ['chuẩn mainboard', 'kích thước mainboard', 'form factor', 'kích thước nguồn', 'chuẩn nguồn']);
+  if (typeof formFactorVal === 'string') {
+    const formMatch = formFactorVal.match(/\b(E-ATX|ATX|Micro-ATX|mATX|Mini-ITX|ITX|SFX|TFX)\b/i);
+    if (formMatch) result.formFactor = formMatch[1].toUpperCase();
+  }
+
   return result;
 }
 

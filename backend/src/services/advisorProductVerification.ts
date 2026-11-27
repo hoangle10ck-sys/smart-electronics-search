@@ -272,9 +272,9 @@ export function evaluateVerifiedAdvisorFit(product: any, requirements: any, now 
   };
 }
 
-export function buildVerifiedAdvisorProductContext(product: any) {
+export function buildVerifiedAdvisorProductContext(product: any, now?: Date) {
   const fit = product.advisorFit ?? {};
-  const classifiedPrice = classifyAdvisorPrice(product.bestOffer);
+  const classifiedPrice = fit.priceEvidence ?? classifyAdvisorPrice(product.bestOffer, now);
   const price = product.bestOffer ? classifiedPrice : {
     ...classifiedPrice,
     status: product.priceEvidence?.status ?? classifiedPrice.status,

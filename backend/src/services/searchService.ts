@@ -349,11 +349,13 @@ export async function smartSearch(
     && !parsed.brands.length && parsed.minPrice === undefined && parsed.maxPrice === undefined
     && !parsed.ram && !parsed.storageGB && !parsed.storageType && !parsed.vramGB && !parsed.displayInches
     && !parsed.tags.length && !parsed.keywords.length && modelCodes.length === 0;
+  const shouldFetchCategoryCandidates = Boolean(parsed.categoryGroup?.length || parsed.category)
+    && (isCategoryBrowse || parsed.keywords.length === 0);
   const candidatesStartedAt = performance.now();
   const [exact, keyword, browse] = await Promise.all([
     mode === 'hybrid' || mode === 'exact' ? exactCandidates(baseFilter, q, modelCodes, parsed.keywords) : Promise.resolve([]),
     mode === 'hybrid' || mode === 'keyword' ? keywordCandidates(baseFilter, parsed) : Promise.resolve([]),
-    isCategoryBrowse ? categoryBrowseCandidates(baseFilter) : Promise.resolve([]),
+    shouldFetchCategoryCandidates ? categoryBrowseCandidates(baseFilter) : Promise.resolve([]),
   ]);
   recordAdvisorPhase('mongo_retrieval', performance.now() - candidatesStartedAt);
   const hasAllCodes = (product: any) => {
