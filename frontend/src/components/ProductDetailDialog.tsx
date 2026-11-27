@@ -49,6 +49,7 @@ export default function ProductDetailDialog({
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
   const [similarLoading, setSimilarLoading] = useState(true);
+  const [imageFailed, setImageFailed] = useState(false);
 
   useEffect(() => {
     const dialog = dialogRef.current;
@@ -59,6 +60,7 @@ export default function ProductDetailDialog({
   useEffect(() => {
     const controller = new AbortController();
     setProduct(initialProduct);
+    setImageFailed(false);
     setLoading(true);
     setError('');
     setSimilar([]);
@@ -110,8 +112,8 @@ export default function ProductDetailDialog({
 
         <div className="detail-overview">
           <div className="detail-image">
-            {imageUrl
-              ? <img src={imageUrl} alt={getProductDisplayName(product)} />
+            {imageUrl && !imageFailed
+              ? <img src={imageUrl} alt={getProductDisplayName(product)} referrerPolicy="no-referrer" onError={() => setImageFailed(true)} />
               : <div className="product-image-placeholder"><Icon name="image" size={42} /><span>Chưa có hình ảnh</span></div>}
           </div>
           <div className="detail-summary">
