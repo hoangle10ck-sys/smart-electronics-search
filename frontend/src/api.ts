@@ -353,6 +353,31 @@ export async function getSimilarProducts(id: string, limit = 4, signal?: AbortSi
   });
 }
 
+export interface CompatibilityCheckItem {
+  pair: string;
+  label: string;
+  status: 'COMPATIBLE' | 'INCOMPATIBLE' | 'UNKNOWN';
+  reason: string;
+}
+
+export interface CompatibilityReport {
+  success: boolean;
+  overallStatus: 'COMPATIBLE' | 'INCOMPATIBLE' | 'UNKNOWN';
+  checks: CompatibilityCheckItem[];
+  summary: string;
+}
+
+export async function checkCompatibility(productIds: string[], signal?: AbortSignal): Promise<CompatibilityReport> {
+  const res = await fetch(`${BASE}/v1/compatibility/check`, {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    signal,
+    body: JSON.stringify({ productIds }),
+  });
+  if (!res.ok) throw new Error('Không kiểm tra được độ tương thích linh kiện.');
+  return res.json();
+}
+
 export const formatVND = (n: number) =>
   new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND', maximumFractionDigits: 0 }).format(n);
 

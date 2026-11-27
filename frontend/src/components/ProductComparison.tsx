@@ -1,6 +1,8 @@
-import { useState } from 'react';
-import { Product, formatVND } from '../api';
+import { useEffect, useState } from 'react';
+import { CompatibilityReport, Product, checkCompatibility, formatVND } from '../api';
 import { getProductDisplayName } from '../productDisplayName';
+
+const PC_PART_CATEGORIES = new Set(['cpu', 'motherboard', 'ram', 'gpu', 'power_supply', 'pc_case']);
 
 const LABELS: Record<string, string> = {
   cpu: 'CPU', gpu: 'GPU', ram: 'RAM', storage: 'Lưu trữ', screen: 'Màn hình', display: 'Màn hình',
@@ -104,6 +106,22 @@ export default function ProductComparison({ products, onRemove, onClear }: {
   onClear: () => void;
 }) {
   const [showDiffOnly, setShowDiffOnly] = useState(false);
+  const [compatReport, setCompatReport] = useState<CompatibilityReport | null>(null);
+  const pcParts = products.filter((p) => PC_PART_CATEGORIES.has(p.category));
+  const hasPcPartPair = pcParts.length >= 2 && new Set(pcParts.map((p) => p.category)).size >= 2;
+
+  useEffect(() => {
+    if (!hasPcPartPair) {
+      setCompatReport(null);
+      return;
+    }
+    const controller = new AbortController();
+    checkCompatibility(pcParts.map((p) => p._id), controller.signal)
+      .then((report) => setCompatReport(report))
+      .catch(() => { if (!controller.signal.aborted) setCompatReport(null); });
+    return () => controller.abort();
+  }, [products.map((p) => `${p._id}:${p.category}`).join('|')]);
+
   if (!products.length) return null;
   const fields = technicalFields(products);
   const validPrices = products.map((p) => productPrice(p)).filter((p): p is number => p != null && p > 0);
@@ -177,6 +195,31 @@ export default function ProductComparison({ products, onRemove, onClear }: {
           <button type="button" className="comparison-clear" onClick={onClear}>Bỏ chọn tất cả</button>
         </div>
       </div>
+      {compatReport && compatReport.checks.length > 0 && (
+        <div
+          role="status"
+          style={{
+            marginBottom: '12px',
+            padding: '10px 14px',
+            borderRadius: '10px',
+            border: `1px solid ${compatReport.overallStatus === 'COMPATIBLE' ? 'rgba(22, 163, 74, 0.35)' : compatReport.overallStatus === 'INCOMPATIBLE' ? 'rgba(220, 38, 38, 0.35)' : 'var(--line)'}`,
+            background: compatReport.overallStatus === 'COMPATIBLE' ? 'rgba(22, 163, 74, 0.08)' : compatReport.overallStatus === 'INCOMPATIBLE' ? 'rgba(220, 38, 38, 0.08)' : 'var(--surface-subtle)',
+            fontSize: '0.78rem',
+          }}
+        >
+          <div style={{ fontWeight: 700, marginBottom: '6px', color: compatReport.overallStatus === 'COMPATIBLE' ? '#15803d' : compatReport.overallStatus === 'INCOMPATIBLE' ? '#b91c1c' : 'var(--ink)' }}>
+            {compatReport.overallStatus === 'COMPATIBLE' ? '✓ Tương thích phần cứng: ' : compatReport.overallStatus === 'INCOMPATIBLE' ? '✕ Cảnh báo không tương thích: ' : 'ⓘ Kiểm tra tương thích: '}
+            {compatReport.summary}
+          </div>
+          <ul style={{ margin: 0, paddingLeft: '18px', display: 'grid', gap: '4px' }}>
+            {compatReport.checks.map((c) => (
+              <li key={`${c.pair}-${c.reason}`}>
+                <strong>{c.label}:</strong> [{c.status}] {c.reason}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
       {products.length < 2
         ? <p className="comparison-hint">Chọn thêm ít nhất một sản phẩm để bắt đầu so sánh. Có thể chọn tối đa 4 mẫu.</p>
         : <div className="comparison-scroll" tabIndex={0} aria-label="Bảng so sánh có thể cuộn ngang">

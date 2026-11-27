@@ -207,6 +207,17 @@ export function buildFilter(p: ParsedQuery, categoryWasExplicit: boolean): Filte
     const tolerance = Number.isInteger(p.displayInches) ? 0.75 : 0.25;
     filter.$and.push({ 'normalizedSpecs.displayInches': { $gte: Math.max(0, p.displayInches - tolerance), $lte: p.displayInches + tolerance } });
   }
+  if (p.refreshRateHz) addNumericConstraint('normalizedSpecs.refreshRateHz', p.refreshRateHz);
+  if (p.powerWatts) addNumericConstraint('normalizedSpecs.powerWatts', p.powerWatts);
+  if (p.memoryType) filter.$and.push({ 'normalizedSpecs.memoryType': p.memoryType });
+  if (p.resolution) {
+    const resRegex: Record<'FHD' | 'QHD' | '4K', string> = {
+      FHD: '\\b(?:fhd|full hd|1080p|1920\\s*[x*]\\s*1080)\\b',
+      QHD: '\\b(?:2k|qhd|wqhd|1440p|2560\\s*[x*]\\s*1440)\\b',
+      '4K': '\\b(?:4k|uhd|2160p|3840\\s*[x*]\\s*2160)\\b',
+    };
+    filter.$and.push({ searchText: { $regex: resRegex[p.resolution] } });
+  }
   return withRecommendationReadiness(filter);
 }
 
@@ -393,6 +404,10 @@ export async function smartSearch(
     if (parsed.ram) reasons.push(`RAM ${product.normalizedSpecs?.ramGB ?? product.specs?.ram}GB`);
     if (parsed.storageGB) reasons.push(`Ổ lưu trữ từ ${parsed.storageGB}GB`);
     if (parsed.vramGB) reasons.push(`VRAM từ ${parsed.vramGB}GB`);
+    if (parsed.refreshRateHz) reasons.push(`Tần số quét từ ${parsed.refreshRateHz}Hz`);
+    if (parsed.powerWatts) reasons.push(`Công suất từ ${parsed.powerWatts}W`);
+    if (parsed.memoryType) reasons.push(`Chuẩn bộ nhớ ${parsed.memoryType}`);
+    if (parsed.resolution) reasons.push(`Độ phân giải ${parsed.resolution}`);
     const hasBudget = parsed.minPrice !== undefined || parsed.maxPrice !== undefined;
     const price = product.bestOffer?.verified === true && typeof product.bestOffer.price === 'number' ? product.bestOffer.price : null;
     if (hasBudget && price !== null && (parsed.minPrice === undefined || price >= parsed.minPrice) && (parsed.maxPrice === undefined || price <= parsed.maxPrice)) reasons.push('Trong ngân sách');
@@ -455,6 +470,7 @@ export async function smartSearch(
       category: parsed.category ? CATEGORIES[parsed.category]?.label ?? parsed.category : parsed.categoryGroup?.length ? 'Máy tính' : undefined,
       brands: parsed.brands, minPrice: parsed.minPrice, maxPrice: parsed.maxPrice, ram: parsed.ram,
       storageGB: parsed.storageGB, storageType: parsed.storageType, vramGB: parsed.vramGB, displayInches: parsed.displayInches,
+      refreshRateHz: parsed.refreshRateHz, powerWatts: parsed.powerWatts, memoryType: parsed.memoryType, resolution: parsed.resolution,
       tags: parsed.tags.map((tag) => TAGS[tag]?.label ?? tag), keywords: parsed.keywords,
     },
     notes,

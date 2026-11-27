@@ -8,6 +8,7 @@ import { smartSearch, SearchMode } from '../services/searchService';
 import { validateSearchRequest } from '../services/searchRequest';
 import { takeLiveSearchSlot } from '../services/liveSearchRateLimit';
 import { withRecommendationReadiness } from '../services/catalogReadiness';
+import { checkHardwareCompatibility } from '../services/hardwareCompatibility';
 import advisorChatRoutes from './advisorChat';
 
 const router = Router();
@@ -145,6 +146,28 @@ router.post('/feedback', async (req, res, next) => {
     if (productId && !await Product.exists({ _id: productId, publicationStatus: 'published', verified: true })) return res.status(404).json({ success: false, message: 'product not found' });
     const entry = await SearchFeedback.create({ query: query.trim(), productId, feedback, searchMethod: searchMode as SearchMode });
     return res.status(201).json({ success: true, id: entry._id });
+  } catch (error) { next(error); }
+});
+
+router.post('/compatibility/check', async (req, res, next) => {
+  try {
+    const productIds = Array.isArray(req.body?.productIds) ? req.body.productIds : [];
+    if (productIds.length < 2 || productIds.length > 8 || productIds.some((id: unknown) => typeof id !== 'string' || !isValidObjectId(id))) {
+      return res.status(400).json({ success: false, message: 'productIds phải chứa từ 2 đến 8 ID sản phẩm hợp lệ' });
+    }
+    const products = await Product.find(withRecommendationReadiness({
+      _id: { $in: productIds }, verified: true, productVerificationStatus: 'verified',
+      urlVerificationStatus: 'verified', publicationStatus: 'published',
+    })).select('_id name brand category specs specifications normalizedSpecs').lean() as any[];
+    if (products.length < 2) {
+      return res.status(404).json({ success: false, message: 'Không đủ sản phẩm đã xác minh để kiểm tra tương thích' });
+    }
+    const report = checkHardwareCompatibility(products);
+    return res.json({
+      success: true,
+      ...report,
+      products: products.map((p) => ({ id: String(p._id), name: p.name, category: p.category, brand: p.brand })),
+    });
   } catch (error) { next(error); }
 });
 

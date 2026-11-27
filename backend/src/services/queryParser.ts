@@ -16,6 +16,10 @@ export interface ParsedQuery {
   storageType?: 'ssd' | 'hdd';
   vramGB?: number;
   displayInches?: number;
+  refreshRateHz?: number;
+  powerWatts?: number;
+  memoryType?: string;
+  resolution?: 'FHD' | 'QHD' | '4K';
   tags: string[];
   keywords: string[];
   validationIssues: string[];
@@ -39,6 +43,12 @@ const STORAGE = /(\d+(?:\.\d+)?)\s*(tb|gb)\s*(?:ssd|storage|o cung)?|(?:ssd|stor
 const STORAGE_TYPE = /\b(ssd|solid state drive|nvme|hdd|hard disk drive)\b/;
 const VRAM = /(?:vram|gpu memory|bo nho do hoa)\s*(\d+(?:\.\d+)?)\s*(tb|gb)?|(\d+(?:\.\d+)?)\s*(tb|gb)\s*vram/;
 const DISPLAY = /(\d+(?:\.\d+)?)\s*(?:inch|inches|in|\")/;
+const REFRESH_RATE = /\b(\d{2,3})\s*hz\b/;
+const POWER_WATTS = /\b(\d{2,4})\s*w(?:att|atts)?\b/;
+const MEMORY_TYPE = /\b(lpddr5x?|lpddr4x?|gddr6x?|gddr5|ddr[345])\b/;
+const RESOLUTION_4K = /\b(4k|uhd|2160p)\b/;
+const RESOLUTION_QHD = /\b(2k|qhd|wqhd|1440p)\b/;
+const RESOLUTION_FHD = /\b(fhd|full\s*hd|1080p)\b/;
 
 function toVnd(n: string, unit?: string): number {
   const v = parseFloat(n);
@@ -76,6 +86,10 @@ export function parseQuery(raw: string): ParsedQuery {
   ];
   for (const [terms, mode] of sorts) if (terms.some((t) => hasPhrase(text, t))) { p.sort = mode; break; }
 
+  // ---- Chuẩn bộ nhớ (chạy trước RAM để "RAM DDR5 32GB" được parse đầy đủ)
+  const memTypeM = text.match(MEMORY_TYPE);
+  if (memTypeM) { p.memoryType = memTypeM[1].toUpperCase(); text = text.replace(memTypeM[0], ' ').replace(/\s+/g, ' ').trim(); }
+
   // ---- RAM
   const ramM = text.match(RAM);
   if (ramM) { p.ram = parseInt(ramM[1] || ramM[2], 10); text = text.replace(ramM[0], ' '); }
@@ -105,6 +119,20 @@ export function parseQuery(raw: string): ParsedQuery {
   }
   const displayM = text.match(DISPLAY);
   if (displayM) { p.displayInches = Number(displayM[1]); text = text.replace(displayM[0], ' '); }
+  const refreshM = text.match(REFRESH_RATE);
+  if (refreshM) { p.refreshRateHz = parseInt(refreshM[1], 10); text = text.replace(refreshM[0], ' '); }
+  const powerM = text.match(POWER_WATTS);
+  if (powerM) { p.powerWatts = parseInt(powerM[1], 10); text = text.replace(powerM[0], ' '); }
+  const res4kM = text.match(RESOLUTION_4K);
+  if (res4kM) { p.resolution = '4K'; text = text.replace(res4kM[0], ' '); }
+  else {
+    const resQhdM = text.match(RESOLUTION_QHD);
+    if (resQhdM) { p.resolution = 'QHD'; text = text.replace(resQhdM[0], ' '); }
+    else {
+      const resFhdM = text.match(RESOLUTION_FHD);
+      if (resFhdM) { p.resolution = 'FHD'; text = text.replace(resFhdM[0], ' '); }
+    }
+  }
 
   // ---- giá
   const take = (r: RegExp) => { const m = text.match(r); if (m) text = text.replace(m[0], ' '); return m; };
@@ -146,6 +174,14 @@ export function parseQuery(raw: string): ParsedQuery {
   if (p.displayInches !== undefined && (!Number.isFinite(p.displayInches) || p.displayInches < 3 || p.displayInches > 100)) {
     p.validationIssues.push('Kích thước màn hình phải nằm trong khoảng từ 3 đến 100 inch.');
     delete p.displayInches;
+  }
+  if (p.refreshRateHz !== undefined && (!Number.isFinite(p.refreshRateHz) || p.refreshRateHz < 30 || p.refreshRateHz > 1000)) {
+    p.validationIssues.push('Tần số quét phải nằm trong khoảng từ 30 đến 1000 Hz.');
+    delete p.refreshRateHz;
+  }
+  if (p.powerWatts !== undefined && (!Number.isFinite(p.powerWatts) || p.powerWatts < 10 || p.powerWatts > 3000)) {
+    p.validationIssues.push('Công suất phải nằm trong khoảng từ 10 đến 3000 W.');
+    delete p.powerWatts;
   }
 
   // ---- loại sản phẩm (thuật ngữ dài nhất thắng)

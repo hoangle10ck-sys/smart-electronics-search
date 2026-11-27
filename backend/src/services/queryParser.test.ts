@@ -56,3 +56,24 @@ test('specific computer categories remain more specific than generic máy tính'
   assert.equal(parseQuery('máy tính bảng').category, 'tablet');
   assert.equal(parseQuery('máy tính xách tay').categoryGroup, undefined);
 });
+
+test('extracts refresh rate, resolution, power watts, and memory type constraints', () => {
+  const monitor = parseQuery('màn hình 27 inch 2K 144Hz');
+  assert.equal(monitor.category, 'monitor');
+  assert.equal(monitor.displayInches, 27);
+  assert.equal(monitor.resolution, 'QHD');
+  assert.equal(monitor.refreshRateHz, 144);
+
+  const psu = parseQuery('nguồn máy tính 750W');
+  assert.equal(psu.category, 'power_supply');
+  assert.equal(psu.powerWatts, 750);
+
+  const ram = parseQuery('RAM DDR5 32GB');
+  assert.equal(ram.category, 'ram');
+  assert.equal(ram.memoryType, 'DDR5');
+  assert.equal(ram.ram, 32);
+
+  const tv4k = parseQuery('tivi 4K 120Hz');
+  assert.equal(tv4k.resolution, '4K');
+  assert.equal(tv4k.refreshRateHz, 120);
+});
