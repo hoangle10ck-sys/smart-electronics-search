@@ -201,7 +201,14 @@ export function buildFilter(p: ParsedQuery, categoryWasExplicit: boolean): Filte
   };
   if (p.ram) addNumericConstraint('normalizedSpecs.ramGB', p.ram);
   if (p.storageGB) addNumericConstraint('normalizedSpecs.storageGB', p.storageGB);
-  if (p.storageType) filter.$and.push({ 'normalizedSpecs.storageType': p.storageType });
+  if (p.storageType) {
+    filter.$and.push({
+      $or: [
+        { 'normalizedSpecs.storageType': p.storageType },
+        { searchText: { $regex: p.storageType === 'ssd' ? '\\b(?:ssd|nvme)\\b' : '\\bhdd\\b' } },
+      ],
+    });
+  }
   if (p.vramGB) addNumericConstraint('normalizedSpecs.vramGB', p.vramGB);
   if (p.displayInches) {
     const tolerance = Number.isInteger(p.displayInches) ? 0.75 : 0.25;

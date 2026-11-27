@@ -185,15 +185,31 @@ export function parseQuery(raw: string): ParsedQuery {
   }
 
   // ---- loại sản phẩm (thuật ngữ dài nhất thắng)
-  let bestCat: { key: string; term: string } | undefined;
+  const matchedCats: { key: string; term: string }[] = [];
   for (const [key, c] of Object.entries(CATEGORIES)) {
     const t = bestTerm(text, c.terms);
-    if (t && (!bestCat || t.length > bestCat.term.length)) bestCat = { key, term: t };
+    if (t) matchedCats.push({ key, term: t });
+  }
+  const hasHeadphone = matchedCats.some((c) => c.key === 'headphone');
+  if (hasHeadphone && /\bco\s+(?:microphone|mic)\b/.test(text)) {
+    const idx = matchedCats.findIndex((c) => c.key === 'microphone');
+    if (idx >= 0) matchedCats.splice(idx, 1);
+    text = text.replace(/\bco\s+(?:microphone|mic)\b/g, ' ').replace(/\s+/g, ' ').trim();
+  }
+  let bestCat: { key: string; term: string } | undefined = matchedCats.sort((a, b) => b.term.length - a.term.length)[0];
+  if (matchedCats.length >= 2) {
+    let remaining = text;
+    for (const cat of matchedCats) remaining = removePhrase(remaining, cat.term);
+    if (!remaining.trim()) {
+      p.categoryGroup = [...new Set(matchedCats.map((c) => c.key))];
+      text = '';
+      bestCat = undefined;
+    }
   }
   if (bestCat) {
     p.category = bestCat.key;
     for (const t of CATEGORIES[bestCat.key].terms) if (!KEEP_AS_KEYWORD.has(t)) text = removePhrase(text, t);
-  } else if (categoryFromOriginalText) p.category = categoryFromOriginalText;
+  } else if (!p.categoryGroup && categoryFromOriginalText) p.category = categoryFromOriginalText;
   else if (hasPhrase(text, 'may tinh')) {
     // "Máy tính" is a broad computer request, not a motherboard request.
     // Keep the query scoped to computers while including both laptop and desktop.

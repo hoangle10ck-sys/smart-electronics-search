@@ -11,7 +11,7 @@ export const CATEGORIES: Record<string, { label: string; terms: string[] }> = {
   soc: { label: 'SoC / Chipset', terms: ['soc', 'system on a chip', 'chipset', 'mobile chipset', 'chip'] },
   gpu: { label: 'GPU', terms: ['gpu', 'card man hinh', 'graphics card', 'video card'] },
   ram: { label: 'RAM', terms: ['ram', 'bo nho ram'] },
-  storage: { label: 'SSD / ổ cứng', terms: ['ssd', 'hdd', 'o cung', 'hard drive'] },
+  storage: { label: 'SSD / ổ cứng', terms: ['ssd', 'hdd', 'o cung', 'hard drive', 'storage'] },
   motherboard: { label: 'Mainboard', terms: ['mainboard', 'motherboard', 'bo mach chu'] },
   headphone: { label: 'Tai nghe', terms: ['tai nghe', 'headphone', 'earbuds', 'airpods'] },
   speaker: { label: 'Loa', terms: ['loa', 'speaker'] },

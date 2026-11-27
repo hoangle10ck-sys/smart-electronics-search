@@ -77,3 +77,17 @@ test('extracts refresh rate, resolution, power watts, and memory type constraint
   assert.equal(tv4k.resolution, '4K');
   assert.equal(tv4k.refreshRateHz, 120);
 });
+
+test('handles storage aliases, headphone with microphone, and multi-category peripheral queries', () => {
+  const ssd = parseQuery('SSD storage');
+  assert.equal(ssd.category, 'storage');
+  assert.equal(ssd.storageType, 'ssd');
+  assert.equal(ssd.keywords.includes('storage'), false);
+
+  const micHeadphone = parseQuery('tai nghe học online có microphone');
+  assert.equal(micHeadphone.category, 'headphone');
+
+  const peripherals = parseQuery('keyboard mouse webcam');
+  assert.deepEqual(new Set(peripherals.categoryGroup), new Set(['keyboard', 'mouse', 'webcam']));
+  assert.equal(peripherals.keywords.length, 0);
+});

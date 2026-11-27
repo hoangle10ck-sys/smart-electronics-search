@@ -12,6 +12,18 @@ import ThemeToggle, { ThemePreference, useThemePreference } from './components/T
 const PAGE_SIZE = 12;
 
 type Sort = 'relevance' | 'price_asc' | 'price_desc' | 'rating';
+const PRICE_QUICK_FILTERS = [
+  { label: 'Dưới 10tr', min: '', max: '10000000' },
+  { label: '10 – 20tr', min: '10000000', max: '20000000' },
+  { label: '20 – 30tr', min: '20000000', max: '30000000' },
+  { label: 'Trên 30tr', min: '30000000', max: '' },
+];
+const RAM_QUICK_FILTERS = [
+  { label: 'RAM 8GB+', value: '8' },
+  { label: 'RAM 16GB+', value: '16' },
+  { label: 'RAM 32GB+', value: '32' },
+];
+
 type Filters = { category: string; brand: string; minPrice: string; maxPrice: string; minRam: string };
 const EMPTY_FILTERS: Filters = { category: '', brand: '', minPrice: '', maxPrice: '', minRam: '' };
 
@@ -345,6 +357,55 @@ function SearchApp() {
           <div className="results-layout">
             <SearchFilters filters={filters} categories={availableCategories} brands={availableBrands} onChange={updateFilter} onReset={() => { setFilters(EMPTY_FILTERS); setPage(1); }} onClose={() => setMobileFiltersOpen(false)} isOpen={mobileFiltersOpen} />
             <div className="results-content">
+              <div className="quick-filters-bar" role="group" aria-label="Bộ lọc nhanh theo giá và RAM">
+                {PRICE_QUICK_FILTERS.map((pf) => {
+                  const active = filters.minPrice === pf.min && filters.maxPrice === pf.max;
+                  return (
+                    <button
+                      key={pf.label}
+                      type="button"
+                      className={`quick-filter-pill${active ? ' is-active' : ''}`}
+                      aria-pressed={active}
+                      onClick={() => {
+                        setFilters((current) => ({
+                          ...current,
+                          minPrice: active ? '' : pf.min,
+                          maxPrice: active ? '' : pf.max,
+                        }));
+                        setPage(1);
+                      }}
+                    >
+                      {pf.label}
+                    </button>
+                  );
+                })}
+                {RAM_QUICK_FILTERS.map((rf) => {
+                  const active = filters.minRam === rf.value;
+                  return (
+                    <button
+                      key={rf.label}
+                      type="button"
+                      className={`quick-filter-pill${active ? ' is-active' : ''}`}
+                      aria-pressed={active}
+                      onClick={() => {
+                        setFilters((current) => ({ ...current, minRam: active ? '' : rf.value }));
+                        setPage(1);
+                      }}
+                    >
+                      {rf.label}
+                    </button>
+                  );
+                })}
+                {activeFilterCount > 0 && (
+                  <button
+                    type="button"
+                    className="quick-filter-reset"
+                    onClick={() => { setFilters(EMPTY_FILTERS); setPage(1); }}
+                  >
+                    Xóa lọc ({activeFilterCount})
+                  </button>
+                )}
+              </div>
               <div className="results-toolbar">
                 <div><strong>{filteredItems.length.toLocaleString('vi-VN')}</strong><span> sản phẩm trong danh sách đã tải</span></div>
                 <label className="sort-control"><span>Sắp xếp</span><select value={sort} onChange={(event) => { setSort(event.target.value as Sort); setPage(1); }}><option value="relevance">Phù hợp nhất</option><option value="price_asc">Giá thấp đến cao</option><option value="price_desc">Giá cao đến thấp</option><option value="rating">Đánh giá cao</option></select></label>
