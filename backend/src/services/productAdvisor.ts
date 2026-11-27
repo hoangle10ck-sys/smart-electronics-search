@@ -46,6 +46,7 @@ const advisorProductVerification_1 = require("./advisorProductVerification");
 const advisorPerformance_1 = require("./advisorPerformance");
 const advisorResponsePolicy_1 = require("./advisorResponsePolicy");
 const catalogReadiness_1 = require("./catalogReadiness");
+const hardwareCompatibility_1 = require("./hardwareCompatibility");
 exports.ADVISOR_INTENTS = [
     'greeting', 'product_consultation', 'product_search', 'budget_consultation', 'product_comparison',
     'specification_question', 'compatibility_check', 'price_question', 'purchase_advice', 'follow_up', 'clarification', 'unknown',
@@ -699,9 +700,10 @@ function advisorFrontendProducts(selectedCandidates, historicalReference) {
     });
 }
 async function respondToAdvisorTurn(args) {
-    const { intent, requirements, history, latestMessage, previousProductIds, historicalProductIds = [], reuseCurrentResults = false, requestMoreProducts = false, clarification } = args;
+    const { intent, requirements, history, latestMessage, previousProductIds, historicalProductIds = [], explicitProductIds = [], reuseCurrentResults = false, requestMoreProducts = false, clarification } = args;
     const searchProducts = args.searchProducts ?? searchService_1.smartSearch;
     const generateExplanation = args.generateExplanation ?? generateAdvisorAnswer;
+    const loadByIds = args.loadProductsById ?? loadVerifiedProductsById;
     if (clarification.needsClarification) {
         if (args.onVerifiedProducts) await args.onVerifiedProducts([]);
         return {
@@ -722,8 +724,11 @@ async function respondToAdvisorTurn(args) {
     let searchQuery = '';
     const asksAboutHistoricalProducts = historicalProductIds.length > 0 && isExplicitHistoricalReference(latestMessage);
     const shouldSearch = !clarification.needsClarification && Boolean(requirements.category || requirements.modelIdentifiers.length || previousProductIds.length);
-    if (asksAboutHistoricalProducts) {
-        candidates = await loadVerifiedProductsById(historicalProductIds.slice(0, 12));
+    if (Array.isArray(explicitProductIds) && explicitProductIds.length) {
+        candidates = await loadByIds(explicitProductIds.slice(0, 4));
+    }
+    else if (asksAboutHistoricalProducts) {
+        candidates = await loadByIds(historicalProductIds.slice(0, 12));
         const mentionedBrands = (0, queryParser_1.parseQuery)(latestMessage).brands;
         if (mentionedBrands.length) {
             const matching = candidates.filter((product) => mentionedBrands.some((brand) => (0, text_1.normalize)(product.brand ?? '').includes((0, text_1.normalize)(brand))));
@@ -734,7 +739,7 @@ async function respondToAdvisorTurn(args) {
     else if (reuseCurrentResults && previousProductIds.length) {
         const ordinal = /\b(cai thu hai|mau thu hai|con thu hai|the second one|second one)\b/.test((0, text_1.normalize)(latestMessage)) ? 1 : null;
         const references = ordinal === null ? previousProductIds.slice(0, 12) : previousProductIds.slice(ordinal, ordinal + 1);
-        candidates = await loadVerifiedProductsById(references);
+        candidates = await loadByIds(references);
     }
     else if (shouldSearch) {
         searchQuery = buildAdvisorSearchQuery(requirements, latestMessage);
@@ -754,7 +759,8 @@ async function respondToAdvisorTurn(args) {
     const excludedCount = fittedCandidates.filter((product) => matchesAdvisorExclusion(product, requirements.exclusions)).length;
     candidates = fittedCandidates.filter((product) => !matchesAdvisorExclusion(product, requirements.exclusions));
     const historicalReference = asksAboutHistoricalProducts;
-    if (!historicalReference) candidates = candidates.filter((product) => product.advisorFit.matchingStatus !== 'not_matching');
+    const hasExplicitProducts = Array.isArray(explicitProductIds) && explicitProductIds.length > 0;
+    if (!historicalReference && !hasExplicitProducts) candidates = candidates.filter((product) => product.advisorFit.matchingStatus !== 'not_matching');
     const exactModelCandidates = candidates.filter((product) => exactModelMatch(product, requirements.modelIdentifiers));
     if (exactModelCandidates.length)
         candidates = exactModelCandidates;
@@ -762,6 +768,16 @@ async function respondToAdvisorTurn(args) {
         searchNotes.push('Một số ứng viên bị loại vì trùng tiêu chí khách hàng muốn tránh.');
     candidates.sort((a, b) => b.advisorFit.score - a.advisorFit.score || Number(b.score ?? 0) - Number(a.score ?? 0));
     const selectedCandidates = candidates.slice(0, 4);
+    const pcCategories = new Set(['cpu', 'motherboard', 'ram', 'gpu', 'power_supply', 'pc_case']);
+    const selectedPcParts = selectedCandidates.filter((product) => pcCategories.has(product.category));
+    const hasPcCompatibilityPair = selectedPcParts.length >= 2 && new Set(selectedPcParts.map((product) => product.category)).size >= 2;
+    const compatReport = (intent === 'compatibility_check' || hasPcCompatibilityPair) && selectedCandidates.length >= 2
+        ? hardwareCompatibility_1.checkHardwareCompatibility(selectedCandidates)
+        : null;
+    if (compatReport && compatReport.checks.length > 0) {
+        const detailText = compatReport.checks.map((c) => `${c.label}: [${c.status}] ${c.reason}`).join(' | ');
+        searchNotes.push(`Kết quả kiểm tra tương thích phần cứng (Rule Engine - ${compatReport.overallStatus}): ${compatReport.summary} ${detailText}`);
+    }
     advisorPerformance_1.recordAdvisorPhase('product_evaluation', performance.now() - productEvaluationStartedAt);
     const selectedProducts = advisorFrontendProducts(selectedCandidates, historicalReference);
     if (args.onVerifiedProducts) await args.onVerifiedProducts(selectedProducts);
@@ -781,7 +797,9 @@ async function respondToAdvisorTurn(args) {
         rawAnswer = {
             reply: historicalReference
                 ? 'Sản phẩm bên dưới thuộc kết quả tìm kiếm trước; mình giữ lịch sử riêng và không xem đây là kết quả mới cho yêu cầu hiện tại.'
-                : buildFallbackAdvisorReply(selectedCandidates),
+                : compatReport && compatReport.checks.length > 0
+                    ? `Kiểm tra tương thích (${compatReport.overallStatus}): ${compatReport.summary}\n${compatReport.checks.map((c) => `- ${c.label}: [${c.status}] ${c.reason}`).join('\n')}`
+                    : buildFallbackAdvisorReply(selectedCandidates),
             productIds: selectedCandidates.map((product) => String(product._id)),
             suggestedQuestions: defaultSuggestions(intent, selectedCandidates.length), needsClarification: false,
         };

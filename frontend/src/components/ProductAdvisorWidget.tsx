@@ -72,10 +72,10 @@ export default function ProductAdvisorWidget({
   useEffect(() => {
     const openAdvisor = () => setOpen(true);
     const askAdvisor = (event: Event) => {
-      const custom = event as CustomEvent<{ query: string }>;
+      const custom = event as CustomEvent<{ query: string; productIds?: string[] }>;
       setOpen(true);
       if (custom.detail?.query) {
-        window.setTimeout(() => send(custom.detail.query), 150);
+        window.setTimeout(() => send(custom.detail.query, undefined, custom.detail.productIds), 150);
       }
     };
     window.addEventListener('techfind:open-advisor', openAdvisor);
@@ -95,7 +95,7 @@ export default function ProductAdvisorWidget({
     if (open && historyReady && !loading) inputRef.current?.focus();
   }, [open, historyReady, loading]);
 
-  const send = async (raw: string, retry?: { text: string; id: string }) => {
+  const send = async (raw: string, retry?: { text: string; id: string }, productIds?: string[]) => {
     const text = raw.trim();
     if (!text || loading || !historyReady) return;
     const requestId = retry?.id ?? crypto.randomUUID();
@@ -131,7 +131,7 @@ export default function ProductAdvisorWidget({
           } else if (event.type === 'explanation_delta') {
             setMessages((current) => current.map((message) => message.streamId === streamId ? { ...message, content: message.content + event.text } : message));
           }
-        }, controller.signal,
+        }, controller.signal, productIds,
       );
       setConversationId(response.conversation_id);
       window.localStorage.setItem(STORAGE_KEY, response.conversation_id);

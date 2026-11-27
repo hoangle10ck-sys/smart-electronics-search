@@ -69,6 +69,10 @@ router.post('/message', async (req, res, next) => {
   const rawMessage = req.body?.message;
   const providedId = req.body?.conversation_id;
   const clientMessageId = req.body?.client_message_id;
+  const rawProductIds = req.body?.product_ids;
+  const explicitProductIds = Array.isArray(rawProductIds)
+    ? [...new Set(rawProductIds.filter((id: unknown): id is string => typeof id === 'string' && isValidObjectId(id)))].slice(0, 4)
+    : [];
   if (typeof rawMessage !== 'string' || !rawMessage.trim() || rawMessage.length > 1000) {
     return res.status(400).json({ success: false, message: 'Tin nhắn cần có từ 1 đến 1000 ký tự.' });
   }
@@ -205,6 +209,7 @@ router.post('/message', async (req, res, next) => {
         intent, requirements, history, latestMessage: customerMessage,
         previousProductIds: searchState.currentSearchResults,
         historicalProductIds,
+        explicitProductIds,
         requestMoreProducts: detection.intent === 'REQUEST_MORE_PRODUCTS',
         reuseCurrentResults: !requirementsChanged && searchState.currentSearchResults.length > 0
           && ['follow_up', 'product_comparison', 'specification_question', 'price_question', 'compatibility_check'].includes(intent),

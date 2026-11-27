@@ -307,3 +307,35 @@ test('a customer can explicitly ask again about an older search result', () => {
   assert.equal(isExplicitHistoricalReference('Hỏi lại về mẫu trong kết quả cũ.'), true);
   assert.equal(isExplicitHistoricalReference('Tìm máy khác giúp tôi.'), false);
 });
+
+test('respondToAdvisorTurn uses explicitProductIds and runs deterministic PC compatibility check', async () => {
+  const cpu = {
+    ...advisorProductFixture('64a000000000000000000011', 'AMD Ryzen 7 7800X3D', 10_000_000),
+    category: 'cpu',
+    normalizedSpecs: { socket: 'AM5' },
+  };
+  const board = {
+    ...advisorProductFixture('64a000000000000000000012', 'ASUS B760M', 4_000_000),
+    category: 'motherboard',
+    normalizedSpecs: { socket: 'LGA1700', memoryType: 'DDR5' },
+  };
+  let searchCalled = false;
+  let capturedNotes: string[] = [];
+  const result = await respondToAdvisorTurn({
+    ...advisorRequest,
+    intent: 'compatibility_check',
+    latestMessage: 'Hai linh kiện này có lắp chung được không?',
+    explicitProductIds: ['64a000000000000000000011', '64a000000000000000000012'],
+    loadProductsById: async () => [cpu, board],
+    searchProducts: async () => { searchCalled = true; return { items: [], budgetUnknownItems: [], notes: [] }; },
+    generateExplanation: async (_intent: any, _req: any, _hist: any, _msg: any, _prods: any, notes: string[]) => {
+      capturedNotes = notes;
+      throw new Error('use deterministic fallback');
+    },
+  });
+
+  assert.equal(searchCalled, false);
+  assert.equal(result.products.length, 2);
+  assert.ok(capturedNotes.some((n) => n.includes('INCOMPATIBLE')));
+  assert.match(result.reply, /INCOMPATIBLE/);
+});

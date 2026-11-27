@@ -204,13 +204,14 @@ async function advisorError(response: Response) {
   return 'Trợ lý đang gặp sự cố kết nối. Bạn có thể thử lại.';
 }
 
-export async function sendAdvisorMessage(message: string, conversationId?: string | null, clientMessageId?: string): Promise<AdvisorChatResponse> {
+export async function sendAdvisorMessage(message: string, conversationId?: string | null, clientMessageId?: string, productIds?: string[]): Promise<AdvisorChatResponse> {
   const response = await fetch(`${BASE}/v1/chat/message`, {
     method: 'POST', headers: { 'content-type': 'application/json' },
     body: JSON.stringify({
       message,
       ...(conversationId ? { conversation_id: conversationId } : {}),
       ...(clientMessageId ? { client_message_id: clientMessageId } : {}),
+      ...(productIds?.length ? { product_ids: productIds.slice(0, 4) } : {}),
     }),
   });
   if (!response.ok) throw new Error(await advisorError(response));
@@ -223,6 +224,7 @@ export async function sendAdvisorMessageStreaming(
   clientMessageId: string,
   onEvent: (event: AdvisorStreamEvent) => void,
   signal: AbortSignal,
+  productIds?: string[],
 ): Promise<AdvisorChatResponse> {
   const response = await fetch(`${BASE}/v1/chat/message`, {
     method: 'POST',
@@ -232,6 +234,7 @@ export async function sendAdvisorMessageStreaming(
       message,
       ...(conversationId ? { conversation_id: conversationId } : {}),
       ...(clientMessageId ? { client_message_id: clientMessageId } : {}),
+      ...(productIds?.length ? { product_ids: productIds.slice(0, 4) } : {}),
     }),
   });
   if (!response.ok) throw new Error(await advisorError(response));

@@ -185,7 +185,7 @@ export default function ProductComparison({ products, onRemove, onClear }: {
                 onClick={() => {
                   const names = products.map((p) => getProductDisplayName(p)).join(' vs ');
                   const query = `Hãy so sánh chi tiết và tư vấn giúp tôi nên chọn mẫu nào giữa: ${names}`;
-                  window.dispatchEvent(new CustomEvent('techfind:ask-advisor', { detail: { query } }));
+                  window.dispatchEvent(new CustomEvent('techfind:ask-advisor', { detail: { query, productIds: products.map((p) => p._id) } }));
                 }}
               >
                 <span>🤖</span> Nhờ AI tư vấn chọn mẫu
