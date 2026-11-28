@@ -36,6 +36,12 @@ function safeLink(value: string | null | undefined): string | null {
   } catch { return null; }
 }
 
+function wikimediaRawFallback(url: string): string | null {
+  if (!url.includes('upload.wikimedia.org') || !url.includes('/thumb/')) return null;
+  const raw = url.replace(/\/thumb\//, '/').replace(/\/\d+px-[^/]+$/, '');
+  return raw !== url ? raw : null;
+}
+
 function specChips(product: Product): string[] {
   const sources = [product.specifications, product.specs].filter((value): value is Record<string, unknown> => Boolean(value && typeof value === 'object'));
   const aliases: Record<string, string[]> = {
@@ -76,10 +82,12 @@ export default function ProductCard({
   onViewDetails?: (product: Product) => void;
 }) {
   const [imageFailed, setImageFailed] = useState(false);
+  const [retriedRaw, setRetriedRaw] = useState(false);
   const offer = p.bestOffer;
   const price = offer?.verified === true && offer.priceStatus === 'current_verified' && typeof offer.price === 'number' && offer.price > 0 ? offer.price : null;
   const imageUrl = safeLink(p.imageUrl);
-  const hasRealImage = Boolean(imageUrl && !imageUrl.endsWith('/no-image.png'));
+  const effectiveImageUrl = retriedRaw && imageUrl ? (wikimediaRawFallback(imageUrl) ?? imageUrl) : imageUrl;
+  const hasRealImage = Boolean(effectiveImageUrl && !effectiveImageUrl.endsWith('/no-image.png'));
   const canDisplayImage = p.imageUsagePermission === 'granted' || (p.localOnlyAsset === true && p.imageVerificationStatus === 'pending');
   const purchaseUrl = safeLink(offer?.productUrl) ?? safeLink(offer?.affiliateUrl) ?? safeLink(p.productUrl) ?? safeLink(p.sourceUrl);
   const chips = specChips(p);
@@ -88,8 +96,11 @@ export default function ProductCard({
   return (
     <article className="product-card">
       <div className="product-card-media">
-        {canDisplayImage && hasRealImage && imageUrl && !imageFailed
-          ? <img src={imageUrl} alt={getProductDisplayName(p)} loading="lazy" referrerPolicy="no-referrer" onError={() => setImageFailed(true)} />
+        {canDisplayImage && hasRealImage && effectiveImageUrl && !imageFailed
+          ? <img src={effectiveImageUrl} alt={getProductDisplayName(p)} loading="lazy" referrerPolicy="no-referrer" onError={() => {
+              if (!retriedRaw && effectiveImageUrl && wikimediaRawFallback(effectiveImageUrl)) setRetriedRaw(true);
+              else setImageFailed(true);
+            }} />
           : <div className="product-image-placeholder" aria-label="Chưa có hình ảnh sản phẩm">
               <Icon name={categoryIcon} size={36} />
               <span>Chưa có hình ảnh</span>

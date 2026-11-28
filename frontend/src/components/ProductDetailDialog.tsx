@@ -50,6 +50,7 @@ export default function ProductDetailDialog({
   const [error, setError] = useState('');
   const [similarLoading, setSimilarLoading] = useState(true);
   const [imageFailed, setImageFailed] = useState(false);
+  const [retriedRaw, setRetriedRaw] = useState(false);
 
   useEffect(() => {
     const dialog = dialogRef.current;
@@ -61,6 +62,7 @@ export default function ProductDetailDialog({
     const controller = new AbortController();
     setProduct(initialProduct);
     setImageFailed(false);
+    setRetriedRaw(false);
     setLoading(true);
     setError('');
     setSimilar([]);
@@ -93,7 +95,10 @@ export default function ProductDetailDialog({
   const price = offer && typeof offer.price === 'number' && offer.price > 0 ? offer.price : null;
   const imageAllowed = product.imageUsagePermission === 'granted' || (product.localOnlyAsset === true && product.imageVerificationStatus === 'pending');
   const rawImageUrl = imageAllowed ? safeHref(product.imageUrl) : null;
-  const imageUrl = rawImageUrl && !rawImageUrl.endsWith('/no-image.png') ? rawImageUrl : null;
+  const baseImageUrl = rawImageUrl && !rawImageUrl.endsWith('/no-image.png') ? rawImageUrl : null;
+  const imageUrl = retriedRaw && baseImageUrl && baseImageUrl.includes('upload.wikimedia.org') && baseImageUrl.includes('/thumb/')
+    ? baseImageUrl.replace(/\/thumb\//, '/').replace(/\/\d+px-[^/]+$/, '')
+    : baseImageUrl;
   const purchaseUrl = safeHref(offer?.productUrl) ?? safeHref(offer?.affiliateUrl) ?? safeHref(product.productUrl) ?? safeHref(product.sourceUrl);
   const specSource = safeHref(product.specificationSourceUrl);
   const productSource = safeHref(product.productUrl);
@@ -114,7 +119,10 @@ export default function ProductDetailDialog({
         <div className="detail-overview">
           <div className="detail-image">
             {imageUrl && !imageFailed
-              ? <img src={imageUrl} alt={getProductDisplayName(product)} referrerPolicy="no-referrer" onError={() => setImageFailed(true)} />
+              ? <img src={imageUrl} alt={getProductDisplayName(product)} referrerPolicy="no-referrer" onError={() => {
+                  if (!retriedRaw && imageUrl.includes('upload.wikimedia.org') && imageUrl.includes('/thumb/')) setRetriedRaw(true);
+                  else setImageFailed(true);
+                }} />
               : <div className="product-image-placeholder"><Icon name="image" size={42} /><span>Chưa có hình ảnh</span></div>}
           </div>
           <div className="detail-summary">
