@@ -79,6 +79,7 @@ export default function ProductCard({
   const offer = p.bestOffer;
   const price = offer?.verified === true && offer.priceStatus === 'current_verified' && typeof offer.price === 'number' && offer.price > 0 ? offer.price : null;
   const imageUrl = safeLink(p.imageUrl);
+  const hasRealImage = Boolean(imageUrl && !imageUrl.endsWith('/no-image.png'));
   const canDisplayImage = p.imageUsagePermission === 'granted' || (p.localOnlyAsset === true && p.imageVerificationStatus === 'pending');
   const purchaseUrl = safeLink(offer?.productUrl) ?? safeLink(offer?.affiliateUrl) ?? safeLink(p.productUrl) ?? safeLink(p.sourceUrl);
   const chips = specChips(p);
@@ -87,7 +88,7 @@ export default function ProductCard({
   return (
     <article className="product-card">
       <div className="product-card-media">
-        {canDisplayImage && imageUrl && !imageFailed
+        {canDisplayImage && hasRealImage && imageUrl && !imageFailed
           ? <img src={imageUrl} alt={getProductDisplayName(p)} loading="lazy" referrerPolicy="no-referrer" onError={() => setImageFailed(true)} />
           : <div className="product-image-placeholder" aria-label="Chưa có hình ảnh sản phẩm">
               <Icon name={categoryIcon} size={36} />

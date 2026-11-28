@@ -4,7 +4,7 @@ import { getProductDisplayName } from '../productDisplayName';
 import Icon from './Icon';
 
 function safeSuggestionImage(value: string | null | undefined) {
-  if (!value) return null;
+  if (!value || value.endsWith('/no-image.png')) return null;
   if (/^\/catalog-images\/[a-z0-9][a-z0-9._-]*\.(jpg|jpeg|png|webp)$/i.test(value)) return value;
   try {
     const url = new URL(value);

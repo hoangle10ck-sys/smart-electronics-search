@@ -92,7 +92,8 @@ export default function ProductDetailDialog({
   const offer = product.bestOffer?.verified && product.bestOffer.priceStatus === 'current_verified' ? product.bestOffer : null;
   const price = offer && typeof offer.price === 'number' && offer.price > 0 ? offer.price : null;
   const imageAllowed = product.imageUsagePermission === 'granted' || (product.localOnlyAsset === true && product.imageVerificationStatus === 'pending');
-  const imageUrl = imageAllowed ? safeHref(product.imageUrl) : null;
+  const rawImageUrl = imageAllowed ? safeHref(product.imageUrl) : null;
+  const imageUrl = rawImageUrl && !rawImageUrl.endsWith('/no-image.png') ? rawImageUrl : null;
   const purchaseUrl = safeHref(offer?.productUrl) ?? safeHref(offer?.affiliateUrl) ?? safeHref(product.productUrl) ?? safeHref(product.sourceUrl);
   const specSource = safeHref(product.specificationSourceUrl);
   const productSource = safeHref(product.productUrl);
